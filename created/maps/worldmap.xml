@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="abbey_interior" x="-44" y="-22">
+    <map id="abbey_church" x="-44" y="-17"/>
+    <map id="abbey3" x="-19" y="45"/>
+    <map id="abbey4" x="-15" y="45"/>
+    <map id="abbey6" x="-13" y="-19"/>
+    <map id="abbey7" x="-2" y="-16"/>
+    <map id="abbey8" x="15" y="-9"/>
+    <map id="abbey9" x="22" y="-22"/>
+    <map id="abbey10" x="20" y="5"/>
+    <map id="abbey12" x="20" y="19"/>
+    <map id="abbey13" x="20" y="32"/>
+    <map id="abbey14" x="20" y="45"/>
+    <map id="abbey15" x="7" y="45"/>
+    <map id="abbey16" x="25" y="45"/>
+    <map id="abbey17" x="-13" y="-9"/>
+    <map id="abbey19" x="-18" y="-18"/>
+    <map id="abbey5" x="-19" y="59"/>
+    <map id="abbey11" x="-6" y="45"/>
+  </segment>
+ </worldmap>
