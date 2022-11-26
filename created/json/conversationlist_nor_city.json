@@ -71,5 +71,17 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"donova_0",
+        "message":"I am mentioned by Buceth in Loneford, so I need to be in the game. "
+    },
+    {
+        "id":"placeholder_1",
+        "message":"I am not an NPC. Just a placeholder. Valanayr temple is already mentioned (see Lodar), so needs to exist in Nor City."
+    },
+    {
+        "id":"lady_lydalon_0",
+        "message":"I am in the Valanayr temple. See Lodar dialogue. "
     }
 ]

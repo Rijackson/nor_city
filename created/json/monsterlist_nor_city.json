@@ -4,5 +4,23 @@
         "name":"Taurum",
         "iconID":"monsters_ld1:163",
         "phraseID":"taurum_0"
+    },
+    {
+        "id":"chapel_custodian",
+        "name":"Donova",
+        "iconID":"monsters_rltiles2:90",
+        "phraseID":"donova_0"
+    },
+    {
+        "id":"placeholder_1",
+        "name":"Valanayr temple",
+        "iconID":"monsters_ld2:160",
+        "phraseID":"placeholder_1"
+    },
+    {
+        "id":"lady_lydalon",
+        "name":"Lady Lydalon",
+        "iconID":"monsters_ld1:155",
+        "phraseID":"lady_lydalon_0"
     }
 ]
