@@ -1,0 +1,75 @@
+[
+    {
+        "id":"taurum_0",
+        "message":"Hello. I am Taurum. Can I help you?",
+        "replies":[
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"taurum_1a"
+            },
+            {
+                "text":"Are you the wife of Narael?",
+                "nextPhraseID":"taurum_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"taurum_1a",
+        "message":"No. Sorry. I don't recall seeing anyone that looks like you. ",
+        "replies":[
+            {
+                "text":"OK. Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Are you the wife of Narael?",
+                "nextPhraseID":"taurum_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"taurum_1b",
+        "message":"Yes! it has been so long since I have seen him. He traveled west, for business, but then he disappeared. Do you know what happened to him?",
+        "replies":[
+            {
+                "text":"I found him deep in an abandoned prison, Flagstone. He was trapped there by a demon, but I killed it. The sentry said he would get him out. So maybe you will see him again soon.",
+                "nextPhraseID":"taurum_2b"
+            }
+        ]
+    },
+    {
+        "id":"taurum_2b",
+        "message":"Thank you so much! There is no way I can repay you for killing a demon to save my husband!",
+        "replies":[
+            {
+                "text":"That's OK. I need to go, and keep looking for my brother.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No problem. Killing demons is just another day in the life of a hero.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"flagstone",
+                "value":110
+            }
+        ]
+    }
+]
