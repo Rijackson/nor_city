@@ -184,9 +184,12 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7705" name="map_ground_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="28" height="25">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUUw1vhuLhat8oHsWjeBSP4lE8ikfxUMMAOTL8sA==
+   eJyTlGNgkBzFVMPSSJje9g0Wu+nhBkJ20yMMBirc0e0fKXYOhrQ9kHYPRJqmZzyP4lE8ikcxLTEAuxaW1Q==
   </data>
  </layer>
  <layer name="Objects" width="28" height="25">

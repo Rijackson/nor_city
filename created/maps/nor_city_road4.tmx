@@ -186,7 +186,7 @@
  </tileset>
  <layer name="Ground" width="28" height="23">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8SgexaN4FI9YDABMptP4
+   eJzbyMnAsHEUj2Iq481omNbmY8O0NB+XemrZQ4pecuyjNFwGIi2NFDvpafdA2DkYwnig4nU4+3MUD30MAM/k1Gg=
   </data>
  </layer>
  <layer name="Objects" width="28" height="23">
