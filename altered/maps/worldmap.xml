@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="world1" x="-12" y="-52">
+    <map id="blackwater_mountain0" x="53" y="469"/>
+    <map id="blackwater_mountain1" x="32" y="448"/>
+    <map id="blackwater_mountain2" x="32" y="437"/>
+    <map id="blackwater_mountain3" x="32" y="426"/>
+    <map id="blackwater_mountain4" x="32" y="410"/>
+    <map id="blackwater_mountain10" x="33" y="368"/>
+    <map area="prim" id="blackwater_mountain11" x="33" y="337"/>
+    <map id="blackwater_mountain12" x="4" y="358"/>
+    <map id="blackwater_mountain14" x="54" y="368"/>
+    <map id="blackwater_mountain15" x="75" y="337"/>
+    <map id="blackwater_mountain16" x="91" y="337"/>
+    <map id="blackwater_mountain30" x="114" y="407"/>
+    <map id="blackwater_mountain32" x="83" y="409"/>
+    <map id="blackwater_mountain40" x="71" y="389"/>
+    <map id="blackwater_mountain53" x="86" y="327"/>
+    <map id="blackwater_mountain54" x="117" y="321"/>
+    <map id="blackwater_mountain55" x="83" y="389"/>
+    <map id="blackwater_mountain56" x="85" y="368"/>
+    <map area="crossglen" id="crossglen" x="148" y="355"/>
+    <map area="crossroads" id="crossroads" x="179" y="300"/>
+    <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
+    <map area="fallhaven" id="fallhaven_nw" x="210" y="382"/>
+    <map area="fallhaven" id="fallhaven_se" x="241" y="413"/>
+    <map area="fallhaven" id="fallhaven_sw" x="210" y="413"/>
+    <map id="fields0" x="179" y="284"/>
+    <map id="fields1" x="179" y="253"/>
+    <map id="fields10" x="96" y="284"/>
+    <map id="fields11" x="238" y="218"/>
+    <map id="fields12" x="259" y="214"/>
+    <map id="fields2" x="148" y="253"/>
+    <map id="fields3" x="127" y="263"/>
+    <map id="fields4" x="210" y="253"/>
+    <map id="fields5" x="148" y="222"/>
+    <map id="fields6" x="179" y="224"/>
+    <map id="fields7" x="210" y="228"/>
+    <map id="fields8" x="148" y="284"/>
+    <map id="fields9" x="117" y="284"/>
+    <map area="flagstone" id="flagstone0" x="95" y="469"/>
+    <map id="gapfiller1" x="259" y="434"/>
+    <map id="gapfiller2" x="186" y="407"/>
+    <map id="gapfiller3" x="179" y="375"/>
+    <map id="gapfiller4" x="194" y="382"/>
+    <map id="lodar0" x="250" y="291"/>
+    <map id="lodar1" x="232" y="309"/>
+    <map id="lodar10" x="374" y="277"/>
+    <map id="lodar11" x="343" y="303"/>
+    <map id="lodar12" x="374" y="303"/>
+    <map id="lodar13" x="262" y="353"/>
+    <map id="lodar14" x="293" y="353"/>
+    <map id="lodar15" x="293" y="384"/>
+    <map id="lodar16" x="313" y="353"/>
+    <map id="lodar17" x="313" y="384"/>
+    <map id="lodar18" x="343" y="334"/>
+    <map id="lodar19" x="343" y="365"/>
+    <map id="lodar2" x="281" y="275"/>
+    <map id="lodar20" x="374" y="334"/>
+    <map id="lodar21" x="374" y="365"/>
+    <map id="lodar3" x="312" y="275"/>
+    <map id="lodar4" x="312" y="296"/>
+    <map id="lodar5" x="281" y="306"/>
+    <map id="lodar6" x="262" y="322"/>
+    <map id="lodar7" x="281" y="322"/>
+    <map id="lodar8" x="312" y="322"/>
+    <map id="lodar9" x="343" y="277"/>
+    <map id="loneford1" x="210" y="278"/>
+    <map area="loneford" id="loneford2" x="238" y="251"/>
+    <map id="lostmine0" x="426" y="361"/>
+    <map id="mountainlake0" x="702" y="159"/>
+    <map id="mountainlake1" x="702" y="128"/>
+    <map id="mountainlake10" x="732" y="0"/>
+    <map id="mountainlake10a" x="724" y="31"/>
+    <map id="mountainlake11" x="701" y="4"/>
+    <map id="mountainlake12" x="671" y="8"/>
+    <map id="mountainlake13" x="640" y="20"/>
+    <map id="mountainlake13a" x="640" y="50"/>
+    <map id="mountainlake2" x="733" y="128"/>
+    <map id="mountainlake3" x="756" y="128"/>
+    <map id="mountainlake4" x="761" y="111"/>
+    <map id="mountainlake5" x="787" y="104"/>
+    <map id="mountainlake6" x="795" y="74"/>
+    <map id="mountainlake7" x="800" y="53"/>
+    <map id="mountainlake8" x="779" y="31"/>
+    <map id="mountainlake9" x="763" y="0"/>
+    <map id="lakecave1" x="695" y="-52"/>
+    <map area="remgard" id="remgard0" x="640" y="76"/>
+    <map area="remgard" id="remgard1" x="673" y="83"/>
+    <map area="remgard" id="remgard2" x="673" y="114"/>
+    <map area="remgard" id="remgard3" x="652" y="107"/>
+    <map area="remgard" id="remgard4" x="621" y="107"/>
+    <map area="fflask" id="road1" x="356" y="445"/>
+    <map id="road2" x="382" y="455"/>
+    <map id="road3" x="403" y="459"/>
+    <map id="road4" x="429" y="454"/>
+    <map id="road4_gargoylecave" x="429" y="438"/>
+    <map id="road5" x="455" y="462"/>
+    <map id="roadbeforecrossroads" x="210" y="309"/>
+    <map id="roadbeforecrossroads1" x="232" y="322"/>
+    <map id="roadbeforecrossroads2" x="232" y="351"/>
+    <map id="roadbeforecrossroads3" x="262" y="366"/>
+    <map id="roadbeforecrossroads4" x="272" y="382"/>
+    <map id="roadbeforecrossroads5" x="272" y="403"/>
+    <map id="roadbeforecrossroads6" x="293" y="404"/>
+    <map id="roadbeforecrossroads7" x="314" y="420"/>
+    <map id="roadbeforecrossroads8" x="335" y="420"/>
+    <map id="roadbeforecrossroads9" x="356" y="420"/>
+    <map id="roadtocarntower0" x="148" y="300"/>
+    <map id="roadtocarntower1" x="117" y="300"/>
+    <map id="roadtocarntower2" x="86" y="300"/>
+    <map area="vilegard" id="vilegard_n" x="360" y="471"/>
+    <map area="vilegard" id="vilegard_s" x="360" y="492"/>
+    <map id="vilegard_sw" x="349" y="505"/>
+    <map id="waterway0" x="279" y="192"/>
+    <map id="waterway1" x="310" y="171"/>
+    <map id="waterway10" x="550" y="259"/>
+    <map id="waterway11" x="581" y="228"/>
+    <map id="waterway11_east" x="612" y="229"/>
+    <map id="waterway12" x="457" y="228"/>
+    <map id="waterway13" x="488" y="228"/>
+    <map id="waterway14" x="403" y="166"/>
+    <map id="waterway15" x="411" y="197"/>
+    <map id="waterway2" x="341" y="150"/>
+    <map id="waterway3" x="310" y="150"/>
+    <map id="waterway4" x="372" y="166"/>
+    <map id="waterway5" x="380" y="197"/>
+    <map id="waterway6" x="395" y="228"/>
+    <map id="waterway7" x="426" y="228"/>
+    <map id="waterway8" x="519" y="228"/>
+    <map id="waterway9" x="550" y="228"/>
+    <map id="waterwayextention" x="341" y="181"/>
+    <map id="waytobrimhaven0" x="269" y="251"/>
+    <map id="waytobrimhaven1" x="302" y="247"/>
+    <map id="waytobrimhaven2" x="333" y="237"/>
+    <map id="waytobrimhaven3" x="364" y="239"/>
+    <map id="waytolake0" x="649" y="266"/>
+    <map id="waytolake1" x="670" y="255"/>
+    <map id="waytolake2" x="670" y="229"/>
+    <map id="waytolake3" x="672" y="208"/>
+    <map id="waytolostmine0" x="395" y="347"/>
+    <map area="charwoodh" id="waytolostmine1" x="395" y="319"/>
+    <map area="charwoodh" id="waytolostmine2" x="426" y="301"/>
+    <map area="charwoodh" id="waytolostmine3" x="426" y="330"/>
+    <map id="waytominingtown0" x="314" y="404"/>
+    <map id="waytominingtown1" x="343" y="389"/>
+    <map id="waytominingtown1a" x="374" y="407"/>
+    <map id="waytominingtown2" x="374" y="386"/>
+    <map id="waytominingtown3" x="395" y="378"/>
+    <map id="waytomountaincave0" x="627" y="255"/>
+    <map id="waytomountaincave1" x="621" y="285"/>
+    <map id="waytomountaincave2" x="622" y="305"/>
+    <map id="wild0" x="179" y="331"/>
+    <map id="wild1" x="179" y="353"/>
+    <map id="wild10" x="217" y="434"/>
+    <map id="wild11" x="238" y="434"/>
+    <map id="wild11_clearing" x="238" y="455"/>
+    <map id="wild12" x="272" y="426"/>
+    <map id="wild13" x="293" y="436"/>
+    <map id="wild14" x="314" y="441"/>
+    <map id="wild14_clearing" x="314" y="458"/>
+    <map id="wild15" x="335" y="448"/>
+    <map id="wild16" x="74" y="469"/>
+    <map id="wild17" x="32" y="469"/>
+    <map id="wild2" x="152" y="386"/>
+    <map id="wild3" x="173" y="386"/>
+    <map id="wild4" x="201" y="351"/>
+    <map id="wild5" x="159" y="407"/>
+    <map id="wild6" x="155" y="428"/>
+    <map id="wild7" x="147" y="459"/>
+    <map id="wild8" x="126" y="468"/>
+    <map id="wild9" x="186" y="434"/>
+    <map id="woodcave0" x="201" y="331"/>
+    <map id="woodsettlement0" x="201" y="367"/>
+    <map area="stoutford" id="stoutford_gate" x="32" y="521"/>
+    <map area="stoutford" id="stoutford_ne" x="53" y="521"/>
+    <map area="stoutford" id="stoutford_se" x="41" y="542"/>
+    <map area="stoutford" id="stoutford_sw" x="16" y="542"/>
+    <map area="stoutford" id="stoutford_nw" x="11" y="521"/>
+    <map id="wild18" x="74" y="500"/>
+    <map id="wild19" x="53" y="500"/>
+    <map id="wild20" x="32" y="500"/>
+    <map id="wild21" x="11" y="500"/>
+    <map id="wild22" x="74" y="531"/>
+    <map id="wild23" x="1" y="469"/>
+    <map id="waytogalmore1" x="95" y="531"/>
+    <map id="waytogalmore0" x="95" y="500"/>
+    <map id="fields11b" x="238" y="234"/>
+    <map id="graveyard0" x="358" y="181"/>
+    <map id="graveyard1" x="358" y="197"/>
+    <map id="loneford11" x="259" y="234"/>
+    <map id="loneford12" x="241" y="291"/>
+    <map id="loneford13" x="241" y="278"/>
+    <map id="loneford14" x="269" y="275"/>
+    <map id="waterwaya1" x="331" y="202"/>
+    <map id="waterwaya2" x="341" y="197"/>
+    <map id="waterwaya3" x="341" y="228"/>
+    <map id="waterwaya5" x="364" y="228"/>
+    <map id="waterwaya6" x="310" y="202"/>
+    <map id="waterwayb1" x="302" y="237"/>
+    <map id="waterwayb2" x="279" y="237"/>
+    <map id="waterwayb3" x="279" y="223"/>
+    <map id="waterwayb4" x="310" y="219"/>
+    <map id="waytobrimhaven4" x="333" y="268"/>
+    <map id="waytobrimhaven5" x="343" y="268"/>
+    <map id="waytobrimhaven6" x="364" y="269"/>
+    <map id="waytolake6" x="678" y="190"/>
+    <map id="waytolake7" x="643" y="229"/>
+    <map id="waytolake7b" x="649" y="255"/>
+    <map id="waytolake8" x="643" y="208"/>
+    <map id="waytolake9" x="647" y="187"/>
+    <map id="waytolake10" x="647" y="156"/>
+    <map id="waytolake11" x="678" y="153"/>
+    <map area="guynmart_area" id="guynmart" x="86" y="175"/>
+    <map id="guynmart_wood_1" x="86" y="206"/>
+    <map id="guynmart_wood_2" x="86" y="144"/>
+    <map id="guynmart_wood_3" x="55" y="144"/>
+    <map id="guynmart_wood_4" x="39" y="144"/>
+    <map id="guynmart_wood_5" x="39" y="175"/>
+    <map id="guynmart_wood_6" x="70" y="175"/>
+    <map id="guynmart_wood_7" x="117" y="144"/>
+    <map id="guynmart_wood_8" x="55" y="191"/>
+    <map id="guynmart_wood_9" x="117" y="160"/>
+    <map id="guynmart_wood_10" x="117" y="191"/>
+    <map id="guynmart_wood_11" x="117" y="222"/>
+    <map id="guynmart_wood_12" x="86" y="237"/>
+    <map id="guynmart_wood_13" x="70" y="222"/>
+    <map id="guynmart_wood_14" x="55" y="222"/>
+    <map id="guynmart_wood_15" x="32" y="206"/>
+    <map id="guynmart_wood_16" x="39" y="191"/>
+    <map id="guynmart_wood_17" x="23" y="190"/>
+    <map id="guynmart_wood_17b" x="8" y="175"/>
+    <map id="guynmart_wood_18" x="8" y="144"/>
+    <map id="guynmart_wood_19" x="8" y="128"/>
+    <map id="waytolake12" x="678" y="174"/>
+    <map id="arulirmountain1" x="817" y="94"/>
+    <map id="arulirmountain2" x="848" y="96"/>
+    <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
+    <map id="brimhaven4" x="395" y="259"/>
+    <map id="brimhaven2" x="395" y="290"/>
+    <map id="brimhaven3" x="457" y="265"/>
+    <map id="brimhaven7" x="457" y="259"/>
+    <map id="brimhaven8" x="426" y="290"/>
+    <map id="brimhaven_exit" x="457" y="296"/>
+    <map id="bogsten0" x="293" y="452"/>
+    <map id="bogsten5" x="282" y="447"/>
+    <map id="mywild18" x="168" y="459"/>
+    <map id="mywild19" x="192" y="459"/>
+    <map id="mywild20" x="217" y="455"/>
+    <map id="mywildcave" x="192" y="480"/>
+    <map id="blackwater_mountain70" x="64" y="337"/>
+    <map id="cabin_norcity_road1" x="476" y="462"/>
+    <map id="cabin_norcity_road2" x="476" y="446"/>
+    <map id="cabin_norcity_road3" x="497" y="446"/>
+    <map id="cabin_norcity_road4" x="497" y="462"/>
+    <map id="way_to_sullengard_east1" x="506" y="478"/>
+    <map id="way_to_sullengard_east2" x="502" y="504"/>
+    <map id="way_to_sullengard_east4" x="440" y="555"/>
+    <map id="way_to_sullengard_east5" x="461" y="555"/>
+    <map id="sullengard10" x="310" y="613"/>
+    <map id="sullengard9" x="338" y="613"/>
+    <map id="sullengard6" x="353" y="624"/>
+    <map id="sullengard3" x="310" y="624"/>
+    <map area="sullengard" id="sullengard2" x="322" y="624"/>
+    <map id="sullengard4" x="311" y="655"/>
+    <map id="sullengard5" x="353" y="655"/>
+    <map id="sullengard7" x="338" y="686"/>
+    <map id="sullengard8" x="311" y="686"/>
+    <map id="way_to_sullengard_east6" x="492" y="572"/>
+    <map id="way_to_sullengard_east7" x="492" y="624"/>
+    <map id="way_to_sullengard_east8" x="492" y="655"/>
+    <map id="way_to_sullengard_east9" x="461" y="655"/>
+    <map id="way_to_sullengard_pond_road" x="369" y="686"/>
+    <map id="way_to_sullengard_east10" x="405" y="686"/>
+    <map id="way_to_sullengard_east11" x="410" y="655"/>
+    <map id="sullengard_pond" x="374" y="655"/>
+    <map id="way_to_sullengard_east_ravine_north" x="461" y="519"/>
+    <map id="way_to_sullengard_east_ravine" x="461" y="535"/>
+    <map area="deebo_orchard" id="sullengard_apple_farm_east" x="461" y="572"/>
+    <map id="sullengard_apple_farm_west" x="440" y="572"/>
+    <map id="sullengard_apple_farm_south" x="461" y="613"/>
+    <map id="sullengard1" x="322" y="655"/>
+    <map id="sullengard_west_ravine" x="409" y="525"/>
+    <map id="sullengard_woods_gj1" x="440" y="504"/>
+    <map id="sullengard_woods1" x="409" y="504"/>
+    <map id="sullengard_woods2" x="409" y="552"/>
+    <map id="sullengard_woods3" x="409" y="572"/>
+    <map id="sullengard_woods4" x="409" y="593"/>
+    <map id="sullengard_woods5" x="409" y="613"/>
+    <map id="sullengard_woods6" x="461" y="624"/>
+    <map id="sullengard_woods7" x="430" y="624"/>
+    <map id="sullengard_woods8" x="409" y="624"/>
+    <map id="sullengard_woods9" x="374" y="624"/>
+    <map id="sullengard_woods10" x="374" y="613"/>
+    <map id="sullengard_woods11" x="374" y="593"/>
+    <map id="sullengard_woods12" x="374" y="572"/>
+    <map id="sullengard_woods13" x="374" y="552"/>
+    <map id="sullengard_woods14" x="374" y="519"/>
+    <map id="vilegard_sullengard_filler1" x="384" y="504"/>
+    <map id="way_to_sullengard_east9a" x="441" y="655"/>
+    <map id="way_to_sullengard_east7a" x="492" y="613"/>
+    <map id="sullengard_pond_east" x="404" y="655"/>
+    <map id="way_to_sullengard_east_ravine_cabin" x="461" y="504"/>
+    <map id="way_to_sullengard_east4_bridge" x="440" y="525"/>
+    <map id="way_to_sullengard_east5_filler" x="502" y="555"/>
+    <map id="way_to_sullengard_east2a" x="502" y="520"/>
+    <map id="sullengard_ravine2" x="502" y="535"/>
+    <map id="gapfillerhole" x="194" y="375"/>
+    <map id="haunted_forest1" x="495" y="486"/>
+    <map id="haunted_forest2" x="493" y="478"/>
+    <map id="haunted_forest3" x="497" y="497"/>
+    <map id="haunted_forest4" x="489" y="497"/>
+    <map id="haunted_forest_coffin1" x="479" y="497"/>
+    <map id="haunted_forest_coffin2" x="469" y="497"/>
+    <map id="haunted_forest5" x="486" y="486"/>
+    <map id="haunted_forest6" x="481" y="478"/>
+    <map id="haunted_forest7" x="469" y="490"/>
+    <map id="haunted_forest8" x="469" y="486"/>
+    <map id="haunted_forest9" x="469" y="478"/>
+    <map id="haunted_forest12" x="461" y="490"/>
+    <map id="haunted_forest13" x="461" y="482"/>
+    <map id="haunted_forest_filler" x="455" y="478"/>
+    <map id="haunted_forest14" x="437" y="475"/>
+    <map id="haunted_forest15" x="420" y="475"/>
+    <map id="haunted_forest_way_to_house1" x="450" y="501"/>
+    <map id="haunted_forest_way_to_house2" x="429" y="501"/>
+    <map id="haunted_forest_way_to_house4" x="416" y="495"/>
+    <map id="haunted_forest_way_to_house5" x="409" y="495"/>
+    <map id="haunted_forest16" x="420" y="482"/>
+    <map id="haunted_forest17" x="409" y="485"/>
+    <map id="haunted_forest19" x="409" y="475"/>
+    <map id="haunted_forest20" x="394" y="475"/>
+    <map id="haunted_forest21" x="384" y="492"/>
+    <map id="haunted_forest22" x="399" y="492"/>
+    <map id="haunted_forest23" x="399" y="484"/>
+    <map id="haunted_forest24" x="382" y="475"/>
+    <map id="haunted_forest25" x="382" y="484"/>
+    <map id="haunted_cemetery1" x="440" y="482"/>
+    <map id="haunted_cemetery2" x="429" y="482"/>
+    <map id="lake_shore_road_0" x="147" y="480"/>
+    <map id="lake_shore_road_1" x="168" y="480"/>
+    <map id="lake_shore_road_2" x="147" y="503"/>
+    <map id="lake_shore_road_4" x="192" y="511"/>
+    <map id="lake_shore_road_3" x="168" y="511"/>
+    <map id="lake_shore_road_5" x="147" y="524"/>
+    <map id="lake_shore_road_6" x="168" y="535"/>
+    <map id="lake_shore_road_7" x="189" y="535"/>
+    <map id="lake_shore_road_8" x="189" y="563"/>
+    <map id="lake_shore_road_9" x="189" y="580"/>
+    <map id="galmore_10a" x="158" y="586"/>
+    <map id="way_to_sullengard_west_0" x="220" y="580"/>
+    <map id="way_to_sullengard_west_1" x="220" y="606"/>
+    <map id="way_to_sullengard_west_2" x="220" y="665"/>
+    <map id="way_to_sullengard_west_3" x="220" y="634"/>
+    <map id="way_to_sullengard_west_4" x="246" y="665"/>
+    <map id="way_to_sullengard_west_5" x="272" y="665"/>
+    <map id="way_to_sullengard_west_6" x="285" y="686"/>
+    <map id="way_to_aidem_camp_1" x="518" y="655"/>
+    <map id="aidem_camp" x="518" y="629"/>
+    <map id="sullengard_hill_west" x="285" y="665"/>
+    <map id="lake_shore_road7a" x="217" y="535"/>
+    <map id="lake_shore_road_8a" x="220" y="563"/>
+    <map id="flagstone_filler_east_1" x="126" y="484"/>
+    <map id="flagstone_filler_east_2" x="126" y="503"/>
+    <map id="rat_mountain_1" x="126" y="517"/>
+    <map id="rat_mountain_2" x="126" y="531"/>
+    <map id="rat_mountain_3" x="126" y="545"/>
+    <map id="rat_mountain_4" x="152" y="545"/>
+    <map id="rat_mountain_5" x="168" y="556"/>
+    <map id="rat_mountain_6" x="152" y="562"/>
+    <map id="rat_mountain_7" x="126" y="562"/>
+    <map id="rat_mountain_8" x="126" y="586"/>
+    <map id="ratdom_bwm1" x="137" y="355"/>
+    <map id="bwmfill1" x="148" y="321"/>
+    <map id="bwmfill2" x="107" y="337"/>
+    <map id="bwmfill3" x="107" y="355"/>
+    <map id="bwmfill4" x="107" y="386"/>
+    <map id="bwmfill5" x="114" y="386"/>
+    <map id="bwmfill6" x="137" y="386"/>
+    <map id="bwmfill7" x="145" y="407"/>
+    <map id="bwmfill8" x="145" y="428"/>
+    <map id="laerothcave0" x="787" y="125"/>
+    <map id="laerothisland0" x="743" y="52"/>
+    <map id="laerothisland1" x="743" y="73"/>
+    <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
+    <map id="laerothisland3" x="710" y="99"/>
+    <map id="island3" x="555" y="102"/>
+    <map id="island2" x="555" y="71"/>
+    <map id="island1" x="524" y="71"/>
+    <map id="island4" x="524" y="102"/>
+    <map id="korhald_cave_outdoor1" x="550" y="278"/>
+    <map id="remgard2a" x="702" y="114"/>
+    <map id="waterway_forest1" x="581" y="259"/>
+    <map id="waterway_forest2" x="581" y="278"/>
+    <map id="waterway_forest3" x="612" y="255"/>
+    <map id="swamp1" x="127" y="253"/>
+    <map id="swamp2" x="96" y="253"/>
+    <map id="swamp3" x="70" y="253"/>
+    <map id="swamp4" x="70" y="269"/>
+    <map id="swamp5" x="44" y="279"/>
+    <map id="swamp6" x="44" y="253"/>
+    <map id="wayto_feygard_duleian_1" x="8" y="112"/>
+    <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
+    <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
+    <map id="beekeeper1" x="382" y="429"/>
+    <map id="beekeeper2" x="382" y="420"/>
+    <map id="way_to_wexlow1" x="19" y="96"/>
+    <map id="way_to_wexlow2" x="39" y="96"/>
+    <map id="way_to_wexlow3" x="55" y="109"/>
+    <map id="brightportwild1" x="502" y="420"/>
+    <map id="brightportwild2" x="518" y="420"/>
+    <map id="brightportwild3" x="531" y="430"/>
+    <map id="brightportwild13" x="547" y="446"/>
+    <map id="brightportwild14" x="547" y="455"/>
+    <map id="brightportwild16" x="573" y="446"/>
+    <map id="brightportwild17" x="590" y="445"/>
+    <map id="road_wild1" x="518" y="446"/>
+    <namedarea id="crossglen" name="Crossglen" type="settlement"/>
+    <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
+    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
+    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
+    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
+    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
+    <namedarea id="loneford" name="Loneford" type="settlement"/>
+    <namedarea id="remgard" name="Remgard" type="settlement"/>
+    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
+    <namedarea id="prim" name="Prim" type="settlement"/>
+    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
+    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
+    <namedarea id="sullengard" name="Sullengard" type="settlement"/>
+    <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
+    <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
+    <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
+  </segment>
+</worldmap>
