@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="28" height="23" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -154,63 +154,108 @@
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6449" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6577" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6705" name="map_wall_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6833" name="map_wall_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="6953" name="map_wall_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7073" name="map_wall_4" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7193" name="map_window_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_window_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_window_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7449" name="map_transition_5" tilewidth="32" tileheight="32">
+ <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="28" height="23">
+ <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8SgexaN4FI9YDABMptP4
+   eJzbyMnAsJECvBmKKTFj1LxR84areUPNTGqaRwsMACyb2is=
   </data>
  </layer>
- <layer name="Objects" width="28" height="23">
+ <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzTY2Fg0AfiUTAKRsEoGAWjYBSMglEwMgEAAcgAZg==
+   eJyNU01Lw0AQDd6t2SwN9FT/gtif0n/UH9VzFaooVmqhH+mpHqQN6kFBvIidye6Qt7MJ9EGYyc7MmzezSdlLKizIHugpT7Bfmau5y5Nk5/178t8p9pLVeX/GxQpvqxrwBRJnPsbKOD5G2YvzNaTfUnELn+gbWtdf8gvwb2G+Jzr/h9jeuDrhG6X1vJLz3DDXXp1hv8801ndtXWyhZuE+H7AHjJ3Tvjst98G9UriPCT03nucBtFxk4R7Fan2M6j6yeFasf2vYhehDvm/agbFh7SPo0ihUjPlkF8z32g3jmmfjc4MeMAvqK3l/ecxTtMzGmEEvzvuh+q3mBK6ladYrlu8IOefdmpP/kfys/f/Q3DP/LQjWfo5pHuqUmmkaz970rs/Gnoc5f70/sHVOnzRcwjd5ZWOeOegcw/4YR61HosA=
   </data>
  </layer>
- <layer name="Above" width="28" height="23">
+ <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
+   eJxjYGBguCnJwHALiKkBiDGHWPtchDHVw9ibJTHNIWTuHSx6KHUrNjmQPXfJCM+baH7cCMSb8PgPxsfnRnxuJzUsHgswMDDiiRNy7KCWOeSo3UdGWsXmXmQxQmYSGxbEuA1ZzzYBwu7FJ4bPLZSYQwwgZDYsP4H4AEAYUfE=
   </data>
  </layer>
- <layer name="Top" width="28" height="23">
+ <layer name="Top" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
+   eJxjYBgFo2AUjILBDW5KQmgADCcA8w==
   </data>
  </layer>
- <layer name="Walkable" width="28" height="23">
+ <layer name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
+   eJydk8ENACAIA5nC/VdgQ7+GFDlK4kdIewLmiUjjqCA12yA61E/xuW/t9DYMNEd6Tvhq7dQL14/GNAfXv2q+eeVFGOl+kRo1A8VF+YiX80cm3t+d0tvuo7q/ykRiug==
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
- <objectgroup name="Replace"/>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Mapevents">
+  <object name="sign_cabin_norcity_road4" type="sign" x="480" y="352" width="32" height="32"/>
+  <object name="north" type="mapchange" x="448" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="512" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="yellow_tooth_spawn1" type="spawn" x="96" y="32" width="288" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="224" y="128" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn3" type="spawn" x="96" y="224" width="256" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object name="hardshell_bettle_spawn1" type="spawn" x="96" y="96" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="hardshell_beetle"/>
+   </properties>
+  </object>
+  <object name="hardshell_battle_spawn2" type="spawn" x="448" y="224" width="32" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="hardshell_beetle"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn4" type="spawn" x="480" y="384" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
