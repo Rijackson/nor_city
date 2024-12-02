@@ -204,7 +204,7 @@
    eJxjYBgFo2AUDDVwjH+gXTAKRsEoGAWjYDgBAFGEANY=
   </data>
  </layer>
- <layer name="Walkable" width="28" height="23">
+ <layer name="Walkable" width="28" height="23" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9k8ERwCAIBK0i/bdgh/nyQGAPlJl8DNzKgftbaz/+KkFqKM+eq3ev5nZ8qTKpH5GfpMfODDxepHWqvdUfYWVzor2pO6N4RZlePrn/KbL/WV2VozBVbybCatE5VHXtWZSj7ELEinxTvSV19B1mTO/c01F3Z2pfvbyTPvGa9BlpTrE67+IWq6tPelJ0f9pLGXY=
   </data>
@@ -218,6 +218,27 @@
   </object>
  </objectgroup>
  <objectgroup name="Replace"/>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="captain" type="spawn" x="448" y="192" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="guard_captain"/>
+   </properties>
+  </object>
+  <object name="guard_1" type="spawn" x="608" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guard_camp_1"/>
+   </properties>
+  </object>
+  <object name="guard_2" type="spawn" x="576" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guard_camp_2"/>
+   </properties>
+  </object>
+  <object name="guard_3" type="spawn" x="544" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guard_camp_3"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
