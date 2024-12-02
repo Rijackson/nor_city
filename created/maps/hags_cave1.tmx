@@ -153,7 +153,20 @@
    eJxzFWBgcCUTowNsctj04BIDALRCCPg=
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="road_wild3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="hags_cave2"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>

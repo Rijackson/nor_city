@@ -44,7 +44,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -204,13 +204,32 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlcERACEIA63i+m/BDm/ux8MIgagPLzO8jKwwqP1prf9xTXw6wTzBteyd/JFOcHfWu2I+vDoy61GhumZe60frUfasFiYP62P7pJDttSLPrn2V/Yo+s3ORuQcoB+tXcZk8Wa73plmPxx7ljZ65en5WCjY6Q+btVs8MYlfE/kXIl+F6TNRP9KdEZjxabyVGLGZ2FMxb4wVrfpad
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="416" width="32" height="352">
+   <properties>
+    <property name="map" value="nor_city_road1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="672" width="32" height="192">
+   <properties>
+    <property name="map" value="nor_city_road3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="guard_road" type="spawn" x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="guard_road"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>

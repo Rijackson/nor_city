@@ -44,7 +44,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -207,12 +207,31 @@
    eJztwQENAAAAwqD3T20PBxQAAPwaCvAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="28" height="25" visible="0">
+ <layer name="Walkable" width="28" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlbENACAIBJnC/VdwQ1tCREDkafzkExs5wAhzEE1hr+Q9j7U4FSxv3AjTyueVdrGQvOr6dnytvwiheZyJYqGZnNvB47VW5YH6HxrPmqvZvDwzUJ4zQuySW96JHdk3GUeZWZ72vlYfXtV46nNFLxHu4n4TLUZq9/o=
+   eJztlbENACAIBJnC/VdwQ1tiQEDkafzkExs5wAhzEE3BHkn3LGtxKljeuBGmlc8rSbGQvOr6JL7WX4TQPM5EsdBMzu3g8Vqr8kD9D41nzdVsXp4ZuJ8zQuySW96JHdk3GUeZWZ72vlYfXtV46nNFLxHu4n4TLbfQ+ME=
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="32" width="32" height="160">
+   <properties>
+    <property name="map" value="cabin_norcity_road4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="192" y="0" width="288" height="32">
+   <properties>
+    <property name="map" value="road_wild1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="864" y="256" width="32" height="352">
+   <properties>
+    <property name="map" value="nor_city_road2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

@@ -22,5 +22,10 @@
         "name":"Lady Lydalon",
         "iconID":"monsters_ld1:155",
         "phraseID":"lady_lydalon_0"
+    },
+    {
+        "id":"guard_road",
+        "name":"Guard",
+        "iconID":"monsters_rltiles3:14"
     }
 ]

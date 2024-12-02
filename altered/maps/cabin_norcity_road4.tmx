@@ -44,7 +44,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../../created/spritesheets/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -201,7 +201,7 @@
    eJxjYBgFo2AUjILBDW5KQmgADCcA8w==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="15" visible="0">
+ <layer name="Walkable" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJydk8ENACAIA5nC/VdgQ7+GFDlK4kdIewLmiUjjqCA12yA61E/xuW/t9DYMNEd6Tvhq7dQL14/GNAfXv2q+eeVFGOl+kRo1A8VF+YiX80cm3t+d0tvuo7q/ykRiug==
   </data>
@@ -218,6 +218,12 @@
    <properties>
     <property name="map" value="way_to_sullengard_east1"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="608" y="288" width="32" height="160">
+   <properties>
+    <property name="map" value="nor_city_road1"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>

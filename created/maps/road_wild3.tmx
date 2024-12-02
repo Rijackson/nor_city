@@ -209,7 +209,20 @@
    eJwzFGNgMBwEGAaQ2TA+TIwW9hEDaGUnNr/Rys/o5hLjX3Ltx2UWMeKkhj017CDWPkLm08o+YtMuse4l1X+k2kmNfEitdE9MmqGlXaN4cGMAp2tc6g==
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="864" y="160" width="32" height="96">
+   <properties>
+    <property name="map" value="road_wild2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="320" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="hags_cave1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

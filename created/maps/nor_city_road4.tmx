@@ -204,12 +204,26 @@
    eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
   </data>
  </layer>
- <layer name="Walkable" width="28" height="23" visible="0">
+ <layer name="Walkable" width="28" height="23">
   <data encoding="base64" compression="zlib">
    eJzFlVEKACAIQztF979CN+w3JHXZWgOhj/TpwBq9tQGGFZqX1cw4DKaXj8jrE/XK46x1b+e9VeQRk2N5mbcvpeIp/Iy49qyQknfydrC5J3eZe7rb10pfCK/yJ+z6YvC8Oav+Vt/0rCaDh3jMnI/hAZuHeqFiKng/YwI9sObg
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="160" width="32" height="256">
+   <properties>
+    <property name="map" value="nor_city_road3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="352" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="road_wild2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="864" y="384" width="32" height="288"/>
+ </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
