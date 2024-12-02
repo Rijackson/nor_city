@@ -219,9 +219,9 @@
  </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn">
-  <object name="captain" type="spawn" x="448" y="192" width="64" height="32">
+  <object name="sargent" type="spawn" x="448" y="192" width="64" height="32">
    <properties>
-    <property name="spawngroup" value="guard_captain"/>
+    <property name="spawngroup" value="guard_sargent"/>
    </properties>
   </object>
   <object name="guard_1" type="spawn" x="608" y="192" width="32" height="32">
