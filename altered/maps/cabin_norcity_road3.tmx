@@ -180,6 +180,12 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../brightport/created/drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../brightport/created/drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eAHbyMnAsHEUj4YBkWlgM1AduRhbOiPXLGR9yOaCxJH5pLBhZpKih5Baaps50s0DAE8b2lM=
@@ -187,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eAGdk9tKA0EQRBt9Fi+BgIL+gx/lh/hpKpgQ8QKCkI0X1BcTNPok+mYdZgqHYTdBC3p7u6erpnZ3drQZ0ShetyPeFLeKu5b8UMxEhjnvWjsS51hxoXtwqvyROXP17xXO7DPJc/M8Qw8fu1sRewpwVqxRDzKn1EIT2Mswz6Tub/+y0jpXvcgfOt7vQH6sjy7PBh88a3+v0Qdt/ryWJiION3yXsjV4Zt4DcaVwv86wToq9qdcLn/D3exEv/f/HVFz7HklvrAA3Oaeq/Yr3GrPsBV388UwlHvN3d6+/4rvu/CTOUHp8q9WdNNeo/vpjTDRv4BOPPemh9a3wWWjkeU17kumRAZkzQeadfYpTauKRfwstn9Gp6pliWfZeA3EN9Pz++P+WadTr6FiP74netbxw1o2a01Uzz9mwHjV6Y+kBzmkXt6sPz3qcA/SY/QF5V9Lr
+   eAGdk81KA0EQhBs9i5pAQCF5B08+UR7ER1PBBEUU/IFs/EG9mKDRk+jN+tgpMiw7BG2o9PZMV03Nbue6H3EjvO1EvAt3wn1Lftxe9kQKcz60dyjOkbA/iPhUfSIQ9CyEhyxzzjTtL5StU+m534kYCMRZtkc9SpxcC23CGuPUU68u1y8aWueq8Vnyh47PG8qP9dHlbvCJF53vPd+5zZ/3albEwZaf6mwN7sx7AJeC15sZ1nF2NvVm5hP+Xjfitfd/zMS171PpTQTiNuW6av/FezPmyQu6+ONOeTyl7+613pqfyvlZnLH0+Fbru3Vfpfr7j5iq34FPPHalh9aP4Fmo5HlDZ5JZIxNkZoLMO/sSJ9fEI/8ttDyjM9VzYVX2WSNxHej5/fH/W6XR3EfHenxP9K7khVl3NDmlmn5mw3rU6E2kRzCnJW5pHZ71mAP06P0FrTDSfg==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
