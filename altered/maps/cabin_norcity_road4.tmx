@@ -44,7 +44,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../../created/spritesheets/map_entrance_1.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -188,7 +188,7 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyNU01Lw0AQDd6t2SwN9FT/gtif0n/UH9VzFaooVmqhH+mpHqQN6kFBvIidye6Qt7MJ9EGYyc7MmzezSdlLKizIHugpT7Bfmau5y5Nk5/178t8p9pLVeX/GxQpvqxrwBRJnPsbKOD5G2YvzNaTfUnELn+gbWtdf8gvwb2G+Jzr/h9jeuDrhG6X1vJLz3DDXXp1hv8801ndtXWyhZuE+H7AHjJ3Tvjst98G9UriPCT03nucBtFxk4R7Fan2M6j6yeFasf2vYhehDvm/agbFh7SPo0ihUjPlkF8z32g3jmmfjc4MeMAvqK3l/ecxTtMzGmEEvzvuh+q3mBK6ladYrlu8IOefdmpP/kfys/f/Q3DP/LQjWfo5pHuqUmmkaz970rs/Gnoc5f70/sHVOnzRcwjd5ZWOeOegcw/4YR61HosA=
+   eJyNU8FKA0EMXbyrOzt0oCf9BdFP8Y/8qJ6rUEWxUgttXU96kDqoBwXxIpp0Ju6bzCwYWCY7SV7eS3b9sNrYnM5nevw/zvcm1Jy7qnqI/gX5LxS7bbq8bxNibTw3NeCLSZzx2JYm4LH5YZ6vTfotFLbgCb9jG/pLfgv+Gei7pvsfiK1NqBO8k7rTKzk3BV1rdYf93uqc36ENsbnSwn1eYQ4Y26Z57/Tsg3vVsI8xPacR5xK47DbpHOUUfm5L7aMpruGv7qkwC+GHej9oBsamtVfAS1urYowns2C8x0Ea1zh3MTfpAVqE35jinufncpy2RxvbFHpx3ifV34Nm71KshSnzlZN3hJizQYfJ/wjvpe//0NjT+C2IraKOiUt5Ss2kzrWX3vXdKOIw5lf0j2yXs0cc9uGbPLA5zgx4jmB+bL88aqOq
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
@@ -227,7 +227,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="yellow_tooth_spawn1" type="spawn" x="96" y="32" width="288" height="64">
    <properties>
     <property name="quantity" value="2"/>

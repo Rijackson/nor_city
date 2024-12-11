@@ -46,7 +46,7 @@
   <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/spritesheets/map_entrance_1.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="19">
   <data encoding="base64" compression="zlib">
-   eAGFk81Kg0EMRceC7hUsuND3f4W68Q+qomDdqFhXLqStuhWX5uAcGkNrA+lMkpubTL60tdY+DuKnyGf4sv/ysLWr0NHwr7+kNfKUyoE/c2KPgw/J/pz3sruMjaL+cahyFvfzUHLJATsJncd9EapfPCe42xQT4/kc+Yq9aXPKzR2ucce/pbrEVsl1nx15yGPPpbYyC8y8zwQfGPrNsn3U2k6ochIzOA3N/foeMIvgg1eF3/is93BRapBHv7zrLrgnoeuk8lvHk3p8G+V+39vyfIr4697S5oZvlfxX7ztqZZ2GXWU4+PXUehWHzfuzfBX+XIt7rbfuDeyp3z/zz8N/E+r32VQv5/pfcb+M5Z21H3eq9sD/Jn8rOcRr19M90s87lGlwvvf92oq9HfTdzbOtfZCbsXK5+7wJztqrcfBiuDPvh1B99uTeM3N9nMxBrDXA4COWexdHXs3Vti9s+q5vM06vzFLOjDUXDPPV3nSC553gfgCz78He
+   eAGFk81KQ0EMRkdF9woWXOj7v0Ld+AdVUbBuVKwrF9JW3YpLc+gcGkOrgdzMJF++ZGZyW2vt4yA+RT7Dl/2Xh61dhQ4Hv/0lrZGnVA78mZP9KPiQ7M95L7vL2DDqH4cqZ7E+DyWXHLDj0Fms56H6xWPB3aaYGO1z5Cv25h4rN2u4Rh3/luoSWyXX/e7IQx57LrWVaWBm/U7wgaHfLNtHre2EKidxB6ehuV/PA2YefPCq8Buf9h4uSg3y6Jdz3QX3OHSdVH7raKnH2yj3+66W9inir3vLPSt8q+Svet9RK+sk9vlN4RtsLlhrPd+D6FbHcP4sX4U/12JNPcQa687AnOZ6i6x4+/DfhPo+/9UzD+u/4nwZyzNrP85U7YH/Jr+VHOLdV+sc6eccyiQ43/t8bcTcbvbZzXdb+yA3Y+Vy9jkTnLVX4+DFsOa+H0L12ZNzz53rw3IPYq0BBh+x3Ls48mque/tiT9/1bMbplbuUM2PNBcP9uv/Pguec4H4Aaz/Dzg==
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="19">
@@ -211,7 +211,7 @@
    eAHlkUEKhUAMQ+cU3v8K3vD/LB6EkhaLSwvSTvoSZbyvc+7Fc/614SdWWdTEbXbK2/CV5Xu6PvHsOq/0xKCpp6o6PGw9S08afNrXd0ys757OU/7TjK9w/LvtnXU+dL+/Ljux8nW8Z6aZPPycE1u1xKJ5dx+6NJ9h0Lbd8+T12mY5Tw5aPaO/6crE/wMaToQn
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="128" width="32" height="288">
    <properties>
     <property name="map" value="road1"/>
@@ -237,7 +237,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="6" name="forestserpent2" type="spawn" x="192" y="384" width="352" height="192">
    <properties>
     <property name="spawngroup" value="forestserpent2"/>
