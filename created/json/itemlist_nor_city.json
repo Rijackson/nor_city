@@ -1,0 +1,10 @@
+[
+    {
+        "id":"child_toy",
+        "iconID":"items_misc_2:112",
+        "name":"Child's toy",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A child's toy horse"
+    }
+]

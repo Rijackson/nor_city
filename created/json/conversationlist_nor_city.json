@@ -83,5 +83,37 @@
     {
         "id":"lady_lydalon_0",
         "message":"I am in the Valanayr temple. See Lodar dialogue. "
+    },
+    {
+        "id":"child_toy_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"child_toy_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"child_toy_1",
+        "message":"You have found what looks like a child's toy horse. Why is this in an old tomb?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":10
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"child_toy"
+            }
+        ]
     }
 ]

@@ -140,12 +140,12 @@
  </layer>
  <layer name="Objects" width="8" height="12">
   <data encoding="base64" compression="zlib">
-   eJx7KszA8BSIsYFnULksQewYBqoEMfEMHoT8diB7ES8Eb4OKr0CSnwQUnwzEnxgh/F4gPYUXId8I1Q8DILWFPKh8mDxMH0jPY6A5nYwIOzsZEfbB1M2E2gWyeyaS/ZOR7NuOZBcIrOVnYFjHj+CD7J6EpB5kzj6o/Hdg+F3DgX8AMQALyCpZ
+   eJx7KszA8BSIsYFnULksQewYBqoEMfEMHoT8dih7ES8DwzYoewWSPAx8YoTQvUB6Ci9CvBFN7WSgXCEPKn8RVD1MH0jPY6A5nYwQO0HinVDzJ/Ei1M2E2rUISQxk/2Qk+7ej2b+Wn4FhHT+CD9I7CUk9yMx9UPnvwPC7hgP/AGIAw/ooIA==
   </data>
  </layer>
  <layer name="Above" width="8" height="12">
   <data encoding="base64" compression="zlib">
-   eJz7xMhAEIQLMDBs52Vg6ERSu4sXVR4EZkLl56CZuY0XlT2JF1W+kAcihiw+CYv5+NxHqvwiAuZPQnMzqebPZcQvDwMAZusOpg==
+   eJz7xMhAEIQLMDBs52Vg6ERSu4sXVR4EZkLl56CZuY0XlT2JF1W+kAdCI4tPwmI+PvcRkke3cxEW83HZvw1NLzH2z2XELw8DAHNKD0U=
   </data>
  </layer>
  <layer name="Top" width="8" height="12">
@@ -155,7 +155,7 @@
  </layer>
  <layer name="Walkable" width="8" height="12" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB1EGAZIlYPJEzKXkNm41GADpNqBDQMA4PQZPQ==
+   eJxzFWBgcB1gDAPobGxqsMkhqyHWHlLVYAPkuBEdAwB0DBk9
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -163,6 +163,11 @@
    <properties>
     <property name="map" value="hags_cave1"/>
     <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="child_toy_0" type="script" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

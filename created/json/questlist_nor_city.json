@@ -1,0 +1,12 @@
+[
+    {
+        "id":"nor_city_road_nondisplay",
+        "name":"nor_city_road_nondisplay",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Found child's toy"
+            }
+        ]
+    }
+]

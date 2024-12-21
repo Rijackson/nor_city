@@ -1,0 +1,15 @@
+[
+    {
+        "id":"child_toy",
+        "items":[
+            {
+                "itemID":"child_toy",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    }
+]
