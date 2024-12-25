@@ -8,5 +8,10 @@
                 "logText":"Found child's toy"
             }
         ]
+    },
+    {
+        "id":"essence_child",
+        "name":"Essence of a child",
+        "showInLog":1
     }
 ]

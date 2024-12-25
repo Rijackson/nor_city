@@ -115,5 +115,9 @@
                 "rewardID":"child_toy"
             }
         ]
+    },
+    {
+        "id":"latrine",
+        "message":"Yikes, that smells bad! It doesn't take much imagination to know what this hole is being used for!"
     }
 ]

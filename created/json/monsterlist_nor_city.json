@@ -25,14 +25,14 @@
     },
     {
         "id":"guard_road",
-        "name":"Guard",
-        "iconID":"monsters_rltiles3:14",
+        "name":"Captain Gwirer",
+        "iconID":"monsters_men:3",
         "unique":1
     },
     {
         "id":"guard_sargent",
         "name":"Grindeld",
-        "iconID":"monsters_men:3",
+        "iconID":"monsters_rltiles1:65",
         "unique":1
     },
     {
@@ -42,13 +42,7 @@
         "unique":1
     },
     {
-        "id":"guard_camp_2",
-        "name":"Soldier",
-        "iconID":"monsters_rltiles3:14",
-        "unique":1
-    },
-    {
-        "id":"guard_camp_3",
+        "id":"guard_road_1",
         "name":"Soldier",
         "iconID":"monsters_rltiles3:14",
         "unique":1

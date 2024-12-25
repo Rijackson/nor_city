@@ -234,12 +234,21 @@
   </object>
   <object name="guard_2" type="spawn" x="608" y="256" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="guard_camp_2"/>
+    <property name="spawngroup" value="guard_camp_1"/>
    </properties>
   </object>
   <object name="guard_3" type="spawn" x="576" y="320" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="guard_camp_3"/>
+    <property name="spawngroup" value="guard_camp_1"/>
+   </properties>
+  </object>
+  <object name="latrine" type="key" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="phrase" value="latrine"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
    </properties>
   </object>
  </objectgroup>
