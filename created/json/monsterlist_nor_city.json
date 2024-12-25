@@ -45,7 +45,8 @@
         "id":"guard_road_1",
         "name":"Soldier",
         "iconID":"monsters_rltiles3:14",
-        "unique":1
+        "unique":1,
+        "phraseID":"road_guard_1_0"
     },
     {
         "id":"hag1",
@@ -58,5 +59,11 @@
         "name":"Brozeg",
         "iconID":"monsters_ld2:101",
         "unique":1
+    },
+    {
+        "id":"guard_road_2",
+        "name":"Soldier",
+        "iconID":"monsters_rltiles3:14",
+        "phraseID":"road_guard_2_0"
     }
 ]
