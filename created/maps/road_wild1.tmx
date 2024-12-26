@@ -227,17 +227,17 @@
     <property name="spawngroup" value="guard_sargent"/>
    </properties>
   </object>
-  <object name="guard_1" type="spawn" x="640" y="192" width="32" height="32">
+  <object name="guard_1" type="spawn" x="640" y="160" width="32" height="64">
    <properties>
     <property name="spawngroup" value="guard_camp_1"/>
    </properties>
   </object>
-  <object name="guard_2" type="spawn" x="608" y="256" width="32" height="32">
+  <object name="guard_2" type="spawn" x="576" y="256" width="64" height="32">
    <properties>
     <property name="spawngroup" value="guard_camp_1"/>
    </properties>
   </object>
-  <object name="guard_3" type="spawn" x="576" y="320" width="32" height="32">
+  <object name="guard_3" type="spawn" x="576" y="320" width="96" height="32">
    <properties>
     <property name="spawngroup" value="guard_camp_1"/>
    </properties>
@@ -249,6 +249,11 @@
     <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object name="guard_4" type="spawn" x="448" y="320" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="guard_camp_1"/>
    </properties>
   </object>
  </objectgroup>

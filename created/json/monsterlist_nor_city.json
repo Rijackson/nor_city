@@ -39,7 +39,8 @@
         "id":"guard_camp_1",
         "name":"Soldier",
         "iconID":"monsters_rltiles3:14",
-        "unique":1
+        "unique":1,
+        "phraseID":"guard_camp_1_0"
     },
     {
         "id":"guard_road_1",

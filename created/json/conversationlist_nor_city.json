@@ -287,5 +287,63 @@
                 "mapName":"nor_city_road2"
             }
         ]
+    },
+    {
+        "id":"guard_camp_1_0",
+        "message":"What's a kid like you doing out here?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. Have you seen anyone that looks a bit like me?",
+                "nextPhraseID":"guard_camp_1_1"
+            },
+            {
+                "text":"Why do you have such a large camp set up here?",
+                "nextPhraseID":"guard_camp_1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guard_camp_1_1",
+        "message":"No, sorry, I haven't. Maybe you can ask the Sargent over there.",
+        "replies":[
+            {
+                "text":"OK. I will do that.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"guard_camp_1_2",
+        "message":"We are conducting an investigation. ",
+        "replies":[
+            {
+                "text":"Interesting. What are you investigating?",
+                "nextPhraseID":"guard_camp_1_3"
+            }
+        ]
+    },
+    {
+        "id":"guard_camp_1_3",
+        "message":"We are not allowed to discuss ongoing investigations. Maybe the Sargent is willing to tell you more. He's over there [points].",
+        "replies":[
+            {
+                "text":"OK. I'll talk to him.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
