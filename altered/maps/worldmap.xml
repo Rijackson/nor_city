@@ -414,16 +414,6 @@
     <map id="nor_city_road4" x="608" y="489"/>
     <map id="road_wild2" x="608" y="465"/>
     <map id="road_wild3" x="579" y="465"/>
-    <map id="waytobrightport8" x="455" y="446"/>
-    <map id="waytobrightport3" x="461" y="430"/>
-    <map id="waytobrightport6" x="482" y="438"/>
-    <map id="brightportwild1" x="503" y="420"/>
-    <map id="brightportwild2" x="519" y="420"/>
-    <map id="brightportwild3" x="532" y="430"/>
-    <map id="brightportwild13" x="548" y="446"/>
-    <map id="brightportwild14" x="548" y="455"/>
-    <map id="brightportwild16" x="574" y="446"/>
-    <map id="brightportwild17" x="591" y="445"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
