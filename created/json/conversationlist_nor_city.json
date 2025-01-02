@@ -137,6 +137,34 @@
                         "requireID":"essence_child",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"road_guard_1_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":30,
+                        "negate":true
                     }
                 ]
             },
@@ -233,6 +261,62 @@
                         "requireID":"essence_child",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"road_guard_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"road_guard_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":30,
+                        "negate":true
                     }
                 ]
             },
@@ -263,7 +347,14 @@
         "replies":[
             {
                 "text":"But I spoke to the Sargent. He explained the investigation to me, and I agreed to help. He gave me a pass.",
-                "nextPhraseID":"road_guard_2_2"
+                "nextPhraseID":"road_guard_2_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"road_pass",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -298,7 +389,7 @@
             },
             {
                 "text":"Why do you have such a large camp set up here?",
-                "nextPhraseID":"guard_camp_1_2",
+                "nextPhraseID":"guard_camp_1_2 ",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -327,8 +418,8 @@
         ]
     },
     {
-        "id":"guard_camp_1_2",
-        "message":"We are conducting an investigation. ",
+        "id":"guard_camp_1_2 ",
+        "message":"We are conducting an investigation. Until it's complete, the road is closed.",
         "replies":[
             {
                 "text":"Interesting. What are you investigating?",
@@ -343,6 +434,472 @@
             {
                 "text":"OK. I'll talk to him.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"sargent_0",
+        "replies":[
+            {
+                "nextPhraseID":"sargent_1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sargent_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sargent_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sargent_5_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sargent_4_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":110,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sargent_3_1"
+            }
+        ]
+    },
+    {
+        "id":"sargent_3_1",
+        "message":"Hello kid."
+    },
+    {
+        "id":"road_guard_3_1",
+        "message":"Hello kid. The road is closed.",
+        "replies":[
+            {
+                "text":"Yes, I know. I spoke to the Sargent at the camp. He told me there is an ongoing investigation. But I need to pass. ",
+                "nextPhraseID":"road_guard_3_2"
+            }
+        ]
+    },
+    {
+        "id":"road_guard_3_2",
+        "message":"Talk to the Sargent again. It's his decision. Perhaps you can be more persuasive."
+    },
+    {
+        "id":"sargent_1_1",
+        "message":"Hello kid. Is there something I can do for you?",
+        "replies":[
+            {
+                "text":"Why do you have such a large camp set up here?",
+                "nextPhraseID":"sargent_1_2"
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_2",
+        "message":"We are conducting an investigation. That is why the road is closed.",
+        "replies":[
+            {
+                "text":"Interesting. What are you investigating?",
+                "nextPhraseID":"sargent_1_3"
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_3",
+        "message":"We are not allowed to discuss ongoing investigations.",
+        "replies":[
+            {
+                "text":"Maybe I can help if you tell me more.",
+                "nextPhraseID":"sargent_1_4_0"
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_4",
+        "replies":[
+            {
+                "text":"Wait! I solved a murder in Brimhaven!",
+                "nextPhraseID":"sargent_1_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I was the one that found out were a lot of missing people went in the town of Remgard!",
+                "nextPhraseID":"sargent_1_5b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard2",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I solved a murder in Stoutford!",
+                "nextPhraseID":"sargent_1_5c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I was the one that found out why there was so much beer at the Foaming Flask tavern!",
+                "nextPhraseID":"sargent_1_5d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I was the one that found out why there was so much beer at the Foaming Flask tavern!",
+                "nextPhraseID":"sargent_1_5d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I was the one that found out why there was so much beer at the Foaming Flask tavern!",
+                "nextPhraseID":"sargent_1_5d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"Wait! I solved a crime in Sullengard. I recovered a lot of stolen property!",
+                "nextPhraseID":"sargent_1_5e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"I'll prove myself to you. I'll be back.",
+                "nextPhraseID":"sargent_1_5f"
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5a",
+        "message":"Hmm. I did hear something about that. A guy named Ogea was the killer. You do match the description of the kid that solved it. Maybe you can help us after all. Here's a pass that will let you through the road block. An unsually large number of children have disappeared around here, and we were sent to find out why. Let me know what you find.",
+        "replies":[
+            {
+                "text":"Can you tell me any more?",
+                "nextPhraseID":"sargent_1_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"road_pass",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5b",
+        "message":"Hmm. I did hear something about that. A nasty witch called Algangror was responsible. You do match the description of the kid that figured that out, and got rid of the witch. Maybe you can help us after all. Here's a pass that will let you through the road block. An unsually large number of children have disappeared around here, and we were sent to find out why. Let me know what you find.",
+        "replies":[
+            {
+                "text":"Can you tell me any more?",
+                "nextPhraseID":"sargent_1_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"road_pass",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5c",
+        "message":"Hmm. I did hear something about that. A man named Blornvale was the killer. You do match the description of the kid that solved that. Maybe you can help us after all. Here's a pass that will let you through the road block. An unsually large number of children have disappeared around here, and we were sent to find out why. Let me know what you find.",
+        "replies":[
+            {
+                "text":"Can you tell me any more?",
+                "nextPhraseID":"sargent_1_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"road_pass",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5d",
+        "message":"Yes, I did hear about that. Feygard is grateful for your help. And of course the extra taxes we now get from the taverns [laughs]. You do match the description of the kid that helped us. Maybe you can help us again. Here's a pass that will let you through the road block. An unsually large number of children have disappeared around here, and we were sent to find out why. Let me know what you find.",
+        "replies":[
+            {
+                "text":"Can you tell me any more?",
+                "nextPhraseID":"sargent_1_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"road_pass",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5e",
+        "message":"Hmm. I was just in Sullengard getting supplies. A man named Zaccheria mentioned to me that a kid had recovered all of his stolen inventory. Maybe you can help us after all. Here's a pass that will let you through the road block. An unsually large number of children have disappeared around here, and we were sent to find out why. Let me know what you find.",
+        "replies":[
+            {
+                "text":"Can you tell me any more?",
+                "nextPhraseID":"sargent_1_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":20
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"road_pass",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_5f",
+        "message":"If you say so.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":16
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_4_0",
+        "message":"How could a kid like you help the great guards of Feygard conduct an investigation? Get out of here kid.",
+        "replies":[
+            {
+                "nextPhraseID":"sargent_1_4"
+            }
+        ]
+    },
+    {
+        "id":"sargent_2_1",
+        "message":"Is there something I can do for you?",
+        "replies":[
+            {
+                "text":"I know about the investigation, but I want to go down the road towards Nor City.",
+                "nextPhraseID":"sargent_2_2"
+            }
+        ]
+    },
+    {
+        "id":"sargent_2_2",
+        "message":"If you have been told about the investigation you know why the road is closed. So no.",
+        "replies":[
+            {
+                "text":"Maybe if you tell me more I can help you.",
+                "nextPhraseID":"sargent_1_4_0"
+            }
+        ]
+    },
+    {
+        "id":"sargent_1_6",
+        "message":"There's not much else to tell at this point. We have looked around, but there's not much here other than the road and the forest. There's a couple of old women living in a shack just down the road, but they say they have seen nothing unusual. Of course, we intend to search more thoroughly, but there is no huge rush to do so unless another child goes missing. Our camp here is comfortable, with good food and beer available in the local town. If we figure out what is going on we might be sent on a mission to some horrible, dangerous, place [smirks]!",
+        "replies":[
+            {
+                "text":"I'll do my best to solve it quickly, so that you can be on your way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Lie] I'll make sure I don't solve it too quickly then. That's easier for me too.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"sargent_4_1",
+        "message":"Can you tell me more about what we need to investigate.",
+        "replies":[
+            {
+                "nextPhraseID":"sargent_1_6"
+            }
+        ]
+    },
+    {
+        "id":"sargent_5_1",
+        "message":"Hello again kid.",
+        "replies":[
+            {
+                "text":"I wan't to go down the road to Nor City. ",
+                "nextPhraseID":"sargent_5_2"
+            }
+        ]
+    },
+    {
+        "id":"sargent_5_2",
+        "message":"I told you about the investigation, so no.",
+        "replies":[
+            {
+                "text":"Maybe if you tell me more I can help you.",
+                "nextPhraseID":"sargent_1_4_0"
             }
         ]
     }

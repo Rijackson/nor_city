@@ -33,7 +33,8 @@
         "id":"guard_sargent",
         "name":"Grindeld",
         "iconID":"monsters_rltiles1:65",
-        "unique":1
+        "unique":1,
+        "phraseID":"sargent_0"
     },
     {
         "id":"guard_camp_1",

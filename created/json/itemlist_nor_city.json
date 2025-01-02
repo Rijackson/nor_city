@@ -6,5 +6,13 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A child's toy horse"
+    },
+    {
+        "id":"road_pass",
+        "iconID":"items_japozero:423",
+        "name":"Duleian road pass",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A pass to allow you through the road block on the Duleian road."
     }
 ]
