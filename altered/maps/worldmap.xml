@@ -414,6 +414,10 @@
     <map id="nor_city_road4" x="608" y="489"/>
     <map id="road_wild2" x="608" y="465"/>
     <map id="road_wild3" x="579" y="465"/>
+    <map id="nor_city_road5" x="637" y="495"/>
+    <map id="nor_city_road6" x="666" y="503"/>
+    <map id="nor_city_road7" x="695" y="505"/>
+    <map id="nor_city_road8" x="724" y="514"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

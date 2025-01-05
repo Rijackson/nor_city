@@ -67,5 +67,24 @@
         "name":"Soldier",
         "iconID":"monsters_rltiles3:14",
         "phraseID":"road_guard_2_0"
+    },
+    {
+        "id":"dd_cook",
+        "name":"Hildona",
+        "iconID":"monsters_karvis2:6",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"dd_proprietor",
+        "name":"Balon",
+        "iconID":"monsters_ld1:96",
+        "monsterClass":"humanoid",
+        "phraseID":"balon_0"
+    },
+    {
+        "id":"dd_thief",
+        "name":"Dirhan",
+        "iconID":"monsters_tometik1:86",
+        "monsterClass":"humanoid"
     }
 ]

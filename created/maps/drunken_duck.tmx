@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="28" height="23" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="22" height="13" tilewidth="32" tileheight="32">
  <properties>
-  <property name="outdoors" value="1"/>
+  <property name="colorfilter" value="none"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -157,82 +157,87 @@
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6449" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6577" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6705" name="map_wall_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6833" name="map_wall_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="6953" name="map_wall_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7073" name="map_wall_4" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7193" name="map_window_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_window_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_window_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7449" name="map_transition_5" tilewidth="32" tileheight="32">
+ <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="28" height="23">
+ <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="22" height="13">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUjxi8mY72IGNam48N09J8XOqpZQ8pesmxj9JwoUcaGql20tPugbBzMITxQMXrcPbnKB76GADgJNRq
+   eJzbLMbAsBkN7+OkHKObCTPXWpp8jM9cL2nyMT5zj1CA8YUPKWbgMhdbGFHDXGxhRI65V6C0FTSMfyJhdH1XSDAXhj2lcYclsWEMUvcEC6aGudjSlI00dv9a4QhjbOqwmeuNQ78nkXHnicNcbGGDjI8QkH+CIxwA5LPR8g==
   </data>
  </layer>
- <layer name="Objects" width="28" height="23">
+ <layer name="Objects" width="22" height="13">
   <data encoding="base64" compression="zlib">
-   eJydlrFOAzEMhk9lRiKHVCkDvAs8wC3sXZhA5TYQzKgIXoSdDjxAi7qhbkUqEwxQYGFCsFAcGtM/PieR+KUoUerzZyeO1aJY6NAWxRGNLo0DZd61C7t3U/xpi/a2/f4xzSc23NsXs1Pl1z2az/xaskxZRDX2/HOyu/Df79mmHTNd3JXyO7OkRu3m3rcJY88xOcYb5TvUE7GeabwoTFbl43dnojHnxLg1zX3JmdF48/OrwqyUO3LaS5yx9D8DDqrd0plOQx873odjubNkZso/n/GDUjMxJkvWwGoZ+r8T57rSWq6nZPPpxz2NKdlOjM5EDq/H4PtRxN43oX83vsDnh2dqeY7AL3J7gpHyz8J3iEwXr8zzWqnBcj3tnzWK1G8qT1TsLTfiSvQVyZyYJZPrTrJ3Em8iF+MVxIV5ch3Haol94BvtCN/zTD+QTKc+5ItMjLvyPbq2TaZmz+8YmfhmnE7XQiZ/e2lDnxpT9ilkyXrUammWeae1be7n9FvLZch0/Y97CefQUXJizkDpibE4pWSetWAhswM5St9818zZoJw2I+8H71VjaezcmQ7h/thOs8+xaqv3X57x/0pX8S+Z/2HJdU6YL/uMzWw7UPq++18g7xPzlLPTD7zf1Ww=
+   eJxjYKA/YJQlXwwfEMSiHiRmyUpYHS5gx8LAUCjGwFAExMViED4IeADN9GTFrmciUE0IAXP9gGoageY1AXGzGIRPDEhB409jQ+XHAc2ZCDRvEhBPFoPw0cEBqLsXIclNQlPXi2YuMeAC1NxAJLFgJHaxAOlmgsADqLmJSGLJeNQ7QdUfJBCmh4kMcxjwhpp7EajPH4feBKD4ZQLmMgHD4RE/BDNC2SDwEKhvHg69IPHHBMz9xI+JBysAAIjTILU=
   </data>
  </layer>
- <layer name="Above" width="28" height="23">
+ <layer name="Above" width="22" height="13">
   <data encoding="base64" compression="zlib">
-   eJzFls0NwjAMhREbUE4ZA7jnwhRAywKRsikXRmECgkjEq2vnr015UmXVkd/XJK1TrTYT9S43qF8s1cXV3NQ4XsFHR5glQh/jWUZgBj12PB91iox/akM9xyzRq/vGM1OnhfWizFbC/TB+Lc2CvGcXZ7YUctZirs3itN2vw/n3PHO01DMGD/xGW84fvbXv0TEm5qWeGFOo5XoiZeIa1LBS/qn8HIZ05g0Z+1r6PL2a3kvnbchpYbxWPZljrvfcfwP04PwO7jrC2F2NYw2T6/WSl/UsS5i57NT7QfcTWZbMl3pKsUTW86X4BjzAS1E=
+   eJxjYKAvOCyGYN/lY2C4x4cq/xbIf4cmBgKSTMSbCwKcUPUWrNjVOxMwD9ncI/wQdiQ/cXqINRcETuIxs4wfVS0uM2AAFEa41CKDdhLNBYFLRJibSYa5pABSzaW3feSae5ZAuBELcMURMXFHbwAABKUbDg==
   </data>
  </layer>
- <layer name="Top" width="28" height="23">
+ <layer name="Walkable" width="22" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
-  </data>
- </layer>
- <layer name="Walkable" width="28" height="23" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzFlVEKACAIQztF979CN+w3JHXZWgOhj/TpwBq9tQGGFZqX1cw4DKaXj8jrE/XK46x1b+e9VeQRk2N5mbcvpeIp/Iy49qyQknfydrC5J3eZe7rb10pfCK/yJ+z6YvC8Oav+Vt/0rCaDh3jMnI/hAZuHeqFiKng/YwI9sObg
+   eJzbKMbAsHEU48QggM5HFsMGKDEXm1mkmE2Mufj8g89cQgCbWnLMIdW9xLiDGLMJuRU9jHGZR8hcaoTxYDCXEr8CAJ1Ak7M=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west" type="mapchange" x="0" y="160" width="32" height="256">
+  <object name="entrance" type="mapchange" x="256" y="384" width="32" height="32">
    <properties>
-    <property name="map" value="nor_city_road3"/>
-    <property name="place" value="east"/>
+    <property name="map" value="nor_city_road8"/>
+    <property name="place" value="drunken_duck"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="352" y="0" width="128" height="32">
+  <object name="bed" type="rest" x="544" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="dd_cook" type="spawn" x="32" y="224" width="128" height="96">
    <properties>
-    <property name="map" value="road_wild2"/>
-    <property name="place" value="south"/>
+    <property name="spawngroup" value="dd_cook"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="864" y="384" width="32" height="288">
+  <object name="dd_proprietor" type="spawn" x="224" y="192" width="256" height="96">
    <properties>
-    <property name="map" value="nor_city_road5"/>
-    <property name="place" value="west"/>
+    <property name="spawngroup" value="dd_proprietor"/>
+   </properties>
+  </object>
+  <object name="dd_thief" type="spawn" x="352" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="dd_thief"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace"/>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="beds" type="key" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="dd_bed"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

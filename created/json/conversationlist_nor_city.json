@@ -902,5 +902,202 @@
                 "nextPhraseID":"sargent_1_4_0"
             }
         ]
+    },
+    {
+        "id":"drunken_duck",
+        "message":"Welcome to the Drunken Duck."
+    },
+    {
+        "id":"balon_0",
+        "message":"Hello kid. I am Balon. Welcome to  my establishment. Here you can find food, rest, and a place to relax away from the dusty road.",
+        "replies":[
+            {
+                "nextPhraseID":"balon_1"
+            }
+        ]
+    },
+    {
+        "id":"balon_food_0",
+        "message":"Yes, we have excellent food available. Please talk to the cook, Hildona, in the kitchen.",
+        "replies":[
+            {
+                "text":"I want to ask you something else.",
+                "nextPhraseID":"balon_1"
+            },
+            {
+                "text":"Thanks. I will talk to Hildona.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"balon_1",
+        "message":"How may I be of service?",
+        "replies":[
+            {
+                "text":"Do you have any food available?",
+                "nextPhraseID":"balon_food_0"
+            },
+            {
+                "text":"Do you have somewhere I can sleep?",
+                "nextPhraseID":"balon_bed_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks similar to me. Has he been here?",
+                "nextPhraseID":"balon_andor_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks similar to me. Has he been here?",
+                "nextPhraseID":"balon_andor_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking for that guy Dirhan that comes here. ",
+                "nextPhraseID":"balon_dirhan_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Is there anything happening around here?",
+                "nextPhraseID":"balon_chitchat_0"
+            }
+        ]
+    },
+    {
+        "id":"balon_bed_0",
+        "message":"Yes, we currently have beds available. They are expensive, but we get many travelers that wish to use them, and they are very comfortable. I am asking 150 gold.",
+        "replies":[
+            {
+                "text":"150 gold for a bed? OK, I'll pay, but it had better be a good bed!",
+                "nextPhraseID":"balon_bed_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":150
+                    }
+                ]
+            },
+            {
+                "text":"I want to ask you something else.",
+                "nextPhraseID":"balon_1"
+            }
+        ]
+    },
+    {
+        "id":"balon_bed_1",
+        "message":"You won't be disappointed. The beds are in the room over there [points]. When you enter turn to the right, and the bed on the right is available.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"balon_andor_0",
+        "message":"There was someone that looked like you here a while ago. He stayed one night and left. He didn't have much to say, at least not to me. He spent some time talking to that shady looking guy over there, who goes by the name of Dirhan. He's a regular here, but he keeps himself to himself, and I don't know much about him.",
+        "replies":[
+            {
+                "text":"OK. Thanks for the information.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK. Thanks for the information. I want to ask you something else. ",
+                "nextPhraseID":"balon_1"
+            }
+        ]
+    },
+    {
+        "id":"balon_andor_1",
+        "message":"There was someone that looked like you here a while ago. He stayed one night and left. He didn't have much to say, at least not to me. He spent some time talking to a shady looking guy who's a regular here, and goes by the name of Dirhan. He disappeared very quickly after you spoke to him though, and I haven't seen him since.",
+        "replies":[
+            {
+                "text":"Thanks for the information. If you see him again tell him $playername would like to have a \"pointed\" talk with him. He'll know what I mean by that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks for the information. I want to ask you something else.",
+                "nextPhraseID":"balon_1"
+            }
+        ]
+    },
+    {
+        "id":"balon_dirhan_0",
+        "message":"He disappeared very quickly after you last spoke to him. I don't know where he went, or when he will be back.",
+        "replies":[
+            {
+                "text":"Thanks for the information. If you see him again tell him $playername would like to have a \"pointed\" talk with him. He'll know what I mean by that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks for the information. I want to ask you something else.",
+                "nextPhraseID":"balon_1"
+            }
+        ]
+    },
+    {
+        "id":"dd_bed",
+        "message":"Hey kid. Those beds are for paying customers only!",
+        "switchToNPC":"dd_proprietor"
+    },
+    {
+        "id":"balon_chitchat_0",
+        "message":"Well, it's the Duleian road, so it's always busy. Somewhat less busy recently though. I heard there's some investigation going on up the road, and they have closed it. That's not good for my business.",
+        "replies":[
+            {
+                "text":"I solved that for them. They were just too lazy to look carefully. That, and I'm smarter than them.",
+                "nextPhraseID":"balon_chitchat_1"
+            }
+        ]
+    },
+    {
+        "id":"balon_chitchat_1",
+        "message":"Well, thanks kid. My business should pick up again now. Once your head shrinks enough to fit through the door ask the cook for something special to eat.",
+        "replies":[
+            {
+                "text":"Thanks for your gratitude. I will.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks for your gratitude. I want to ask you something else.",
+                "nextPhraseID":"balon_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":50
+            }
+        ]
     }
 ]

@@ -6,6 +6,26 @@
             {
                 "progress":10,
                 "logText":"Found child's toy"
+            },
+            {
+                "progress":12,
+                "logText":"Found child's diary"
+            },
+            {
+                "progress":20,
+                "logText":"Drunken Duck bed"
+            },
+            {
+                "progress":30,
+                "logText":"Got ripped off."
+            },
+            {
+                "progress":40,
+                "logText":"Dirhan gone"
+            },
+            {
+                "progress":50,
+                "logText":"Told balon investigation is solved."
             }
         ]
     },
