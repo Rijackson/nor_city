@@ -957,7 +957,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"nor_city_road_nondisplay",
-                        "value":40
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -969,7 +970,7 @@
                         "requireType":"questProgress",
                         "requireID":"nor_city_road_nondisplay",
                         "value":40,
-                        "negate":true
+                        "negate":false
                     }
                 ]
             },
@@ -1041,8 +1042,15 @@
         "message":"There was someone that looked like you here a while ago. He stayed one night and left. He didn't have much to say, at least not to me. He spent some time talking to a shady looking guy who's a regular here, and goes by the name of Dirhan. He disappeared very quickly after you spoke to him though, and I haven't seen him since.",
         "replies":[
             {
-                "text":"Thanks for the information. If you see him again tell him $playername would like to have a \"pointed\" talk with him. He'll know what I mean by that.",
-                "nextPhraseID":"X"
+                "text":"Thanks for the information. If you see that guy again tell him $playername would like to have a \"pointed\" talk with him. He'll know what I mean by that.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":40
+                    }
+                ]
             },
             {
                 "text":"Thanks for the information. I want to ask you something else.",
@@ -1056,7 +1064,14 @@
         "replies":[
             {
                 "text":"Thanks for the information. If you see him again tell him $playername would like to have a \"pointed\" talk with him. He'll know what I mean by that.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":40
+                    }
+                ]
             },
             {
                 "text":"Thanks for the information. I want to ask you something else.",
@@ -1084,11 +1099,11 @@
         "message":"Well, thanks kid. My business should pick up again now. Once your head shrinks enough to fit through the door ask the cook for something special to eat.",
         "replies":[
             {
-                "text":"Thanks for your gratitude. I will.",
+                "text":"Hmmpf. I will talk to her.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Thanks for your gratitude. I want to ask you something else.",
+                "text":"Since you are such a smart-ass, I want to ask you something else.",
                 "nextPhraseID":"balon_1"
             }
         ],
@@ -1097,6 +1112,177 @@
                 "rewardType":"questProgress",
                 "rewardID":"nor_city_road_nondisplay",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"hildona_0",
+        "message":"Hello there. What can I do for you?",
+        "replies":[
+            {
+                "text":"Can you sell me some food?",
+                "nextPhraseID":"hildona_1"
+            },
+            {
+                "text":"Balon said that because I got the road open again you would give me something special to eat. ",
+                "nextPhraseID":"hildona_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"hildona_1",
+        "message":"Yes. We have a range of food available. Please take a look.",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"hildona_1a",
+        "message":"Did he. Well, he's the boss, so if he says so. Here are a couple of steak kebabs. Made using the finest steak and fresh vegetables from our own garden. We usually reserve them for regulars or special guests, but you helped us so you deserve them.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"steak_kebab",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"dirhan_0",
+        "message":"Hello traveler. It takes one to know one [smirks].",
+        "replies":[
+            {
+                "text":"What do you mean by that!? ",
+                "nextPhraseID":"dirhan_1"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"dirhan_1",
+        "message":"It's rather obvious that we have some mutual friends. In a certain guild. Obvious to me, anyway, fortunately not to everyone else.",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"dirhan_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dirhan_2",
+        "message":"Hmm. Yes. I have my normal wares. And something special, if you can afford it.",
+        "replies":[
+            {
+                "text":"Let me see your normal wares.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"What do you have that is special?",
+                "nextPhraseID":"dirhan_3"
+            }
+        ]
+    },
+    {
+        "id":"dirhan_3",
+        "message":"A very rare gem. It's called a heartstone. Only 7500 gold. A very good deal, but I have had it for while and I want the gold for another purchase.",
+        "replies":[
+            {
+                "text":"No thanks. That's too much. Show me your normal wares.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"That's a lot of gold, but I know what I can do with it, so OK. Here you go.",
+                "nextPhraseID":"dirhan_4",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":7500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dirhan_4",
+        "message":"Here's the heartstone",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":30
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"heartstone1",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"dirhan_disappears",
+        "replies":[
+            {
+                "nextPhraseID":"dirhan_disappears_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dirhan_disappears_1",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dd_thief",
+                "mapName":"drunken_duck"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":40
             }
         ]
     }

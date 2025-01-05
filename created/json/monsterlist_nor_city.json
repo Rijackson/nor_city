@@ -72,7 +72,9 @@
         "id":"dd_cook",
         "name":"Hildona",
         "iconID":"monsters_karvis2:6",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"hildona_0",
+        "droplistID":"hildona"
     },
     {
         "id":"dd_proprietor",
@@ -85,6 +87,7 @@
         "id":"dd_thief",
         "name":"Dirhan",
         "iconID":"monsters_tometik1:86",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"dirhan_0"
     }
 ]

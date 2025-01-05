@@ -60,5 +60,36 @@
                 "rewardExperience":5000
             }
         ]
+    },
+    {
+        "id":"nocmar",
+        "name":"Lost treasures",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Unnmir told me he used to be an adventurer, and gave me a hint to go see Nocmar. His house is just southwest of the tavern in Fallhaven.",
+                "finishesQuest":0
+            },
+            {
+                "progress":20,
+                "logText":"Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\nIf I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.\n\n[Quest is not completable at this time.]",
+                "finishesQuest":0
+            },
+            {
+                "progress":30,
+                "logText":"I have managed to purchase a heartstone. I should take it to Nocmar in Fallhaven."
+            },
+            {
+                "progress":40,
+                "logText":"Nocmar told me the heatrtstone I purchased is fake, and useless. I have been cheated!"
+            },
+            {
+                "progress":200,
+                "logText":"I have brought a heartstone to Nocmar. He should have heartsteel items available now.",
+                "rewardExperience":1200,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

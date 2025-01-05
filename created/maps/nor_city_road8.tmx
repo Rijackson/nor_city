@@ -227,6 +227,11 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="dirhan_disappears" type="script" x="480" y="256" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn"/>
