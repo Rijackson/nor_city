@@ -139,8 +139,8 @@
                 {
                     "condition":"light_attack",
                     "magnitude":1,
-                    "duration":5,
-                    "chance":"5"
+                    "duration":6,
+                    "chance":"4"
                 }
             ]
         }

@@ -1,0 +1,49 @@
+[
+    {
+        "id":"nocmar_continue",
+        "message":"Have you found a heartstone yet?",
+        "replies":[
+            {
+                "text":"Yes, at last I found it.",
+                "nextPhraseID":"nocmar_complete",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"heartstone",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes. I manged to purchase one.",
+                "nextPhraseID":"nocmar_fake_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"heartstone1",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me the story again?",
+                "nextPhraseID":"nocmar_quest_1"
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"nocmar_continue_2"
+            }
+        ]
+    }
+]

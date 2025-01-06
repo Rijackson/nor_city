@@ -26,6 +26,10 @@
             {
                 "progress":50,
                 "logText":"Told Balon investigation is solved."
+            },
+            {
+                "progress":60,
+                "logText":"Complained to Umar"
             }
         ]
     },

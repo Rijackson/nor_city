@@ -1184,6 +1184,11 @@
                         "requireID":"nor_city_road_nondisplay",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20
                     }
                 ]
             },
@@ -1195,6 +1200,23 @@
                         "requireType":"questProgress",
                         "requireID":"nor_city_road_nondisplay",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20,
+                        "negate":true
                     }
                 ]
             }
@@ -1283,6 +1305,142 @@
                 "rewardType":"questProgress",
                 "rewardID":"nor_city_road_nondisplay",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"dirhan_0_0",
+        "replies":[
+            {
+                "nextPhraseID":"dirhan_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dirhan_0_a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dirhan_0_a",
+        "message":"Hello traveler.",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"dirhan_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nocmar",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"umar_return_cheated",
+        "message":"Ha Ha! There's nothing I can do. As a member of this guild you should know better than to trust a thief! ",
+        "replies":[
+            {
+                "text":"Hmpff. I will take it up with him then. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"nocmar_fake",
+        "message":"Let me see that. I'm sorry, but this is a fake. An immitation. It is completely worthless to me. ",
+        "replies":[
+            {
+                "text":"What! This cost me a fortune! I'm going to have a talk with the guy that sold me this! Goodbye for now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":999
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"heartstone2",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"nocmar_fake_0",
+        "replies":[
+            {
+                "nextPhraseID":"nocmar_fake"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nocmar",
+                "value":999
             }
         ]
     }

@@ -89,6 +89,10 @@
                 "logText":"I have brought a heartstone to Nocmar. He should have heartsteel items available now.",
                 "rewardExperience":1200,
                 "finishesQuest":1
+            },
+            {
+                "progress":999,
+                "logText":"[Quest is not completable at this time]"
             }
         ]
     }
