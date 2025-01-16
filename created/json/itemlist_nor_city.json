@@ -144,5 +144,85 @@
                 }
             ]
         }
+    },
+    {
+        "id":"sword_shimmering",
+        "iconID":"items_weapons_2:3",
+        "name":"Shimmering sword",
+        "displaytype":"legendary",
+        "hasManualPrice":1,
+        "baseMarketCost":6666,
+        "category":"bsword",
+        "description":"Your eyes cannot focus on the blade; it seems to continuously change appearance. ",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":6
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":5,
+            "increaseBlockChance":3,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":116
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"courage",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"6"
+                },
+                {
+                    "condition":"feebleness_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"6"
+                },
+                {
+                    "condition":"vulnerability",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"7"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"8"
+                },
+                {
+                    "condition":"fear",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"5"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"sense_1",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"5"
+                },
+                {
+                    "condition":"fatigue_minor",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"7"
+                },
+                {
+                    "condition":"light_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"6"
+                }
+            ]
+        }
     }
 ]
