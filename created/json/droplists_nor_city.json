@@ -117,5 +117,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"child_diary",
+        "items":[
+            {
+                "itemID":"child_diary",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

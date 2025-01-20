@@ -1443,5 +1443,36 @@
                 "value":999
             }
         ]
+    },
+    {
+        "id":"child_diary_0",
+        "replies":[
+            {
+                "nextPhraseID":"child_diary_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":12,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"child_diary_1",
+        "message":"You have found a child's diary. Maybe it says something useful.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":12
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"child_diary"
+            }
+        ]
     }
 ]

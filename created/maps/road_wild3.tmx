@@ -185,7 +185,7 @@
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_entrance_1" tilewidth="32" tileheight="32">
-  <image source="../spritesheets/map_entrance_1.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <layer name="Ground" width="28" height="16">
   <data encoding="base64" compression="zlib">
