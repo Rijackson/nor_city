@@ -135,27 +135,27 @@
  </tileset>
  <layer name="Ground" width="14" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjZmdgYCYT5wiShmH6agRJwzB9X9lIw9TWx0rALFLsQzaLGu4k5DZs+sjBAA/RUfw=
+   eJxjZmdgYCYT5wiShmH6agRJwzB9X9lIwzB9rCTqxWUfIXMIuRNZPzKbUv8R4zZs+sjBACLBUB4=
   </data>
  </layer>
  <layer name="Objects" width="14" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF1AYb+AfaBbQDAKZFAMA=
+   eJxjYKAeYGFC5cdxMzDsZMRUN40bFb9iZmDQYGFg0GRBVbcEjb+MGxX/AuqzAKqxBGJPIN7Ey8CgAKS3oOkjF4hBzeHhxS4vwQ2hQf5+w4UQ38CPYD/G4n9k8AdJnxiSuz8T0BeKxY9boO7cBgyXnUB8khnCVwSqVQLiQ0D5cArDBgABGRWX
   </data>
  </layer>
  <layer name="Above" width="14" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAflAtQR98eRvraN6qPfAAAQIUE9g==
+   eJxjYCANsDAh2OUCDAyfGSHsG7z49d2CyjMC9XdwMzB0AnErELdz49e3lxHVPnIANn0iTJhixOgj1z5C4AkjYX2CLAwMQiyoYl+I0EcsECIQJqAwAwCbuQvH
   </data>
  </layer>
  <layer name="Top" width="14" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B4AAACMAAB
+   eJxjYKA/KBcYAEtHAVUAAOxEAIg=
   </data>
  </layer>
  <layer name="Walkable" width="14" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxLFWBgSMWDcQF8egabPlxsYuzD5QZi3InN3cTqI8c+Sv2HLIcLAACe/BzM
+   eJxLFWBgSB2GGASQ2aQAdHNopQddH6X2ofsbG59SDACJASoN
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -165,9 +165,15 @@
     <property name="place" value="down"/>
    </properties>
   </object>
-  <object name="child_diary_0" type="script" x="352" y="128" width="32" height="32">
+  <object name="child_diary_0" type="script" x="384" y="96" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rats" type="spawn" x="96" y="128" width="288" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="crossroads_rat"/>
    </properties>
   </object>
  </objectgroup>
