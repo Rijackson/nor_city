@@ -45,5 +45,25 @@
                 "nextPhraseID":"nocmar_continue_2"
             }
         ]
+    },
+    {
+        "id":"nocmar_trade_3",
+        "message":"By decree of Lord Geomyr, no one in Dhayavar is allowed to even use heartsteel weapons. Much less sell any.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_trade_4"
+            }
+        ]
+    },
+    {
+        "id":"nocmar_quest_4",
+        "message":"Undertell; the pits of the lost souls. Travel south and enter the mines of the Dwarves. Follow the horrid smell from there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_quest_5"
+            }
+        ]
     }
 ]
