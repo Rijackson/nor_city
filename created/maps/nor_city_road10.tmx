@@ -215,7 +215,26 @@
    eJzllFEOgCAMQz2F978SNzJ++ENY124DNDbhR2CvjEo7j6P9dNzawVvNfZg7uR6bXacyLc3gZnx5mWFyY9VSZHGRX6ZmhSxeRR76+qgPDKMiK0p/R/4sL2gd8j5LTLY9P5F/IpKb7N1bXhCrSpEeVA10HnSf6Fs0515/IvNKJkf9sPYjjpq/FdrBfAP3S1IyzMwhjvKOqm+xVy/LZLmZ+tk3NXu+flyDhr65
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="800" width="32" height="128">
+   <properties>
+    <property name="map" value="nor_city_road9b"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="928" y="672" width="32" height="128">
+   <properties>
+    <property name="map" value="nor_city_road11"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="288" y="928" width="128" height="32">
+   <properties>
+    <property name="map" value="road_wild_cabin"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>

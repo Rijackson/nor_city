@@ -284,7 +284,12 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="928" y="800" width="32" height="128"/>
+  <object name="east" type="mapchange" x="928" y="800" width="32" height="128">
+   <properties>
+    <property name="map" value="nor_city_road10"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn"/>
