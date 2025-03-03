@@ -419,9 +419,12 @@
     <map id="nor_city_road7" x="695" y="503"/>
     <map id="nor_city_road8" x="724" y="514"/>
     <map id="road_wild_pool" x="753" y="490"/>
-    <map id="nor_city_road10" x="784" y="521"/>
-    <map id="nor_city_road11" x="815" y="521"/>
-    <map id="road_wild_cabin" x="794" y="552"/>
+    <map id="nor_city_road10" x="806" y="583"/>
+    <map id="nor_city_road11" x="837" y="583"/>
+    <map id="road_wild_cabin" x="816" y="614"/>
+    <map id="nor_city_road9" x="753" y="521"/>
+    <map id="nor_city_road9a" x="763" y="552"/>
+    <map id="nor_city_road9b" x="775" y="583"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
