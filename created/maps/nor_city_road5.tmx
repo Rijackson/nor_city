@@ -202,32 +202,32 @@
  </layer>
  <layer id="2" name="Objects" width="28" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjBTAIQ7BnOL0tZdLHGH3QNlPCzslgGb+FiNsJxsV/S8mDrEXhpHth4UzN5r5XFQMezE8fsYGqBH32Oz8JYY//LHZT4rd6OEsKY4pTordHFRIf/jinh6AFL/T0m4YHgXUBQDIqhNC
+   eJyVlU1Lw0AQhtceitZTG0jcSy6e9ehR24D+Au/aikJvhZ4UUUEQlLZ68evs91n9HyLaXxALHrwq6MUZkiGTyaZNXhh2sxvmyTu72Z2vKLWlldrUQZtFfjnqf5aT84uuUktufKwGzx7EITCOdNSiBmGOV0OuNHHuOuTdcCMusuoQjfAbOMukgeCuZagDsohLLC/kfbF8Lcj1Ysj3BmPvEH02h9xiJeifQv+MzRHLE/52LaX2INo6YFEQ8wLaSwgf4gNiIL6F1vIGxm/ZHGfwWh4D68QK+m3GoriHeNBmf7S+VzB2zcbPdcSoMY8e20P74rtbOllH6W8GajkL8QhjTxDPEHcZPKaJWJzjZ/xnUHlYlBtZTcGQz6i+2MPEWAg52FYhxp0gJhwzk+duGthStF9JK8BYdaOWVHIi9jB+mh+TJIu84p4es+LvljIwSduV0e8Qfwpy/tnms4szizn8HzA+easyf7YTcCmQj5orRHWeFPlLOWrP62qSzZgk7n+6kM4exV+24ucx7S9ifrO5XzvuvyDW3MSX7O6Q/S3rrJ3kOK896Yd9o/SO2tFmrtzzVNMu2w9pa4/yDXsQWT2dzswrk3cUrTmxeowl7zJ530rxM4V7kt4xTP7kXYbCO7kOY41wXJ5PWSX9tRiH+niP8/+Bs+SZZZrj/U7I6jB/WB9itXWSI1us4SgO6R9lHKFC
   </data>
  </layer>
  <layer id="3" name="Above" width="28" height="23">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
+   eJyrlGSgO6gE2llFgr3BZLjRSQ67eALQrAM4zIuUhGBs9kZi0eOGww5ku2AYZie6XzIlsZuNDbgi2UfIfwdw+PMKUOwqEF9DkpsMZE/B4ldcduCyF10/CDwBsp8C8TM8YU4JQNePzX/4AMiPjnKk+RVkNrI9+PwHA6TagQxAZhMKR3zAgUx7SQX2chC7YPRwBAPhN/thGpbYQO0A1Ec1kvSzt0aS/naiA0rLXGIBIf8FAuWDoGqola+Q6yEYG73ORbYLvczCJofLfbVY7MJmDylm4woHeqUVACydOkg=
   </data>
  </layer>
  <layer id="4" name="Top" width="28" height="23">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEA8GwKEAAB
+   eJxjYBgFAwmuSQ60C0bBUAKRo+llFIyCUTAKRgENAADfpAFi
   </data>
  </layer>
  <layer id="5" name="Walkable" width="28" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFlVEKACAIQztF979SN+o3JHXZWgOhj/TpwBq9tQGGFZqX1cw4DKaXj8jrE/XK46x1b+e9VeQRk2N5mbcvpeIp/Iy49qyQknfydrC5J3eZe7rb10pfCK/yJ+z6YvC8Oav+Vt/0rCaDh3jMnI/hAZuHeqFiKng/YwLFkAwP
+   eJy7KMbAcHEUj+IBwCBAjBqYOmSALkeKffj0EQLEuJUUvfS0i1h96GaQAki1jxJAjv+INZdYe2kN6Bme2OykN6C3nfT2JzlhS4n76J1+KCmzaGkftdxEjTptMGMAF1gf6Q==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="160" width="32" height="256">
+  <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="288">
    <properties>
     <property name="map" value="nor_city_road4"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="east" type="mapchange" x="864" y="384" width="32" height="288">
+  <object id="2" name="east" type="mapchange" x="864" y="448" width="32" height="224">
    <properties>
     <property name="map" value="nor_city_road6"/>
     <property name="place" value="west"/>
