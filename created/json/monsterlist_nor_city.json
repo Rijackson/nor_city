@@ -30,11 +30,11 @@
         "unique":1
     },
     {
-        "id":"guard_sargent",
-        "name":"Grindeld",
+        "id":"guard_sergeant",
+        "name":"Sergeant Grindeld",
         "iconID":"monsters_rltiles1:65",
         "unique":1,
-        "phraseID":"sargent_0"
+        "phraseID":"sergeant_0"
     },
     {
         "id":"guard_camp_1",
@@ -89,5 +89,10 @@
         "iconID":"monsters_tometik1:86",
         "monsterClass":"humanoid",
         "phraseID":"dirhan_0_0"
+    },
+    {
+        "id":"guard_road_3",
+        "name":"Soldier",
+        "iconID":"monsters_rltiles3:14"
     }
 ]

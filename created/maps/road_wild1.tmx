@@ -222,9 +222,9 @@
  </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn">
-  <object name="sargent" type="spawn" x="480" y="192" width="64" height="32">
+  <object name="sergeant" type="spawn" x="480" y="192" width="64" height="32">
    <properties>
-    <property name="spawngroup" value="guard_sargent"/>
+    <property name="spawngroup" value="guard_sergeant"/>
    </properties>
   </object>
   <object name="guard_1" type="spawn" x="640" y="160" width="32" height="64">

@@ -40,27 +40,27 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"The Duleian road is closed. The guard at the checkpoint told me there is an ongoing investigation, but would not say more. He suggested I talk to the Sargent at the camp back up the road a little."
+                "logText":"The Duleian road is closed. The guard at the checkpoint told me there is an ongoing investigation, but would not say more. He suggested I talk to the sergeant at the camp back up the road a little."
             },
             {
                 "progress":15,
-                "logText":"I spoke to a guard at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation, but would not say more. He suggested I speak to the Sargent at the camp."
+                "logText":"I spoke to a guard at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation, but would not say more. He suggested I speak to the sergeant at the camp."
             },
             {
                 "progress":16,
-                "logText":"I spoke to the Sargent at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation, but would not say more."
+                "logText":"I spoke to the sergeant at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation, but would not say more. I need to prove that I can help them."
             },
             {
                 "progress":20,
-                "logText":"I spoke to the Sargent at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation into missing childen. I persuaded him that I can help, so he gave me a pass to get through the road block."
+                "logText":"I spoke to the sergeant at a camp by the side of the Duleian road. He told me the road is closed because of an ongoing investigation into missing childen. I persuaded him that I can help, so he gave me a pass to get through the road block."
             },
             {
                 "progress":25,
-                "logText":"The Sargent told me that there have been an unusually large number of children disappearing around here, but that have not found much to indicate why. They haven't tried very hard though."
+                "logText":"The sergeant told me that there have been an unusually large number of children disappearing around here, but that have not found much to indicate why. They haven't tried very hard though."
             },
             {
                 "progress":30,
-                "logText":"I showed the guard at the road block my pass from the Sargent, and I can now go through."
+                "logText":"I showed the guard at the road block my pass from the sergeant, and I can now go through."
             },
             {
                 "progress":100,

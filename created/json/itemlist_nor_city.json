@@ -420,5 +420,26 @@
                 }
             ]
         }
+    },
+    {
+        "id":"soul_stealer",
+        "iconID":"items_newb:364",
+        "name":"Soul stealer",
+        "category":"weapon_blocking",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseAttackChance":4,
+            "increaseBlockChance":8,
+            "setNonWeaponDamageModifier":101
+        },
+        "killEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            }
+        }
     }
 ]
