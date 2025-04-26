@@ -170,13 +170,14 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="rats" type="spawn" x="96" y="128" width="288" height="128">
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="rats" type="spawn" x="96" y="128" width="320" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="crossroads_rat"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>

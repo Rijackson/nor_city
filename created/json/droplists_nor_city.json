@@ -130,5 +130,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"child_bone",
+        "items":[
+            {
+                "itemID":"child_bone",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

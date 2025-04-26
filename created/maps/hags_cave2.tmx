@@ -2,7 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="8" height="12" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_bed_1.png" width="512" height="256"/>
+  <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
  <tileset firstgid="161" name="map_border_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_border_1.png" width="512" height="256"/>
@@ -140,12 +140,12 @@
  </layer>
  <layer name="Objects" width="8" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjFWFgYAVibIANKtcliB3DwCxBTLyDByF/Hco+xMvAcA3KPoEkDwNCTBB6LSMDwxZehPhCNLWbgXITeVD5h6DqYfpAepiB5q1khNgJEgexQWATL0LdTqhdh5DEQPZvRrL/Opr9Z/kZGM7xI/ggvZuQ1IPMvAeVFweG3zdh7FgCKAcAmFAnaA==
+   eJxjFWFgYAVibIANKtcliB3DwCxBTLyDByF/Hco+xMvAcA3KPoEkDwNCTBB6LSMDwyZehPhCNLWbgXITeVD5h6Dqt/Ai9DADzVvJCLETJA5igwDIbJi6nYwQ9iEksQU8EDPR3Q8DZ/kZGM7xI/ggvcjuBZl5DyovDgy/b8LYsQRQDgCVnSdk
   </data>
  </layer>
  <layer name="Above" width="8" height="12">
   <data encoding="base64" compression="zlib">
-   eJwTYmIgCMoFGBiu8zIwrGREiN3iRZUHgZ1Q+T1I6kDgGi8qexMvqvxEHgiNLL4Ji/n43EdIHt3OQ1jMx2X/NTS9xNi/lxG/PAwAALVYEYY=
+   eJwTYmIgCMoFGBiu8zIwrGREiN3iRZUHgZ1Q+T1I6kDgGi8qexMvqvxEHgiNLo5uPj73EZJHN/sQFvcjq9mE5mZS7d/LiF8eBgAITRDH
   </data>
  </layer>
  <layer name="Top" width="8" height="12">
@@ -155,7 +155,7 @@
  </layer>
  <layer name="Walkable" width="8" height="12">
   <data encoding="base64" compression="zlib">
-   eJxLFWBgSB1gDAPobGxqsMkhqyHWHlLVYAPkuBEdAwAohCK9
+   eJxLFWBgSB1gDAPIbBgfXQ26OLoaYu0h1QxsAJ8aYv0OAO/JIr0=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -170,18 +170,29 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="rats1" type="spawn" x="64" y="128" width="160" height="128">
+  <object name="small_bone_0" type="script" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="childrens_bones_0" type="script" x="96" y="224" width="64" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="rats2" type="spawn" x="64" y="256" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="crossroads_rat"/>
+   </properties>
+  </object>
+  <object name="rats1" type="spawn" x="64" y="128" width="128" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="crossroads_rat"/>
    </properties>
   </object>
-  <object name="rats2" type="spawn" x="64" y="288" width="96" height="64">
-   <properties>
-    <property name="spawngroup" value="crossroads_rat"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>

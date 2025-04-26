@@ -4,6 +4,8 @@
         "iconID":"items_misc_2:112",
         "name":"Child's toy",
         "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
         "category":"other",
         "description":"A child's toy horse"
     },
@@ -441,5 +443,14 @@
                 "max":2
             }
         }
+    },
+    {
+        "id":"child_bone",
+        "iconID":"items_misc:44",
+        "name":"Small thigh bone",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"other"
     }
 ]

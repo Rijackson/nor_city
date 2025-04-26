@@ -5,11 +5,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Found child's toy"
+                "logText":"Notice bones are children"
             },
             {
-                "progress":12,
-                "logText":"Found child's diary"
+                "progress":15,
+                "logText":"Sargeant says they searched the basement but didn't find diary"
             },
             {
                 "progress":20,
@@ -61,6 +61,26 @@
             {
                 "progress":30,
                 "logText":"I showed the guard at the road block my pass from the sergeant, and I can now go through."
+            },
+            {
+                "progress":40,
+                "logText":"I have found a child's toy in an old tomb. The toy does not look very old. Maybe this is a clue."
+            },
+            {
+                "progress":50,
+                "logText":"I took one of the small bones from the tomb as evidence."
+            },
+            {
+                "progress":60,
+                "logText":"I found a child's diary in the basement of the old women's shack. I should ask them about where this came from."
+            },
+            {
+                "progress":70,
+                "logText":"I asked the old women about the diary. They told me they found it in the woods months ago. They brought it back in case the owner came looking for it, but so far nobody has asked for it."
+            },
+            {
+                "progress":80,
+                "logText":"I showed the evidence I had found to the sargeant at the camp. He said it is not enough for them to act on, so I should continue investigating."
             },
             {
                 "progress":100,
