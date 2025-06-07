@@ -41,15 +41,11 @@
             },
             {
                 "progress":72,
-                "logText":"Touched Caladrius"
+                "logText":"Interacted with Caladrius"
             },
             {
                 "progress":75,
                 "logText":"Attacked Caladrius"
-            },
-            {
-                "progress":77,
-                "logText":"Caladrius despawned"
             }
         ]
     },

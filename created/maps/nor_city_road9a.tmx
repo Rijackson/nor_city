@@ -295,7 +295,16 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="caladrius_spawn_0" type="script" x="512" y="896" width="192" height="64"/>
+  <object name="caladrius_spawn_0" type="script" x="512" y="896" width="192" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="caladrius_script_0" type="script" x="384" y="416" width="160" height="160">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace"/>
  <objectgroup name="Spawn">
