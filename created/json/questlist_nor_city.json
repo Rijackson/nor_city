@@ -30,6 +30,26 @@
             {
                 "progress":60,
                 "logText":"Complained to Umar"
+            },
+            {
+                "progress":70,
+                "logText":"Caladrius spawned"
+            },
+            {
+                "progress":71,
+                "logText":"On nor_city_road9a"
+            },
+            {
+                "progress":72,
+                "logText":"Touched Caladrius"
+            },
+            {
+                "progress":75,
+                "logText":"Attacked Caladrius"
+            },
+            {
+                "progress":77,
+                "logText":"Caladrius despawned"
             }
         ]
     },
@@ -80,7 +100,7 @@
             },
             {
                 "progress":80,
-                "logText":"I showed the evidence I had found to the sargeant at the camp. He said it is not enough for them to act on, so I should continue investigating."
+                "logText":"I showed the evidence I had found to the sargeant at the camp. He said it is not enough for them to act on, so I should continue investigating. I should ask around in Sullengard."
             },
             {
                 "progress":100,

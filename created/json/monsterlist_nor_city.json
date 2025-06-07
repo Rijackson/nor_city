@@ -94,5 +94,30 @@
         "id":"guard_road_3",
         "name":"Soldier",
         "iconID":"monsters_rltiles3:14"
+    },
+    {
+        "id":"caladrius",
+        "name":"Caladrius",
+        "iconID":"monsters_newb_1:270",
+        "maxHP":1000,
+        "monsterClass":"animal",
+        "phraseID":"caladrius_0",
+        "attackCost":20,
+        "blockChance":0,
+        "damageResistance":1000,
+        "hitReceivedEffect":{
+            "increaseAttackerCurrentHP":{
+                "min":10,
+                "max":10
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"pestilence",
+                    "magnitude":1,
+                    "duration":100,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

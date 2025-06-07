@@ -233,7 +233,7 @@
         "name":"Essence of the young",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":300,
+        "baseMarketCost":210,
         "category":"pot"
     },
     {
@@ -427,15 +427,18 @@
         "id":"soul_stealer",
         "iconID":"items_newb:364",
         "name":"Soul stealer",
+        "displaytype":"extraordinary",
         "category":"weapon_blocking",
+        "description":"Sometimes the best protection in life is taking someone else's. ",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
                 "max":3
             },
             "increaseAttackChance":4,
-            "increaseBlockChance":8,
-            "setNonWeaponDamageModifier":101
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1,
+            "setNonWeaponDamageModifier":103
         },
         "killEffect":{
             "increaseCurrentHP":{

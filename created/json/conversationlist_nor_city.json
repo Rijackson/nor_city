@@ -1674,7 +1674,7 @@
     },
     {
         "id":"sargent_4_7",
-        "message":"Well, if they ahve a good reason to have it there's not much we can do. \n\nThanks for the help so far kid, but what you have is not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks].",
+        "message":"Well, if they ahve a good reason to have it there's not much we can do. \n\nThanks for the help so far kid, but what you have is not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks]. Try asking around in the local town, Sullengard",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1685,12 +1685,183 @@
     },
     {
         "id":"sargeant_4_7a",
-        "message":"OK. what you have found is interesting, but not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks].",
+        "message":"OK. what you have found is interesting, but not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks]. Try asking around in the local town, Sullengard",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"essence_child",
                 "value":80
+            }
+        ]
+    },
+    {
+        "id":"caladrius_0",
+        "message":"Coo...",
+        "replies":[
+            {
+                "text":"Touch the white bird.",
+                "nextPhraseID":"caladrius_1"
+            },
+            {
+                "text":"Attack the white bird!",
+                "nextPhraseID":"caladrius_2"
+            }
+        ]
+    },
+    {
+        "id":"caladrius_1",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"regen2",
+                "value":100
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_weak",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"contagion",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"blister",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_irdegh",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"contagion2",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"nausea",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"spore_poison",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_irdegh_weak",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_blood",
+                "value":-99
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":72
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"vigor",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"caladrius_2",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"pestilence",
+                "value":300
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"caladrius_spawn_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"caladrius_spawn_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"1/300"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":71,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"caladrius_spawn_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":70
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"caladrius",
+                "mapName":"nor_city_road9a"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":71
+            }
+        ]
+    },
+    {
+        "id":"caladrius_despawn_0",
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"caladrius",
+                "mapName":"nor_city_road9a"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":70
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":71
             }
         ]
     }
