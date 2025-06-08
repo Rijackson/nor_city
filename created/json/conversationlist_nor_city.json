@@ -1775,6 +1775,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"vigor",
                 "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":160
             }
         ]
     },
