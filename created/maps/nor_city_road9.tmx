@@ -259,12 +259,12 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMAProsRUDAKRsEoGDDAIY6JOcUHxi1cdHQHkzCEfiLIwKDMhN0d1LRfQhwV/0YrFxcLMDB8E4SwX9CwzBTD4w5a2osOnkPtMmMaGHtBgIuOaV0MGta/6BDH6OD5AMcxKI8NRFjDwEDY/V1w4OyGgYGw2wxalo6kPM0oPHB2fx/g8mQ0jdEWoOfpwV5vAAARqi0/
+   eJztlUsOgjAQhkdWyspKUmTtHTgeJ6hcwquZ4NqFJLpRAo192OlgwDHRP2mG0sc3005bAF+qANg/ynlj17UN9Y/9wxTrXxntZt8KYcf8ojDr4skwbU1guvNT2MpghizmMzX20Nix7FBMsZwZy8ZipcSGiRrvVDw9vi58Wxl1Sl4vc7+s8jjbnEc5zHdzKB3pR2g+ytomWW+PAmCXvPaDwqdqm9vlJu32wxrgIvrvk/THTyWJ+DEn11UzsMqEh9spnXiPMclhra8f2GNXDfMed2eMY621ONit4GNrcbDL4S79pTO9yPjYLfN98s+xeeWe6W9/N+6ufILZ
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJzt0kEKwCAMBMD9hn+1f+9JsEtMs2Khh52TEE2iBnjqDbgalub4as17s1i1ZpSvB2eimpy/Uptzzz0MlXd6u/sO5T2zPk5R/nKX+n9V0QxxXJlr1TjPeXjOT89Q1suXNczMzMzsX26h4S65
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -272,9 +272,9 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlcsJADEIRFPF9t9SOtrrIn5HVy8OBEJA32Qg5j7nXOei8tZxPbhzi5dh0zrNhyXJb4T77aP1R++vcRFpmUXzQ7hW5h3q5nbmrPHpvlMTXHQeVPKRmkof3AziZku10D+I81fJle6dzR35wzw9K7me7CPeKtcU1+vjb67E7uBKb2OCu1qt8noBFJkMDw==
+   eJzt0LsNACAIRVGncP+V2MhY2BhFED/NPYmVygMkpyTKqbT7/m1j/aPV8NSLZv/IHOXe7De648jcK6fm3WHNjsznzbTu+sa8lh5OeZEBAACAuQJfHp7R
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -293,6 +293,18 @@
   <object name="caladrius_despawn_0" type="script" x="512" y="896" width="192" height="64">
    <properties>
     <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="north1" type="mapchange" x="256" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="road_wild_pool"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object name="north2" type="mapchange" x="608" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="road_wild_pool"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
  </objectgroup>

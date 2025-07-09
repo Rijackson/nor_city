@@ -425,6 +425,7 @@
     <map id="nor_city_road9" x="753" y="521"/>
     <map id="nor_city_road9a" x="763" y="552"/>
     <map id="nor_city_road9b" x="775" y="583"/>
+    <map id="road_wild_hut" x="724" y="490"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
