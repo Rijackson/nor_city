@@ -456,5 +456,49 @@
                 }
             ]
         }
+    },
+    {
+        "id":"gleaming_ring_protector",
+        "iconID":"items_newb:265",
+        "name":"Gleaming ring of the protector",
+        "displaytype":"rare",
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":4
+            },
+            "increaseMaxHP":8,
+            "increaseAttackChance":20,
+            "increaseBlockChance":21,
+            "addedConditions":[
+                {
+                    "condition":"str",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"ring_shielding",
+        "iconID":"items_newb:263",
+        "name":"Ring of shielding",
+        "displaytype":"ordinary",
+        "category":"ring",
+        "description":"When you equip it the ring emits an aura of protection.",
+        "equipEffect":{
+            "increaseBlockChance":15,
+            "increaseDamageResistance":5
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"stonewall",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
