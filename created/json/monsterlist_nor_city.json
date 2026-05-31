@@ -106,10 +106,6 @@
         "blockChance":0,
         "damageResistance":1000,
         "hitReceivedEffect":{
-            "increaseAttackerCurrentHP":{
-                "min":10,
-                "max":10
-            },
             "conditionsTarget":[
                 {
                     "condition":"pestilence",
@@ -117,7 +113,17 @@
                     "duration":100,
                     "chance":"100"
                 }
-            ]
+            ],
+            "increaseAttackerCurrentHP":{
+                "min":10,
+                "max":10
+            }
         }
+    },
+    {
+        "id":"celynn",
+        "name":"Celynn",
+        "iconID":"monsters_ld1:155",
+        "monsterClass":"humanoid"
     }
 ]
