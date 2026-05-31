@@ -125,6 +125,7 @@
         "name":"Celynn",
         "iconID":"monsters_ld1:155",
         "unique":1,
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"celynn_0"
     }
 ]
