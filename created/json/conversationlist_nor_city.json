@@ -1912,5 +1912,30 @@
                 "mapName":"nor_city_road9a"
             }
         ]
+    },
+    {
+        "id":"spawn_celynn",
+        "replies":[
+            {
+                "nextPhraseID":"spawn_celynn_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"spawn_celynn_1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"celynn_spawn",
+                "mapName":"sullengard_church"
+            }
+        ]
     }
 ]

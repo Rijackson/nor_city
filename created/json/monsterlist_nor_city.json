@@ -124,6 +124,7 @@
         "id":"celynn",
         "name":"Celynn",
         "iconID":"monsters_ld1:155",
+        "unique":1,
         "monsterClass":"humanoid"
     }
 ]
