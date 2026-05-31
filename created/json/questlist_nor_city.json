@@ -46,6 +46,10 @@
             {
                 "progress":75,
                 "logText":"Attacked Caladrius"
+            },
+            {
+                "progress":80,
+                "logText":"triggered Celynn script"
             }
         ]
     },

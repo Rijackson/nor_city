@@ -1937,5 +1937,33 @@
                 "mapName":"sullengard_church"
             }
         ]
+    },
+    {
+        "id":"celynn_approach_0",
+        "switchToNPC":"celynn",
+        "replies":[
+            {
+                "nextPhraseID":"celynn_approach_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"celynn_approach_1",
+        "message":"Oh, where is my child? Please, someone help me find her!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":80
+            }
+        ]
     }
 ]

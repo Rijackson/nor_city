@@ -208,6 +208,11 @@
     <property name="place" value="sullengard_church_outside"/>
    </properties>
   </object>
+  <object name="celynn_approach_0" type="script" x="32" y="96" width="128" height="128">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="sullengard_priest_spawn" type="spawn" x="256" y="128" width="160" height="64">
