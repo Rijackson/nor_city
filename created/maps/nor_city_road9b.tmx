@@ -97,7 +97,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3921" name="map_indoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
+  <image source="../spritesheets/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4049" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -263,7 +263,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0jEBAAAIwzBU4N8bDlDANQlsT2OgT6vwaTrTdHfVXGM30VTX3VQ3ga5H4ikAAIADH4MPzQ==
+   eJxjYKAv+C5IHXMmMTEwBEoyMARJQvjfkMxNZkKwm5kYqA4SgXYmATGTMKp4MRa7HotRx04eIeziwZLY7aSWvdjARKA/k9Hshdn5iUr25hARb9S2EwRqoPZqI9kPS1tTmBD2UtNOQmASkr0DAUaKvT0DEM5aQDvnQO2lZ5oaBaNgFIyCUTAKRsEogAEAvhcb6Q==
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30">
