@@ -952,7 +952,7 @@
     },
     {
         "id":"drunken_duck",
-        "message":"Welcome to the Drunken Duck."
+        "message":"Welcome to the Drunken Goose."
     },
     {
         "id":"balon_0",
@@ -1910,6 +1910,189 @@
                 "rewardType":"deactivateSpawnArea",
                 "rewardID":"caladrius",
                 "mapName":"nor_city_road9a"
+            }
+        ]
+    },
+    {
+        "id":"spawn_celynn",
+        "replies":[
+            {
+                "nextPhraseID":"spawn_celynn_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"spawn_celynn_1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"celynn_spawn",
+                "mapName":"sullengard_church"
+            }
+        ]
+    },
+    {
+        "id":"celynn_approach_0",
+        "switchToNPC":"celynn",
+        "replies":[
+            {
+                "nextPhraseID":"celynn_approach_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"celynn_approach_1",
+        "message":"Oh, where is my child? Please, someone help me find her!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"celynn_0",
+        "replies":[
+            {
+                "nextPhraseID":"celynn_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"celynn1_b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"celynn_1a",
+        "message":"Where is my child? Please, I need help to find her!",
+        "replies":[
+            {
+                "text":"Hello. I am $playername. I have been tasked with finding out more about why local children are going missing. If you can tell me more I will try to help you find your child.",
+                "nextPhraseID":"celynn_1a1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"celynn1_b",
+        "message":"Did you find anything about my missing child?",
+        "replies":[
+            {
+                "text":"Can you tell me again what you know about her disappearance",
+                "nextPhraseID":"celynn_2a"
+            }
+        ]
+    },
+    {
+        "id":"celynn_2a",
+        "message":"She went out two days ago, When the weather is nice she likes to sit by the pond just outside town and write in her diary. But she has not come back. I hope the snappers didn't get her! But she knows to leave them alone. If you don't bother them, they don't bother you. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"celynn_3a"
+            }
+        ]
+    },
+    {
+        "id":"celynn_3a",
+        "message":"Anyway, along with other townsfolk I searched around the pond and we found nothing. Not even her diary, and the snappers would have no interest in that.",
+        "replies":[
+            {
+                "text":"Hmm. Please describe her diary.",
+                "nextPhraseID":"celynn_4a"
+            }
+        ]
+    },
+    {
+        "id":"celynn_1a1",
+        "message":"Thank you!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"celynn_2a"
+            }
+        ]
+    },
+    {
+        "id":"celynn_4a",
+        "message":"It's just a small, yellow, book. She likes to document what happens in town. Maybe one day she will be a historian, or a writer. ",
+        "replies":[
+            {
+                "text":"Does it look like this diary?",
+                "nextPhraseID":"celynn_5a1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"child_diary",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'll look for something like that, and I'll let you know if I find anything."
+            }
+        ]
+    },
+    {
+        "id":"celynn_5a1",
+        "message":"That's it! That's her diary! Please tell me where you found it! Please give it back to me!",
+        "replies":[
+            {
+                "text":"I'm sorry, but I can't do that. The diary is evidence, although at this point I am not sure where it will eventually lead to in my investigation. I fear the worst for your daughter, but I will try to find the truth. ",
+                "nextPhraseID":"celynn_6a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"essence_child",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"celynn_6a",
+        "message":"Oh no! Please find out what happened to her.",
+        "replies":[
+            {
+                "text":"I'm working on it.",
+                "nextPhraseID":"X"
             }
         ]
     }

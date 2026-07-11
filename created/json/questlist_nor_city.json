@@ -46,6 +46,14 @@
             {
                 "progress":75,
                 "logText":"Attacked Caladrius"
+            },
+            {
+                "progress":80,
+                "logText":"triggered Celynn script"
+            },
+            {
+                "progress":90,
+                "logText":"Said you would help Celynn"
             }
         ]
     },
@@ -99,19 +107,23 @@
                 "logText":"I showed the evidence I had found to the sargeant at the camp. He said it is not enough for them to act on, so I should continue investigating. I should ask around in Sullengard."
             },
             {
-                "progress":100,
+                "progress":90,
+                "logText":"I showed the diary I found to Celynn. It is her daughter's diary. She only went missing two days ago, so the old women lied to me!"
+            },
+            {
+                "progress":200,
                 "logText":"End 1",
                 "rewardExperience":10,
                 "finishesQuest":1
             },
             {
-                "progress":110,
+                "progress":210,
                 "logText":"End 2",
                 "rewardExperience":10,
                 "finishesQuest":1
             },
             {
-                "progress":120,
+                "progress":220,
                 "logText":"End 3",
                 "rewardExperience":10,
                 "finishesQuest":1

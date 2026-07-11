@@ -43,5 +43,15 @@
             "increaseMaxHP":15,
             "increaseBlockChance":4
         }
+    },
+    {
+        "id":"stonewall",
+        "iconID":"actorconditions_1:57",
+        "name":"Stonewall",
+        "category":"physical",
+        "isPositive":1,
+        "abilityEffect":{
+            "increaseDamageResistance":1
+        }
     }
 ]
