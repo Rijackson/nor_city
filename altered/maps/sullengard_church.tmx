@@ -95,7 +95,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3921" name="map_indoor_2" tilewidth="32" tileheight="32">
-  <image source="../../created/spritesheets/map_indoor_2.png" width="512" height="256"/>
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4049" name="map_kitchen_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
