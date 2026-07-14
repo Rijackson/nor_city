@@ -1,9 +1,9 @@
 {
-    "baseFolder":"C:\\Data\\AT\\ATCS Workspace\\nor_city",
+    "baseFolder":"C:\\Users\\johny\\repos\\Project\\nor_city",
     "name":"nor_city",
     "sourceSetToUse":"gameData",
     "baseContent":{
-        "baseFolder":"C:\\Data\\Git\\release\\AndorsTrail",
+        "baseFolder":"C:\\Users\\johny\\repos\\Source\\andors-trail\\AndorsTrail",
         "type":"source"
     },
     "open":true
