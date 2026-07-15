@@ -290,7 +290,7 @@
   <object name="sheep1" type="spawn" x="448" y="288" width="64" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="lostsheep1"/>
+    <property name="spawngroup" value="cithurnsheep"/>
    </properties>
   </object>
   <object name="goat1" type="spawn" x="448" y="352" width="160" height="64">
@@ -302,7 +302,7 @@
   <object name="sheep2" type="spawn" x="480" y="384" width="288" height="96">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="lostsheep1"/>
+    <property name="spawngroup" value="cithurnsheep"/>
    </properties>
   </object>
   <object name="goat2" type="spawn" x="576" y="384" width="192" height="96">
