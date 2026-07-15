@@ -491,14 +491,14 @@
         "category":"ring",
         "description":"When you equip it the ring emits an aura of protection.",
         "equipEffect":{
-            "increaseBlockChance":15,
-            "increaseDamageResistance":5
+            "increaseBlockChance":12,
+            "increaseDamageResistance":3
         },
         "hitReceivedEffect":{
             "conditionsSource":[
                 {
                     "condition":"stonewall",
-                    "magnitude":3,
+                    "magnitude":2,
                     "duration":3,
                     "chance":"25"
                 }
