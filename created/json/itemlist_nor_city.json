@@ -504,5 +504,15 @@
                 }
             ]
         }
+    },
+    {
+        "id":"fire_ant_leg",
+        "iconID":"items_newb:590",
+        "name":"Fire ant leg",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"animal",
+        "description":"Your fingers itch just touching it!"
     }
 ]

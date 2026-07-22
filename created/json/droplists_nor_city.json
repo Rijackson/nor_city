@@ -151,5 +151,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"southern_fire ant",
+        "items":[
+            {
+                "itemID":"fire_ant_leg",
+                "chance":"45",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

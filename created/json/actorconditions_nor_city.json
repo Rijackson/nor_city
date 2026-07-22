@@ -53,5 +53,19 @@
         "abilityEffect":{
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"fire_sting",
+        "iconID":"actorconditions_japozero:58",
+        "name":"Fire sting",
+        "category":"physical",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        }
     }
 ]
