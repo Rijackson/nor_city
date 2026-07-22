@@ -234,6 +234,12 @@
     <property name="spawngroup" value="southern_fire_ant"/>
    </properties>
   </object>
+  <object name="fire_ant_2" type="spawn" x="608" y="672" width="256" height="224">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="southern_fire_ant"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
