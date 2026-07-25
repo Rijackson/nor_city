@@ -67,5 +67,19 @@
                 "max":-2
             }
         }
+    },
+    {
+        "id":"poison_strong",
+        "iconID":"actorconditions_1:60",
+        "name":"Strong poison",
+        "category":"blood",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-2
+            }
+        }
     }
 ]
