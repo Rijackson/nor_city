@@ -956,7 +956,7 @@
     },
     {
         "id":"balon_0",
-        "message":"Hello kid. I am Balon. Welcome to  my establishment. Here you can find food, rest, and a place to relax away from the dusty road.",
+        "message":"Hello kid. I am Balon. Welcome to my establishment. Here you can find food, rest, and a place to relax away from the dusty road. We pride ourselves on food and services that are of the highest quality.",
         "replies":[
             {
                 "nextPhraseID":"balon_1"
