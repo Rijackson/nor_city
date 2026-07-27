@@ -70,7 +70,7 @@
     },
     {
         "id":"poison_strong",
-        "iconID":"actorconditions_1:60",
+        "iconID":"actorconditions_newb:0",
         "name":"Strong poison",
         "category":"blood",
         "isStacking":1,

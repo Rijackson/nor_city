@@ -173,6 +173,7 @@
             "max":20
         },
         "horizontalFlipChance":50,
+        "droplistID":"salamander",
         "attackCost":6,
         "attackChance":145,
         "blockChance":70,

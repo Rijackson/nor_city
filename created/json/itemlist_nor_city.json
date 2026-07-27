@@ -587,5 +587,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"gland_strong",
+        "iconID":"items_misc:33",
+        "name":"Strong poison gland",
+        "hasManualPrice":1,
+        "baseMarketCost":58,
+        "category":"animal"
     }
 ]
