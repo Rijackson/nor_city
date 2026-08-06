@@ -191,27 +191,27 @@
  </tileset>
  <layer id="1" name="Ground" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJyzlGNgsKQDvsiJwPSwb9RO+tmJDdPazstomFb247MTn/2UuANfuOJzAy53UCM+ibUf3Q3k2EmMGnz2UmonsfqIDXNiw5aQewjZS0s7iclztLATX5qjhv2Upnlq2UGK/2lhJ7lphhw78cU9LdyDbtZIsJNa9Q26Glx8SjG1zRtIDACCJ7XG
+   eJzt1bsNgDAMBNC0LMEe2X8CxEKUSFY4n78UULgLeYfjKHMfYzbUsd3V4f1mn7mqavMUVeUjE/mRHKivKMNTjozzZH2ZwWMya5AbNdnv2J6zvdXyaG6lydy5ChPNXIYfnfksw/L/FaZ3ZjwmOvuKPHKvL5hsbzV/td7iWN+8rP3erAvkfLbM
   </data>
  </layer>
  <layer id="2" name="Objects" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJyNVr1OG0EQPlkUJA3eO8nGBcIvkBQUdOEFIoEreuhoLBOo01AlMiRN8gCY5AWSFOEZEEJAUqR2nARBkyJITiRnRrej/W4867uRRnu3Ozvf7PzsbL+VJIfEXWKmvv/XY4yew7rIviB+CeOA+MTQIfITlyQ/ifczG6OeFvcceV3XNH4h/kr8hGTWiP+5fO0DzX3051pOp3UiLfn1G793w5AXW1nXdxpHcJ52mp/hygU//k6Lvhu5cp/K/FOF36H/HS+/DmtyVqGtSJw0Xn2GP1C2reQwjitZwJxvFvlB09b9Q9mr7WK/v6L/160wShw/Rc62WsvHhyX4iGX5X/Bi1Ie1TcjTWjaNX9WOb94fS2lcZrEZ+G8jScZ+zxB8eQ/f2o5YLJA4htvgmwOomYbCR2zx/aAedP1xuQ0aN5bzUrdCE5UjiK/tYBqrsyPuL2fjOh+zM5rf82s6N4VkXtvBNmxC7Kv4+RnkzTnYpOMfo4bHnVsIuLPivJsFLOZORZwY7r3yURk+EsZBckvfcyMj9hLrSxdqjYl9r3O9rMbL6NaINeNLnlc9n3WXSIxFTt+tSFbN1YzeGOsnZX6w+lsMX5jJ6kGzsJkwxjeRGovdvVXO1VF+LeutTBsR+/n7M/n51PD1lZveY9nzhvitn+uBTBd6mmWjvBukx1oYUsd3cK9xzr6j8X0rbtsFYFm+xh6r98sbTtevlsO32LqKieVroV7FekX9QsNWeIvpc+l/zj3sNdLz9Fv1mGI/ID7JivrRPq6DR6TncWpj/Qc919Lc
+   eJyNVr1OHEEMXiEUfpowd9IdW5zgBaBIkY68QCSgooeOBvFX01CBgKQJD5AjeYFAkTxDFKEQKKjhOBA0FCCRSGDrbM13Ps9uPsmanRnPfB7b49mdPMt2SZZIGDvSt20KGzCvulsk29A2SQ5EZ6wS16r+c8iyNsl61ecYMWv2ZK8/1J6SnJFMkc47kn+hM/eNxg7lXPewfhC+FQ0Zu5G1M46O2sr2X1LbEhuGqT9e6ZzhJEQ/zhvftUKxT9sw/97wz1J/UfSnYU7PqpjP416e7Qr1563Rs7rjxg6M4xuI1WC9W4bqvfsyrkrsYr9/oP7HPLYax6O8e53ibV+nHS7hRy7P/8qnsD5EzMHZ+6q9/P9rx7lwNCq+Drej9Sh/a1n2JGsuwL5H+LZ2qA1F5+G8WYCzb+bxntYMP3Kr75sjce1D6Nhgz56qI3pvFc/GTuS3djCezNmR9zr08g4QV5CY/aTxNZm7cnR13LODbZiD2CPvTcLXq5A3v4Cn4dTEAacG1YS3/3XkLcq1lWrkYuE6UlYbGFZHeR/NeBG/3Rf7mltc52yN9HgZv0O8awz2vc11hsar7N3ycOvEmvk1z4uAfLaWMDTGqmdrK8K7c3j2ljljka89P+j7ZutxO5Hro+Jb7w0q4mbgW2bvxSuZ8/xVtrd+zxq/puKO4zMJ+9shXSdPQu8az55PJPsytgw6S/CmWRu/U2x/SHz1jfU49B7fQa3inP1C7dc8bdsx3Dv0NdvE58U31q7Xfzh7f60e/otNm5joNwNzgLmXC/IUgfsrLvL4L2ZzyPqaefGt0TfP/qt+pjg0SQ6q3fujfXwPJmifyUT+vgCzyelG
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9VlEOwiAM5Q588euN9M+fZRovodmiUU/gdhxj/NVzeBBrtK6SUrrJeAnZgNLXlkIx5o3KGVM788XKmigq99ufO14OUUTm+6BW6KJ8vn/Y98dD8oiH0odpQC6kt69sA+PtZ25iZc6hXFvo71z3TQXKJfFK61Pb8Y9MSrz2cEZiMwZy+6ThPWe2Z0nut0sG7oXtuHLwScix/7EznotbuktS2hWqJ2PFgau1ErcWoXj18WtobfV1asBx4T+NUUlkClLTOFvw3YA1luOg5zgUC27dlXChDTe4G+7Me8tfv4a2EXKMjvv5ocmNUsjTPdh3gHa0vH4KP4di9RxrHvqH3xNwNdBaLzZSXnNcqE8zL41p1z4BYJ5uDg==
+   eJy9VlEOwiAM5Q774tcbzT9/lmm8hGaLRj2B23GM8VfP4UGs0bpaCxTc9hKyAW0flNJizAuVNaa25oNlZoKo7Hd/ZmU5RBGYj0GtsIV8uf3dH/b5OJ/nuCv3kDvkXHZjZRsYb99zE8VZpXBtoL+13del9w+Xj3doaM6CxskYeMbNdGCumBgci/dk9bJ9YEHuzLmHuxrCPOu4xuDz2Y3NeX3zDw3KF8pdfa3LVU9CuS4VUq3VnrMPLn/F7Cu1tqasV+LCf+qjksgUpKZpaqzEQe+xyxeS3oVwUV9LbyOuv4K29sQYHefxwXWukI9u7N1QeuJ0B7J7aIdMtk/BYyjka6x5uD/8HoGrgdaydfrOTIpftKeZ941pdR+2rXIl
   </data>
  </layer>
  <layer id="4" name="Top" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20IX6AAAIDHAAtUAAE=
+   eJztzgENAAAIA6DXsKvhjeH2QQISAADa7XwPuh3YGwCW
   </data>
  </layer>
  <layer id="5" name="Walkable" width="29" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcBEHJgbg0osP4zOLFvaR4hdS7CXkJmoCbObR2056+BObG7CFNT3BQNgJs3cg7BspYTyQdtLT3sEQtsh8WrmF3mUTLjvx2U0NtxGyDz2sqREO1KhvCYUJpXbicwMhO6hhH7HtAlrhgbBzFGNiAP6rAwk=
+   eJzVlMENwDAIAzNF918pG/XVX7ANmEiNxCMS5GyC2M9aOwjlRLUoTrXffYKX8eLmRn5PLKS14xPxUK6zt6outYcdFuKqOqtHmXdHbyuaXP+KGIzN8h3caSbTcnPW2JtTnlFvb8x1xZdrl6l7vHuUOZ6Yp5OG6M7qUU3GF9tfCgP1ibHQP2T2K8pV3mM5jppuKH7/HC+cwxp/
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -221,13 +221,13 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="224" y="0" width="288" height="32">
+  <object id="2" name="north" type="mapchange" x="320" y="0" width="192" height="32">
    <properties>
     <property name="map" value="road_wild1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="3" name="east" type="mapchange" x="896" y="256" width="32" height="352">
+  <object id="3" name="east" type="mapchange" x="896" y="128" width="32" height="544">
    <properties>
     <property name="map" value="nor_city_road2"/>
     <property name="place" value="west"/>
