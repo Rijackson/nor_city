@@ -128,8 +128,8 @@
             "conditionsSource":[
                 {
                     "condition":"food",
-                    "magnitude":2,
-                    "duration":15,
+                    "magnitude":4,
+                    "duration":18,
                     "chance":"100"
                 }
             ]
@@ -491,18 +491,109 @@
         "category":"ring",
         "description":"When you equip it the ring emits an aura of protection.",
         "equipEffect":{
-            "increaseBlockChance":15,
-            "increaseDamageResistance":5
+            "increaseBlockChance":12,
+            "increaseDamageResistance":3
         },
         "hitReceivedEffect":{
             "conditionsSource":[
                 {
                     "condition":"stonewall",
-                    "magnitude":3,
+                    "magnitude":2,
                     "duration":3,
                     "chance":"25"
                 }
             ]
         }
+    },
+    {
+        "id":"fire_ant_leg",
+        "iconID":"items_newb:590",
+        "name":"Fire ant leg",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"animal",
+        "description":"Your fingers itch just touching it!"
+    },
+    {
+        "id":"lamb_pasty",
+        "iconID":"items_newb:832",
+        "name":"Lamb pasty",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":220,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":12,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"spiced_venison",
+        "iconID":"items_newb:775",
+        "name":"Spiced venison",
+        "hasManualPrice":1,
+        "baseMarketCost":215,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":6,
+                    "duration":7,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"smoked_fish",
+        "iconID":"items_omi2:22",
+        "name":"Smoked fish",
+        "hasManualPrice":1,
+        "baseMarketCost":290,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":20,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"goat_herb_sausage",
+        "iconID":"items_japozero:512",
+        "name":"Herbed goat sausage",
+        "hasManualPrice":1,
+        "baseMarketCost":320,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":7,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"gland_strong",
+        "iconID":"items_misc:33",
+        "name":"Strong poison gland",
+        "hasManualPrice":1,
+        "baseMarketCost":58,
+        "category":"animal"
     }
 ]
