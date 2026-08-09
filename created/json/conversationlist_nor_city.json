@@ -2095,5 +2095,46 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"leodan_0",
+        "message":"Hey kid. Is there something I can help you with?",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"leodan_1"
+            }
+        ]
+    },
+    {
+        "id":"leodan_1",
+        "message":"Not for you I'm afraid. This farm is owned by the Drunken Goose, just next to us. We only produce fresh food for the tavern, which is why it's the best food on the Duleian road. We grow vegetables and herbs. We also have goats and sheep for milk and meat, and we have a pond with fish. We make some of the milk into excellent cheese. If you want something to eat, ask at the Drunken Goose. ",
+        "replies":[
+            {
+                "nextPhraseID":"leodan_2"
+            }
+        ]
+    },
+    {
+        "id":"leodan_2",
+        "message":"There is something I would buy from you though, if you are willing to take the risk to obtain it.",
+        "replies":[
+            {
+                "nextPhraseID":"leodan_3"
+            }
+        ]
+    },
+    {
+        "id":"leodan_3",
+        "message":"sdsdadDas",
+        "replies":[
+            {
+                "nextPhraseID":"leodan_4"
+            }
+        ]
+    },
+    {
+        "id":"leodan_4",
+        "message":"wrqweq"
     }
 ]

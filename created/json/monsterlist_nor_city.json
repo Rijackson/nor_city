@@ -188,5 +188,11 @@
                 }
             ]
         }
+    },
+    {
+        "id":"dd_farmer",
+        "name":"Leodan",
+        "iconID":"monsters_ld1:8",
+        "phraseID":"leodan_0"
     }
 ]
