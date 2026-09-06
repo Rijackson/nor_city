@@ -1,0 +1,132 @@
+{
+    "maps": [
+        {
+            "fileName": "created/maps/nor_city_road1.tmx",
+            "height": 800,
+            "width": 928,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/road_wild1.tmx",
+            "height": 640,
+            "width": 928,
+            "x": 0,
+            "y": -672
+        },
+        {
+            "fileName": "created/maps/nor_city_road2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 960,
+            "y": -64
+        },
+        {
+            "fileName": "created/maps/road_wild3.tmx",
+            "height": 512,
+            "width": 896,
+            "x": 1952,
+            "y": -64
+        },
+        {
+            "fileName": "created/maps/nor_city_road3.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 1952,
+            "y": 480
+        },
+        {
+            "fileName": "created/maps/road_wild2.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 2880,
+            "y": -64
+        },
+        {
+            "fileName": "created/maps/nor_city_road4.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 2880,
+            "y": 704
+        },
+        {
+            "fileName": "created/maps/nor_city_road5.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 3808,
+            "y": 896
+        },
+        {
+            "fileName": "created/maps/nor_city_road6.tmx",
+            "height": 800,
+            "width": 896,
+            "x": 4736,
+            "y": 1152
+        },
+        {
+            "fileName": "created/maps/nor_city_road7.tmx",
+            "height": 800,
+            "width": 896,
+            "x": 5664,
+            "y": 1152
+        },
+        {
+            "fileName": "created/maps/nor_city_road8.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 6592,
+            "y": 1504
+        },
+        {
+            "fileName": "created/maps/road_wild_hut.tmx",
+            "height": 736,
+            "width": 896,
+            "x": 6592,
+            "y": 736
+        },
+        {
+            "fileName": "created/maps/road_wild_pool.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 7520,
+            "y": 736
+        },
+        {
+            "fileName": "created/maps/nor_city_road9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 7520,
+            "y": 1728
+        },
+        {
+            "fileName": "created/maps/nor_city_road9a.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 7840,
+            "y": 2720
+        },
+        {
+            "fileName": "created/maps/nor_city_road9b.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8224,
+            "y": 3712
+        },
+        {
+            "fileName": "created/maps/nor_city_road10.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 9248,
+            "y": 3712
+        },
+        {
+            "fileName": "created/maps/nor_city_road11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10240,
+            "y": 3712
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
