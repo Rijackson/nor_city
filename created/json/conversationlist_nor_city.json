@@ -1674,7 +1674,7 @@
     },
     {
         "id":"sargent_4_7",
-        "message":"Well, if they ahve a good reason to have it there's not much we can do. \n\nThanks for the help so far kid, but what you have is not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks]. Try asking around in the local town, Sullengard",
+        "message":"Well, if they have a good reason to have it there's not much we can do. \n\nThanks for the help so far kid, but what you have is not enough for us to act on. We will wait here in our comfortable camp while you continue investigating [smirks]. Try asking around in the local town, Sullengard",
         "rewards":[
             {
                 "rewardType":"questProgress",
