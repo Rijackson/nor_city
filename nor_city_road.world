@@ -125,6 +125,55 @@
             "width": 960,
             "x": 10240,
             "y": 3712
+        },
+        {
+            "fileName": "altered/maps/way_to_sullengard_east1.tmx",
+            "height": 800,
+            "width": 352,
+            "x": -384,
+            "y": 352
+        },
+        {
+            "fileName": "created/maps/sullengard_ravine_3_1.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 0,
+            "y": 832
+        },
+        {
+            "fileName": "created/maps/sullengard_ravine_3_2.tmx",
+            "height": 736,
+            "width": 576,
+            "x": 960,
+            "y": 928
+        },
+        {
+            "fileName": "created/maps/sullengard_ravine_4_1.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 0,
+            "y": 1824
+        },
+        {
+            "fileName": "altered/maps/way_to_sullengard_east2.tmx",
+            "height": 480,
+            "width": 480,
+            "x": -512,
+            "y": 1184
+        },
+        {
+            "fileName": "altered/maps/way_to_sullengard_east2a.tmx",
+            "height": 448,
+            "width": 480,
+            "x": -512,
+            "y": 1696
+        },
+        {
+            "fileName": "altered/maps/sullengard_ravine2.tmx",
+            "height": 608,
+            "width": 480,
+            "x": -512,
+            "y": 2176
         }
     ],
     "onlyShowAdjacentMaps": false,
