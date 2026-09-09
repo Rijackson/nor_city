@@ -57,7 +57,19 @@
             },
             {
                 "progress":300,
-                "logText":"PC Is on the ravine ladder."
+                "logText":"PC is on the ravine ladder on platform 1."
+            },
+            {
+                "progress":301,
+                "logText":"PC is on the ravine ladder headed down on platform 1."
+            },
+            {
+                "progress":302,
+                "logText":"PC is on the ravine ladder on platform 2."
+            },
+            {
+                "progress":303,
+                "logText":"PC is on the ravine ladder headed down on platform 2."
             }
         ]
     },

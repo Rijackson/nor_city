@@ -2138,17 +2138,7 @@
         "message":"wrqweq"
     },
     {
-        "id":"sullengard_ravine_ladder",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"nor_city_road_nondisplay",
-                "value":300
-            }
-        ]
-    },
-    {
-        "id":"sullengard_ravine_ladder_ledge",
+        "id":"sullengard_ravine_ladder_ledge_top",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -2158,7 +2148,87 @@
         ]
     },
     {
+        "id":"sullengard_ravine_ladder_ledge_bottom",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":302
+            }
+        ]
+    },
+    {
         "id":"sullengard_revine_not_walkable",
         "message":"Be careful! You don't want to fall."
+    },
+    {
+        "id":"sullengard_ravine_ladder1",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_ravine_ladder1_has300",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder1_has300",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":301
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder_bottom1",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_ravine_ladder1_has302",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":302
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder1_has302",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":303
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder_top1",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":301
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder_bottom",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":303
+            }
+        ]
     }
 ]
