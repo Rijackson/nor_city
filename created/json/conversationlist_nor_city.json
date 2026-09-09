@@ -2136,5 +2136,29 @@
     {
         "id":"leodan_4",
         "message":"wrqweq"
+    },
+    {
+        "id":"sullengard_ravine_ladder",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":300
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ladder_ledge",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":300
+            }
+        ]
+    },
+    {
+        "id":"sullengard_revine_not_walkable",
+        "message":"Be careful! You don't want to fall."
     }
 ]

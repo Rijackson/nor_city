@@ -54,6 +54,10 @@
             {
                 "progress":90,
                 "logText":"Said you would help Celynn"
+            },
+            {
+                "progress":300,
+                "logText":"PC Is on the ravine ladder."
             }
         ]
     },
