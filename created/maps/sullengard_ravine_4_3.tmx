@@ -190,12 +190,12 @@
  </layer>
  <layer id="1" name="Ground" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxL5WRgSB3Fo3iY4C8y1DGHVZaBQUyWcnPEZaljFsgcEP5Mof9g5lDqJpg5lLppsJrzEGiGBoXhQ6kZIJzOSXmcU9McavgJhKmVT6nhllFMPwwALiTosQ==
+   eJxL5WRgSB3Fo3iA8RcZTDyQ5rDKUscccVlUs8gNH5A5IPyZSuZQ6iaYOZS6Cd0cSv1FLXMeUiGcKTUDhNM5KY9zbOaQax41/IRsP6X5C9k8apg12MwZbhgATCsDZQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4gGZZ6pizSXZwmtUyjN00mMxZBDRjMoXmUMMMTdnhFy7UcgsIUMMto4B+AAAPaA6Y
+   eJxjYBgFo2DgQZMsA8NmJNwsS545W9D0tZBpDjJYBDRjMhXMoYZbqGnOJgrCGRkMx/Chhp/QzegWY2DoFSPNDE1ZRDyB9PcAcQ0Q15JoDrJ7cqF6s4H0XBLNQfbTbKDeOWSYAQKwOGqiML/D7J4C1U9pmp6CpJeSdDQJqHcxFFMjbwwXAAAwHiSR
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="30">

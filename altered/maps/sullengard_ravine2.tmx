@@ -180,6 +180,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../created/drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="15" height="19">
   <data encoding="base64" compression="zlib">
    eJx7w8TA8AaI3wLxPyi+zIkb/0NS9wZJLz492PBA6SXGjyMRB/IyMAQD8RVOCCZFbyIvgh3MS5reQqj6JCCdTKJemN3E6t3GhN1uQvg4UN8JID5JRrqhhl4Q3saE6X6Yn7DhE1gwuhsuDhAGAI/573k=
@@ -197,7 +200,7 @@
  </layer>
  <layer id="4" name="Top" width="15" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBhZ4JPYQLtgFIyCwQsuSjIwXJLELnZRErseUgEAKIgFnQ==
+   eJxjYBhZ4JPYQLtgFIyCwQsuSjIwXJLELgaid8lSbgcAYYcGdA==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="15" height="19" visible="0">
