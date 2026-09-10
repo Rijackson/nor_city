@@ -194,7 +194,7 @@
  </layer>
  <layer name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzjkmJg4ARiLiAGAX4gLQBlwwCyPLrYS0mEGCG9U4UZGKYJM9AVLAXat0wY0/20BiEDYOexAbBzoMBI8edAgNGwHQVDEYyUdDtS/DlSwEiJz4Hw50gJ21EwvAAAxncIUw==
+   eJzjkmJg4ARiLiAGAX4gLQBlwwCyPLrYS0mEGCG9U4UZGKYJM9AVLAXat0wY0/20BiEDYOexAbBzoMBI8edAgNGwHQVDEYyUdDtS/DlSwEiJz4Hw50DY+VmSsBpqg1kCo3YOJzsBJ/gMBw==
   </data>
  </layer>
  <layer name="Above" width="29" height="30">
@@ -204,7 +204,7 @@
  </layer>
  <layer name="Walkable" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcBGKQQCZDQP4xJDFCenFJk9rMBB2wuwdCXaOglEwCkbBKBgFo2AUjIJRMAooA6B2PADsnRL0
+   eJy7KMbAcBGKQQCZDQP4xJDFCenFpofWYCDsRLZ3uNsJs3ck2DkQYDRsR8FQBCMl3Y4UO0cKGI1P2oGRErajdo7aSal9AHh1Jec=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -212,6 +212,12 @@
    <properties>
     <property name="map" value="sullengard_ravine_3_2"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="32" y="928" width="864" height="32">
+   <properties>
+    <property name="map" value="sullengard_ravine_4_1"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

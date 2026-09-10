@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -175,44 +175,57 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7245" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7373" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="7481" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_transition_2.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="10" name="Base" width="18" height="30">
+ <layer id="1" name="Base" width="18" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRgAzEZQeHGYMNpHMOtAtGwVAGAFI7ANk=
   </data>
  </layer>
- <layer id="1" name="Ground" width="18" height="30">
+ <layer id="2" name="Ground" width="18" height="30">
   <data encoding="base64" compression="zlib">
    eJxL5WRgSB3Fo3iA8RcZTDyQ5rDKUscccVlUs8gNH5A5IPyZSuZQ6iaYOZS6Cd0cSv1FLXMeUiGcKTUDhNM5KY9zbOaQax41/IRsP6X5C9k8apg12MwZbhgATCsDZQ==
   </data>
  </layer>
- <layer id="2" name="Objects" width="18" height="30">
+ <layer id="3" name="Objects" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJyTk2cYBaNgwEGTLAPDZiTcLEueOVvQ9LWQaQ4yWAQ0YzIVzKGGW6hpziYKwhkZDMfwoYaf0M3oFmNg6BUjzQxNWUQ8gfT3AHENENeSaE6FEMI9uVC92UB6LonmIPtpNlDvHDLMAAFYHDVRmN9hdk+B6qc0TU9B0ktJOpoE1LsYiqmRN4YLAACQGiVY
+   eJyTk2cgCugK4MejYBRQAppkGRg2I+FmWfLM2YKmr4VMc5DBIqAZk6lgDjXcQk1zNlEQzshgOIYPNfyEbka3GANDrxhpZmjKIuIJpL8HiGuAuJZEcyqEEO7JherNBtJzSTQH2U+zgXrnkGEGCMDiqInC/A6zewpUP6VpegqSXkrS0SSg3sVQTI28MVwAAD8aJ0A=
   </data>
  </layer>
- <layer id="3" name="Above" width="18" height="30">
+ <layer id="4" name="Above" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMBhBhtBAu2AUjALqAQBfjQB7
+   eJxjYBgFo2DgwVkJ6phzl0rmjIJRMBhAhtBAu2AUjALqAQAKqgJV
   </data>
  </layer>
- <layer id="9" name="Walkable" width="18" height="30" visible="0">
+ <layer id="5" name="Walkable" width="18" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzzlWEYBaNgFNAI+FIpf4HMoYZZ1DaHUrMGqzmUAmrG+2AyZxSMAkoAAN6vCDU=
+   eJzzlWEYBaNgwIEvldLhYDSHGmZR2xxKzRru5lAKBmM6HEzmjIKRCQCd/wqr
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="32" width="32" height="928">
+   <properties>
+    <property name="map" value="sullengard_ravine_4_2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="2" name="north" type="mapchange" x="32" y="0" width="288" height="32">
+   <properties>
+    <property name="map" value="sullengard_ravine_3_3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
