@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -175,13 +175,13 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7245" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_transition_2.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7373" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="7481" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="18" height="30">
   <data encoding="base64" compression="zlib">
@@ -190,20 +190,27 @@
  </layer>
  <layer id="2" name="Objects" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOmC5DHXOOAc05LjP4zcNm5jQy7ToG1QPTfwKqfwYZbj6GpB/dfGoAkJvIcRc6oKabaBHHmrLUMQsGBrt51DYTZJb2CPQzNQEt/AsCD5HyyWMy8wzMjG1AegcO80ixB1SmLAPi7WjmYQMws5DN3wbVuxxJDGbediRzc8UwzduG5JflRIQHsjuzxTDtJrV8XAFUP1cMVR+6X4gBy7CEwWADAI6ZPqw=
+   eJxjYKAOmC5DHXOOAc05LjO4zLNkwjQPm5nTyLTrGFQPTP8JqP4ZZLj5GJJ+dPNxAU2o/0yYcKuBAZCb0N3VTIQ+dIDNTZPJMAdmFqFwT8Zhtj0WcZB5mrLY1ReT6UaQedpk6NXDoQdkni0e8yzR5OxwqK0XQjUTBmzI9CeyWdpoYaiFZCY5YQFznxWSXmsquJNagFpmlQPjpEKIum5DBg+R8sljAmUMzC0wNroZ24D0Dhzm4bIHOc3BAKhMWQbE29HMwwZgZoHML5NAuAOkdzmSXph525HMzRXDNG8bkl+WE7Ab2VyQedlimHaTWm6vAKqfK4aqD90vxIBlWMJgsAEA63ZIAw==
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxFEy1LHHO9Rc0bNoQBEUcmcUTAKRsHQBwBUSAQw
+   eJxjYBgFwxFEy1LHHO9Rc0bNoQBEUcmcoQDShRgYMoQG2hUQgOyW9EHiJmSQJjHQLhgFAwEA7h8HDQ==
   </data>
  </layer>
- <layer id="9" name="Walkable" width="18" height="30" visible="0">
+ <layer id="4" name="Walkable" width="18" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0rENACAIRFEWcRD3X8zC5kIBAmdD+Anti6IiPdvrDsupetrJmpaDlud6zuv5Io5lZh1tVRz0GI5+D9YdmXv/8SfQ8txILMcyK7Ec9KapUweRnTZt
+   eJzt0rsJADAIRVEXySDZf7FUAQs/Me8VBnLB9qCgSK/m4Dl7WA7iWc6NmTmnZsWJrKrjmYijLdRhD/s+1LMc9m9pK3MrsZzIROrmaA/dBXU8k2H93mkBQLo9JQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="0" width="32" height="960">
+   <properties>
+    <property name="map" value="sullengard_ravine_4_1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
