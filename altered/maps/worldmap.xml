@@ -567,5 +567,8 @@
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
+    <namedarea id="mt_galmore" name="Mt. Galmore" type="other"/>
+    <namedarea id="mt_bwm" name="Blackwater Mountain" type="other"/>
+    <namedarea id="brightport" name="Brightport" type="settlement"/>
   </segment>
 </worldmap>
