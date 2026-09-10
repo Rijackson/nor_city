@@ -2218,6 +2218,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nor_city_road_nondisplay",
                 "value":301
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":300
             }
         ]
     },
@@ -2228,6 +2233,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"nor_city_road_nondisplay",
                 "value":303
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":302
             }
         ]
     }
