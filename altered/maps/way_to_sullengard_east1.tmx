@@ -235,6 +235,11 @@
     <property name="place" value="southeast"/>
    </properties>
   </object>
+  <object name="sullengard_ravine_pc_not_on_bottom" type="script" x="224" y="64" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="yellow_tooth_spawn1" type="spawn" x="64" y="32" width="128" height="128">

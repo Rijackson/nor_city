@@ -2240,5 +2240,15 @@
                 "value":302
             }
         ]
+    },
+    {
+        "id":"sullengard_ravine_pc_not_on_bottom",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":303
+            }
+        ]
     }
 ]
