@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,17 +190,17 @@
  </layer>
  <layer id="2" name="Objects" width="40" height="19">
   <data encoding="base64" compression="zlib">
-   eJy1Vj1PAkEQPTYRYwJBoTD8Ba2gUwpt1UI7tbYyJmBib+sHGnvQ+AOsifwG/4HRxFgSChMKiOKpO2HHezfsngfBl1zcj5nZN7NvFtvK+0Ui5znRmwvGde3T1XOVC/x4/9zEUxAL9wkLxl/GZaBvW4Xjoj2Py5DDlxp8S+bvWz5YI9TUgA+e/5IPc11Ww/wJFeBdVQE/sq0BBwLZ7Zm1YxEvCj1T1yrEoxx8Pf+GNY6HdoswrgM/3Gc/yvlIhfMj9KG+n5a7IX6XKogvfWQ8suN7KpnaX8Aa14/yKImcEV0LFz6H/Imrb2LdGH5crwLExZx80CrGvzY8yb9txqz5K0feeA+dbHBOMjvMe5LwBb9boROuSV2sSxyIvSLcIWtmRuTSgblNK1IX40DGRW3ZziTIXrO9a0WHjS2mtEVwDVz9jVqwaVhCxcjPdh7alsXeXz0tMZ2120Zp+V7oJ2HRj0RFrx869uR90DzuG8qYynjeznx4LSp/1+8f+1BdRuXQFHV5THleS/N6Sg3mu4If9tRa2vPW9beRtvNxgXXGZycj+vRBhfXR0rzuZvW75+AXp/8aOub+fOCP2iiIetjeCOw34oc1fNe8PvTXB36ngiPy4LOjephh6+UGnE2x5DuJIL/nTHhN1o+wou1WR9QRoqniva0uG7o3vkfkx/abem/Lwm8S7/mosNUvDraNLv77OxnT72zMvEbBq/4f6geSP6TJ
+   eJy1Vr1OAkEQPjYRYwJBoSC8glbQKYW2aqGdWlsZEzCxt/UHjT1ofABrIs/gGxhNjCWhMKGAKJ66E3a874bd8zD4JRv2Z36+mZ3Zo6O8HyRynhP9uWDe0Do9vVa5QI/Pz4w9BbbwnDBv9KVdBup2VNguyvO8AjF8quFYNL+vhWCPUFdDPuj/uRDmuqRG+ROqwLumAn4kWwcOBJLbNXtHwl4U+iavNbBHMfh6/QV7bA/lFmDeAH54znoU86EKx0cYQH4/LHdD/C5UYF/qSHskx/dUNrk/hz3OH8VRFjEjehYu7If0iatvbF0bfpyvItjFmHyoVbR/ZXiSfsfMueYvHXHjPXSzgZ9kdpT3JOELfjeiTjgnDbEvsS/OSnCHXDMzIpYurG21MglIu1hbLp+y12zvWskhY7MpZRGcA1d/Yy3Yalgi7jsh5ZB3RZz91tMS01m7rKzlKvi5E/WTsNSPBOkfOM7kfdA6bm4YUxnP286H96Lid33/WIfyMi6HlsjLQ8rz2prXY2q43hH8sKdW0563psd62s7HBa4z9p2M6NN7Fa6PtuZ1O6vfPQe/OP3X1Db38oE+1kZR5EN+OwjYb8QPc/imeb3rMQB+J4Ij8mDfUT3MsPVyE3yTLflOIkjvKRPek/kjLGu5lTHrCNFS9rxJuGTo3vgekR/Lb+izTQu/OD4nDVv+4mDL1MV/j+M/6p3+Ma5x8KL/Q30D+z6jMg==
   </data>
  </layer>
  <layer id="3" name="Above" width="40" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOHosRJ35fEocBONTjMhcX+CZInLm4xGntPmLNJdd8dPWf8OivZyLfXELipJpDKaCW+/CFFyWAUvcpCVPPLdgALn/TKjzQASn+o3VYUBvEDRH3xgPdmTBE3EoP8JlOaZ9cQKuyFB2g5zdiwwWf+8jNw9SME0rCj1J3EKMfl/so0UusWcTop1adO1LARWDb8heB9iW54CcBs0F2XyLCbgC8ZzB4
+   eJxjYMAOHosRJ35fEocBONTjMhcX+CZInLm4xGntPmLNJdd8dPWf8OivZyLfXELipJpDKaCW+/CFFyWAUvcpCVPPLdgALn/TKjzQASn+o3VYUBvE0cm98RTaA9KfMMTClpbgM53SPrmAVmUpOkDPb8SGCz73kZuHqRknlIQfpe4gRj8u91Gil1iziNFPrTp3pICLwLblLwLtS3LBTwJmg+y+RITdAIbJMOo=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="40" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzllYsNgDAIRDuF+6/kRi7A511BSSqJ0cSevAJe1zon7iu/vPWevptPeU/4p/kq34t01p5JPkvr6dR5sTis5+6+RJFx03nema0v99kdCrtSt0oeT6/60VRf1LxVj52si/JPKXw7HhedDZSP+CzxlUxr3Ylvq35ksWZ8Hd5P+KKaET66LuqXNzOVM+SP8VY9iLcQr3gAiBWU5A==
+   eJztlcENwDAIAzNF91+pG/XZCAG2gXyqWuqnSeAUiFnrO7ov/EX7o/PTfMo6wz/Nt8dE+fZ7i+J1OBBPdsbW1Yuh9ouNEfGd6J1IiJvt50pvsbXpSGGeiOv97zB0e6FSv6yWCkvFrxQxd8O++al8LINSk0k+ZbZ5uRm/Yt6G6tGWJ5u5yLcjIZ9HfIr3d/iyO2P42H3MrKuc/fXq5NxjvA/FeAAPTafX
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -222,25 +222,31 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="4" name="ravine_east" type="mapchange" x="1248" y="160" width="32" height="352">
+   <properties>
+    <property name="map" value="sullengard_ravine2"/>
+    <property name="place" value="ravone_west"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="4" name="yellow_tooth_spawn1" type="spawn" x="64" y="320" width="32" height="224">
+  <object id="5" name="yellow_tooth_spawn1" type="spawn" x="64" y="320" width="32" height="224">
    <properties>
     <property name="spawngroup" value="yellow_tooth"/>
    </properties>
   </object>
-  <object id="5" name="yellow_tooth_spawn2" type="spawn" x="416" y="416" width="128" height="128">
+  <object id="6" name="yellow_tooth_spawn2" type="spawn" x="416" y="416" width="128" height="128">
    <properties>
     <property name="spawngroup" value="yellow_tooth"/>
    </properties>
   </object>
-  <object id="6" name="yellow_tooth_spawn3" type="spawn" x="736" y="512" width="480" height="32">
+  <object id="7" name="yellow_tooth_spawn3" type="spawn" x="736" y="512" width="480" height="32">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="yellow_tooth"/>
    </properties>
   </object>
-  <object id="7" name="yellow_tooth_spawn4" type="spawn" x="544" y="512" width="192" height="32">
+  <object id="8" name="yellow_tooth_spawn4" type="spawn" x="544" y="512" width="192" height="32">
    <properties>
     <property name="spawngroup" value="yellow_tooth"/>
    </properties>
