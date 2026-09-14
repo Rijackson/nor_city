@@ -197,12 +197,12 @@
  </layer>
  <layer name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVs1OwkAQ3vYoJgQDIaEl9Y18ED2RqCRqCGj0oB6tJMYroCacTBH8uxWId48+gY/gwV3ZzQ7TWbaNJPolE7rbmflmvtmW9vPsB6HH2KXHSJyWGDvjdl6i72dBo8pYPz/jm3CLuY2lQf4rzrXF7eCXnCHIPyH6a4M90ec+tz1LryFRL9yHPJ/O7PeZ/0ZFxobVeU7V5ya361KyZsXTkzGxXFNcCl+Ss8P53ovzcZBX8JnyxGgPr/uOvr4H1wrTQMeNU9R8UUjuYbxInpyrYz4MZ3bkJGuGWHHtfBCe9B/KGuJi0ie09HAnY1dd7X9LaEdpoWaZQ3Vg4L4epZ8P9keGWBM8lLPtz68rbrLmG8SBc2AfOMu3QO+/Sh/Yr0nnRfqb5i30x7OEvawZ4qgZFZBvRa6fnFlPDRAjZnmMdMRQ+uQznlXBdWLJPQUaw17U2QxcPQdVNxUDZ0WBmskUxfhuMk/dp/1NfBRPndBA5LLVnCa3wsZ6tlw2xIgL99CS69qC+R5ZZr8s2N53ELaz/heAzwjUeTeFxtTZyqKHDfgc/FdQOmAoXWqExgr4fZVWyyZ4lg8D+t4y59Jc8O4Q97bL9jhcp4Bp3iou4v+NA24Phu8ZBaUr5ItAHMWN/VVMV8Z0JPeAqKEG+CLg0wXfrJC3herDMSZ0DPxtL+ln0wjH2LBT1r1Ehjp7hpxRit4ofANALZ58
+   eJzNVk1PwkAQ3fYoJgQDIaGQ+o/8IXoiUUnUENDoQT1aSYxXQE04mSL4dSsQ7x79Bf4ED+7KTjpMZ9kSSfQlG+h23ryZN9tCLyt+EHhCXHqCxWlBiDO5zgv8/UVQrwjRy071xnJFco30wvpXUmtLroNfagYo/5jpr4X2VJ/7cu1Zeg2YevE+1vl0pp/P8jPMCzGozGpCn5tyXReSNYNOV3Mifc1pAb60ZlvqvedneVhX6ZnyRGSPXvec+Ps9+g6Y+DFvlKLmi1xyj+JF62TcmPNhOLNDJ1kzxopr18PwdPxA1xDlkzGBpYc7zV114/hbxjvOC5hlhtRBQft61HFltD80cE3wSM5Wefa65CZrviEaNAeNwbN88+P9Vx2D+zX5PM9/07yV/3SWuJc1A4+bUY7ElvT1kzPtqY44apbHxEcK8Ce74FlVWieW3BPkMe4FzqbvxnOAujkOnhUHbiYTwim7yTy1Mh9v0uN0aowHKpet5jS5ARvri+WyISJatIemvq7Ome+RZfbLgu19h2E7638B/Ixgn3dTeMydrUX8sIGeg/8KzgcK8KXKeAyg76u0XjbQs3zo8/eWOZfGnHeHurddtPNonQqmeQMvlL+NfbkeDP9nAOAr1gsRj9Om8cDpaE5ba/dJDTvFeKaKH6KYDvrPinWbpD7KMaHN6Cu0vGSczSPKsUH1Cb2Ehjq7hpxhit44fAP/wp8J
   </data>
  </layer>
  <layer name="Above" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZYB0/pthMWQaGWbK0se+9NG65XVS2E2bXfTx2kmIOKXaRayexbgapQ7cLWc9JeQaGU/Kk2UXIzvsE7OSXQWB8ZqDTUkzk2wkD+OKIGP0gwM1Emp34wotYO5HV49KDHJfv6GQnLB75CORJatiJz0/UtpNYu4rF8dtJyByQOlL91YzDTmLNwaXORoF4NxBj1zZB4s0bBcMXjKaDoQlSxQmrwQZG43vwgjQy43SoAQANSlTf
+   eJxjYBgZYB0/pthMWQaGWbK0se+9NG65XVS2E2bXfTx2kmIOKXaRayexbgapQ7cLWc9JeQaGU/Kk2UXIzvsE7OSXQWB8ZqDTUkzk2wkD+OKIGP0gwM1Emp34wotYO5HV49KDHJfv6GQnLB75CORJatiJz0/UtpNYu4rF8dtJyByQOlL91YzDTmLNwaXORoF4NxBj1zZB4s0bBcMXjKaDoQlSxQmrwQaGYnynkenXoQZGij8B78NVXA==
   </data>
  </layer>
  <layer name="Top" width="29" height="30">
@@ -212,7 +212,7 @@
  </layer>
  <layer name="Walkable" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJztktEJACEMQ28P9x/HnfyQA5FWTa2RcvegX9ZE0+b0UMmpFhum5/vHvtozhlfbY9FZ9dI8d3VmfVKurGJ6ItlF9vzaLE/mOwPNZnQHZXXntH7ER/P2wlNL0vPW/5Hp9w3pP0GUuVvfyfjfjQxv5xFlb6xEmukOBQ2v/qk=
+   eJztklEOABEMRN3D/Y/jTvshEpEWY2ukYZJ+qXk6lWKgKsVcbDGZZca26jMGq+5Z8Zllacy/PqM+KVdWMZlIdp6Zt+1yZ74jodn07qCa/XNaP8LR2Fay9JL8rP2fZLX/DenfIS97X30nY74TGZ7Ogzmzp3y9MT9JA/+R
   </data>
  </layer>
  <layer name="Platform1_NotWalkable" width="29" height="30" visible="0">
@@ -245,9 +245,9 @@
    eJztzsEAAAAIBLAzyT7OAALo0UawBGDruh4AAPwxWk4Axg==
   </data>
  </layer>
- <layer name="Walkable_Above" width="29" height="30" visible="0">
+ <layer name="Walkable_Above" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaOAdHBWGjumtX343EFNdxJjJjXcSY3wI6QP2WxK7SFFPz3SxXABAKmRJSk=
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAdHBWGjumtX343EFNdxJjJjXcSY3wI6QP2WxK44kU/fRIF8MFAABuPSRB
   </data>
  </layer>
  <layer name="Walkable_Below" width="29" height="30" visible="0">
@@ -266,22 +266,22 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_ladder_ledge_top" type="script" x="64" y="160" width="32" height="64">
+  <object name="sullengard_ravine_ladder_ledge_top" type="script" x="64" y="128" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_ladder_ledge_top" type="script" x="128" y="160" width="32" height="64">
+  <object name="sullengard_ravine_ladder_ledge_top" type="script" x="128" y="128" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_ladder_ledge_bottom" type="script" x="32" y="288" width="32" height="64">
+  <object name="sullengard_ravine_ladder_ledge_bottom" type="script" x="32" y="256" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_ladder_ledge_bottom" type="script" x="96" y="288" width="32" height="64">
+  <object name="sullengard_ravine_ladder_ledge_bottom" type="script" x="96" y="256" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -335,7 +335,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Replace">
-  <object name="ravine_platform1_not_walkable" type="replace" x="64" y="160" width="96" height="64">
+  <object name="ravine_platform1_not_walkable" type="replace" x="64" y="128" width="96" height="64">
    <properties>
     <property name="Walkable" value="Platform1_NotWalkable"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -343,7 +343,7 @@
     <property name="requireValue" value="301"/>
    </properties>
   </object>
-  <object name="ravine_platform1_walkable" type="replace" x="64" y="160" width="96" height="64">
+  <object name="ravine_platform1_walkable" type="replace" x="64" y="128" width="96" height="64">
    <properties>
     <property name="Walkable" value="Platform1_Walkable"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -352,7 +352,7 @@
     <property name="requireValue" value="301"/>
    </properties>
   </object>
-  <object name="ravine_platform2_not_walkable" type="replace" x="32" y="288" width="96" height="64">
+  <object name="ravine_platform2_not_walkable" type="replace" x="32" y="256" width="96" height="64">
    <properties>
     <property name="Walkable" value="Platform2_NotWalkable"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -360,7 +360,7 @@
     <property name="requireValue" value="303"/>
    </properties>
   </object>
-  <object name="ravine_platform2_walkable" type="replace" x="32" y="288" width="96" height="64">
+  <object name="ravine_platform2_walkable" type="replace" x="32" y="256" width="96" height="64">
    <properties>
     <property name="Walkable" value="Platform2_Walkable"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -403,7 +403,7 @@
     <property name="requireValue" value="302"/>
    </properties>
   </object>
-  <object name="replace_below" type="replace" x="0" y="704" width="896" height="224">
+  <object name="replace_below" type="replace" x="32" y="704" width="864" height="224">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -411,7 +411,7 @@
     <property name="requireValue" value="303"/>
    </properties>
   </object>
-  <object name="replace_above" type="replace" x="0" y="704" width="896" height="224">
+  <object name="replace_above" type="replace" x="32" y="704" width="864" height="224">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
