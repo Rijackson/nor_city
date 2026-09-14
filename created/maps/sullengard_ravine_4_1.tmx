@@ -215,6 +215,16 @@
    eJztklEOABEMRN3D/Y/jTvshEpEWY2ukYZJ+qXk6lWKgKsVcbDGZZca26jMGq+5Z8Zllacy/PqM+KVdWMZlIdp6Zt+1yZ74jodn07qCa/XNaP8LR2Fay9JL8rP2fZLX/DenfIS97X30nY74TGZ7Ogzmzp3y9MT9JA/+R
   </data>
  </layer>
+ <layer name="Walkable_Above" width="29" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAdHBWGjumtX343EFNdxJjJjXcSY3wI6QP2WxK44kU/fRIF8MFAABuPSRB
+  </data>
+ </layer>
+ <layer name="Walkable_Below" width="29" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaNg6ICz0qiYXvYh87Gxcekj1Z3Y1BNjFjZ3EqOe3HAkxS2E1BNrFyH96H6iR/qgFgAAZcclKQ==
+  </data>
+ </layer>
  <layer name="Platform1_NotWalkable" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzTERAAAIA7H6wL8cPDFjoZcsP35Co53f1icAADQ4xtMDoQ==
@@ -243,16 +253,6 @@
  <layer name="Above_Platform2" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzsEAAAAIBLAzyT7OAALo0UawBGDruh4AAPwxWk4Axg==
-  </data>
- </layer>
- <layer name="Walkable_Above" width="29" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaOAdHBWGjumtX343EFNdxJjJjXcSY3wI6QP2WxK44kU/fRIF8MFAABuPSRB
-  </data>
- </layer>
- <layer name="Walkable_Below" width="29" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaNg6ICz0qiYXvYh87Gxcekj1Z3Y1BNjFjZ3EqOe3HAkxS2E1BNrFyH96H6iR/qgFgAAZcclKQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">

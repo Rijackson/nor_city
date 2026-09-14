@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,109 +183,152 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="40" height="19">
+ <layer id="1" name="Base" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJztk80NgzAMRpFv3X8XViDlhhgjdIWoRGApWPaXpIJSQQ9PQY4dv/wwUdNMglfy7Y24hlfWCSteqZf5yKPWL4ix1C+I2N5+48NG86vJv5Kfdge5fpH0/nK5Ml8S5y0/bY8lfkegeWvzZ7j9uTYtLZztYTHMuNnv+aOOyG9IOKp/nzmXT8+P3wV6G7ne49p7b7+OlhrGqmU/tI+4FtoH8utAvMSvJO8bfo629+2SEeW1IM6wX02to+2/c2fe9uWSfg==
+   eJxjYBgFgwmcYMKOyQW3oPpvMSHMv4VkHiGzKbGbWmaB9F3kRGBKw4SW4A2V3TVq3qh5A2neZc5R84gFyGXSRU5UGp9aWoLBWk4OVgAAcSggDw==
   </data>
  </layer>
- <layer id="2" name="Objects" width="40" height="19">
+ <layer id="2" name="Ground" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJy1Vj1PAkEQPTYRYwJBoSD8Ba2gUxK1VQvt1NrKmICJva0faOxB4w+wJvIb/AdGE2NJKEwoIIqn7oQd792wewLBl1y83Z1582Z25rClvF/EMp4T3bngvaZ9OnqtMoEfn58bPgVceE6YN/6Sl4G+LRXmRXt+L0EOX6r/LJq/b7lgj1BVfT0Y/yUX1rqkBvUTyqC7ogJ9ZFsFDQSy2zN7x4IvCl1T1wrwUQ6+Xn/DHvOh3QK810AfnrMf5XykwvkRelDfT8vdkL5LFfBLH8lHdnxPRVP7C9jj+lEeRZEzomPRwnHIn7T6huvG6ON65YEXc/KhV5H/2ugk/5Z5556/cuSN99BOB3Hi6UHdk4Qv9N2KPuGa1MS+xIE4K8Adcs/MiFzasLb1yiQgebG3XDHlrNm+awWHjY1T2iK4Bq75xl6w9bCE5Fl29I+0Q90lcfbXTEtMp+22spfLEOde9E/M0j8S5H/oOJP3Qethv6GMqZTn7WTDe1H5u37/2IfqMqqGhqjLY8LzmlrXU6K/3hX6cKbWkp63rp+NpF2PC9xnHDseMacPKtwfTa3rblZ/9xz6hpm/uubczwb+2Bt5UQ/520HAeSN9WMN3retDPz3Qdyo0og6OHTXDDNss1yE2ccnvJIL8nlPhPVk/woq2Wx2xjxANZa+bhMuG7o3vEfWx/aY+27LoGybmpGGr3zDYNn3x38/JmH5nY+Y1Cl71/1A/70qjgg==
+   eJztlEsOwiAQQAm7XkAavZF6AY/gDTyZV9C4a9xpNy79wAVsiJ3ABCS0ICWmiTZ5GWY68wpdUBWEVH9Gw7QkZOEwK9N9y3b2RgmZt/FE39eY981fqekFHi0HHYHaWgO7Hh+4zk6/6xMeH/yDDTNAji7+oQ/2YZ8HgTpP8N2d/DJRkdPv+erMPjFin9QOfISuITE+u/9YKAdEHyGfbybV1zUTQjo+OcDlAr5crpBvm7DvLh/eQ753eB/l8EF9r3lSdQZgzVT/ipmaTRPhs4m9733fGeL7NV7YDvK/
   </data>
  </layer>
- <layer id="3" name="Above" width="40" height="19">
+ <layer id="3" name="Objects" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOHosRJ35fEocBONTjMhcX+CZInLm4xGntPmLNJdd8dPWf8OivZyLfXELipJpDKaCW+/CFFyWAUvcpCVPPLdgALn/TKjzQASn+o3VYUBvE0cm98RTaA9KfMMTClpbgM53SPrmAVmUpOkDPb8SGCz73kZuHqRknlIQfpe4gRj8u91Gil1iziNFPrTp3pICLwLblLwLtS3LBTwJmg+y+RITdAIbJMOo=
+   eJydlb1KA0EQx/c2IJegxV3EfGhhGxVs0oQo2ikkgl1EtLISrfQJLPwIloKNz6G+iaK+QIJgIcEqRnfcXW5udi53+IdhV2fmNzN3ud1BKP6UrwpRUNavuDYItU0q/xSK2Tb7NeVbDyMGXWVRsHqdEeIpxSC/FwjxFeicXhDl+2Gc9zwT1ZogvvlQx9ueQHYeThAPvDSNm48qC+9T1S2EvI/WAZ59BngWGteX7r5V1jZb1s9q0dO8JS+eWy1HsWBpmjMxHA9Y7QwMUA31DM8YeH3Dg3fYSmFdS37/YvZN09eKWd9QDM0B3Ul+b9VSnF1lbc/14Zwak8spjUdF+/0v78xw6Ixb5G/MO8g4E9Y+eZ6Yd5ryLkAjqY1TQybPuyB1vRuSO7TnSk7vh0Hcn8T7QZx35rtdTjgbMK8hI9aGsk3EhD4+mDnh/3XF/pYuD/fVUesOycc8Ww++VTxz0rwQM13U62ro8rh6EIt5tg6ud49zcnE/fRdJ/dWL8dhOyc2FOg/GHqXb356XXPOwFPnqKWf+kTn/jsd8b5ZnxdXEscC7VOtVgnWVNcvZrGt4efKbxfcjyN7tIO6ew/eOvd9oHGae+9oufNd3wtznWXXru/lUmGf7HlX0anv+BfF6gUg=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="40" height="19" visible="0">
+ <layer id="4" name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJzdllEOgDAIQ3cK738lb+TvsqzSQkeiTfxRYS+sjI3xH91X/KD/UbybT/nO8Lv55pzRenPdUL4KR8TzFrPu6y6H6pc1B+I74R2kiJv1c8Zb7N5UpDA78u7eVxiqXmBj2b5VWNTzShVTm+4zuIOhupbbT9m54qil2m9ZuerqYHPMhwormtvR/Orsg6/o5Nxj7jtRjgc1vG4X
+   eJz7JcnA8BOIfyHRlABK9aMDZDf9AdJ/B5n7yAW4/AJzHzXiAgS4pCA0pxSCTQ3wWAw7G5u70cWQ1RMyjxOHm2F++SxGmnn4AMwsSs2DyT8eNW9ImveJRPOwqcdmh4owYfNw2U1sGkZWi88f5JhHqRp0tbjCAwQIxQGpduOzixzz0AG1ymsYILa8xmYvvxBu9YTqUJC9+PxCjj+R/UJuGMHcje5+binC9Q06gMn/waIPADJTcgo=
   </data>
  </layer>
- <layer id="5" name="Walkable_Above" width="40" height="19" visible="0">
+ <layer id="5" name="Top" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMBjBRTFUPJgBvd1HarhQ033E2A2To6b7kM3ElzaIsRtZjhS7sbmDkDm43IdsBj6zyHUfseZgC1dy7SNGPanmEOsufOkBWRyXWbjESE3Lo2BwAAA+KjuP
+   eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
   </data>
  </layer>
- <layer id="6" name="Walkable_Below" width="40" height="19" visible="0">
+ <layer id="6" name="Walkable" width="20" height="29" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBxfFEHgwg4FyH7H20sJ9xJhJC/chpwl8aYNY95HrD1x60cXwuY+QPwbCfTA+Mf6gl/twYWLVEdJPrr6RDgDawUOu
+   eJzVk8ENACEIBK8K+2/Jju53MYSBRbyHJP7cZZB1juerOf45nerqrc/KFPGpfU/xdf1oFmVWe0/h895x1ZIf5UPNkaKr+kVsHb5b71X+9e1+WZYVvyzzlP8sc5aNfBReqyW2bBbqGVWVR3kbr3e0E+Ks7oP6eL7Uk7yUvWe1qyO9MufO/qM87PBWPShTL6ccEJI=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="32" y="576" width="1216" height="32">
+  <object id="1" name="east" type="mapchange" x="608" y="32" width="32" height="192">
    <properties>
-    <property name="map" value="way_to_sullengard_east5"/>
-    <property name="place" value="ravine"/>
-   </properties>
-  </object>
-  <object id="2" name="west" type="mapchange" x="0" y="320" width="32" height="288">
-   <properties>
-    <property name="map" value="way_to_sullengard_east4_bridge"/>
-    <property name="place" value="east2"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="1248" y="512" width="32" height="64">
-   <properties>
-    <property name="map" value="sullengard_ravine2"/>
+    <property name="map" value="way_to_sullengard_east_ravine_north"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="4" name="ravine_east" type="mapchange" x="1248" y="160" width="32" height="352">
+  <object id="2" name="sullengard_ravine_fear_of_heights_selector" type="script" x="32" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="sullengard_ravine2"/>
-    <property name="place" value="ravine_west"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="5" name="ravine_west" type="mapchange" x="0" y="224" width="32" height="64">
+  <object id="3" name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="320" width="32" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east4_bridge"/>
-    <property name="place" value="ravine_east"/>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="4" name="sullengard_ravine_ledge" type="script" x="32" y="384" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="5" name="sull_ravine_grazia_script" type="script" x="288" y="768" width="160" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="6" name="sull_ravine_not_helping_grazia" type="script" x="352" y="384" width="32" height="320">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object id="7" name="east2" type="mapchange" x="608" y="640" width="32" height="288">
+   <properties>
+    <property name="map" value="way_to_sullengard_east_ravine"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="8" name="sull_ravine_south_of_bridge" type="script" x="352" y="736" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="9" name="sull_ravine_not_south_of_bridge" type="script" x="352" y="320" width="32" height="416">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="10" name="south_left" type="mapchange" x="96" y="896" width="64" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east4"/>
+    <property name="place" value="north_left"/>
+   </properties>
+  </object>
+  <object id="11" name="south_middle" type="mapchange" x="224" y="896" width="192" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east4"/>
+    <property name="place" value="north_middle"/>
+   </properties>
+  </object>
+  <object id="12" name="south_right" type="mapchange" x="576" y="896" width="32" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east4"/>
+    <property name="place" value="north_right"/>
+   </properties>
+  </object>
+  <object id="13" name="ravine_east" type="mapchange" x="608" y="544" width="32" height="64">
+   <properties>
+    <property name="map" value="way_to_sullengard_east_ravine"/>
+    <property name="place" value="ravine_west"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="8" name="Spawn" visible="0">
-  <object id="6" name="yellow_tooth_spawn1" type="spawn" x="64" y="320" width="32" height="224">
+  <object id="14" name="sull_ravine_grazia" type="spawn" x="320" y="160" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="yellow_tooth"/>
+    <property name="spawngroup" value="sull_ravine_grazia"/>
    </properties>
   </object>
-  <object id="7" name="yellow_tooth_spawn2" type="spawn" x="416" y="416" width="128" height="128">
+  <object id="15" name="Object" type="spawn" x="224" y="32" width="128" height="64">
    <properties>
-    <property name="spawngroup" value="yellow_tooth"/>
+    <property name="spawngroup" value="hardshell_beetle"/>
    </properties>
   </object>
-  <object id="8" name="yellow_tooth_spawn3" type="spawn" x="736" y="512" width="480" height="32">
+  <object id="16" name="yellow_tooth_spawn2" type="spawn" x="192" y="800" width="320" height="64">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="yellow_tooth"/>
-   </properties>
-  </object>
-  <object id="9" name="yellow_tooth_spawn4" type="spawn" x="544" y="512" width="192" height="32">
-   <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="yellow_tooth"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace">
-  <object id="10" name="replace_below" type="replace" x="0" y="288" width="1248" height="288">
+ <objectgroup id="9" name="Keys" visible="0">
+  <object id="17" name="stop_grazia" type="key" x="0" y="160" width="96" height="64">
    <properties>
-    <property name="Walkable" value="Walkable_Below"/>
-    <property name="requireId" value="nor_city_road_nondisplay"/>
-    <property name="requireType" value="questLatestProgress"/>
-    <property name="requireValue" value="303"/>
+    <property name="phrase" value="stop_grazia_0"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="11" name="replace_above" type="replace" x="0" y="288" width="1248" height="256">
+  <object id="18" name="stop_grazia2" type="key" x="480" y="256" width="32" height="32">
    <properties>
-    <property name="Walkable" value="Walkable_Above"/>
-    <property name="requireId" value="nor_city_road_nondisplay"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questLatestProgress"/>
-    <property name="requireValue" value="303"/>
+    <property name="phrase" value="stop_grazia_0"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="19" name="stop_grazia3" type="key" x="96" y="864" width="512" height="32">
+   <properties>
+    <property name="phrase" value="stop_grazia_0"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
+ <objectgroup id="10" name="Replace"/>
 </map>
