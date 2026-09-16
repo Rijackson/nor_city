@@ -191,12 +191,12 @@
  </layer>
  <layer name="Objects" width="11" height="25">
   <data encoding="base64" compression="zlib">
-   eJx1U7tKA0EUvYXNLpE4gV12wZT6A5oPUf9AJIJiY7E+PkCNK4j6A7b+gTb2loIYNZV265YBIdp4LnPHuRPWA4dJbs6c+5pEOVEM7nboD5HEhglRC+esfN8xRAPjY07HMdYeGXu/Ba9tQwH21D3ty3mdz7668wbNM1gn4d1rfC5E15eT/Z7weWWGaBVcAw+N9y1F99K22ibEqh9GqXp6jVEPOIq9/hTxDdH2c+9bQfOIPDXOTcl7buw8qszXyz1V4lfL+Y7fPzLfu+ufMYHmG/wRbdzxXhpc1wX6vwSvQOra3OvSzxJqXQZ7ub/D9bWhm+uGu7+fb56Vwxc0k8RqT9Tu9Bzd3jjH2IT1Op3T8Hy2lA9riwZfnt04C/N8qplpjiQfvzOXR3v20HOCWCo9x/Ieb1Oiu9T665ktgItq35Hkv0nDejRYWxqvdXU0YajqfUhDnfbn3UzXcCxvzL2zwdQs9X/5PxRqR24Xej+MA8SNen9n0tsvmK5kCQ==
+   eJx1U7tKA0EUvYXNLpE4gV12wZT6A5oPUf9AJIJiY7E+PkCNK4j6A7b+gTb2loIYNZV265YBIdp4LnPHuRPWA4dJbs6c+5pEOVEM7nboD5HEhglRC+esfN8xRAPjY07HMdYeGXu/Ba9tQwH21D3ty3mdz7668wbNM1gn4d1rfC5E15eT/Z7weWWGaBVcAw+N9y1F99K22ibEqh9GqXp6jVEPOIq9/hTxDdH2c+9bQfOIPDXOTcl7buw8qszXyz1V4lfL+Y7fPzLfu+ufMYHmG/wRbdzxXhpc1wX6vwSvQOra3OvSzxJqXQZ7ub/D9bWhm+uGu7+fb56Vwxc0k8RqT9Tu9Bzd3jjH2IT1Op3T8Hy2lA9riwZfnt04C/N8qplpjiQfvzOXR3v20HOCWCo9ux3cpkR3qfXXM1sAF9W+I8l/k4b1aLC2NF7r6mjCUNX7kIY67c+7ma7hWN6Ye2eDqVnq//J/KNSO3C70fhgHiBv1/s6kt1+w02W+
   </data>
  </layer>
  <layer name="Above" width="11" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYICAPxIMDH+B+CcQ/5JgQAGckgw4AUwfOhubOfj0EguIMRcGfiH55yaRekKAfg0F4jAkP28UZGA4BMRpgpjqU9HCZhNUzTEofRFo7yUcdoPMBKnbgsVcYaC5Ikhmb4Lafx6IP8igqlUGqlPBEkf/oepICTNcANkMfPEGUwdTQyjc0d1GqluR3YIcZuj2/kRLl7jCDFktKN0Tcs9PIsIEl3tv4chvMHN5kPzyCofZMPNwufE2AX344ucnDjlcbgYA7qNSng==
+   eJxjYICAPxIMDH+B+CcQ/5JgQAGckgw4AUwfOhubOfj0EguIMRcGfiH55yaRekKAfg0F4jAkP28UZGA4BMRpgpjqU9HCZhNUzTEofRFo7yUcdoPMBKnbgsVcYaC5Ikhmb4Lafx6IP8igqlUGqlPBEkf/oepICTNcANkMfPEGUwdTQyjc0d1GqluR3YIcZsj2IscBzHxcYQZTAwKgdE/IPT+JCBNc7r2FI7/BzOVB8ssrHGbDzMPlxtsE9OGLn5845HC5GQAAFVNg
   </data>
  </layer>
  <layer name="Top" width="11" height="25">
@@ -235,7 +235,7 @@
     <property name="place" value="southeast"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_pc_not_on_bottom" type="script" x="224" y="64" width="32" height="32">
+  <object name="sullengard_ravine_pc_not_on_bottom" type="script" x="256" y="544" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
