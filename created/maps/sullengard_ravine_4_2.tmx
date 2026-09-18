@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="18" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,27 +186,45 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <tileset firstgid="8153" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN1VEKwyAMBmBf1rETuIJewHuV3XtXaA/QlvlDCIm2TQp7+ClK/UwQdHqFMDlkST7OI4cwZLsXN+Od7R4c7knmPkZ6Dr4wsW7I151YrWcdz0m3es6e8UDPZxypZ6uDnlGbxaFn/NlqKkYnVgcpTg71ioNDA0er9ajDTQ9H6vmqI9VndegZW527802/WIyF3S+Sp+2DeW5wT/qnVQO9U1o23UNb33rrejn7dmq1W51/ywo0yPOO
+   eJzN1VEKwyAMBmBf1rETuIFewHuV3XtXWA+wyvwhhBhbk8EefoqinwkFXW8hrA7Zko9zySEs2e7F3bhnuweHe5JZx8jIwRcm9i153onNurbxO/WtkVPzONDzGUfqWXPQi+ZgHWqbrSeScfWee03F6MTmIMXJoV5xcGjg9Go96nDTw5F6nnWk+qwO/cdW59d5pW8sxsbuF8nrnYN5bnBPWqPVQO8UzaZn9PZrb90oZ9/OXu1W59/yAWMt82o=
   </data>
  </layer>
  <layer id="2" name="Objects" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlDtOw0AQhq29gVNYFE5Ch0wkqjQ8cxhKkgoJKEAI6CIkIiEMMuZRJZwg4QSGayBaDsEO3pFnx7N2RJr8kuXV7sy3/8za+9P0Flaz7Xn34eIcUKY5H+Fy8Xoqf6+pgicx43/sNTBMyMH8T5P/IHDuGjLnzHjMSD4qq/EUmdyuKuaGSo4FT9zXlbLj+3ocG5+Jmb9kbMnTrSriQacOD6iE1Cz1/Zrk7ztYPWEeeBH5L1ISc1jjCdUncSM/53XMHJzhjRlfKDse1mgvNxz7AW9Xr72wdezZJuvlnhmnvh1/Tr4nWvOOiY8d3xsqM+uvvh3/Vy+7W9aJn84cfXxkXtHfFsndVvY5g6Dfdb5Hvs0EpUrO67KzdCli9SYVsVwp6d+xfk4aZR7oWWBmNbVyfZH/5Dus7hV6wTFnTPX7nfFc+yALv7l2y/NWW/kY7pSxfmaMJwlYQz/nH60UPiB3QnKRNyPcQVDmTUktk5q9KRd4B0F5b+nertKbjn8K7DxeyzwaCz1YNv0Cl8tnDQ==
+   eJzNlDtOw0AQhldbUsWRiCjy6lCwRJWGZw4CNyCpkIAChIAuQiISwiBjHlXCCRJOYLgGouUQ7OBZeXYyji3S5Jcsb3b/+WZ2duOfmppbtYZS99X5OaDYcD6qi8Xr6OS9qlOexAz+kauHTIix8Z8Y/yBw7soy5wxrjEm8VZxTUwtj2zqd62vZCzXxuq606++acYB1hjh/ydhSTbc69RdRSPYs9f0a15eaSvkZ97wj5ANei/gj4jksWF+X+AZewvNxDs7wBscX2vXDGu3lekY+4O2YtRe2foq/N1gvd3Ecea7/nNwnuudt9AcZ980qxvVXz/X/7Zf1fI3U4xfo4yOr1da3SWK3dHrOVtDvvLoHnssERVqOa7OzlLRcclmgMMO7Z7z7JXcuIv07Ns9JeZoHehaYcc5eub7I/+S7OrtXthY75oyxeb8zXlYey7J3rlFXqllPxvBNGZpnwniSgNX3Ev7RSloHxI5IrOVNCLdXmeaNyV5GObkpF3gHlenc0nd7lt6M/6nixvG9FNFQ6MGi6Rf2VmeY
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxFEy1LHHG86mJMuQR1zzlDJnDtUMocUgMucGibqmIMOtgnhluthwm1ONwnumQNUG4XDnNkk+msogHRgmGbgCVd0gC8OqOmWdArtQffXf1CcylFmZhoJeWwUDB8AAMsOD/U=
+   eJxjYBgFwxFEy1LHHG86mJMuQR1zzuAwRxOLHnzm3MFhjqQCAwOPAvHmkAJwmVPDRB1z0ME2IdxyPUy4zekmwT1zgGqjcJgzm0R/DQWQDgzTDDzhig7wxQE13ZJOoT3o/voPilM5ysxMIyHPj4LhAwBiWRCg
+  </data>
+ </layer>
+ <layer id="11" name="Top" width="18" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAPeyjMwSCkMtCtGwSgYBaNgaAIAvDsBRw==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="18" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0sEJwDAMA8AukkGy/2Klj0Afji1ZKuRRgX/hbAfPccmZBsNtPc4ql6N4kdMxKwc1GSezWGdnKs6yVOOLcs3l+vfIUW5rdxvo/kyYW0KsyMzeVnZ3L8Sp7qvy3kbWD+mD9GP6dILO8ues3H2bSDs=
+   eJzt0sENwCAMA0AW6SDsv1jVBxJCgdjY8Kql/NARQupT5FSD4bY+p5XLUbzI2TEzBzUZZ2WxzsxUnGapxoly9eWae+QouzXbDfT9TJhdQqzIXJ3NbPRd2Rl2Psh9uxn/UYljB3rL0dOfu3kBiPBC2w==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <layer id="5" name="Walkable_Above" width="18" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMJiBpSx2TI4ZxJqNy3xC9pLjtlEwMgAA/OgGDQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable_Below" width="18" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFKApSwqpsQMbGZSwx5quHEUDD4AAC9XBbc=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="0" width="32" height="960">
    <properties>
     <property name="map" value="sullengard_ravine_4_1"/>
@@ -226,7 +244,25 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace">
+  <object id="4" name="replace_below" type="replace" x="0" y="640" width="544" height="160">
+   <properties>
+    <property name="Walkable" value="Walkable_Below"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="303"/>
+   </properties>
+  </object>
+  <object id="5" name="replace_above" type="replace" x="0" y="640" width="544" height="160">
+   <properties>
+    <property name="Walkable" value="Walkable_Above"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="303"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
