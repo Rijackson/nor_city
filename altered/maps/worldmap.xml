@@ -539,7 +539,7 @@
     <map id="road_wild_pool" x="753" y="490"/>
     <map id="nor_city_road10" x="806" y="583"/>
     <map id="nor_city_road11" x="837" y="583"/>
-    <map id="road_wild_cabin" x="816" y="614"/>
+    <map id="road_wild_cabin" x="608" y="524"/>
     <map id="nor_city_road9" x="753" y="521"/>
     <map id="nor_city_road9a" x="763" y="552"/>
     <map id="nor_city_road9b" x="775" y="583"/>
@@ -550,6 +550,9 @@
     <map id="sullengard_ravine_4_2" x="548" y="524"/>
     <map id="sullengard_ravine_3_3" x="567" y="496"/>
     <map id="sullengard_ravine_4_3" x="567" y="524"/>
+    <map id="sullengard_ravine_4_4" x="586" y="524"/>
+    <map id="sullengard_ravine_3_4" x="579" y="506"/>
+    <map id="road_wild_cabin_n" x="608" y="513"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

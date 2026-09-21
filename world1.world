@@ -1856,7 +1856,7 @@
             "y":21952
         },
         {
-            "fileName":"../../ATSources/andors-trail/AndorsTrail/res/xml/way_to_sullengard_east6.tmx",
+            "fileName":"altered/maps/way_to_sullengard_east6.tmx",
             "height":1280,
             "width":800,
             "x":15744,
@@ -2101,7 +2101,7 @@
             "y":16128
         },
         {
-            "fileName":"../../ATSources/andors-trail/AndorsTrail/res/xml/way_to_sullengard_east4_bridge.tmx",
+            "fileName":"altered/maps/way_to_sullengard_east4_bridge.tmx",
             "height":928,
             "width":640,
             "x":14080,
@@ -3768,10 +3768,10 @@
         },
         {
             "fileName":"created/maps/road_wild_cabin.tmx",
-            "height":736,
+            "height":960,
             "width":640,
-            "x":26112,
-            "y":19648
+            "x":19456,
+            "y":16768
         },
         {
             "fileName":"created/maps/nor_city_road9.tmx",
@@ -3842,6 +3842,27 @@
             "width":576,
             "x":18144,
             "y":16768
+        },
+        {
+            "fileName":"created/maps/sullengard_ravine_4_4.tmx",
+            "height":960,
+            "width":672,
+            "x":18752,
+            "y":16768
+        },
+        {
+            "fileName":"created/maps/sullengard_ravine_3_4.tmx",
+            "height":544,
+            "width":896,
+            "x":18528,
+            "y":16192
+        },
+        {
+            "fileName":"created/maps/road_wild_cabin_n.tmx",
+            "height":320,
+            "width":896,
+            "x":19456,
+            "y":16416
         }
     ],
     "onlyShowAdjacentMaps":false,

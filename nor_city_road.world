@@ -195,6 +195,34 @@
             "width": 576,
             "x": 1568,
             "y": 1824
+        },
+        {
+            "fileName": "created/maps/road_wild_cabin.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 2880,
+            "y": 1824
+        },
+        {
+            "fileName": "created/maps/sullengard_ravine_4_4.tmx",
+            "height": 960,
+            "width": 672,
+            "x": 2176,
+            "y": 1824
+        },
+        {
+            "fileName": "created/maps/sullengard_ravine_3_4.tmx",
+            "height": 544,
+            "width": 896,
+            "x": 1952,
+            "y": 1248
+        },
+        {
+            "fileName": "created/maps/road_wild_cabin_n.tmx",
+            "height": 320,
+            "width": 896,
+            "x": 2880,
+            "y": 1472
         }
     ],
     "onlyShowAdjacentMaps": false,
