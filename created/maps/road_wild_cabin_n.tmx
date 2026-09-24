@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -185,27 +185,27 @@
  </tileset>
  <layer id="1" name="Base" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B+4DInBOMCFzkhGF09Pj3oapBpXPph9lzkxG0Wuj6YemxqCOkjNjxAbA5xBgZOcdLtwxdGIPBQErcfCZlHrJ3oYQoAixQ/Ag==
+   eJxjYBgFo4B+4DInBOMCFzkhGF09Lj3I8jA1yDQu/TB7LnLiNw9Z30Uscvgwsj5iwwPE5hBnYOAUR7iPHDuxgYeSuP1IyDxi7UQPUwDy+j/g
   </data>
  </layer>
  <layer id="2" name="Ground" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJztj7ENwlAMRF0EBAJqm8AEiBGYIGT5KGIBBEwA1Dnr54SJfiipYukV/3z2+TdLkWZi4k+UJrKz8f5cRRb6eZ8t8WumHPG4XoMq02POCrRBb3uqzM4nvG9whOZFD30HcALFRmRv31lxN3Ht1e8c5jp36LeQ5/nU6KvDLcM/+h0xa4u561rkoWnG+6wCszNw0dRnlvudWJzLZZom+O4A/ZXK4w==
+   eJztj7ENwkAMRV0EBILUNoEJMgMTHFk+ilgAARMANf5yLEy4a6li6RX29/e/69dE/czMn2iEaC9lfclEK/70JzFKnkbKO9A6JWU0z9koQ5gPIylz86G7rfZHBZUm2a5VNdFBvrPibQezp2ov/s0FN51f2f6AQr7PfK8Lb5n+Ee+IWTv1XbZEdzYPdK9KvQvlzKZ7FvZBLPflMoUN7990gsnR
   </data>
  </layer>
  <layer id="3" name="Objects" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJz7J8nAwCvFwMAjhUnzATEu8EgQlX8Nysdlzj+oPbw4zHwuiNBDKUC2mxB4KcvA8EoWwr4siF/tcwLy9AbE+I9a4CEw/h5J0seub8Bw5hQnTu1LMuMEXR8X0D4OIu1EBl+Aer4R0PcdaBc3UM1npPCzEWJg+CWG39x4OQaGBDns5uOzUwwo9xtqtgUwjVhKQeySBIr/JzO8nuGw7yEw77CJQ/wHssMDaJenFMSuD0D/AgDt1iSs
+   eJytUt0KgjAUPlfRP6wLZYP5HAU9QD1FvXNXdZVeZHZRQmFQZB2ZwzmnqfXBGO6c72fHxRRgxACGrLiPcSXYELHHaa8JZ5rv0XXkeRnfJxnnSvM6Kt/nAEdcHslndLHuGTKouCAv5EVv6Rtg7cSzbz2f1E48X1TkNPX+C/o/2fNi3YQt9u0M9/wF6nyboE2WCGfds+v1BqRdHp3XR79uTU8VN+REX3h39BrY4r1IzCcAD6tad+UArB2zfpWnhbVnqj3FNzJjwovi+bvhvCQOJX4uzrJji/slHgv0WjLhFeJ9P8OoPc0=
   </data>
  </layer>
  <layer id="4" name="Above" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAP/koSUEAC+EOEWSdlGRhOyVLPTnoCYvxHLXARaNclOto3EOA4HdOBjhADw3MC9tnLMTA4yFFmz2WkOLtIRPyRGscHgX44hMMfD3CYhS8tCQL9K0TAz4/Q7EM2DwC/NhRD
+   eJxjYMAP/kpC6D9INEgMRh+XZWA4IYuqBgQuAtmXJFHN+oPGPw/Ud0EW006YupNAuVNY5HG5EZsd1ATIZu8HuuuALG55ZLATqG4XEf7AB+6j6ccWvsQAariFmgCfe47T0Z06QgwMzwnYZy/HwOAgR5k9l9HyCCFAahwfBPrhEA5/PMBhFr60JAj0rxABPz/CkzYBPHAsSw==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="28" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJHOGBcgJE8qIMYsatpJTbeP2jf87EM2n5h0R420iWwGLvPw2UNqnkXP6wDWvzRX
+   eJy7KMbAcJHOGBdAlifGDEJsdLvwiRHrTnz24PMbOYCQm4hxI7XdQi99ML3UBoTilpYA2XxiwoUa8YgrjxBrDyl5FpkPwwCfjFah
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
