@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="21" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="21" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,17 +198,22 @@
  </layer>
  <layer id="3" name="Objects" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJybJMHAsBCIyQWTZBgYymUg7BQoTYl52MxtkaHcvKEIYmSpb2YODcwcSiBdjnpmjfSwBIFSKuR1cgGx+QOkLo6AWmxmEdLjh0eeFnmXFEDrtGk8BPIRyFxqps9WGtZDglQMTxgwpLKZsbIQPBSAOw3Ck5p1By1BPNCdAB1REZQ=
+   eJybJMHAsBCI8QFDOQYGIznscpNkGBjKZSDsFChNyDxiALK5LTKUm0cPUEoFfyODGFnqmgcCObK445ISQC2/3wS67xYN/A0D6VT0ew6N3CkPdKMCDeKIFoDaaZ4UQEz+KJeAqIsjoBZmFnLYo+sB+bUMyb9+eMyEmbdYkLAbYcAUaK8ZleI9HmhOAg3TkDEVzcZXv1ACQPmTmuVSK7QeaqeCmejxI0gD/xtS0UxQvoiVhWBqAlqlU3cqmAnL7zA3UlJ3wMqVchqVl8jlFsi9AOg5IXA=
   </data>
  </layer>
  <layer id="4" name="Above" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAne5gXbB8AKpEgPtAuIALeI9fQSnJeEh4vehkj5HwSigFrCnUd4EAOr6Atg=
+   eJxjYKAeKJdgYPgvS0UDoUBejvpmpkpQ30xqA0Ggv4Wo7HdDOer5fScwrnfRIL5hwJ0G8U5tAE7vQ8CdIDDY03w61H3Exju+sAf5NQ3Jv+lUjiNRoHliVDLTHmiOAw3TkDAVzaZFmQQDg7VcgsXPLRqWddQEtCqTFGicTikBsPxOjbwEC790GpWXyPFjT6Fb0cs5GAAAZJ8YXQ==
+  </data>
+ </layer>
+ <layer id="10" name="Top" width="21" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjADezlBtoFo4BYAAClNgBe
   </data>
  </layer>
  <layer id="5" name="Walkable" width="21" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzzlWFg8AViagFfKpsHM5PaYNTMUTNHzRw1c9TMUTNHzRw1c7iZCQC/Wg2K
+   eJzzlWFg8AVifMCXCDXI6ohRSwqgtnkj2UxaxA/MXGqZAzNrMLuTlmYO9jgaSmaSmpbwhT26HLFlIrGAmvE+lPIRreoNmNnUMoea4UlOWiLHDmqaRau6fbD6HdnPlLoTlxmUuhObG0EYAKXHHLc=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">

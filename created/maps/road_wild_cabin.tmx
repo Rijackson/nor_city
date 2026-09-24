@@ -198,21 +198,21 @@
  </layer>
  <layer id="3" name="Objects" width="28" height="30">
   <data encoding="base64" compression="zlib">
-   eJytV0tOG0EQLUDYQflIwwLsUZhFsmIB2SasIXeAM3AEliyzYs0lgCSQE+AcIZFCvsIhPyFFimQjcKo0U5pHUT3dlnhSy/2pqep69Zkx0e1iaZZoebZe/+0SfebxpXvLhiK4lxM9yMv5KCNqzRPd5TGcq/cErwqi14Wv4yPvf6rOCvDpdL6er/P5RiVzZXz8GvD5PEv3QyH+3M/rtdjC9TC7eecQmnwW2Hur7ancl/dwwPpfRu5hsQb6kVcLjUXMjxiGThx6rG+Px36iXivb5/n3aj0C/VoDYlP5XAdZ4RafVSiPlnvd/xnJpX9Vrob49OIUyyXrM8phbeBZU6w8v0cJNTLd4bru1GvhWPuP8DJOHC2w3j1oPL2+5vka6gUIm4/Ki8TwcaWvl+DPaYA7j2cPwum3bpmnKo8x7mfN9W3z5h3P3zuy2gfXxugrZ+Ab3uGX8Vm4bOJc6yGU4xj/fubPrVwMwucl3MnGO7Wf4Z1jfRbPsAfFkHoX0bVaxQ/5jvWlWC56tYv6pSYkhp4/Kof7m5Plr3wH3OExY/pUDMrdc5OrLRP/F5Wdrep3ju10eHTBXihmXi7uwFpy38rsTl6X3zZrRWrtN/VL8e3kIdFhm+iIx5t2uUZo3Frgr+SHjZHy+Rv2f2TXz8S3P6z/mO30eLxtl+txge8+5S9UA4MFoqcTRM94rEyUe4uGE49Lr9dIvUu/xjPbPwTWnuLMkcW6QB/0myL0/SCyKfWvdZ/yHYnwOBE7nq0B731g2ROQn85v6pH3wjLPnxR1DEN30uceFeW78pDHEcguFbWuAdzpwrzL8L+KzP8DglTb7g==
+   eJydV0tuE0EQrQTFDuIjzSzij6AXsGKRsAXWJHcwZ+AILFmyYs2CK/BNOAHmCCARIKAYE0BISEY2AlPFdGne1NR8kie13NVTU/+qHhOV8WFAdDAon08SokeB6HHI6F9JmWczJdpKc/rnoCjvYSjyezJOgjNpkT47JDo/zPZL1tHpMQ+vxUZ+JnjG9jw3Nine8fn7+CyA/MNevh/x81uR56+J20cnhoIfJ/BZ/Dk3zGnRJbTmY5GUba5Cnc8Ca7fqPjUs804qfHnC8p8aHVg7HrZBvsbVq0PNRZMfTVg4to9Ds50Iyzvh/edIL0G+9oDo1HiOgFdii+/+l5XkcbSx1/OjhlqaxVrFOvXkIOpqyc4AoZFPe6OTFmVgrrRmpvHX+i1YtuiRtT7r6ee0xFjnz1FyvDwq9J2Q1vNpPr36tHU5S/KeqrNJ35uZuEgOL8d3xi38OayInRdnDxLTT4OsTpUfc4x16UF5Nc+vef/G4dU5uG1qu66vMX5ow1fj8wJiPnXiof1QNS8x/zjj7LxrqhOExPMP1IudP23nGdpclwcBPsMZVAeJl9evHkTWzZg/vDea5lJTLXp9gvKlJ0bB90f58Pz2avYr3wHrvE736FjQ2O2YWu2Y/N+Leu7E3w3W0+c1AH1VOfNq8T7Q06TM82C1yH/X0Iq2vS8xr/omE9/2LxDtdon2eL3oZjRC89YBf6U+bI40nt/g/EtSfCa+fWf5L1nPmNerbka3hc5RvPs0flU9ML9IdG2F6DqvGyvZ2RV7Bzqx9L71pN9lXuMzr5esPoU3t7Av0Af9prB2aa0Jr9f/1h7t+zbfkSjDi4no8eI857O3zLsP82Ut9hXKkXthi/dXQ57DKpv0vUshuyt3ee0B72bIZc3Bpt/mLsP/KrL/BypE/5I=
   </data>
  </layer>
  <layer id="4" name="Above" width="28" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VjtOA0EMHVKlTQqkDTASqeEAcCkOkir8rwISny5pNxyBijYlSiQ8ylrrmPHYXla8Zmd3PP48f2ZD+B9sqhC2lS53F0O4j/m9N/j+LuwhLmD/MrY2KT4M9i2YjH/Hw20hLD6XYk7gfku2SrgB/beKHyW7lFcJWhxdMQed10a9XHYB62XmbA2xrZr4MJcpRprT3FmJRy+/Ep8lPVIt8ZhLNYd7pVxJnHlRszr15LGLrRXJKUUu1i6zoC9evPqmcecv7XueY0/dPMH62TFvrNB6oKQX+8EyL/uCNket84z6rHFA92qhXv/iSwLy7MmjVou53uX6Uw5z8fR171Igd5Lug6GuY9DISDmz1CLKjBR736MQxkTG2vvSP9OpIb7p0Ja3hFItanV6Ntg9Pw91nxLo3adx/HWy/z4DWxXIX8Fz3djLcZmLcdOhLzRIdxr+U/D80Vqz9D/2vXcueu+qF5B9zchTPYm3I1gfxzaHkk/c/gOsH8n7JLa6OJCj87jPUVrTOYhypdko5cc6T38A7HSaaQ==
+   eJy9VjtOw0AQXVKlTQokB1iJ1HCAcCmuQE/Fn6sQiU8HrZMjUNFSIiMxq3jkybLzMxav8do7O983sz6L4V/QVCF8V7rcDfhzy/j0DN9fFH8XsH8SO5srYnNtsG/BbPo7nqZdX4DtS+KjxWcp5oTc76ZHHFeg/zqzkfsq2cW8rgTbWhx9ofkpyb7C+q1wtibcwFqmGGlNS2dLeZS+c6A8terhuOThHO5JteJy5kWdccVTR+8ZrGeJn6VY10y/SueGyotX3zxu/KV9n9fYw5sHWC8d80biCs2f1gPS/MV+sMzLoaDNUes8oz5rOaB7NcPXv/iSgHn23HcaF0t9kutfMPfDUPcuBeaO070z1nWMWhmuZhYuosxEsfc1CWFKZKy9z/0zHRrim49tdUuQuKjx9Gi0eb7v6j4l0LtPy/HHwfb7OdiqQP4Unp+tvVIuSzE2PfpCA3d/4D9FXj/KNUv/Y99756L3rnoE2aeCPNWT8rYH6/3Y1ZDzKbd/B+t78j6Lna4cmKPjuJ2jtKZzEOWs9xOFdZ7+APqqpoY=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="28" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lNENxDAIQ2+K7r9SN7qP+4mQgWdKDymqSgi2A+G+Pqt2X78V/6P/bTvxFO65l/HKcih9CmdTb3avXRzJpfZVvKNnUm+i74zb7qlJr1Z1qfwRJ8N1/ZRn53fOdHEd10yfawpv2h/0DdE73dAzzVPxqmLj13mfNLbCIBydOabOVjWkHKgRviSfmhsk38a8yGIVryf5yRty5g6ZDbRfuv0O78lcdbS5td/QR++VzE8Xp9PVcczqROrnapya896jz+kBt1+m9Th9KmfG61/rC91cDPY=
+   eJy9lVEOwzAIQ3eK3v9KvdE+pkpVhvEzqWopmgYMcCDeeXz+cB6/U6HzVf7r+/28AVfzslGuKycVo+J24e5VxZFclb+KT+ZXxSZ1d2c3wRM8u51Z+1Y21ROxE25d/8RHd46+fdVXiqpemof+zu2n4pPcg9qTKdJ9WT+pzqSa1L2LLneqY1UepzEOyTxIvyQfvYPJf8M0tuprJz/RhER3iDbQfXF+V29HVxNu6eyf4EfvlehnWsfxcj2qOZH5pRynSN77akt2IN2X6Tzutiqn6uut8wXYKyKe
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="32" y="0" width="768" height="32">
+  <object id="1" name="north" type="mapchange" x="32" y="0" width="736" height="32">
    <properties>
     <property name="map" value="road_wild_cabin_n"/>
     <property name="place" value="south"/>
