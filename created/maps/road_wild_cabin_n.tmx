@@ -183,46 +183,46 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="9" name="Base" width="28" height="10">
+ <layer id="1" name="Base" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B+4DInBOMCFzkhGF09Pj3oapBpXPph9lzkxG0Wuj6YemxqCOkjNjxAbA5xBgZOcdLtwxdGIPBQErcfKcHYwhUGAPWSQLo=
+   eJxjYBgFo4B+4DInBOMCFzkhGF09Pj3oapBpXPph9lzkxG0Wuj6YemxqCOkjNjxAbA5xBgZOcdLtwxdGIPBQErcfCZlHrJ3oYQoAixQ/Ag==
   </data>
  </layer>
- <layer id="1" name="Ground" width="28" height="10">
+ <layer id="2" name="Ground" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJztj0EOgkAQBPugRiOeZ0VfYHiCL0A+T4gfMOoL1DM9woTZDXj0xCSVsD293Uu9AeqZmT+RB+AQpvcrAdYynC+h49edfMKjekXKkZ31bEnj9KanHMl80fshBTUd85jvRM5ksQOOIe7y2YZq7z4z7VUe1O+uT0ezfXfl3pL+o3p9155Ztwx4Spz1/ebdJbnKsPcTed0b0s4gHXZuAfpRxCA=
+   eJztj7ENwlAMRF0EBAJqm8AEiBGYIGT5KGIBBEwA1Dnr54SJfiipYukV/3z2+TdLkWZi4k+UJrKz8f5cRRb6eZ8t8WumHPG4XoMq02POCrRBb3uqzM4nvG9whOZFD30HcALFRmRv31lxN3Ht1e8c5jp36LeQ5/nU6KvDLcM/+h0xa4u561rkoWnG+6wCszNw0dRnlvudWJzLZZom+O4A/ZXK4w==
   </data>
  </layer>
- <layer id="2" name="Objects" width="28" height="10">
+ <layer id="3" name="Objects" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJz7J8nAwCvFwMAjhUnzATEu8EgQlX8Nysdlzj+oPbw4zHwuiNBDKUC2mxB4KcvA8EoWwr4siF/tcwLy9AbE+I9a4CEw/h5J0seub8Bw5hQnTu1LMuMEXR8X0D4OIu0kFXwH2sUNNPszUvjZCDEw/BLDrecLklu+keguMaD631CzLYBpxFIKYpckDfz3EJh32MQh/gPZ4QG0y1MKYtcHoH8BemMefw==
+   eJz7J8nAwCvFwMAjhUnzATEu8EgQlX8Nysdlzj+oPbw4zHwuiNBDKUC2mxB4KcvA8EoWwr4siF/tcwLy9AbE+I9a4CEw/h5J0seub8Bw5hQnTu1LMuMEXR8X0D4OIu1EBl+Aer4R0PcdaBc3UM1npPCzEWJg+CWG31wYwGY+PjvFgHK/oWZbANOIpRTELkky/AcDz3DofQjMO2ziEP+B7PAA2uUpBbHrA9C/ALjgIqE=
   </data>
  </layer>
- <layer id="3" name="Above" width="28" height="10">
+ <layer id="4" name="Above" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAP/koSUEAC+EOEWSdlGRhOyVLPTnoCYvxHLXARaNclOto3EOA4HdOBjhADw3M62HcZKc4u0iD+DgL9cAiHPx7QKL08whNuAGIZDpQ=
+   eJxjYMAP/koSUEAC+EOEWSdlGRhOyVLPTnoCYvxHLXARaNclOto3EOA4HdOBjhADw3M62HcZKc4u0iD+DgL9cAiHPx7QKL08QrMPOW0CAHQ3EGk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="28" height="10" visible="0">
+ <layer id="5" name="Walkable" width="28" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJHOGBcgJE8qIMYsatpJTbeP2jf87EM2n9ppHZ+dMHtoYSe6mej2AQBfly4G
+   eJy7KMbAcJHOGBcgJE8qIMYsatpJTbeP2jf87EM2n9ppHZ+dMHtoYSe6meh5HQBmuS7t
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="64" width="32" height="224">
    <properties>
     <property name="map" value="sullengard_ravine_3_4"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="south" type="mapchange" x="32" y="288" width="608" height="32">
+  <object id="2" name="south" type="mapchange" x="32" y="288" width="736" height="32">
    <properties>
     <property name="map" value="road_wild_cabin"/>
     <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
