@@ -198,17 +198,17 @@
  </layer>
  <layer id="3" name="Objects" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJyTk2cgCBZIMDAsAuKJQFwKxGVA/FyWgeGFLEKeWABSuxCHelLMAYGbQPtvAfEkPGZSw1347B4F1AFNwLDcDMXNFITrFiS9m0g0C1ecLgKKTSbRTZOgeQYZtJBoBixNoucLUs3BBUgNH1yAmPAhJr+Q66/naPqoET7kxDkhM7rFGBh6xUgzQ1MWEU8g/T1AXAPEtSSaUyGEcE8uVG82kJ5LgjngNI3kp9lAvXNINAOWpmFxBMv35OZTmN1ToHxS0zRyPYZsDghQko4mAfUuhmJK0xG5gNT6lJYAVh4CAAO0RLw=
+   eJyTk2cgCBZIMDAsAuKJQFwKxGVA/FyWgeGFLEKeWABSuxCHelLMAYGbQPtvAfEkPGZSw1347B4F1AFNwLDcDMXNFITrFiS9m0g0C1ecLgKKTSbRTZOgeQYZtJBoBixNoucLUs3BBUgNH1yAmPAhJr+Q66/naPqoET7kxDkhM7rFGBh6xUgzQ1MWEU8g/T1AXAPEtSSaUyGEcE8uVG82kJ5LgjngNI3kp9lAvXNINAOWpmFxBMv35OZTmN1ToHxS0zRyPYZsDghQko4mAfUuhmJK0xEyeA8064MsonzBV/eBwnoekhx6fYlcvqCXVYQAevkGMxtmFjofph4Aw6VYpw==
   </data>
  </layer>
  <layer id="4" name="Above" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcTJAgTf1OWQaGXbIQfRNJ1Estu0fB4AJnKUgHyHF6lwrpid5pcjADWuaX46P5kCDIEKLcDGqkR2qYQc20BEo7J4Zp+hlM5Qc1y0MQDQAT9RaW
+   eJxjYKAcTJAgTf1OWQaGXbIQfRNJ1Estu0fB4AJnKUgHyHF6lwrpid5pcjADWuaX46P5kCDIEKLcDGqkR2qYQc20BEo7J4ZQ+jkPdOsFpDoPXzkDkutDkkOvLymJC3S9yHECMhubXROh7jkIFD8ki2oGLj8gi8PUg2gANuwptg==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="18" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzzlWEgCHxlCGNiAT71pJiDzV2UAGr6YxSQDqgVlpSYQ4v0RIlZlOQzYsykpzm41FLDPQNZDuAzhxpgMJkzWMKXFvlhOILB4i/k+AIACI4cTg==
+   eJzzlWEgCHxlCGNiAT71pJiDzV2UAGr6YxSQDqgVlpSYQ4v0RIlZlOQzYsykpzm41FLDPQNZDuAzhxpgMJkzWMKXFvlhqABS6l90OUrqcEL6iGkjgDAAgGooMw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
