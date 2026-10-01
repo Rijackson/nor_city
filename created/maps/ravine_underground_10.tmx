@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="29" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -184,171 +181,36 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Base" width="20" height="29">
+ <layer name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwmcYMKOyQW3oPpvMSHMv4VkHiGzKbGbWmaB9F3kRGBKw4SW4A2V3TVq3sgyzx3I96DADnTzwoH8CArMu8xJvt6RZh5ymXSRE5XGp5aWYLCWk4MVAACr3CFV
+   eJy7zMnAcHkUj+JRPGAYAHYGwV0=
   </data>
  </layer>
- <layer name="Ground" width="20" height="29">
+ <layer name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJztlEsOwiAQQAm7XkAavZF6AY/gDTyZV9C4a9xpNy79wAVsiJ3ABCS0ICWmiTZ5GWY68wpdUBWEVH9Gw7QkZOEwK9N9y3b2RgmZt/FE39eY981fqekFHi0HHYHaWgO7Hh+4zk6/6xMeH/yDDTNAji7+oQ/2YZ8HgTpP8N2d/DJRkdPv+erMPjFin9QOfISuITE+u/9YKAdEHyGfbybV1zUTQjo+OcDlAr5crpBvm7DvLh/eQ753eB/l8EF9r3lSdQZgzVT/ipmaTRPhs4m9733fGeL7NV7YDvK/
+   eJxjYBgFo4B8cFGMfL1qFNhrRoHewQYAehEBRA==
   </data>
  </layer>
- <layer name="Objects" width="20" height="29">
+ <layer name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJydlb1KA0EQx/c2KJeg4F0kuUQL26hgkyZE0U4hEewiopWVaKWtTQo/gqVg43Oob6KoL5AgWEiwMUZ33F12bm4vd/iHYeeyM7+dudzu9n32p2yZsZywXilqfV/ahJifRDFbyl8Vc2u+YdCR55lVLwXGHhMM8rseY5+ezOl6Jt/1w7yngllrnMzN+TJe1wTS/dgE8cBL0qj+qNLwPsS6Od8+R9cBnn4HuBca1+NRvxFImwnku1pwJG/RCeeWAxMLlqRZFWPjAauZggGqoJrhHQOvp3jwHzYSWFfc7j8rv67qWlbjK4qhOaBbbve1GoKzI6zpROdwTsWSa1MSj4rW+19eW3Foj5vkGfP2U/aEtUfeJ+adJPwXoCGXZlONx/c7z+V61yR3oM+VjPQHXng+jvcjOF8q9s2yb5dizgbMq3HDAuFvBOp4t/QJv1cF+1vvZ1IfsNpT0q+RfMxbF/4Gl3sV92zr93RMjtN5GbviR3kt4W+jZ6gBYjEPnnVtWne4xozpEY9Ytvqq+XBsqxjNhXXulT1ww9e8XSd+zYOimasmnPmH6vw7GrHfNE/LtiaOBd6FGC9jrCOsHqSzjuJlyTeL70eQvttBtnsO3zv6fqNxmHnmSjt3o3PHlvs8rW7caD4V5um6hyU56pp/AYm8gY4=
+   eJxjYBgFo2AUDCQAAAOEAAE=
   </data>
  </layer>
- <layer name="Above" width="20" height="29">
+ <layer name="Walkable" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJz7JcnA8BOIfyHRlABK9aMDZDf9AdJ/B5n7yAW4/AJzHzXiAgS4pCA0pxSCTQ3wWAw7G5u70cWQ1RMyjxOHm2F++SxGmnn4AMwsSs2DyT8eNW9ImveJRPOwqcdmh4owYfNw2U1sGkZWi88f5JhHqRp0tbjCAwQIxQGpduOzixzz0AG1ymsYILa8xmYvvxBu9YTqUJC9+PxCjj+R/UJuGMHcje5+binC9Q06gMn/waIPADJTcgo=
-  </data>
- </layer>
- <layer name="Top" width="20" height="29">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
-  </data>
- </layer>
- <layer name="Walkable" width="20" height="29" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzVk8ENwDAIAzNF9l8pG/UXIYSNCekjSP1U+DDUXXPsWvOfp1NdvedYT8yfOveWvy4P7aLs6vsUf9EdrRbxUD7UHCm6Ko956/h7ta/yX7/Oy7Ks8ljmUf5Zfn0/41R4zJ99H+3CbsKK3TPSn946Y2d3zGayOREXzUSsaJdqneqQXtmz8/1v+a0yUKY+UV8ReQ==
+   eJxjYBgFo2AUDCQAAAOEAAE=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="608" y="32" width="32" height="192">
+  <object name="bed" type="mapchange" x="288" y="352" width="32" height="32"/>
+  <object name="temp_exit" type="mapchange" x="288" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east_ravine_north"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="sullengard_ravine_fear_of_heights_selector" type="script" x="32" y="224" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="sullengard_ravine_fear_of_heights_selector2" type="script" x="32" y="320" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="sullengard_ravine_ledge" type="script" x="32" y="384" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="sull_ravine_grazia_script" type="script" x="288" y="768" width="160" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="sull_ravine_not_helping_grazia" type="script" x="352" y="384" width="32" height="320">
-   <properties>
-    <property name="when" value="round"/>
-   </properties>
-  </object>
-  <object name="east2" type="mapchange" x="608" y="640" width="32" height="288">
-   <properties>
-    <property name="map" value="way_to_sullengard_east_ravine"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="sull_ravine_south_of_bridge" type="script" x="352" y="736" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="sull_ravine_not_south_of_bridge" type="script" x="352" y="320" width="32" height="416">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object name="south_left" type="mapchange" x="96" y="896" width="64" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
-    <property name="place" value="north_left"/>
-   </properties>
-  </object>
-  <object name="south_middle" type="mapchange" x="224" y="896" width="192" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
-    <property name="place" value="north_middle"/>
-   </properties>
-  </object>
-  <object name="south_right" type="mapchange" x="576" y="896" width="32" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
-    <property name="place" value="north_right"/>
-   </properties>
-  </object>
-  <object name="ravine_east" type="mapchange" x="608" y="544" width="32" height="64">
-   <properties>
-    <property name="map" value="way_to_sullengard_east_ravine"/>
-    <property name="place" value="ravine_west"/>
+    <property name="map" value="way_to_sullengard_east4_bridge"/>
+    <property name="place" value="ravine_east"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object name="sull_ravine_grazia" type="spawn" x="320" y="160" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="sull_ravine_grazia"/>
-   </properties>
-  </object>
-  <object name="Object" type="spawn" x="224" y="32" width="128" height="64">
-   <properties>
-    <property name="spawngroup" value="hardshell_beetle"/>
-   </properties>
-  </object>
-  <object name="yellow_tooth_spawn2" type="spawn" x="192" y="800" width="320" height="64">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="yellow_tooth"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Keys">
-  <object name="stop_grazia" type="key" x="0" y="160" width="96" height="64">
-   <properties>
-    <property name="phrase" value="stop_grazia_0"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object name="stop_grazia2" type="key" x="480" y="256" width="32" height="32">
-   <properties>
-    <property name="phrase" value="stop_grazia_0"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object name="stop_grazia3" type="key" x="96" y="864" width="512" height="32">
-   <properties>
-    <property name="phrase" value="stop_grazia_0"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object name="ravine_hole" type="key" x="544" y="544" width="32" height="64">
-   <properties>
-    <property name="phrase" value="ravine_hole_key_selector"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Replace">
-  <object name="hole" type="replace" x="512" y="544" width="64" height="64">
-   <properties>
-    <property name="Ground" value="Base"/>
-    <property name="Objects" value="Above"/>
-    <property name="requireId" value="ravine_quest"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>

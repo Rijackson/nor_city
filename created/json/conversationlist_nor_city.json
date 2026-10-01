@@ -2254,5 +2254,81 @@
     {
         "id":"ravine_memorial",
         "message":"In memory of all of those dumb enough to have fallen into the ravine "
+    },
+    {
+        "id":"ravine_hole_key_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_hole_key_first_time_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_hole_key_sub_time_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_key_first_time_10",
+        "message":"TODO: Blah, blah, blah - Explain that the ground beneath the player is unstable and they begin to fall",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_hole_key_first_time_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"bed",
+                "mapName":"ravine_underground_10"
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_key_first_time_20",
+        "message":"TODO: Blah, blah, blah - Explain that the player has fallen through the ground and luckily a bed has broken their fall.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_key_sub_time_10",
+        "message":"TODO: Blah, blah, blah - warn the player before letting them jump down.",
+        "replies":[
+            {
+                "text":"Yeah, I'm sure!",
+                "nextPhraseID":"ravine_hole_key_sub_time_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_key_sub_time_20",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"bed",
+                "mapName":"ravine_underground_10"
+            }
+        ]
     }
 ]

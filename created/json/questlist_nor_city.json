@@ -145,5 +145,15 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"ravine_quest",
+        "name":"ToBeNamedLater",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I fell through the ground while exploring the Sullengard Ravine."
+            }
+        ]
     }
 ]
