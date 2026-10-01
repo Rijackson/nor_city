@@ -480,6 +480,30 @@
     <map area="brightport" id="brightport1" x="582" y="348"/>
     <map id="brightport8" x="661" y="359"/>
     <map id="brightport7" x="630" y="372"/>
+    <map id="waytobrightport23" x="582" y="316"/>
+    <map id="waytobrightport22" x="582" y="297"/>
+    <map id="waytobrightport21" x="550" y="297"/>
+    <map id="waytobrightport20" x="558" y="357"/>
+    <map id="waytobrightport17" x="589" y="374"/>
+    <map id="waytobrightport16" x="558" y="374"/>
+    <map id="waytobrightport19" x="558" y="397"/>
+    <map id="waytobrightport18" x="585" y="397"/>
+    <map id="waytobrightport15" x="532" y="376"/>
+    <map id="waytobrightport14" x="532" y="397"/>
+    <map id="waytobrightport13" x="503" y="401"/>
+    <map id="waytobrightport12" x="503" y="382"/>
+    <map id="waytobrightport9" x="482" y="389"/>
+    <map id="waytobrightport7" x="482" y="401"/>
+    <map id="waytobrightport11" x="482" y="420"/>
+    <map id="waytobrightport10" x="472" y="380"/>
+    <map id="waytobrightport8" x="455" y="446"/>
+    <map id="waytobrightport6" x="482" y="438"/>
+    <map id="waytobrightport5" x="457" y="389"/>
+    <map id="waytobrightport4" x="461" y="409"/>
+    <map id="waytobrightport3" x="461" y="430"/>
+    <map id="waytobrightport0" x="426" y="389"/>
+    <map id="waytobrightport1" x="426" y="382"/>
+    <map id="waytobrightport2" x="447" y="380"/>
     <map id="brightportwild1" x="503" y="420"/>
     <map id="brightportwild2" x="519" y="420"/>
     <map id="brightportwild3" x="532" y="430"/>
@@ -501,6 +525,28 @@
     <map id="brightportwild20" x="687" y="359"/>
     <map id="brightportwild21" x="591" y="430"/>
     <map id="brightportwild22" x="615" y="397"/>
+    <map id="mountainlake14" x="671" y="31"/>
+    <map id="mountainlake15" x="673" y="50"/>
+    <map id="mountainlake16" x="673" y="68"/>
+    <map id="mountainlake17" x="693" y="68"/>
+    <map id="mountainlake18" x="701" y="52"/>
+    <map id="mountainlake19" x="701" y="31"/>
+    <map id="mountainlake20" x="710" y="52"/>
+    <map id="mountainlake21" x="724" y="52"/>
+    <map id="mountainlake22" x="750" y="31"/>
+    <map id="mountainlake25" x="771" y="52"/>
+    <map id="mountainlake26" x="771" y="62"/>
+    <map id="mountainlake27" x="779" y="62"/>
+    <map id="mountainlake28" x="771" y="74"/>
+    <map id="mountainlake29" x="787" y="86"/>
+    <map id="mountainlake30" x="771" y="86"/>
+    <map id="mountainlake31" x="743" y="106"/>
+    <map id="mountainlake32" x="771" y="97"/>
+    <map id="mountainlake33" x="761" y="97"/>
+    <map id="mountainlake34" x="743" y="97"/>
+    <map id="mountainlake35" x="752" y="106"/>
+    <map id="mountainlake36" x="752" y="117"/>
+    <map id="mountainlake37" x="743" y="117"/>
     <map id="road_wild1" x="518" y="446"/>
     <map id="nor_city_road1" x="518" y="467"/>
     <map id="nor_city_road2" x="548" y="465"/>
