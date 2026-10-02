@@ -2253,7 +2253,7 @@
     },
     {
         "id":"ravine_memorial",
-        "message":"In memory of all of those dumb enough to have fallen into the ravine "
+        "message":"In memory of all of those dumb enough to have fallen into the ravine."
     },
     {
         "id":"ravine_hole_key_selector",
@@ -2285,7 +2285,7 @@
     },
     {
         "id":"ravine_hole_key_first_time_10",
-        "message":"TODO: Blah, blah, blah - Explain that the ground beneath the player is unstable and they begin to fall",
+        "message":"The ground gives way beneath your feet with a crack of splitting roots. Before you can step back, you're falling.",
         "replies":[
             {
                 "text":"N",
@@ -2302,7 +2302,7 @@
     },
     {
         "id":"ravine_hole_key_first_time_20",
-        "message":"TODO: Blah, blah, blah - Explain that the player has fallen through the ground and luckily a bed has broken their fall.",
+        "message":"You land hard - but not on stone. A dusty old bed breaks your fall, and nothing feels broken but your pride. Dim light filters down from the hole above. Someone dug this room out on purpose.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2313,7 +2313,7 @@
     },
     {
         "id":"ravine_hole_key_sub_time_10",
-        "message":"TODO: Blah, blah, blah - warn the player before letting them jump down.",
+        "message":"The hole in the ground is still there. Whatever is down there, you already know the fall won't kill you - but that doesn't make it a good idea.",
         "replies":[
             {
                 "text":"Yeah, I'm sure!",
@@ -2330,5 +2330,52 @@
                 "mapName":"ravine_underground_10"
             }
         ]
+    },
+    {
+        "id":"cabin_door_lock_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"cabin_door_lock_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_cabin_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"cabin_door_lock_denied",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"thieves_cabin_key",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"cabin_door_lock_unlock",
+        "message":"You slide the worn key into the lock. It turns with a soft click, and the door swings open.",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"CabinDoor"
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"north",
+                "mapName":"road_wild_cabin"
+            }
+        ]
+    },
+    {
+        "id":"cabin_door_lock_denied",
+        "message":"The door is locked tight. You'll need something to open it."
     }
 ]

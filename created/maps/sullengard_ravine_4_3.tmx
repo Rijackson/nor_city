@@ -189,7 +189,7 @@
  </tileset>
  <layer name="Base" width="18" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2Bwg1ROCKZUP6nmfJHBbw4p5sHMwqWfVP/hcgs5/kN2A7lmYdOPLEYuINctlAJxWcz4HwgzBhtIp3M8jILhBQBdhxdZ
+   eJxjYBgFo2Bwg1ROCKZUP6nmfJHBbw4p5sHMwqWfVP/hcgup/gNhZDeQaxY2/chi5AJy3UIpEJfFjP+BMGOwgXQ6x8MoGF4AABS2GGk=
   </data>
  </layer>
  <layer name="Ground" width="18" height="30">
@@ -230,7 +230,12 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="544" y="32" width="32" height="928"/>
+  <object name="east" type="mapchange" x="544" y="32" width="32" height="928">
+   <properties>
+    <property name="map" value="sullengard_ravine_4_4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys">

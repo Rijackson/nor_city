@@ -226,7 +226,7 @@
  </layer>
  <layer id="7" name="Walkable_Below" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaNg6ICz0qiYXvYh87Gxcekj1Z3Y1BNjFjZ3EqOe3HAkxS2E1BNrFyH96H6iR/qgFgAAZcclKQ==
+   eJxjYBgFo2AUjIJRMApGwSgYBaNg6ICz0qiYXvYh87GxcenD5U5cerGpJ8bP2NxJjHpyw5EUtxBST6xdhPSj+4ke6YNaAABESiYR
   </data>
  </layer>
  <layer id="8" name="Platform1_NotWalkable" width="29" height="30" visible="0">
