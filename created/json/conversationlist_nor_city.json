@@ -2377,5 +2377,55 @@
     {
         "id":"cabin_door_lock_denied",
         "message":"The door is locked tight. You'll need something to open it."
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_road_closure",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"east",
+                "mapName":"nor_city_road2"
+            }
+        ]
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_ravine_ladder",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"west",
+                "mapName":"sullengard_ravine_4_1"
+            }
+        ]
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_ravine_hole",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"ravine_east",
+                "mapName":"way_to_sullengard_east4_bridge"
+            }
+        ]
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_cabin",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"outside_building",
+                "mapName":"road_wild_cabin"
+            }
+        ]
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_tavern",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"drunken_duck",
+                "mapName":"nor_city_road8"
+            }
+        ]
     }
 ]
