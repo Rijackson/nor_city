@@ -1,0 +1,55 @@
+{
+    "maps": [
+        {
+            "fileName": "created/maps/ravine_underground_10.tmx",
+            "height": 480,
+            "width": 480,
+            "x": -192,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/ravine_underground_20.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 320,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/ravine_underground_30.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1312,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/ravine_underground_40.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 2304,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/ravine_underground_50.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 3296,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/ravine_underground_60.tmx",
+            "height": 480,
+            "width": 672,
+            "x": 4288,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/road_wild_cabin_basement.tmx",
+            "height": 480,
+            "width": 320,
+            "x": 4992,
+            "y": 0
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
