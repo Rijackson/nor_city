@@ -327,16 +327,8 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
- <objectgroup name="Keys" visible="0">
-  <object name="SullengardRevineNotWalkable" type="key" x="96" y="224" width="32" height="32">
-   <properties>
-    <property name="phrase" value="sullengard_revine_not_walkable"/>
-    <property name="requireId" value="nor_city_road_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="301"/>
-   </properties>
-  </object>
-  <object name="SullengardRevineNotWalkableBottom" type="key" x="64" y="352" width="32" height="32">
+ <objectgroup name="Keys">
+  <object name="SullengardRevineNotWalkableBottom" type="key" x="64" y="320" width="32" height="32">
    <properties>
     <property name="phrase" value="sullengard_revine_not_walkable"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -429,6 +421,23 @@
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
     <property name="requireValue" value="303"/>
+   </properties>
+  </object>
+  <object name="ravine_platform1_facade_walkable" type="replace" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Platform1_Walkable"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="300"/>
+   </properties>
+  </object>
+  <object name="ravine_platform1_facade_not_walkable" type="replace" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Platform1_NotWalkable"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="300"/>
    </properties>
   </object>
  </objectgroup>
