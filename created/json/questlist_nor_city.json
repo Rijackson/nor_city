@@ -2,6 +2,7 @@
     {
         "id":"nor_city_road_nondisplay",
         "name":"nor_city_road_nondisplay",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
