@@ -206,7 +206,7 @@
   <object name="east" type="mapchange" x="448" y="192" width="32" height="96">
    <properties>
     <property name="map" value="ravine_underground_20"/>
-    <property name="place" value="east"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>

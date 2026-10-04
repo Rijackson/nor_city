@@ -2313,11 +2313,15 @@
     },
     {
         "id":"ravine_hole_key_sub_time_10",
-        "message":"The hole in the ground is still there. Whatever is down there, you already know the fall won't kill you - but that doesn't make it a good idea.",
+        "message":"You already know the fall won't kill you, but is this really a good idea to go back?",
         "replies":[
             {
                 "text":"Yeah, I'm sure!",
                 "nextPhraseID":"ravine_hole_key_sub_time_20"
+            },
+            {
+                "text":"I've been there and done that. I won't do it again.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2383,7 +2387,7 @@
         "rewards":[
             {
                 "rewardType":"mapchange",
-                "rewardID":"east",
+                "rewardID":"west",
                 "mapName":"nor_city_road2"
             }
         ]
