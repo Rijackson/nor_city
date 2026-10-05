@@ -10,7 +10,7 @@
         {
             "fileName": "created/maps/ravine_underground_20.tmx",
             "height": 480,
-            "width": 960,
+            "width": 768,
             "x": 320,
             "y": 0
         },
@@ -18,35 +18,35 @@
             "fileName": "created/maps/ravine_underground_30.tmx",
             "height": 480,
             "width": 960,
-            "x": 1312,
+            "x": 1120,
             "y": 0
         },
         {
             "fileName": "created/maps/ravine_underground_40.tmx",
             "height": 480,
             "width": 960,
-            "x": 2304,
+            "x": 2112,
             "y": 0
         },
         {
             "fileName": "created/maps/ravine_underground_50.tmx",
             "height": 480,
             "width": 960,
-            "x": 3296,
+            "x": 3104,
             "y": 0
         },
         {
             "fileName": "created/maps/ravine_underground_60.tmx",
             "height": 480,
             "width": 672,
-            "x": 4288,
+            "x": 4096,
             "y": 0
         },
         {
             "fileName": "created/maps/road_wild_cabin_basement.tmx",
             "height": 480,
             "width": 320,
-            "x": 4992,
+            "x": 4800,
             "y": 0
         }
     ],

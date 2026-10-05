@@ -181,32 +181,37 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer name="Base" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BgwGXOgdE72AAAlbEBuQ==
+  </data>
+ </layer>
  <layer name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJw7wcTAcIsMfAKITwLxGzLwcajef2RgmN7LnKTjmxTofY1H7wkizMUmfxMalrfJ0PsaGpZvydALwv+ICAdyw4oSvZTE70DqBaWBbWRgkD4ANubA9w==
+   eJw7wcTAcAsHPkFA7iQQv8GBT+GROw7V+w8HPoVHDqb3Mid2jE/uBB69hORwyd+EhsdtLHLHmfDrfQ0Nj7dk2AvCb3CIv2Yi7Cd8+DUR4YwPE6v3sRD5es0YyNdLiZtx6QWF9TYyMEgfAMuuvyg=
   </data>
  </layer>
  <layer name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBi5QA2JvZWJgWE7E341yMAMSR8uAFPzF4+agQAw9/ynkbtgYXKRFb86XGFLDDAjrGTIAAA2iwfI
+   eJx7ycRAFnhFpj58wFKMgcFKjDy9nkB9XkD8B4+7cMltZSJPjpbgJhP+MP4LlfuPQ81NMt38l0K/kqJfDYifCOGXxwVuIqUTbOrMiHQDseoIgd9khhsobQEAY4kT+g==
   </data>
  </layer>
  <layer name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMPBYb1QsDnwmYi08vITfRSu8nCvQSAiNNL7kAAASfEKk=
+   eJxjYKAMPBYjT44WercyEZajhb0DrfcTBXoJAUJ6LwsxMFwRIk/vaxz6iNGLDwyUXnIBAGpzF7o=
   </data>
  </layer>
  <layer name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHEIYnIAul50NjZzYWK49OJzEy696HYS8s9g0ksMoGYcDSW95GIA6VFXiA==
+   eJy7KMbAcHGQYBggRS0yIEYOmzyxcqN6CQNS9GJThyxGrP3I6qmhl1RAaboHAN0uZ8Y=
   </data>
  </layer>
  <objectgroup name="Mapevents">
   <object name="bed" type="mapchange" x="288" y="352" width="32" height="32"/>
-  <object name="east" type="mapchange" x="448" y="192" width="32" height="96">
+  <object name="up" type="mapchange" x="192" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="ravine_underground_20"/>
-    <property name="place" value="west"/>
+    <property name="map" value="ravine_underground_9"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
  </objectgroup>
