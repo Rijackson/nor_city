@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="28" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -263,7 +263,7 @@
  </layer>
  <layer id="4" name="Above" width="28" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYKA/aGZC5acA+ZpIYkzCCDay+CQ0feggGYs8slkw+RIgbYnDLFziMGCGJF8MZDdL4lZbjMUsZP349CK7mxQ5agF0O1qQ3N2D5i8zHGGWiyauTSBscYE5WPShuwEEapHEPokh2DYk2puDRT26GLL5pABQmKCHVw0aH+TeGhx+IRXUYvFLDTDd1SKlPUrMJwTQ7aK1Pej2CXJAaD8RVPVCHJTbhQ0o4jBXiQL70O3dxooqniwDLEOBWJYdwaYlKAaaXwLEuuwI9lAF9EqflNiJrp5Y/TVIaoKJtA+mBzk/4bIzUhJBR0lCaEJuxed2Uv2ZicWt+GhsYVAPFGuQxORPBuIpSP7DB/C5E918dHXY9GViCQNiaVz2o7sDl/kAcr9KcA==
+   eJxjYKA/aGZC5acA+ZpIYkzCCDay+CQ0feggGYs8slkw+RIgbYnDLFziMGCGJF8MZDdL4lZbjMUsZP349CK7mxQ5YsFnMfzy6Ha0ILm7B81fZlj8CTI/F0n8MZCvTSBscYE5WPQhuwFkF8j8WiSxT0j+syHR3hw09SDzc9D88olA+OECoDBBD68aND7I/BocfiEV1GLxew0w3dUipT1KzCcE0O2itT3o9glyQGg/EVT1QhyU24UNKOIwV4kC+9Dt3caKKp4sAyxDgViWHcF+TMM4LQaaXwLEuuwINi3TEC0BvdInJXaiqydWfw2SmmAi7YPpQc5PuOyMlETQUZIQmpBb8bmdVH9mYnErPhpbGNQDxRokMfmTgXgKkv/wAXzuRDcfXR02fZlYwoBYGpf96O7AZT4AfLRUOw==
   </data>
  </layer>
  <layer id="5" name="Top" width="28" height="23">
