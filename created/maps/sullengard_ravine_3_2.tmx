@@ -194,7 +194,7 @@
  </layer>
  <layer name="Objects" width="18" height="27">
   <data encoding="base64" compression="zlib">
-   eJw7LszAEALEPFIMDHxA/E8SQoPAfVkGhgdA/FIMwr8JZN+ShbBB6nih6l5KMqAAkFkgORiNC8DkYfaI4lFLClClkjmjYBSMglEwCkYBvQEAopYNQg==
+   eJw7LszAEALEPFIMDHxA/E8SQoPAfVkGhgdA/FKMgUEdKHYTyL4lC5EDqeOFqnspyYACQGaB5GA0LgCTh9kjikctKUCVSuaMglEwCkbBKBgF9AYAhgoNgw==
   </data>
  </layer>
  <layer name="Above" width="18" height="27">
@@ -204,11 +204,11 @@
  </layer>
  <layer name="Walkable" width="18" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJEAhgFi1GBThwsQModcQC1zRsEoGAWjYBSMAmIAteowkBkAhQ4aLA==
+   eJy7KMbAcJEABgFi1MAAPjl86vCpJQVQy5xRMApGwSgYBaOAGECtOgxkBgA7cRsT
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="288" y="0" width="64" height="32">
+  <object name="north" type="mapchange" x="288" y="0" width="32" height="32">
    <properties>
     <property name="map" value="nor_city_road2"/>
    </properties>
@@ -231,7 +231,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="sullengard_ravine_pc_not_on_bottom" type="script" x="256" y="32" width="128" height="32">
+  <object name="sullengard_ravine_pc_not_on_bottom" type="script" x="256" y="32" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
