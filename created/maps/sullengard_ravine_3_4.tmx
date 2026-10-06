@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="28" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,27 +188,27 @@
  </tileset>
  <layer id="1" name="Base" width="28" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEqZwQjE2c2gCfXbSyD5s9tLQPZi6t7MBlJz3sGgWjYBQMDYBe1hEqHygpP7CVe7jMo0Z5BdKbjoQJ2QdTR65dqUj6ke3Epg5ZLQCwdhZr
+   eJxjYMAEqZwQjE2c2gDZrnRO7OLUtg+b/bS0D2YurezAZSc97BoFo2AUDA2AXtYRKh8oKT+wlXu4zKNGeQXSm46ECdkHU0euXalI+pHtxKYOWS0AtFoW2w==
   </data>
  </layer>
  <layer id="2" name="Ground" width="28" height="17">
   <data encoding="base64" compression="zlib">
-   eJxL5WRgSEXDTTIMDO1AnM6JilNkMNVSinHZVQYUm0oD+5JlMO2ZQiO7QHgS0NxyGdr6CZudtPTTKB7Fo3joYVBZ24KEWwmUD00UlB/I5foMHvxlH8xd7RTYByrXY2QZGGKBOA6I2/D4D1ktJX6zA+ovA/rNB2onev2I7C+YWgCEq9TP
+   eJxL5WRgSEXDTTIMDO1AnM6JilNkMNVSipHtipWF0DN4GBjKgGJTaWBfsgzEfJifQPZMoZFdIDwJaG65DMIuWtmDbict/TSKR/EoHnoYVNa2IOFWAuVDEwXlB3K5Tqg8h7mrnQL7QOV6jCykDokD4jY8/kNWS4nf7ID6y4B+84HaiV4/IvsLphYAf4bVQQ==
   </data>
  </layer>
  <layer id="3" name="Objects" width="28" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg6JdgYJgHxMSABUB1C4G4Hap+EpQPEl8kgZsPA6TYhctuUvjk2kWO2xbRyS5kO4czmERH/6GnneEIhnt6GYqgSYaBoVWGfva1A+1qI8O+STjKc1qABWh1CC0Bul9oZWe8HANDAhADAEQ9Ieo=
+   eJy1lcEOgjAMhvsKu3kAn8yoD6De9IInEyXxgAlHkYk+lfoK+hC2wcXSDBkwv2Qh3cb+dls7AIDDAEBji7FxlmivRF+B9oXNTT829V8H9bZW5XyjdVTVdUdh+R3j98Y0E5yXq6q29IXIlH1cC/8NM9SZY1uE9nFX7vj/I/zGy4lYjImIl1hb+tpAmn3XMJwb1sk96bQhtZyddvAjcvSV7525O1nPOE9/2Cdfe08xmvzzdW8kcu9J64n58eqZZz7wHTOvYS7nbsuxTQCwDap9v+6g692uI0atXdA8T5KKeu7KvoO/hXhDDPLNaIutdpBOIuqArOOcrvk9GQJMsb0BFSNAIw==
   </data>
  </layer>
  <layer id="4" name="Above" width="28" height="17">
   <data encoding="base64" compression="zlib">
-   eJzrlWAgG0wgUS+p6ikBILsm0tG+kQDoHX/DHYwEP44C2gBY+UaPco6e6RSbX2jhP3s5BgYHIE4Fmp0GxMdlGRhOyKLaSUzYCgLNEJIjbF861BwAqzoQMg==
+   eJzrlWAgCNKBakqBuAxN7QQi9FKinhywU5aBYZcsxK6JdLBvJAF6xN9A2DVQAOTHXiDuo7NfTwPzxxlZ+to5CqgLYOUbPco5euZFbH6hhf/s5RgYHIA4FWh2GhAfB+aHE0h5gtiwFQSaISRH2L50qDkA0XQWlQ==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="28" height="17" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzzlWFg8B0ATA5A10sqn5aAnnYh2zlqH/XsGs7+Gwj7RsHwAdQov8mxh9ZpltK6ilg3wtQBACoGHE4=
+   eJzzlWFg8EXCyMBXhnYYH8Alj66XVD4tACn+ooXdo/ZRz66B8N9A+HG42zkKqA/oVc6RWlfQwj5S6ypi3AhTBwA4Gx7E
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -228,6 +228,12 @@
    <properties>
     <property name="map" value="sullengard_ravine_4_4"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="4" name="north" type="mapchange" x="128" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="nor_city_road3"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
