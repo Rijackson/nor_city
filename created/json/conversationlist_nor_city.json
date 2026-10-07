@@ -2431,5 +2431,58 @@
                 "mapName":"nor_city_road8"
             }
         ]
+    },
+    {
+        "id":"not_home_note_10",
+        "message":"The door is locked, but there's a note...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"not_home_note_20"
+            }
+        ]
+    },
+    {
+        "id":"not_home_note_20",
+        "message":"As usual, I am at the orchard.\n\n~Alduan",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":305
+            }
+        ]
+    },
+    {
+        "id":"alduan_house_10",
+        "message":"Oh, that place. I can hardly remember what it looks like these days.",
+        "replies":[
+            {
+                "text":"Oh, why is that?",
+                "nextPhraseID":"alduan_house_20"
+            }
+        ]
+    },
+    {
+        "id":"alduan_house_20",
+        "message":"While looking off to the east as if to ensure that no one is watching or listening.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_house_30"
+            }
+        ]
+    },
+    {
+        "id":"alduan_house_30",
+        "message":"You know, it's Deebo. He makes us work so hard and for so long, I'm lucky if I even make it home every night and I certainly can't remember the last time I did so in the light.",
+        "switchToNPC":"brightport_orchardsupervisor",
+        "replies":[
+            {
+                "text":"Well, I do like your house.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

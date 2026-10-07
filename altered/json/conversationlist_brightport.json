@@ -28,5 +28,39 @@
                 "nextPhraseID":"dbg"
             }
         ]
+    },
+    {
+        "id":"brightport_alduan",
+        "message":"Ah, nothing like a good sweat in the sun. Not my sweat, of course.",
+        "replies":[
+            {
+                "text":"Deebo told me to get the 30 apples from you.",
+                "nextPhraseID":"brightport_alduan_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"In my search for my brother Andor, I stumbled upon your house and I have to say it's quite nice.",
+                "nextPhraseID":"alduan_house_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":305
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -71,6 +71,10 @@
             {
                 "progress":303,
                 "logText":"303 = PC is on the ravine ladder headed down on platform 2."
+            },
+            {
+                "progress":305,
+                "logText":"305 = PC has discovered Alduan's house."
             }
         ]
     },

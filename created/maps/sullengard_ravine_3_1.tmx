@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,27 +186,32 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <layer id="10" name="Base" width="29" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxICLnKj8y5wITAuAbD4uTG9ALTuJcT+1/UmMObSwkxh/0gqA0ixyuh3ItDMKRsEoGAWjYBSMglEwCvADADexGp8=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6C+86+sjipjDyT0kqqqqvp2Z3jk+w==
+   eJzt0kEKgCAQBVB3UVuhzDpBdYLqBNXlpY7QQZohBhGENtPuCw8clPmMGEpjAnxqm7T2zpiddO6fPOkvGVwfhNf2Q+5l884y6pUyZbbb5nGWLK3Myb19L5/HZzPdWciolDlQn5Xn9FFVxL3mm+bUTfpvB+X5AAAAAEDPA34c03g=
   </data>
  </layer>
  <layer id="2" name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzjkmJg4ARiLiAGAX4gLQBlwwCyPLrYS0mEGCG9U4UZGKYJI+ReyzIwvJFloClYCrRvGRD/lsT0Ay1BiDDEPnr4EQaOAe3kpqMfYQBb+qA1oLd9MKAqx8CgJkc/++idbkFgoNLQSLAXVh7QO17pnUdH0y3tAJfUwJS5ykD7VOho5ytgGjIG2mcCxKZ0sld9ANIQKB5B+WW4p6OBqLNHSntoIMA/YJrlpbM/6W0fCIgNgJ0AD+obow==
+   eJy9lk1OwzAQhWdDRQKFgKWURrQb/pYgUU7BliWXgDUr7gA3gKNwB9giAS1cAJAQM7ItO1Yc26njTxo5duw8e964al4BZBg5BrGJbSGeJfp7c2w+VmNNa3/Hau0dA7hn6t3nBOBrAlbk2nec84ExGAGsYmQj9xriFZ8fUO+R1cdt0JnWqvq+StTawXjG/osYO5gCHE7reVjH2MD4Q50htheMj7vOqH/DB5p3s6L6pDsUa58Y378P5n7b9I63278Vsn99vzauC96etOj66ulcirx97/L2Z6D6t4XfN3TvfTgXZ8iMGqD+lYemT93aWGzxtnD4Z+JbQ228lWHz5d1bhnmgZizdEOTvQRdfQ3OqE3JHdbrklAg93zJnk4T62PVsOqnrh8grPz9j5FRnD/X2HZoxcipZYA2dot4M4yxRjo8Se0mQj3RfmuootoemblMdxfTQ1EtN6rtJmDnt00MbfXmo4/rv2Aep9YiySu/hP5+aQN4=
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzllssJwCAQROdiGtCLgvZfQZowFaQT84FERLCCmcO+Bh6z7kdgUDNwZFBoEbgixzXpPmbG3fMzThS1VeAKsBWeT9W3Cix4133A9DZybRV9q0I1n2yvT0BIPN9pqH/Y87LuA5b3FrynhZui4vkzvgZyKmHthf4v+QB6gijz
+   eJxjYICA07IMDGdkGXCCn5IMDL+A+DhQzQk86tD1wMBlSVTxX5KY6rHpxeaunUD+LqgYqxwDA5scqp4/QPqvJIIGAZB9hPwIA4TcRowftgkTZw4u92Kz7zeR5hFrLwwwckBoOxFU8StAPzBxUN8+EFDEY64SEXaCAHLckwPc+Emzk5h0Swr4JEZYDTXtIwWMBHuRywN62vuTzmFL7XQ7mAG9/flLEpWmFxCWYmAQkaKffbdGUPqhd35BLg/oZS+xbQlqgpFQpwwUwNd2HAXUAfQqF0DtEgAxHkX4
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="30" visible="0">
+ <layer id="5" name="Walkable" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzllmEGACAMRjtF979SN8poTFJ/6nu0R8o0z1hTq6W0sYx4dnaxGD/lzjmr+7eJztcu2quukfQSdbqX6CMlWXqI8NLz6FefO9VQdZLvReki+lZNpv+JmkwzQU2mOn1X+M3RARgnR0o=
+   eJztlg0KwCAIhTvF7n+lbjQGC2T4k9qeLPYgWKF+T7BYP1rr97pEv4e0M3puxT1zuHgtd0YSb6aGFiv5tngerqc3y5enFsq/5FebD62OV5keOf8RLrdfzaO5yLyMMn1+iRuZuZXcXXmDiVZVn5X3BcmqmFu0Kt8DJHf3eaXM/+17j4lW5P86yzsBMxeDvw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="896" y="128" width="32" height="800">
    <properties>
     <property name="map" value="sullengard_ravine_3_2"/>
@@ -220,7 +225,17 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys">
+  <object id="3" name="not_home_note" type="key" x="544" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="not_home_note_10"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Replace"/>
 </map>
