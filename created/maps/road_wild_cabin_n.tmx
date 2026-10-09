@@ -195,12 +195,12 @@
  </layer>
  <layer id="3" name="Objects" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJyNUs1KAzEQzqn2ZytmhS5Z2D6HgldBn0Lf2ZNeanvotj3UglJBsfqFZMgkmYADIdmZ+X5m2JNRatoqVbX5fY5j40m7++R7pdibuCfloXwJ3+uAeTcxD8f3nVIbnJWOPS5RXwkeRnXQeAPu0OXa1L9FbdfFvBQXl6HX1n6M81kJM3F8r/Ma9Q/rPL+A/msX5+imPM1RMQ3O+4zai+/daNlHaQdpjL1Hvt+K+T6rcwwP7oU8SDvj/o54j5r/+d0W5prUgUvyk+LG0BvifAp8kl/axwcwx4LXgfdgOSeN+18oblD7moXv24Tf8j7MlXqcO/50Dq6Zep6h9u25r8B73Totg/xv0ivNK8W6MOMSuxw0bj6rcQet+9ZpHTDvH4I0VE8=
+   eJyNUstqwzAQ1CnNwymVCzEyON/RQq+FBPIP7T/31Fya5BAnOaSBlhRa8hixXrSW19ABIWsfM7OSz86Y29yYBGuI9V4YMy/o7OMeb5b2s6MaDXtXr2E+5uG4zEmUNsS/XJ1H9pfwtsFa2brHJfIrxUMvDRqf6DsUTe9cv0VuF83OuLsPtT53cuRTm0X2l7aZ4/pu2ox/QH9R1GO8c5znSISG5OU39NhY3UfbHcToVx7l/SbC903a7JGQXthD2/szjvjuZf/zu22Za5AGLs1P3NeHXhfrR+HT/PJ9fKPnGHmdDWnvVB485yCj/4XxhNzvKJyfI37P+zI25nVM/PEcUjP2PELur+J+AO9jTloO8UtUq82rYd3yHkvcZSej+bzGBFrTnLQOmPcKEBxWlg==
   </data>
  </layer>
  <layer id="4" name="Above" width="28" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAP/kpC6D9INEgMRh+XZWA4IYuqBgQuAtmXJFHN+oPGPw/Ud0EW006YupNAuVNY5HG5EZsdyG7GBrCpRzZ3P9D+A1j8hywO8we6WTA7dwLldhHhD3xuvo+mH1v4EgOwuQVfGBAL8IUxqe6BgeM4xLG5l9zwgAEdIQaG50j2XcZilr0cA4ODHIL/ngz7LqPlEUKAVD8dBPrhEI5we4DDLHxhJwj0r5AcdjkYeIQnbQIAuag/kg==
+   eJxjYICAv5IMWAFM/A8SDRKD0cdlGRhOyKKqAYGLQPYlNDP/oPHPA/VdkMW0E6buJFDuFBZ5XG7EZgeym7EBbOqRzd0PtP8AFv8hi8P8gW4WzM6dQLldRPgDn5vvo+nHFr7EAGxuwRcGxAJ8YUyqe2DgOA5xbO4lNzxgQEeIgeE5kn2XsZhlL8fA4CCH4L8nw77LaHmEECDVTweBfjiEI9we4DALX9gJAv0rJIddDgYe4UmbAHFqQKg=
   </data>
  </layer>
  <layer id="11" name="Top" width="28" height="10">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="5" name="Walkable" width="28" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJHOGBdAlifGDEJsdLvwiRHrTnz2YHMLPv343IHLbbj8hyssiAWkxA2l5hJrFr3cQ8g+SvyAy3xs8UeKW0mxk1C6ICe94pJHT68AvohrYg==
+   eJy7KMbAcHGAMDpAFidGLyE2uh34xIhxHyF7sLkFn3587sDlNlz+wxUWxAJCesgxE5c+Ys2il3sI2UeqH4gRxxZ/pLiVWEBMuiAnveKSR0+vAMDebhc=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
