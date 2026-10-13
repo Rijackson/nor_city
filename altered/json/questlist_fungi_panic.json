@@ -20,7 +20,7 @@
             },
             {
                 "progress":30,
-                "logText":"Prospector: I collected at least 100,000 gold.",
+                "logText":"Prospector: I collected at least {100000} gold.",
                 "rewardExperience":200
             },
             {
@@ -90,6 +90,10 @@
                 "progress":200,
                 "logText":"Sheep in wolf's clothing: I finally found a use for the Wolfpack's hide.",
                 "rewardExperience":1000
+            },
+            {
+                "progress":225,
+                "logText":"#reserved: sutdover_ext"
             }
         ]
     }

@@ -468,6 +468,14 @@
                 ]
             },
             {
+                "text":"Hello.",
+                "nextPhraseID":"umar_return_2"
+            },
+            {
+                "text":"Nice to meet you. Goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
                 "text":"I was cheated by Dirhan, a member of this guild. He sold me a fake heartstone. I want my gold back.",
                 "nextPhraseID":"umar_return_cheated",
                 "requires":[
@@ -488,14 +496,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"Hello.",
-                "nextPhraseID":"umar_return_2"
-            },
-            {
-                "text":"Nice to meet you. Goodbye.",
-                "nextPhraseID":"X"
             }
         ]
     }

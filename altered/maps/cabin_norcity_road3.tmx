@@ -220,6 +220,12 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="8" name="north" type="mapchange" x="64" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrightport6"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="192">
