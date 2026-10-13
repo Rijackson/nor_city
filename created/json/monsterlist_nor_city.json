@@ -194,5 +194,22 @@
         "name":"Leodan",
         "iconID":"monsters_ld1:8",
         "phraseID":"leodan_0"
+    },
+    {
+        "id":"ravine_observer",
+        "name":"Bramver",
+        "iconID":"monsters_ld1:132",
+        "moveCost":4,
+        "monsterClass":"humanoid",
+        "phraseID":"ravine_observer_10"
+    },
+    {
+        "id":"ravine_observer_horse",
+        "name":"Bramver's horse",
+        "iconID":"monsters_ld2:65",
+        "moveCost":3,
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "phraseID":"ravine_observer_horse_10"
     }
 ]

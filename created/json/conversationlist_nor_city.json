@@ -2484,5 +2484,45 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"ravine_observer_horse_10",
+        "message":"Hey! What are you doing?",
+        "switchToNPC":"ravine_observer",
+        "replies":[
+            {
+                "text":"What, me?",
+                "nextPhraseID":"ravine_observer_horse_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_horse_20",
+        "message":"No, Lord Geomyr. Yes you. What are you doing?",
+        "replies":[
+            {
+                "text":"Umm...",
+                "nextPhraseID":"ravine_observer_horse_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_horse_30",
+        "message":"You don't talk to another person's horse.",
+        "replies":[
+            {
+                "text":"Of course.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_10",
+        "message":"You are a surprise to see. [TODO: more later]",
+        "replies":[
+            {
+                "text":"TODO"
+            }
+        ]
     }
 ]
