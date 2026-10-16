@@ -231,7 +231,7 @@
  </layer>
  <layer id="9" name="Platform1_NotWalkable" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzTERAAAIA7H6wL8cPDFjoZcsP35Co53f1icAADQ4xtMDoQ==
+   eJxjYBgFwxGclUalh6udA2HfKBgFo2AUjIJRMApGwSgYBdQGAJduBIk=
   </data>
  </layer>
  <layer id="10" name="Platform1_Walkable" width="29" height="30" visible="0">
@@ -436,7 +436,7 @@
     <property name="requireId" value="nor_city_road_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="300"/>
+    <property name="requireValue" value="301"/>
    </properties>
   </object>
  </objectgroup>
