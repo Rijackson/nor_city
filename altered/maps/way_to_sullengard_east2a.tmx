@@ -183,7 +183,7 @@
  </tileset>
  <layer name="Ground" width="15" height="14">
   <data encoding="base64" compression="zlib">
-   eJy7yMnAcHEY4BNMDAy3sGCQOCG9J4Fq3mDBx2mgF9mdt3HovYnmB2x2vcWh9zUanxK92NxJrF5s6gdS7z8smFi9lzkxMbpeADCWuxY=
+   eJy7yMnAcHEY4BNMDAy3sGCQOCG9J4Fq3mDBx2mgF9mdt3HovYnmB2x2vcWh9zUanxK92NxJrF5s6gdS7z8smFi9l4Hhd5MHGA48EDYIo+sFADLkuyo=
   </data>
  </layer>
  <layer name="Objects" width="15" height="14">
@@ -226,8 +226,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object name="flying_tree_ant_spawn1" type="spawn" x="352" y="96" width="128" height="128">
+ <objectgroup name="Spawn">
+  <object name="flying_tree_ant_spawn1" type="spawn" x="352" y="96" width="64" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="flying_tree_ant"/>
