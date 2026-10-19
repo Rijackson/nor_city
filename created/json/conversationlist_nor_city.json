@@ -2518,10 +2518,134 @@
     },
     {
         "id":"ravine_observer_10",
-        "message":"You are a surprise to see. [TODO: more later]",
+        "message":"Beautiful, isn't it? I ride out here every day, and I never tire of the sight. There's something special about this ravine.",
         "replies":[
             {
-                "text":"TODO"
+                "text":"What do you like about it?",
+                "nextPhraseID":"ravine_observer_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_20",
+        "message":"Look to the skies! The birds glide above the ravine as though they haven't a care in the world. I could watch them for hours. There's something wonderful about seeing them soar so freely.",
+        "replies":[
+            {
+                "text":"You come here every day?",
+                "nextPhraseID":"ravine_observer_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_30",
+        "message":"Whenever the weather permits! I saddle my horse and ride out from home. There's no better way to spend an afternoon than enjoying the fresh air and watching the world go by.",
+        "replies":[
+            {
+                "text":"Where is your home?",
+                "nextPhraseID":"ravine_observer_40"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_40",
+        "message":"Nor City. I follow the Duleian Road north each morning to reach this place. It's a pleasant ride, and the journey itself is half the enjoyment!",
+        "replies":[
+            {
+                "text":"I'm looking for my brother. His name is Andor. Have you seen him in Nor City?",
+                "nextPhraseID":"ravine_observer_50"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_50",
+        "message":"Andor? I cannot say I've met him. What does he look like?",
+        "replies":[
+            {
+                "text":"He looks like me, though he's a couple of years older.",
+                "nextPhraseID":"ravine_observer_60"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_60",
+        "message":"Hmm. I'm not sure I've seen him. Though now that you mention it, I feel I may have heard that name somewhere in Nor City.",
+        "replies":[
+            {
+                "text":"You think you've heard of him?",
+                "nextPhraseID":"ravine_observer_70"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_70",
+        "message":"Perhaps! But don't put too much stock in my memory. I'm a poor listener when my mind is elsewhere, and I'm dreadful with names. I could have heard it yesterday and forgotten it by this morning!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_80"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_80",
+        "message":"Bramver turns his gaze back toward the ravine.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_90"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_90",
+        "message":"Speaking of things I've noticed around here, there's something rather curious at the bottom of this ravine.",
+        "switchToNPC":"ravine_observer",
+        "replies":[
+            {
+                "text":"What is it?",
+                "nextPhraseID":"ravine_observer_100"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_100",
+        "message":"An old crate. I've spotted it down there, but I've never bothered to climb down and investigate. I'm quite content admiring the view from up here!",
+        "replies":[
+            {
+                "text":"Do you think there's anything inside?",
+                "nextPhraseID":"ravine_observer_110"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_110",
+        "message":"Who can say? It could be full of rubbish, or perhaps someone left something interesting behind. There's only one way to find out!",
+        "replies":[
+            {
+                "text":"And you haven't looked?",
+                "nextPhraseID":"ravine_observer_120"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_120",
+        "message":"Oh, I've considered it! But scrambling down there isn't quite my idea of a pleasant afternoon. I'd rather spend my time watching the birds.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_130"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_130",
+        "message":"But if you're feeling adventurous, why not climb down and have a look? Just mind your footing!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":10
             }
         ]
     }

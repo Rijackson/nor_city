@@ -156,6 +156,10 @@
         "name":"ToBeNamedLater",
         "stages":[
             {
+                "progress":5,
+                "logText":"On the northeast side of the Sullengard Ravine, I met a man from Noricyt named Bramver. He suggested that if I was feeling adventurous, I should make my way down inside the ravine and take a look inside that old crate."
+            },
+            {
                 "progress":10,
                 "logText":"I fell through the ground while exploring the Sullengard Ravine."
             }
