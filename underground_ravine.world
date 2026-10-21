@@ -9,17 +9,10 @@
         },
         {
             "fileName": "created/maps/ravine_underground_20.tmx",
-            "height": 480,
+            "height": 512,
             "width": 768,
             "x": 320,
-            "y": 0
-        },
-        {
-            "fileName": "created/maps/ravine_underground_30.tmx",
-            "height": 480,
-            "width": 960,
-            "x": 1120,
-            "y": 0
+            "y": -32
         },
         {
             "fileName": "created/maps/ravine_underground_40.tmx",
@@ -58,10 +51,10 @@
         },
         {
             "fileName": "created/maps/ravinde_underground_vault.tmx",
-            "height": 512,
-            "width": 800,
+            "height": 576,
+            "width": 960,
             "x": 1120,
-            "y": -544
+            "y": -96
         }
     ],
     "onlyShowAdjacentMaps": false,
