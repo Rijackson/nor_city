@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="40" height="19">
   <data encoding="base64" compression="zlib">
-   eJytVk1PU0EUHSYRQ9KmWhYtCb9AVrATjLoVFrhD1iyEkBQTF8aN24po3FMNP4B1A7+Bf0AwISybLkxY0GApMDed6zvvvJkpRk7ywpuZe88992Ne6VrzF2OTJore4+y95Xwu3NpOZn56/sXzWeDCc8ET78+8CvTt2jwv2ut7A3K4tsPnqf/7eyrbE+zaoR6MfzqV1zpvi/oFW6B7x2b6xHYXNAjEbs3vfSK+FHq+rjvAJzkM3PoG9pQP7WbgvQX68Fz9JOf3Np+foA/1vQr0RvR9sxk/+zCf2GmfFnztv8Ke1k/yWKCcERcBLRpH/EXrwHP99Pq0XrPAizkNYFaR/4fXKf5d/64z/z2SN/bhvJrFGa8Wdd8nBqRvj+ZEa9KifcYmnc1BD3VmJiiXc1iHZuU+wLw4W7GYfNdC37W5iE2Ik20RWoPY/cZZCM0wg3meR+aH7VB3g85G3WnGw2rYlmd5C+Ic0PyMBeaHIf7vImfcD1nf9RuqeFAx5k0tv5fKP/b7pz5Sl3/VcEh1OS4Z03G6TkrD9Srpwzv1qmzMonuWymE9bVusu0DnTGOPJ+7pkc3PR8fp2n/kvnsBfQf2bvdPdM3XjXlWz/wUs6S3T1oFeN9EH55dOl1/3NP3+pq1Yo9Rh8bmOzxdL/qG7nIbYgsXfycR4verkt/74PjXqYYvnN3LEXP01vl8rBXnQ3AIPVtJ5M+/y1oP6Zv2EfnVftmdvQ7oY76NiD62SfVoFFL8qdzlbNvH/px4tr1/yE65V2gP1yn+VHyN+z9oBriasD5z/0PdAm63sPA=
+   eJytVj0vREEUnZ3EioRgFbsSv4BqdZagRUGHWoFIkChEo12f0VuiFvWG3+AfCIkoZQuJgrB2mZud651338ws4SQv+2bm3nPP/ZhHRatvpHqUF6/d0XvJ+LyYte6J/Ph8z/Jp4MJzQr/1l7wM9K3oOC/a8/sq5HCeVqpu1kO68fvU2/itW5tj3dCD8e9741oLOqmfsAa693Wkj2yPQQOB7Bbs3jbwVR35Il5tXfeBj3KomfUn7DEf2g3Aewn04Tn7Uc4bOp6fxIdDK+k71BG/KyfkIzvu07Ct/QHscf0oj2GRM+LFoYXjkD9prVmuU6uP65UHXsypBrOK/CdWJ/lX7DvP/JEnb+zDcyaKk84kdf8nakLfmZgTrklJ7EusiLNB6CHPTJvI5RnWrln5D0henC1fTC3m2TXfgx4bF6e0RXANZEw8Z07XDEtInlHP/Eg71L0qznBOf9Kn1ozbVs7yGsS5FPOTcsyPBPmve85kP2jt4/GhpVOpuWx8L5R/s+8g1eW3Gq5EXW7alXo0um7bG+t5oQ/v1ESHUpPmmepw6ynrZN0JPGccOx24p9c6Ph+PRtdFl/nuOfRd6p/dP9JVyCk1kov8GHmhtyq0EvC+kT48ezO63s1TtfqK2WSPUQfHlne4L5f0dd3lMsQmLvmdRJDfXWd8b9PwL4kajhm78SZztGh8trLJ+SBcQc9mA/nLv8tcD+ob9xH52X7anM049Em+ZY8+aRPqUTOE+EO509mujb0TeHatv8uOuWfFHq5D/KH4HPcvKDq4irB+MP9DfQGV9rCf
   </data>
  </layer>
  <layer id="3" name="Above" width="40" height="19">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="40" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztVdsJACEMcwr3X8mN7l9ak5q2IFxBuCtpjI/UNcdY/2gbp/DwXn21RmY+C1epL7J3lr79W9GB8h3BnCG7f6d/VFO13ojmDF4rr2hQ7wJbi3wb5WOw6pmzPTEzbvgyNSAvet7N0oPuN9MrFB3MWtg+r8xbiWE4Mrxzi0F5T1/Xm/ZSVL57jA8Qxwc6m+Nl
+   eJztldENwCAIRJ2i+6/kRv03nndyQNKkJCYtQXgg6HzGmP9qXUiQLdpbzabE29l18SmxVr712+Fg+g5hdbqp3+mf7anK94Y5w+9O7zC4vaDuPZ1F9JyU3BxRapPdVxF/mQxsFtHsZvGw/lbuCodDyUW95524lTaKj4zZidowPeLretO+JJXvnjIHzMcLyvvjZQ==
   </data>
  </layer>
  <layer id="5" name="Walkable_Above" width="40" height="19" visible="0">
