@@ -30,10 +30,10 @@
         },
         {
             "fileName": "created/maps/ravine_underground_60.tmx",
-            "height": 480,
+            "height": 384,
             "width": 672,
             "x": 4096,
-            "y": 0
+            "y": 32
         },
         {
             "fileName": "created/maps/road_wild_cabin_basement.tmx",
