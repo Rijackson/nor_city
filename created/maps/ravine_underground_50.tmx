@@ -177,33 +177,30 @@
  <tileset firstgid="7353" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7481" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7609" name="map_cavewall_4" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+ <tileset firstgid="7481" name="map_cavewall_4" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
  </tileset>
- <tileset firstgid="7717" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="7589" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUkAMuc0LwKBgFo2BoAwCKgAG5
+   eJxjYBgFo2AUkAMuc0LwKBgFo4A4kCQ1MPYSyqcA730DEQ==
   </data>
  </layer>
  <layer id="1" name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJybxMPAcIjOeBIQLwbiICn64oVQe5Ok6Ith9l7mpC8etZe2WIQDgkeKf0eyvZvoUCai42VAvI0JgnGVabjkYeKE9G+E+g0dn2BCxSAzYOUZsvhJHOLIGFuZiMs9uMzAhreRoBbdregYAMe+Tjc=
+   eJybxMPAcIjOeBIQLwbiICn64oVQe5Ok6Ith9l7mpC8etZe2WIQDgkeKf0eyvZuILNdAeDKSGyciiWPD6HqR8TIg3sYEwfjKtY1Q9yG7cRMevJkHu15kfIIJFYPcgF6ukVMG/xfCrxfdXnQMClNyymB+Yfx6AQoeRxQ=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxF0sSLYE1lxq6MmaEGzZyGQv1KU9vYmA+1JQbJ7I538uxPot1108B86OAm089QA2DsKBg5sY2Jg2M6EKrYViY8stxVNHUw+UJY8u38zIcwAmf0Hi/m4xH8zYboN3R/E2I9uNsxN2Ox0lEXVh00/OgAAal8dQw==
+   eJxjYBheIIUJu/gxIfz6bHDoIxaUYNGPy85GAm6hBuhiRbAnsuJWRwwg1r0taPYsBPJXilJmNzEgGWhPCpLdGyn0L7FgJ9Bvu+jgP3RwEmjnKQrtpUcapDWghx/IteM/ld22DVi+bKegjDIjUS+yv39D9YLs34rkDksy3NMmBiSEUcV08ZgDcgfI/j9MEJrcMJgGtFdAGLc8AKqpGjw=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4kCw2/O2tYqW/vSWsqHx62RsMtDdkAPxrxsHAYM5Bf3tBgGWA7BUZIHuRwUizdxQMXwAAKBQHCQ==
+   eJxjYBg4kCw2/O2tYqW/vSWsqHx62RsMtDdkAPxrxsHAYM5Bf3tBgGWA7BUZIHuRwUizlxRQDHKj8EC7AjcYyLjrHAC7i4B2zsRjLwB3Bwpt
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="15" visible="0">
