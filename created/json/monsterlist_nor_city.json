@@ -211,5 +211,11 @@
         "monsterClass":"animal",
         "horizontalFlipChance":50,
         "phraseID":"ravine_observer_horse_10"
+    },
+    {
+        "id":"graball",
+        "name":"Graball",
+        "iconID":"monsters_ld_edit:29",
+        "monsterClass":"humanoid"
     }
 ]
