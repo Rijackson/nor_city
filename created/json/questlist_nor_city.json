@@ -164,5 +164,15 @@
                 "logText":"I fell through the ground while exploring the Sullengard Ravine."
             }
         ]
+    },
+    {
+        "id":"ceckapus_nondisplay",
+        "name":"ceckapus_nondisplay",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Met Ceckapus"
+            }
+        ]
     }
 ]

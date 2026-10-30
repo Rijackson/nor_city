@@ -229,6 +229,11 @@
     <property name="spawngroup" value="dd_thief"/>
    </properties>
   </object>
+  <object name="dd_ceckapus_spawn" type="spawn" x="416" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="dd_ceckapus"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="beds" type="key" x="512" y="96" width="32" height="32">

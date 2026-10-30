@@ -2648,5 +2648,1678 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"ceckapus_0",
+        "replies":[
+            {
+                "nextPhraseID":"ceckapus_back",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ceckapus_nondisplay",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_first"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_first",
+        "message":"Oh! Hello! You look like an adventurer. Are you an adventurer? I'm an adventurer too. Mostly. Sort of.\n\nMy name is Ceckapus. Can I ask you something?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"ceckapus_hub"
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_first_no"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ceckapus_nondisplay",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_first_no",
+        "message":"Just one thing! Just one, I promise.",
+        "replies":[
+            {
+                "text":"...Fine. One.",
+                "nextPhraseID":"ceckapus_hub"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_back",
+        "message":"You came back! I knew you would. I've been saving up questions.",
+        "replies":[
+            {
+                "text":"Go on.",
+                "nextPhraseID":"ceckapus_hub"
+            },
+            {
+                "text":"I'm just passing through.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_bye",
+        "message":"Oh. Okay. But wait, what about... no, no, that's fine. Go.\n\nI'll just think of more questions while you're gone. Lots more."
+    },
+    {
+        "id":"ceckapus_hub",
+        "replies":[
+            {
+                "nextPhraseID":"ceckapus_book_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/10"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_armor_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/9"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_tactics_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/8"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_fish_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/7"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_food_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/6"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_bed_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_road_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_brother_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_kids_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_case_10"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_next",
+        "replies":[
+            {
+                "nextPhraseID":"ceckapus_next_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_next_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_next_30"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_next_10",
+        "message":"Okay. Okay okay okay. I wrote that down. Well, I didn't. I don't have anything to write with. Next question!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_next_20",
+        "message":"Hmm. I'll think about it.\n\nOh! That reminds me...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_next_30",
+        "message":"Right. Thanks. I think.\n\nWait, one more thing...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_dunno",
+        "replies":[
+            {
+                "nextPhraseID":"ceckapus_dunno_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_dunno_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_dunno_30"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_dunno_10",
+        "message":"You don't know? Hmm. Then who would know?\n\n...You don't know that either? That's alright. I'll ask you something else.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_dunno_20",
+        "message":"Oh. That's alright. I'll ask you again later. Maybe you'll know by then.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_dunno_30",
+        "message":"Really? You look like someone who knows things. Let me try a different question.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_doubt",
+        "replies":[
+            {
+                "nextPhraseID":"ceckapus_next",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_doubt_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_doubt_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ceckapus_doubt_30"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_doubt_10",
+        "message":"Are you sure? Really, really sure?",
+        "replies":[
+            {
+                "text":"Yes, I'm sure.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"...No.",
+                "nextPhraseID":"ceckapus_doubt_no"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_doubt_20",
+        "message":"Hmm. The last person who told me something like that was wrong. Well, I think they were. I didn't actually go and check.\n\nAre you sure?",
+        "replies":[
+            {
+                "text":"Yes, I'm sure.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"...No.",
+                "nextPhraseID":"ceckapus_doubt_no"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_doubt_30",
+        "message":"Can you say that one more time? Slower?",
+        "replies":[
+            {
+                "text":"...Fine.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I'm not saying it again.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_doubt_no",
+        "message":"Then why did you say it?! Now I don't know what to believe.\n\n...Let me ask you something else.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ceckapus_hub"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_ask_balon",
+        "message":"The innkeeper? Balon? He looks busy. He gave me a funny look last time. Could you ask him for me?",
+        "replies":[
+            {
+                "text":"No. Ask him yourself.",
+                "nextPhraseID":"ceckapus_ask_balon_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_ask_balon_20",
+        "message":"I'll ask him later. Maybe tomorrow. Do you think he'll be busy tomorrow?",
+        "replies":[
+            {
+                "text":"Probably.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_ask_hildona",
+        "message":"Hildona? The lady in the kitchen? She waved a ladle at me once. I think it was a wave. Could you ask her for me?",
+        "replies":[
+            {
+                "text":"Ask her yourself.",
+                "nextPhraseID":"ceckapus_ask_hildona_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_ask_hildona_20",
+        "message":"What if she says no? What if she says yes, and then I don't like it? Then what?",
+        "replies":[
+            {
+                "text":"Then you don't eat it.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_10",
+        "message":"Do you know where I could get a book? A good one. About... staying alive, I guess.",
+        "replies":[
+            {
+                "text":"Arcir in Fallhaven loves books.",
+                "nextPhraseID":"ceckapus_book_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"calomyran",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Arcir in Fallhaven loves books.",
+                "nextPhraseID":"ceckapus_book_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"calomyran",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Arcir in Fallhaven loves books.",
+                "nextPhraseID":"ceckapus_book_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"calomyran",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_wh_delivery",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"undertell_book",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Ask the innkeeper.",
+                "nextPhraseID":"ceckapus_ask_balon"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_20",
+        "message":"Arcir? Who's Arcir? Is he nice? Does he lend them out, or do I have to buy them?",
+        "replies":[
+            {
+                "text":"He's nice enough. Just ask him.",
+                "nextPhraseID":"ceckapus_book_30"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_30",
+        "message":"Okay. And where is he? Which town did you say?",
+        "replies":[
+            {
+                "text":"Fallhaven.",
+                "nextPhraseID":"ceckapus_book_40"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_40",
+        "message":"Fallhaven... where's Fallhaven?",
+        "replies":[
+            {
+                "text":"Not far from Crossglen.",
+                "nextPhraseID":"ceckapus_book_50"
+            },
+            {
+                "text":"It's on the map.",
+                "nextPhraseID":"ceckapus_book_45"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_45",
+        "message":"What map? I don't have a map. Where do I get a map? Does Arcir have maps? He has books, so maybe he has maps.",
+        "replies":[
+            {
+                "text":"Never mind.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_50",
+        "message":"Crossglen! I've heard of Crossglen.\n\nWait. Where's Crossglen?",
+        "replies":[
+            {
+                "text":"That's where I'm from.",
+                "nextPhraseID":"ceckapus_book_60"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_book_60",
+        "message":"Oh! So you could take me there!\n\n...No? Hmm. Will Arcir still be there when I get there? What if he's out?",
+        "replies":[
+            {
+                "text":"He's always home.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"Probably not.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_10",
+        "message":"Those monsters keep hitting me. Every time! Where can I get some good protective equipment?",
+        "replies":[
+            {
+                "text":"Try the shops in Remgard.",
+                "nextPhraseID":"ceckapus_armor_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"Fayvara in Charwood can teach you how to wear armor properly.",
+                "nextPhraseID":"ceckapus_tactics_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Zaccheria runs an armour shop in Sullengard.",
+                "nextPhraseID":"ceckapus_armor_sull",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Maybe stop letting them hit you.",
+                "nextPhraseID":"ceckapus_armor_dodge"
+            },
+            {
+                "text":"Ask the innkeeper if he knows a merchant.",
+                "nextPhraseID":"ceckapus_ask_balon"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_sull",
+        "message":"Sullengard! That's not far, is it? Is it?\n\nWill he give me a discount if I tell him I know you?",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"You can try.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_dodge",
+        "message":"How do I do that? I can't just stop! Is there someone who teaches that?",
+        "replies":[
+            {
+                "text":"Falothen in Charwood teaches fighting.",
+                "nextPhraseID":"ceckapus_tactics_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_20",
+        "message":"Remgard? Is that far? Is it farther than the soldiers' camp?",
+        "replies":[
+            {
+                "text":"Much farther.",
+                "nextPhraseID":"ceckapus_armor_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_30",
+        "message":"Will there be monsters on the way? Will they hit me?",
+        "replies":[
+            {
+                "text":"Probably.",
+                "nextPhraseID":"ceckapus_armor_40"
+            },
+            {
+                "text":"Not if you're careful.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_40",
+        "message":"But that's the whole problem! I need the armor to get to the armor!\n\nCould you go buy it for me? I'll pay you back. Probably.",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_armor_50"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_armor_50",
+        "message":"Hmm. Do they at least let anyone in? I heard Remgard doesn't let people in.",
+        "replies":[
+            {
+                "text":"They let me in.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"Not always.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_10",
+        "message":"I keep swinging my sword, but I always miss. And when they swing back, they never miss. Is there someone who could teach me how to fight? Or how to not get hit?",
+        "replies":[
+            {
+                "text":"Falothen in Charwood teaches people to handle weapons.",
+                "nextPhraseID":"ceckapus_tactics_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"Fayvara in Charwood teaches armor and shields.",
+                "nextPhraseID":"ceckapus_tactics_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Practice on the creatures outside.",
+                "nextPhraseID":"ceckapus_tactics_practice"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_practice",
+        "message":"Outside?! Those are the things that keep hitting me!",
+        "replies":[
+            {
+                "text":"That's the idea.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_20",
+        "message":"Charwood... where is Charwood? Is it a town or a forest? It sounds like a forest. I don't like forests.",
+        "replies":[
+            {
+                "text":"There's a cabin in the forest, northwest of the Foaming Flask.",
+                "nextPhraseID":"ceckapus_tactics_25"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_25",
+        "message":"The Foaming Flask? Is that a tavern? Is it nicer than this one?\n\nDon't tell Balon I asked.",
+        "replies":[
+            {
+                "text":"It's... a tavern.",
+                "nextPhraseID":"ceckapus_tactics_40"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_30",
+        "message":"Someone who teaches you how to not get hit? That's exactly what I need! Does she charge much? I only have fourteen gold. Well, eleven. I bought a pie.",
+        "replies":[
+            {
+                "text":"For the extra lessons she wants gold and Oegyth crystals.",
+                "nextPhraseID":"ceckapus_tactics_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Ask her yourself.",
+                "nextPhraseID":"ceckapus_tactics_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_35",
+        "message":"Oegyth crystals? What do they look like? Where do they come from? Do they bite?",
+        "replies":[
+            {
+                "text":"No, they don't bite.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_tactics_40",
+        "message":"And when I get there, do I just... ask? What do I say? Could you write it down for me?",
+        "replies":[
+            {
+                "text":"Just tell them you want to learn.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_fish_10",
+        "message":"I'm so hungry for a good fish. Not river-mud fish. A good fish. Do you know where I could get some?",
+        "replies":[
+            {
+                "text":"Remgard sits on a lake. They have plenty of fish.",
+                "nextPhraseID":"ceckapus_fish_remgard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"Mabyn, east of Lake Sutdover, has fish.",
+                "nextPhraseID":"ceckapus_fish_mabyn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"something_fishy_in_the_medicine",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Ask the cook.",
+                "nextPhraseID":"ceckapus_ask_hildona"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_fish_mabyn",
+        "message":"Mabyn? Is she a fisherman? Fisherwoman? Fisherperson? Does she share?",
+        "replies":[
+            {
+                "text":"She might sell you some.",
+                "nextPhraseID":"ceckapus_fish_mabyn_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_fish_mabyn_20",
+        "message":"Where's Lake Sutdover? Is it a big lake? If it's a big lake, how do I find the house? Do I walk around it? Which way?",
+        "replies":[
+            {
+                "text":"The east side.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"You'll find it.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_fish_remgard",
+        "message":"Remgard? Everyone says Remgard! Is everything in Remgard?",
+        "replies":[
+            {
+                "text":"Pretty much.",
+                "nextPhraseID":"ceckapus_fish_remgard_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_fish_remgard_20",
+        "message":"Then why doesn't everyone just live in Remgard?\n\nDo you live in Remgard?",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_food_10",
+        "message":"Is the food here any good? What should I order? What do you usually order?",
+        "replies":[
+            {
+                "text":"Ask the cook.",
+                "nextPhraseID":"ceckapus_ask_hildona"
+            },
+            {
+                "text":"Anything is fine.",
+                "nextPhraseID":"ceckapus_food_20"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_food_20",
+        "message":"Anything? Even the soup? What's in the soup? Have you seen what's in the soup?",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_food_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_food_30",
+        "message":"Then how do you know anything is fine?!\n\n...I'll just have bread. Is the bread fine?",
+        "replies":[
+            {
+                "text":"Yes. The bread is fine.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_bed_10",
+        "message":"Can I sleep here? Is there a bed? Is it a good bed? Do they check it for bugs?",
+        "replies":[
+            {
+                "text":"Ask the innkeeper.",
+                "nextPhraseID":"ceckapus_ask_balon"
+            },
+            {
+                "text":"I slept here. It was fine.",
+                "nextPhraseID":"ceckapus_bed_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_bed_20",
+        "message":"Did anything bite you? Check your arms. Go on, check them.",
+        "replies":[
+            {
+                "text":"Nothing bit me.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_road_10",
+        "message":"Is the road safe? The soldiers at the camp kept saying something about an investigation. Am I in trouble? I didn't do anything. I don't think.",
+        "replies":[
+            {
+                "text":"The road is closed while they investigate. I needed a pass from the sergeant.",
+                "nextPhraseID":"ceckapus_road_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"You're not in trouble.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_road_20",
+        "message":"A pass? Can I have your pass?\n\n...Why not? Could you get me one? What did you have to do to get it?",
+        "replies":[
+            {
+                "text":"I convinced the sergeant I could help.",
+                "nextPhraseID":"ceckapus_road_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_road_30",
+        "message":"Convinced him? How? What did you say? Say it exactly like you said it to him.",
+        "replies":[
+            {
+                "text":"I told him about a case I solved.",
+                "nextPhraseID":"ceckapus_case_which"
+            },
+            {
+                "text":"I'm not doing that.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_10",
+        "message":"They closed the road right after I got here, and now I'm stuck. But you got past the soldiers! They don't let just anyone through. How did you get them to trust you?",
+        "replies":[
+            {
+                "text":"I solved a murder in Brimhaven.",
+                "nextPhraseID":"ceckapus_case_brim",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "text":"I found out what happened to the missing people of Remgard.",
+                "nextPhraseID":"ceckapus_case_remgard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard2",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"I solved a murder in Stoutford.",
+                "nextPhraseID":"ceckapus_case_stout",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"I got a merchant's stolen goods back in Sullengard.",
+                "nextPhraseID":"ceckapus_case_sull",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"I just asked nicely.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_which",
+        "message":"A case? You solve cases? What kind of case? Which one?",
+        "replies":[
+            {
+                "text":"I solved a murder in Brimhaven.",
+                "nextPhraseID":"ceckapus_case_brim",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "text":"I found out what happened to the missing people of Remgard.",
+                "nextPhraseID":"ceckapus_case_remgard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard2",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"I solved a murder in Stoutford.",
+                "nextPhraseID":"ceckapus_case_stout",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I found out where all the beer at the Foaming Flask was coming from.",
+                "nextPhraseID":"ceckapus_case_beer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"I got a merchant's stolen goods back in Sullengard.",
+                "nextPhraseID":"ceckapus_case_sull",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_brim",
+        "message":"A murder?! Who did it? Did you catch them? Were you scared? I would have been scared.",
+        "replies":[
+            {
+                "text":"A man named Ogea did it.",
+                "nextPhraseID":"ceckapus_case_brim_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_brim_20",
+        "message":"Ogea... How did you know it was him? Did he tell you? Did you just ask him?",
+        "replies":[
+            {
+                "text":"It all started with a strange-looking dagger I bought.",
+                "nextPhraseID":"ceckapus_case_brim_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_brim_30",
+        "message":"You bought a dagger, and it solved a murder? Where can I buy one of those?",
+        "replies":[
+            {
+                "text":"That's not how it works.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_remgard",
+        "message":"Missing people? Where did they go? Did you find them? Were they hiding?",
+        "replies":[
+            {
+                "text":"A witch named Algangror was behind it.",
+                "nextPhraseID":"ceckapus_case_remgard_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_remgard_20",
+        "message":"A WITCH?! What did you do?",
+        "replies":[
+            {
+                "text":"I dealt with her.",
+                "nextPhraseID":"ceckapus_case_remgard_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_remgard_30",
+        "message":"Dealt with her how? ...No, don't tell me. Yes, tell me. No, don't.\n\nIs she gone? Really gone?",
+        "replies":[
+            {
+                "text":"She's gone.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_stout",
+        "message":"A murder?! Who did it? How did you prove it?",
+        "replies":[
+            {
+                "text":"Blornvale, the alchemist. He drank a potion of truth and confessed.",
+                "nextPhraseID":"ceckapus_case_stout_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_stout_20",
+        "message":"A potion of truth? That's a real thing? Could I get one? I'd make Balon drink it and ask him what's really in the soup.",
+        "replies":[
+            {
+                "text":"That's not a good idea.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_beer",
+        "message":"Beer? You got past the soldiers because of... beer?",
+        "replies":[
+            {
+                "text":"Someone was bootlegging it, and I found out who.",
+                "nextPhraseID":"ceckapus_case_beer_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_beer_20",
+        "message":"Bootlegged beer? Is this beer bootlegged? I've had three of these. Should I stop drinking it?",
+        "replies":[
+            {
+                "text":"This beer is fine.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"Maybe you should stop.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_sull",
+        "message":"Stolen goods? Did you fight the thieves? Were there a lot of them? Did they have knives?",
+        "replies":[
+            {
+                "text":"I tracked down the stolen things and returned them to Zaccheria.",
+                "nextPhraseID":"ceckapus_case_sull_20"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_sull_20",
+        "message":"Zaccheria... What did they steal from him? What does he sell?",
+        "replies":[
+            {
+                "text":"He runs the armour shop in Sullengard.",
+                "nextPhraseID":"ceckapus_case_sull_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_case_sull_30",
+        "message":"ARMOUR?! You know an armour seller, and you didn't tell me? I've been asking everyone about armour!",
+        "replies":[
+            {
+                "text":"You never asked me.",
+                "nextPhraseID":"ceckapus_armor_sull"
+            },
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"ceckapus_armor_sull"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_brother_10",
+        "message":"Are you out here all alone? Doesn't your family worry about you?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. My father Mikhail is waiting at home.",
+                "nextPhraseID":"ceckapus_brother_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'm fine.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_brother_20",
+        "message":"You lost your brother? How do you lose a brother? Was he very small?",
+        "replies":[
+            {
+                "text":"He isn't small. He just left.",
+                "nextPhraseID":"ceckapus_brother_30"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_brother_30",
+        "message":"What does he look like?",
+        "replies":[
+            {
+                "text":"A bit like me, I suppose.",
+                "nextPhraseID":"ceckapus_brother_40"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_brother_40",
+        "message":"Like you... So he looks like... a person.\n\nI think I saw a person earlier! Wait, no. That was Balon. Was it Balon? Is Balon your brother?",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_kids_10",
+        "message":"Somebody said children have been going missing around here. Is that true? Should I be worried? I'm not a child. Am I? I'm not, right?",
+        "replies":[
+            {
+                "text":"Yes. Children have been disappearing near the road.",
+                "nextPhraseID":"ceckapus_kids_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"You're not a child.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"I don't know.",
+                "nextPhraseID":"ceckapus_dunno"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
+    },
+    {
+        "id":"ceckapus_kids_20",
+        "message":"Who's taking them? Do you know? Are you going to find out? Can I come?\n\n...Actually, no. Can you just tell me afterwards?",
+        "replies":[
+            {
+                "text":"I'll tell you afterwards.",
+                "nextPhraseID":"ceckapus_doubt"
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"ceckapus_next"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"ceckapus_bye"
+            }
+        ]
     }
 ]

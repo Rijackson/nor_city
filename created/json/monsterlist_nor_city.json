@@ -217,5 +217,12 @@
         "name":"Graball",
         "iconID":"monsters_ld_edit:29",
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"dd_ceckapus",
+        "name":"Ceckapus",
+        "iconID":"monsters_ld1:26",
+        "monsterClass":"humanoid",
+        "phraseID":"ceckapus_0"
     }
 ]
