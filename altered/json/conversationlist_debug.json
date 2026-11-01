@@ -1,0 +1,32 @@
+[
+    {
+        "id":"dbg_prj",
+        "message":"***  nor_city  ***",
+        "replies":[
+            {
+                "text":"Road closure",
+                "nextPhraseID":"dbg_teleport_prj_norcity_road_closure"
+            },
+            {
+                "text":"Ravine ladder",
+                "nextPhraseID":"dbg_teleport_prj_norcity_ravine_ladder"
+            },
+            {
+                "text":"Ravine hole",
+                "nextPhraseID":"dbg_teleport_prj_norcity_ravine_hole"
+            },
+            {
+                "text":"Wild cabin",
+                "nextPhraseID":"dbg_teleport_prj_norcity_cabin"
+            },
+            {
+                "text":"Tavern",
+                "nextPhraseID":"dbg_teleport_prj_norcity_tavern"
+            },
+            {
+                "text":"Back",
+                "nextPhraseID":"dbg"
+            }
+        ]
+    }
+]
