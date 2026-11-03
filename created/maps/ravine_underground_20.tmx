@@ -229,7 +229,7 @@
   </object>
   <object name="east" type="mapchange" x="736" y="192" width="32" height="32">
    <properties>
-    <property name="map" value="ravine_underground_30"/>
+    <property name="map" value="ravinde_underground_vault"/>
     <property name="place" value="west"/>
    </properties>
   </object>

@@ -224,7 +224,7 @@
   <object name="down" type="mapchange" x="64" y="160" width="32" height="32">
    <properties>
     <property name="map" value="ravine_underground_40"/>
-    <property name="place" value="east"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>
