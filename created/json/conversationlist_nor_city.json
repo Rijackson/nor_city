@@ -2297,17 +2297,21 @@
                 "rewardType":"mapchange",
                 "rewardID":"bed",
                 "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":10
             }
         ]
     },
     {
         "id":"ravine_hole_key_first_time_20",
         "message":"You land hard - but not on stone. A bed breaks your fall, and nothing feels broken but your pride. Dirt from the roof rains down around you, covering the blankets. Dim light filters down from the hole above, enough to see stone floors and brick walls. People built this room.",
-        "rewards":[
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"ravine_quest",
-                "value":10
+                "text":"N",
+                "nextPhraseID":"ravine_thief_10"
             }
         ]
     },
@@ -2334,6 +2338,452 @@
                 "mapName":"ravine_underground_10"
             }
         ]
+    },
+    {
+        "id":"ravine_thief_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_report_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_default"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_default",
+        "message":"Don't look at me. I just sleep here. Well, I did, back when the dorm had a ceiling."
+    },
+    {
+        "id":"ravine_thief_10",
+        "message":"Wha- hey! HEY! Where did you come from? Did you just fall through my ceiling?",
+        "switchToNPC":"ravine_thief",
+        "replies":[
+            {
+                "text":"It wasn't on purpose.",
+                "nextPhraseID":"ravine_thief_20"
+            },
+            {
+                "text":"Nice place. A bit drafty now.",
+                "nextPhraseID":"ravine_thief_20"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"ravine_thief_15"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_15",
+        "message":"Who am I? You're the one who just dropped into my room!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_20",
+        "message":"Look at this. Dirt in my blankets, and sky where the roof used to be. Graball is going to lose his mind.",
+        "replies":[
+            {
+                "text":"Who is Graball?",
+                "nextPhraseID":"ravine_thief_25"
+            },
+            {
+                "text":"Sorry about the bed.",
+                "nextPhraseID":"ravine_thief_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_25",
+        "message":"The man in charge. You'll meet him soon enough.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_30",
+        "message":"Right. You're coming with me, and don't touch anything on the way.",
+        "replies":[
+            {
+                "text":"Fine. Lead the way.",
+                "nextPhraseID":"ravine_thief_35"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_35",
+        "message":"Not so fast. Guests don't get the tour.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_escort_10"
+            }
+        ]
+    },
+    {
+        "id":"ravine_escort_10",
+        "message":"The thief pulls a dark sack over your head, and the world goes black. A hand grips your arm and steers you forward. Blind, you stumble up a flight of stairs, through a warm room that smells of cooking, then somewhere cold where every step echoes. The floor turns to soft dirt under your feet, and then there are more stairs.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_escort_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"graball_audience",
+                "mapName":"ravine_underground_50"
+            }
+        ]
+    },
+    {
+        "id":"ravine_escort_20",
+        "message":"The thief pushes you down onto a seat and yanks the sack off your head. You blink in the light. You are at a small round table in a stone-floored nook, in the middle of a long hall with a dirt floor. Across from you, a man sets down his mug and looks you over. He does not look pleased to be interrupted.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_report_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":20
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_50"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_report_10",
+        "message":"Boss, this one came through the dorm ceiling and landed right on my bed. There's a hole up there now. You can see the sky through it.",
+        "switchToNPC":"ravine_thief",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_10"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_10",
+        "message":"Through the ceiling. Through. My. Ceiling.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_selector"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_member",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_stranger"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_outcast",
+        "message":"I know your face. You robbed one of our vaults, and now you've dropped into another. Some people never learn.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_member",
+        "message":"Wait. I know you. You've done work for the Guild. Then you know better than to go poking around places nobody told you about. Still, better you than a guard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_stranger",
+        "message":"I don't know you, and you've already seen more than a stranger should. That's a problem for both of us.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_30",
+        "message":"So. Tell me how you got in, and don't leave anything out.",
+        "replies":[
+            {
+                "text":"I was walking along the ravine and the ground gave way.",
+                "nextPhraseID":"graball_meet_40"
+            },
+            {
+                "text":"I fell. That's really the whole story.",
+                "nextPhraseID":"graball_meet_40"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_40",
+        "message":"The ground gave way. Under the ravine. Right above my base. Wonderful. Who else knows about that hole?",
+        "replies":[
+            {
+                "text":"No one, as far as I know.",
+                "nextPhraseID":"graball_meet_50"
+            },
+            {
+                "text":"Just me. And now you.",
+                "nextPhraseID":"graball_meet_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_50",
+        "message":"That's not good enough. There's a man who stands at that ravine every day, staring into it. Bramver. If anyone saw that hole open up, it's him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_60"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_60",
+        "message":"Go and find out what he's seen. Don't tell him about this place, and don't tell him about me.",
+        "replies":[
+            {
+                "text":"And if I refuse?",
+                "nextPhraseID":"graball_meet_65"
+            },
+            {
+                "text":"Fine. I'll talk to him.",
+                "nextPhraseID":"graball_meet_70"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_65",
+        "message":"Then you're someone who knows where we sleep, and I'd have to decide what to do about that. Talk to Bramver.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_70"
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_70",
+        "message":"Take the stairs at the end of the hall and keep going until you come up in a cabin. The door locks behind you, so when you have news, come back the way you came in.",
+        "replies":[
+            {
+                "text":"Through the ceiling?",
+                "nextPhraseID":"graball_meet_80"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"graball_meet_80",
+        "message":"You seem to have a talent for it."
+    },
+    {
+        "id":"graball_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_resume_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_remind_bramver",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_default"
+            }
+        ]
+    },
+    {
+        "id":"graball_resume_10",
+        "switchToNPC":"graball",
+        "message":"Stop right there. You're the one who came through the dorm ceiling, aren't you? Word travels fast down here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_meet_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":20
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_remind_bramver",
+        "message":"Bramver. The man who watches the ravine. Why are you still standing in my office?"
+    },
+    {
+        "id":"graball_default",
+        "message":"Graball doesn't look up from his ledger."
+    },
+    {
+        "id":"ravine_50_down_block_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_resume_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_50_down_block_thief"
+            }
+        ]
+    },
+    {
+        "id":"ravine_50_down_block_thief",
+        "message":"Oi, not that way. Either you talk to the boss, or you take the stairs at the end of the hall and get out.",
+        "switchToNPC":"ravine_thief"
     },
     {
         "id":"cabin_door_lock_selector",

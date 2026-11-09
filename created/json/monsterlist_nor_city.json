@@ -216,7 +216,8 @@
         "id":"graball",
         "name":"Graball",
         "iconID":"monsters_ld_edit:29",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"graball_selector"
     },
     {
         "id":"dd_ceckapus",
@@ -224,5 +225,11 @@
         "iconID":"monsters_ld1:26",
         "monsterClass":"humanoid",
         "phraseID":"ceckapus_0"
+    },
+    {
+        "id":"ravine_thief",
+        "name":"Ravine Thief",
+        "iconID":"monsters_ld_edit:19",
+        "phraseID":"ravine_thief_selector"
     }
 ]
