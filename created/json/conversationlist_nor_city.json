@@ -2313,14 +2313,14 @@
     },
     {
         "id":"ravine_hole_key_sub_time_10",
-        "message":"You already know the fall won't kill you, but is this really a good idea to go back?",
+        "message":"You already know the fall won't kill you. Do you want to drop back down?",
         "replies":[
             {
-                "text":"Yeah, I'm sure!",
+                "text":"Yes, down I go.",
                 "nextPhraseID":"ravine_hole_key_sub_time_20"
             },
             {
-                "text":"I've been there and done that. I won't do it again.",
+                "text":"Not right now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2434,11 +2434,42 @@
     },
     {
         "id":"not_home_note_10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_door_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"sullengard_ravine_3_1_house_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"not_home_note_15"
+            }
+        ]
+    },
+    {
+        "id":"not_home_note_15",
         "message":"The door is locked, but there's a note...",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"not_home_note_20"
+            }
+        ]
+    },
+    {
+        "id":"alduan_door_unlock",
+        "message":"Alduan's spare key turns stiffly in the lock, and the door creaks open.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"entrance",
+                "mapName":"sullengard_ravine_3_1_house"
             }
         ]
     },
@@ -2645,7 +2676,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
-                "value":10
+                "value":5
             }
         ]
     },
@@ -4321,5 +4352,180 @@
                 "nextPhraseID":"ceckapus_bye"
             }
         ]
+    },
+    {
+        "id":"sullengard_ravine_3_1_house_clock_mk",
+        "replies":[
+            {
+                "nextPhraseID":"steal_alduan_clock_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"alduan_clock_stolen",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"steal_alduan_clock_10",
+        "message":"A small clock hangs on the wall, ticking away in the empty house. It's the only thing in here worth more than the walls around it.",
+        "replies":[
+            {
+                "text":"Take the clock.",
+                "nextPhraseID":"steal_alduan_clock_20"
+            },
+            {
+                "text":"Leave it for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"steal_alduan_clock_20",
+        "message":"You lift the clock off its hook. It keeps ticking in your hands, louder than seems fair.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"alduan_stolen_clock",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"alduan_clock_stolen",
+        "message":"A clean patch on the wall shows where the clock used to hang. Alduan will notice eventually, though he may wonder whether he ever owned a clock at all."
+    },
+    {
+        "id":"alduan_apple_crate_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_crate_return_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"sullengard_ravine_3_1_house_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_crate_find_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_crate_returned",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_crate_default"
+            }
+        ]
+    },
+    {
+        "id":"alduan_crate_find_10",
+        "message":"A man who gets home after dark keeps a spare where his hands can find it. You tip the apple crate back, and there, pressed into the dirt, is a small iron key.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"sullengard_ravine_3_1_house_key",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"alduan_crate_return_10",
+        "message":"This is where Alduan keeps his spare key. If it were back under the crate, he'd have no reason to think anyone had used it.",
+        "replies":[
+            {
+                "text":"Put the key back.",
+                "nextPhraseID":"alduan_crate_return_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"sullengard_ravine_3_1_house_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Keep the key.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"alduan_crate_return_20",
+        "message":"You press the key back into the dirt and lower the crate over it, just as you found it.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"alduan_crate_returned",
+        "message":"Alduan's key is back under the crate, right where he left it."
+    },
+    {
+        "id":"alduan_crate_default",
+        "message":"A crate of apples, slowly going soft in the sun."
     }
 ]

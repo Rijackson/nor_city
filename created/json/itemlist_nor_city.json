@@ -605,5 +605,20 @@
         "baseMarketCost":0,
         "category":"other",
         "description":"A key cut for the side door of a cabin out along the wild road. A guild member said it would 'save you a long walk back around.'"
+    },
+    {
+        "id":"sullengard_ravine_3_1_house_key",
+        "iconID":"items_japozero:384",
+        "name":"Alduan's house key",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"alduan_stolen_clock",
+        "iconID":"items_armours:0",
+        "name":"Alduan's stolen clock",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"[TODO: update sprite once I get the clock]"
     }
 ]
