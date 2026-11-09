@@ -2840,26 +2840,6 @@
         ]
     },
     {
-        "id":"not_home_note_10",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"alduan_door_unlock",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"sullengard_ravine_3_1_house_key",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"not_home_note_15"
-            }
-        ]
-    },
-    {
         "id":"not_home_note_15",
         "message":"The door is locked, but there's a note...",
         "replies":[
@@ -2868,10 +2848,6 @@
                 "nextPhraseID":"not_home_note_20"
             }
         ]
-    },
-    {
-        "id":"alduan_door_unlock",
-        "message":"Alduan's spare key turns stiffly in the lock, and the door creaks open."
     },
     {
         "id":"not_home_note_20",

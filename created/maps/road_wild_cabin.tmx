@@ -232,7 +232,7 @@
    <properties>
     <property name="phrase" value="cabin_door_lock_denied"/>
     <property name="requireId" value="thieves_cabin_key"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="false"/>
     <property name="requireType" value="inventoryKeep"/>
     <property name="requireValue" value="1"/>
    </properties>
