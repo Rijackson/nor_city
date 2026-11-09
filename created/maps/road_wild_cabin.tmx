@@ -230,7 +230,7 @@
  <objectgroup name="Keys">
   <object name="cabin_door" type="key" x="320" y="768" width="32" height="32">
    <properties>
-    <property name="phrase" value="cabin_door_lock_unlock"/>
+    <property name="phrase" value="cabin_door_lock_selector"/>
     <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
