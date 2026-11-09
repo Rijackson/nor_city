@@ -2786,38 +2786,6 @@
         "switchToNPC":"ravine_thief"
     },
     {
-        "id":"cabin_door_lock_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"cabin_door_lock_unlock",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"thieves_cabin_key",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"cabin_door_lock_denied",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"thieves_cabin_key",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"cabin_door_lock_unlock",
-        "message":"You slide the worn key into the lock. It turns with a soft click, and the door swings open."
-    },
-    {
         "id":"cabin_door_lock_denied",
         "message":"The door is locked tight. You'll need something to open it."
     },
@@ -2903,14 +2871,7 @@
     },
     {
         "id":"alduan_door_unlock",
-        "message":"Alduan's spare key turns stiffly in the lock, and the door creaks open.",
-        "rewards":[
-            {
-                "rewardType":"mapchange",
-                "rewardID":"entrance",
-                "mapName":"sullengard_ravine_3_1_house"
-            }
-        ]
+        "message":"Alduan's spare key turns stiffly in the lock, and the door creaks open."
     },
     {
         "id":"not_home_note_20",
