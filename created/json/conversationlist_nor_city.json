@@ -2725,8 +2725,8 @@
     },
     {
         "id":"graball_resume_10",
-        "switchToNPC":"graball",
         "message":"Stop right there. You're the one who came through the dorm ceiling, aren't you? Word travels fast down here.",
+        "switchToNPC":"graball",
         "replies":[
             {
                 "text":"N",
@@ -2815,18 +2815,7 @@
     },
     {
         "id":"cabin_door_lock_unlock",
-        "message":"You slide the worn key into the lock. It turns with a soft click, and the door swings open.",
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"CabinDoor"
-            },
-            {
-                "rewardType":"mapchange",
-                "rewardID":"north",
-                "mapName":"road_wild_cabin"
-            }
-        ]
+        "message":"You slide the worn key into the lock. It turns with a soft click, and the door swings open."
     },
     {
         "id":"cabin_door_lock_denied",
