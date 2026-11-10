@@ -2802,6 +2802,23 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"graball_ysolmere_remind",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graball_default"
             }
         ]
@@ -3185,13 +3202,332 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"piwh_sleeping",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"piwh_unconscious"
             }
         ]
     },
     {
         "id":"piwh_unconscious",
-        "message":"Piwh lies on the bed, pale and drenched in sweat. His breathing is shallow, and he doesn't respond when you speak to him."
+        "message":"Piwh lies on the bed, pale and drenched in sweat. His breathing is shallow, and he doesn't respond when you speak to him.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"ysolmere_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_after_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_default"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_default",
+        "message":"Not now. I'm busy."
+    },
+    {
+        "id":"ysolmere_10",
+        "message":"A woman kneels beside Piwh's bed, pressing a damp cloth to his forehead. She doesn't look up.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_20"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_20",
+        "message":"You're the one Graball sent? Good. Bring that lamp closer.",
+        "switchToNPC":"ravine_thief_healer",
+        "replies":[
+            {
+                "text":"What's wrong with him?",
+                "nextPhraseID":"ysolmere_30"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_30",
+        "message":"Poison. Quill thinks it's a fever, but look at his lips, and the black under his nails. Someone wanted him dead, and slowly.",
+        "replies":[
+            {
+                "text":"Can you save him?",
+                "nextPhraseID":"ysolmere_40"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_40",
+        "message":"I can keep him breathing, but not with what I have here. This dorm is stocked for knife cuts and hangovers.",
+        "replies":[
+            {
+                "text":"What do you need?",
+                "nextPhraseID":"ysolmere_50"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_50",
+        "message":"Two Izthiel claws, an Angel feather, five Cyclopea roots, two jars of honey and two Orchard apples.",
+        "replies":[
+            {
+                "text":"Where do I find those?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_apples",
+        "message":"Deebo grows them, in his orchard northeast of Sullengard. Nothing else cuts the bitterness enough to get the rest down him. Deebo is wary of strangers, though. He only sells to people he trusts.",
+        "replies":[
+            {
+                "text":"What about the rest?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_where",
+        "message":"Which one?",
+        "replies":[
+            {
+                "text":"Izthiel claws?",
+                "nextPhraseID":"ysolmere_where_claw"
+            },
+            {
+                "text":"An Angel feather?",
+                "nextPhraseID":"ysolmere_where_feather"
+            },
+            {
+                "text":"Cyclopea roots?",
+                "nextPhraseID":"ysolmere_where_root"
+            },
+            {
+                "text":"Honey?",
+                "nextPhraseID":"ysolmere_where_honey"
+            },
+            {
+                "text":"Orchard apples?",
+                "nextPhraseID":"ysolmere_apples"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_where_claw",
+        "message":"Izthiels lurk along the waterways and the lake shore road. Kill one and take its claws. Not every one has claws worth taking, so you may need to kill a few.",
+        "replies":[
+            {
+                "text":"What about the rest?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_where_feather",
+        "message":"From the Angel of death. It haunts the forest and the graveyard between Vilegard and Sullengard. Folk say a feather under a sick man's pillow calls the Angel to him. Burn one, and its smoke sends the Angel away.",
+        "replies":[
+            {
+                "text":"What about the rest?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_where_root",
+        "message":"Cyclopea creepers grow in the hills west of Sullengard. Most of them have nothing but rot under them, so you'll be digging up a lot of creepers.",
+        "replies":[
+            {
+                "text":"What about the rest?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_where_honey",
+        "message":"Leofric, the beekeeper near Feygard. He sells it by the jar.",
+        "replies":[
+            {
+                "text":"What about the rest?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"I'll get them.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_hurry",
+        "message":"Hurry. I don't know how long he has."
+    },
+    {
+        "id":"ysolmere_check_10",
+        "message":"Do you have them? Two Izthiel claws, an Angel feather, five Cyclopea roots, two jars of honey and two Orchard apples.",
+        "switchToNPC":"ravine_thief_healer",
+        "replies":[
+            {
+                "text":"Here, take them.",
+                "nextPhraseID":"ysolmere_cure_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"izthiel_claw",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"angel_feather",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cyclopea_root",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"honey",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"deebo_apples",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"Where do I find those?",
+                "nextPhraseID":"ysolmere_where"
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"ysolmere_hurry"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_cure_10",
+        "message":"Ysolmere grinds the claws and roots into a paste and stirs it into the honey and apple pulp. She works a spoonful between Piwh's lips, then holds the feather to the lamp and lets its smoke drift over him.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_cure_20"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_cure_20",
+        "message":"There. His breathing's steadier. He'll live, as long as he's left to sleep. Go and tell Graball. He'll want to know who did this to his catchpole.",
+        "switchToNPC":"ravine_thief_healer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_after_90",
+        "message":"He's sleeping. Don't wake him. Graball will want to hear from you."
+    },
+    {
+        "id":"piwh_sleeping",
+        "message":"Piwh is asleep. His color has come back, and his breathing is slow and even.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"graball_ysolmere_remind",
+        "message":"Then why are you here? Whatever Ysolmere needs, get it. Piwh can't wait."
     },
     {
         "id":"graball_piwh_remind",

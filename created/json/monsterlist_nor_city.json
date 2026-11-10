@@ -241,6 +241,7 @@
     {
         "id":"ravine_thief_healer",
         "name":"Ysolmere",
+        "phraseID":"ysolmere_selector",
         "iconID":"monsters_newb_1:40"
     },
     {
