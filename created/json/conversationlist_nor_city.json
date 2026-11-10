@@ -2717,6 +2717,40 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"graball_report_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_remind_clock",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graball_default"
             }
         ]
@@ -2755,7 +2789,162 @@
     },
     {
         "id":"graball_default",
-        "message":"Graball doesn't look up from his ledger."
+        "message":"Graball takes a long drink of his beer and says nothing."
+    },
+    {
+        "id":"graball_remind_clock",
+        "message":"Alduan's clock. The house in the ravine. My beer is getting warm while you stand there."
+    },
+    {
+        "id":"graball_report_10",
+        "message":"Well? What did the birdwatcher have to say?",
+        "replies":[
+            {
+                "text":"He says he's seen nothing but birds.",
+                "nextPhraseID":"graball_report_20"
+            },
+            {
+                "text":"He said a young bird fell out of its nest and landed somewhere soft.",
+                "nextPhraseID":"graball_report_15"
+            }
+        ]
+    },
+    {
+        "id":"graball_report_15",
+        "message":"A bird fell out of its nest. Fascinating. Truly.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_report_20"
+            }
+        ]
+    },
+    {
+        "id":"graball_report_20",
+        "message":"A man rides out every day to stare into a ravine, and all he ever sees is birds. I don't believe a word of it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_selector"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_member",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_stranger"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_stranger",
+        "message":"And I don't believe you either. You've seen my base, my men and my face, and all that keeps your mouth shut is your word. So you're going to do a job for me. Once you've robbed a house for the Guild, going to the guards would put you in the cell next to ours.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_member",
+        "message":"As for you, you've worked for the Guild, but you've never worked for me. Before I trust you with what you've seen down here, I want to see how you handle a job.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_outcast",
+        "message":"As for you, you still owe the Guild for that vault. Consider this your first payment.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_30",
+        "message":"There's a man named Alduan with a house in the ravine. He spends all day at the orchard, so the place sits empty. There's a clock on his wall. Bring it to me.",
+        "replies":[
+            {
+                "text":"A clock? That's it?",
+                "nextPhraseID":"graball_order_40"
+            },
+            {
+                "text":"How do I get in?",
+                "nextPhraseID":"graball_order_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_40",
+        "message":"I don't care about the clock. I care that you stole it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_50",
+        "message":"A man who works long days keeps a spare key somewhere near the door. Find it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_order_60"
+            }
+        ]
+    },
+    {
+        "id":"graball_order_60",
+        "message":"Out through the cabin, same as before. And when you come back, use the same hole. I don't need two.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":50
+            }
+        ]
     },
     {
         "id":"ravine_50_down_block_selector",
@@ -3075,7 +3264,7 @@
     },
     {
         "id":"ravine_observer_q_30",
-        "message":"Nothing but birds, I'm afraid. Though now that you mention it, one of the young ones tumbled out of its nest a few days ago.",
+        "message":"Nothing but birds, I'm afraid. Though now that you mention it, one of the young ones tumbled out of its nest recently.",
         "replies":[
             {
                 "text":"Is it all right?",
