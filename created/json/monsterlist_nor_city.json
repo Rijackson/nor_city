@@ -231,5 +231,22 @@
         "name":"Ravine Thief",
         "iconID":"monsters_ld_edit:19",
         "phraseID":"ravine_thief_selector"
+    },
+    {
+        "id":"ravine_messenger",
+        "name":"Quill",
+        "phraseID":"ravine_messenger_selector",
+        "iconID":"monsters_newb_1:43"
+    },
+    {
+        "id":"ravine_thief_healer",
+        "name":"Ysolmere",
+        "iconID":"monsters_newb_1:40"
+    },
+    {
+        "id":"piwh",
+        "name":"Piwh",
+        "phraseID":"piwh_selector",
+        "iconID":"monsters_tometik1:86"
     }
 ]

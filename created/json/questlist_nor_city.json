@@ -181,7 +181,7 @@
             },
             {
                 "progress":50,
-                "logText":"Graball doesn't trust me to keep quiet about this place. He wants me to take a clock from Alduan's empty house, and says a spare key should be near the door."
+                "logText":"Graball doesn't trust me to keep quiet about this place. He wants me to take a clock from Alduan's house, and says a spare key should be near the door."
             },
             {
                 "progress":55,
@@ -197,12 +197,16 @@
             },
             {
                 "progress":70,
-                "logText":"Graball took the clock and gave me a key to the cabin. Then a thief burst in: a man named Piwh had collapsed at the cabin, badly hurt."
+                "logText":"Graball took the clock and gave me a key to the cabin."
             },
             {
                 "progress":72,
-                "logText":"Graball took the clock and gave me a key to the cabin. He was impressed that I put Alduan's key back, because a robbery nobody can explain is one nobody investigates. Then a thief burst in: a man named Piwh had collapsed at the cabin, badly hurt.",
+                "logText":"Graball took the clock and gave me a key to the cabin. He was impressed that I put Alduan's key back, because a robbery nobody can explain is one nobody investigates.",
                 "rewardExperience":2019
+            },
+            {
+                "progress":75,
+                "logText":"A thief named Quill burst in. Piwh, Graball's catchpole, had collapsed at the cabin door, burning up and barely breathing. He has been carried down to the dorm, and Graball told me to go there and help Ysolmere, the healer looking after him."
             },
             {
                 "progress":80,

@@ -241,6 +241,12 @@
     <property name="spawngroup" value="ravine_thief"/>
    </properties>
   </object>
+  <object name="ravine_messenger_spawn" type="spawn" x="512" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="ravine_messenger"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="ravine_50_down_block" type="key" x="320" y="224" width="32" height="128">
