@@ -2462,6 +2462,7 @@
     {
         "id":"ravine_escort_10",
         "message":"The thief pulls a dark sack over your head, and the world goes black. A hand grips your arm and steers you forward. Blind, you stumble up a flight of stairs, through a warm room that smells of cooking, then somewhere cold where every step echoes. The floor turns to soft dirt under your feet, and then there are more stairs.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2473,12 +2474,23 @@
                 "rewardType":"mapchange",
                 "rewardID":"graball_audience",
                 "mapName":"ravine_underground_50"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_thief_spawn",
+                "mapName":"ravine_underground_50"
             }
         ]
     },
     {
         "id":"ravine_escort_20",
         "message":"The thief pushes you down onto a seat and yanks the sack off your head. You blink in the light. You are at a small round table in a stone-floored nook, in the middle of a long hall with a dirt floor. Across from you, a man sets down his mug and looks you over. He does not look pleased to be interrupted.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2490,16 +2502,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":20
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"ravine_thief_spawn",
-                "mapName":"ravine_underground_10"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"ravine_thief_spawn",
-                "mapName":"ravine_underground_50"
             }
         ]
     },
@@ -2616,11 +2618,7 @@
         "message":"The ground gave way. Under the ravine. Right above my base. Wonderful. Who else knows about that hole?",
         "replies":[
             {
-                "text":"No one, as far as I know.",
-                "nextPhraseID":"graball_meet_50"
-            },
-            {
-                "text":"Just me. And now you.",
+                "text":"No one outside of this place, as far as I know.",
                 "nextPhraseID":"graball_meet_50"
             }
         ]
@@ -2776,6 +2774,17 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"ravine_50_down_block_bramver_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ravine_50_down_block_thief"
             }
         ]
@@ -2784,6 +2793,28 @@
         "id":"ravine_50_down_block_thief",
         "message":"Oi, not that way. Either you talk to the boss, or you take the stairs at the end of the hall and get out.",
         "switchToNPC":"ravine_thief"
+    },
+    {
+        "id":"ravine_50_down_block_bramver_10",
+        "message":"You again? The boss sent you to talk to Bramver. Until you have, you've got no business down here.",
+        "switchToNPC":"ravine_thief",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_50_down_block_bramver_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_50_down_block_bramver_20",
+        "message":"He takes you by the collar, marches you up the stairs and through the cabin, and shoves you out the front door. It locks behind you.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"outside_building",
+                "mapName":"road_wild_cabin"
+            }
+        ]
     },
     {
         "id":"cabin_door_lock_denied",
@@ -2922,6 +2953,160 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"ravine_observer_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_q_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_after_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_repeat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_10"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_repeat",
+        "message":"Back again? Did you ever climb down to look at that old crate?"
+    },
+    {
+        "id":"ravine_observer_after_40",
+        "message":"Still here? Watch the sky long enough, and you'll see everything worth seeing."
+    },
+    {
+        "id":"ravine_observer_q_10",
+        "message":"Ah, a visitor! Come to admire the view?",
+        "replies":[
+            {
+                "text":"Have you noticed anything unusual around the ravine lately?",
+                "nextPhraseID":"ravine_observer_q_20"
+            },
+            {
+                "text":"Have you seen anyone else wandering around up here?",
+                "nextPhraseID":"ravine_observer_q_25"
+            },
+            {
+                "text":"How do you get out here? I heard the Duleian Road is closed.",
+                "nextPhraseID":"ravine_observer_q_trail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"essence_child",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_trail",
+        "message":"The road, yes. Soldiers everywhere, and not one of them will say why. But my horse knows a trail through the trees. They can close a road, but they can't close a forest!",
+        "replies":[
+            {
+                "text":"Have you noticed anything unusual around the ravine lately?",
+                "nextPhraseID":"ravine_observer_q_20"
+            },
+            {
+                "text":"Have you seen anyone else wandering around up here?",
+                "nextPhraseID":"ravine_observer_q_25"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_20",
+        "message":"Unusual? Hmm. The swallows are flying low today. That usually means rain.",
+        "replies":[
+            {
+                "text":"I meant on the ground.",
+                "nextPhraseID":"ravine_observer_q_30"
+            },
+            {
+                "text":"Nothing else?",
+                "nextPhraseID":"ravine_observer_q_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_25",
+        "message":"Only you! Most folk have more sense than to wander out this far. I like it that way. Just me, my horse and the birds.",
+        "replies":[
+            {
+                "text":"So nothing unusual at all?",
+                "nextPhraseID":"ravine_observer_q_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_30",
+        "message":"Nothing but birds, I'm afraid. Though now that you mention it, one of the young ones tumbled out of its nest a few days ago.",
+        "replies":[
+            {
+                "text":"Is it all right?",
+                "nextPhraseID":"ravine_observer_q_40"
+            },
+            {
+                "text":"What happened to it?",
+                "nextPhraseID":"ravine_observer_q_40"
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_40",
+        "message":"Oh, I expect it's fine. It came down somewhere soft, I'd wager. Fledglings are tougher than they look.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_observer_q_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"ravine_observer_q_50",
+        "message":"Bramver turns back to the ravine, humming to himself."
     },
     {
         "id":"ravine_observer_10",

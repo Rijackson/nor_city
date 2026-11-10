@@ -248,7 +248,7 @@
     <property name="phrase" value="ravine_50_down_block_selector"/>
     <property name="requireId" value="ravine_quest"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="30"/>
+    <property name="requireValue" value="40"/>
    </properties>
   </object>
  </objectgroup>

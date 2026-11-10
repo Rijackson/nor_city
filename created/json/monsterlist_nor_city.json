@@ -201,7 +201,7 @@
         "iconID":"monsters_ld1:132",
         "moveCost":4,
         "monsterClass":"humanoid",
-        "phraseID":"ravine_observer_10"
+        "phraseID":"ravine_observer_selector"
     },
     {
         "id":"ravine_observer_horse",
