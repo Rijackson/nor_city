@@ -3324,7 +3324,7 @@
     },
     {
         "id":"ysolmere_50",
-        "message":"Two Izthiel claws, an Angel feather, five Cyclopea roots, two jars of honey and two Orchard apples.",
+        "message":"Two Izthiel claws, an Angel feather, two Cyclopea roots, two jars of honey and two Orchard apples.",
         "replies":[
             {
                 "text":"Where do I find those?",
@@ -3417,7 +3417,7 @@
     },
     {
         "id":"ysolmere_where_root",
-        "message":"Cyclopea creepers grow in the hills west of Sullengard. Most of them have nothing but rot under them, so you'll be digging up a lot of creepers.",
+        "message":"Cyclopea creepers grow in the hills west of Sullengard. Most of them have nothing but rot under them, so you may have to dig up a lot of creepers.",
         "replies":[
             {
                 "text":"What about the rest?",
@@ -3431,7 +3431,7 @@
     },
     {
         "id":"ysolmere_where_honey",
-        "message":"Leofric, the beekeeper near Feygard. He sells it by the jar.",
+        "message":"Leofric, the beekeeper just east of the Foaming Flask. He sells it by the jar.",
         "replies":[
             {
                 "text":"What about the rest?",
@@ -3449,7 +3449,7 @@
     },
     {
         "id":"ysolmere_check_10",
-        "message":"Do you have them? Two Izthiel claws, an Angel feather, five Cyclopea roots, two jars of honey and two Orchard apples.",
+        "message":"Do you have them? Two Izthiel claws, an Angel feather, two Cyclopea roots, two jars of honey and two Orchard apples.",
         "switchToNPC":"ravine_thief_healer",
         "replies":[
             {
@@ -3469,7 +3469,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"cyclopea_root",
-                        "value":5
+                        "value":2
                     },
                     {
                         "requireType":"inventoryRemove",
