@@ -2819,6 +2819,40 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"graball_trail_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_trail_remind",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graball_default"
             }
         ]
@@ -3528,6 +3562,78 @@
     {
         "id":"graball_ysolmere_remind",
         "message":"Then why are you here? Whatever Ysolmere needs, get it. Piwh can't wait."
+    },
+    {
+        "id":"graball_trail_10",
+        "message":"Well? How is he?",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"He'll live. Ysolmere says he was poisoned.",
+                "nextPhraseID":"graball_trail_20"
+            }
+        ]
+    },
+    {
+        "id":"graball_trail_20",
+        "message":"Graball sets his mug down, very slowly.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_trail_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_trail_30",
+        "message":"Someone poisoned my catchpole and left him to crawl home. I want to know who, and you're going to find out for me.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"Where do I start?",
+                "nextPhraseID":"graball_trail_40"
+            },
+            {
+                "text":"Why me? Why not send your own people?",
+                "nextPhraseID":"graball_trail_35"
+            }
+        ]
+    },
+    {
+        "id":"graball_trail_35",
+        "message":"Whoever did this found Piwh, so they may know who he runs with. If my people start asking questions, they'll know I'm coming. Nobody's watching for you.",
+        "replies":[
+            {
+                "text":"Where do I start?",
+                "nextPhraseID":"graball_trail_40"
+            }
+        ]
+    },
+    {
+        "id":"graball_trail_40",
+        "message":"Piwh was on his way back to report. He never passes the Foaming Flask without stopping for a meal and some gossip with the cook. Start there.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":100
+            }
+        ],
+        "replies":[
+            {
+                "text":"I'll ask around.",
+                "nextPhraseID":"graball_trail_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_trail_50",
+        "message":"Bring me names. What happens to them after that is my business."
+    },
+    {
+        "id":"graball_trail_remind",
+        "message":"The Foaming Flask. Talk to the cook. Piwh always did."
     },
     {
         "id":"graball_piwh_remind",
