@@ -3629,7 +3629,7 @@
     },
     {
         "id":"graball_trail_50",
-        "message":"Bring me names. What happens to them after that is my business."
+        "message":"Bring me names, or anything that tells me who they are. What happens to them after that is my business."
     },
     {
         "id":"graball_trail_remind",
@@ -3811,6 +3811,16 @@
     {
         "id":"alynndir_piwh_20",
         "message":"East, along the road. I haven't seen any of them since, and I'm in no hurry to.",
+        "replies":[
+            {
+                "text":"Someone heard them say your name. Why?",
+                "nextPhraseID":"alynndir_piwh_30"
+            },
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"alynndir_piwh_40"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3826,16 +3836,6 @@
                 "rewardType":"spawnAll",
                 "rewardID":"ravine_robe_spawn",
                 "mapName":"cabin_norcity_road1"
-            }
-        ],
-        "replies":[
-            {
-                "text":"Someone heard them say your name. Why?",
-                "nextPhraseID":"alynndir_piwh_30"
-            },
-            {
-                "text":"Thanks.",
-                "nextPhraseID":"alynndir_piwh_40"
             }
         ]
     },
@@ -3860,6 +3860,273 @@
             {
                 "text":"Someone heard them say your name. Why?",
                 "nextPhraseID":"alynndir_piwh_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":140,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_default"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_default",
+        "message":"The man in the black robe looks straight through you.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"ravine_robe_10",
+        "message":"Two men in black robes wait at the side of the road, as if they knew someone would come.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_20",
+        "message":"So the fledgling has left the nest.",
+        "switchToNPC":"ravine_robe_leader",
+        "replies":[
+            {
+                "text":"You poisoned Piwh.",
+                "nextPhraseID":"ravine_robe_30"
+            },
+            {
+                "text":"What did you call me?",
+                "nextPhraseID":"ravine_robe_25"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_25",
+        "message":"Nothing you need to understand. Not yet.",
+        "replies":[
+            {
+                "text":"You poisoned Piwh.",
+                "nextPhraseID":"ravine_robe_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_30",
+        "message":"The catchpole? He followed us. He should have kept walking.",
+        "switchToNPC":"ravine_robe",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_40"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_40",
+        "message":"You can do what he didn't. Turn around and walk back to your thieves.",
+        "switchToNPC":"ravine_robe_leader",
+        "replies":[
+            {
+                "text":"Graball wants your names.",
+                "nextPhraseID":"ravine_robe_45"
+            },
+            {
+                "text":"Not until you answer for Piwh.",
+                "nextPhraseID":"ravine_robe_50"
+            },
+            {
+                "text":"I walk with the Shadow too. This is none of my business.",
+                "nextPhraseID":"ravine_robe_shadow_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"scores",
+                        "value":17
+                    }
+                ]
+            },
+            {
+                "text":"I walk with the Shadow too. This is none of my business.",
+                "nextPhraseID":"ravine_robe_shadow_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"scores",
+                        "value":18
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_45",
+        "message":"Then Graball will be disappointed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_50"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_50",
+        "message":"The leader raises a hand. Armed men step out from the trees across the road.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_60"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"ravine_robes",
+                "value":-1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_thug_spawn",
+                "mapName":"cabin_norcity_road1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_60",
+        "message":"Kill the fledgling.",
+        "switchToNPC":"ravine_robe_leader",
+        "replies":[
+            {
+                "text":"Fight!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_shadow_10",
+        "message":"Then you have more sense than the catchpole. Go in Shadow.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_shadow_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_shadow_20",
+        "message":"The two men slip off the road and into the trees. As they go, a folded scrap of paper falls from the leader's sleeve. You pick it up.",
+        "switchToNPC":"none",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":145
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_robe_leader_spawn",
+                "mapName":"cabin_norcity_road1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_robe_spawn",
+                "mapName":"cabin_norcity_road1"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ravine_robe_note",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_note_check",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_note_read",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_robe_note",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_robe_note_read",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_robe_note",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_note_read",
+        "message":"You unfold the note. It's written in a cramped hand, and it's all about birds: a nest in the hills, a fledgling that fell from it, and an old crow who watches from his perch. None of it makes sense to you. Graball should see this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":150
             }
         ]
     },

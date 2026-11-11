@@ -258,11 +258,13 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":15,
             "max":21
         },
+        "faction":"ravine_robes",
+        "phraseID":"ravine_robe_selector",
         "droplistID":"ravine_robe_leader_dl",
         "attackCost":3,
         "attackChance":240,
@@ -289,11 +291,13 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":9,
             "max":15
         },
+        "faction":"ravine_robes",
+        "phraseID":"ravine_robe_selector",
         "attackCost":3,
         "attackChance":205,
         "criticalSkill":20,
@@ -307,6 +311,36 @@
                     "magnitude":2,
                     "duration":4,
                     "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ravine_thug",
+        "name":"Thug",
+        "iconID":"monsters_newb_1:69",
+        "maxHP":90,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":8,
+            "max":13
+        },
+        "attackCost":3,
+        "attackChance":190,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":75,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
                 }
             ]
         }

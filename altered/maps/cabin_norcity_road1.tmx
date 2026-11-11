@@ -249,6 +249,13 @@
     <property name="spawngroup" value="ravine_robe_leader"/>
    </properties>
   </object>
+  <object name="ravine_thug_spawn" type="spawn" x="160" y="64" width="96" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ravine_thug"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
