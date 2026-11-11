@@ -185,5 +185,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"ravine_robe_leader_dl",
+        "items":[
+            {
+                "itemID":"ravine_robe_note",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

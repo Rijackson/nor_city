@@ -620,5 +620,13 @@
         "displaytype":"quest",
         "category":"other",
         "description":"[TODO: update sprite once I get the clock]"
+    },
+    {
+        "id":"ravine_robe_note",
+        "iconID":"items_misc_5:29",
+        "name":"Black-robed man's note",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The note dropped by the Black-robed man."
     }
 ]
