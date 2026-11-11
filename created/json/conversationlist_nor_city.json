@@ -3613,17 +3613,17 @@
     {
         "id":"graball_trail_40",
         "message":"Piwh was on his way back to report. He never passes the Foaming Flask without stopping for a meal and some gossip with the cook. Start there.",
+        "replies":[
+            {
+                "text":"I'll ask around.",
+                "nextPhraseID":"graball_trail_50"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":100
-            }
-        ],
-        "replies":[
-            {
-                "text":"I'll ask around.",
-                "nextPhraseID":"graball_trail_50"
             }
         ]
     },
@@ -3634,6 +3634,169 @@
     {
         "id":"graball_trail_remind",
         "message":"The Foaming Flask. Talk to the cook. Piwh always did."
+    },
+    {
+        "id":"ff_cook_piwh_10",
+        "message":"Piwh? Of course. He's the only one around here who actually eats my stew. Why?",
+        "replies":[
+            {
+                "text":"He's been poisoned.",
+                "nextPhraseID":"ff_cook_piwh_20"
+            }
+        ]
+    },
+    {
+        "id":"ff_cook_piwh_20",
+        "message":"Poisoned? Not by my stew, I hope! It may smell bad, but it never hurt anyone.",
+        "replies":[
+            {
+                "text":"When was he here last?",
+                "nextPhraseID":"ff_cook_piwh_30"
+            }
+        ]
+    },
+    {
+        "id":"ff_cook_piwh_30",
+        "message":"Two days ago. He ate, he talked my ear off, and then he left in a hurry. Two men in black robes got up right after him. They hadn't touched their food.",
+        "replies":[
+            {
+                "text":"Which way did they go?",
+                "nextPhraseID":"ff_cook_piwh_40"
+            }
+        ]
+    },
+    {
+        "id":"ff_cook_piwh_40",
+        "message":"Toward the Crossroads Guardhouse, all three of them. I remember thinking those two didn't look much like travelers.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"ff_cook_piwh_recap",
+        "message":"They followed Piwh out, toward the Crossroads Guardhouse. That's all I know."
+    },
+    {
+        "id":"ailshara_piwh_refuse",
+        "message":"Piwh? Never heard of him. And if I had, I wouldn't tell a stranger. Make yourself useful around here first. Gandoren over there is always looking for someone to run his errands."
+    },
+    {
+        "id":"ailshara_piwh_price",
+        "message":"Piwh? Maybe I've heard something. But you ran Feygard's errands for them, so you can pay Feygard prices. {5000} gold.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":115
+            }
+        ],
+        "replies":[
+            {
+                "text":"Fine. Here's {5000} gold.",
+                "nextPhraseID":"ailshara_piwh_paid",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5000
+                    }
+                ]
+            },
+            {
+                "text":"That's robbery.",
+                "nextPhraseID":"ailshara_piwh_nopay"
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_nopay",
+        "message":"Then go and ask your friends in Feygard. I'm sure they know all about it."
+    },
+    {
+        "id":"ailshara_piwh_paid",
+        "message":"Feygard gold spends as well as any other.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ailshara_piwh_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":320
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_paid_resume",
+        "message":"You've already paid, so I suppose I owe you the rest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ailshara_piwh_10"
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_10",
+        "message":"Piwh? Talkative fellow, always asking questions? He came through here two days ago.",
+        "replies":[
+            {
+                "text":"Was anyone with him?",
+                "nextPhraseID":"ailshara_piwh_20"
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_20",
+        "message":"Not when he arrived. Then two men in black robes walked up, and the three of them stood out by the road, talking quietly. Piwh did most of the listening.",
+        "replies":[
+            {
+                "text":"Did you hear what they said?",
+                "nextPhraseID":"ailshara_piwh_30"
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_30",
+        "message":"I keep my ears open. It's good for business. I only caught one word, a name: Alynndir. Then Piwh left in a hurry, and the two men went after him.",
+        "replies":[
+            {
+                "text":"Who is Alynndir?",
+                "nextPhraseID":"ailshara_piwh_40"
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_40",
+        "message":"I've heard the name. Someone who lives along the Duleian Road, east of the Foaming Flask Tavern.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ailshara_piwh_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"ailshara_piwh_50",
+        "message":"One more thing. Those two walk with the Shadow, or say they do. Whatever your friend got himself into, I'd stay out of it."
+    },
+    {
+        "id":"ailshara_piwh_recap",
+        "message":"Two men in black robes, and one name: Alynndir. Someone by that name lives along the Duleian Road, east of the Foaming Flask Tavern."
     },
     {
         "id":"graball_piwh_remind",

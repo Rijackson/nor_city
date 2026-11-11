@@ -79,6 +79,10 @@
             {
                 "progress":310,
                 "logText":"310 = PC handed the clock to Graball (ravine_quest 70 or 72). Gates Ysolmere, Piwh and everything after."
+            },
+            {
+                "progress":320,
+                "logText":"320 = PC sided with Feygard in Feygard errands and paid Ailshara 5000 gold for news of Piwh (ravine_quest)."
             }
         ]
     },
@@ -222,15 +226,19 @@
             },
             {
                 "progress":110,
-                "logText":"The cook saw two men in black robes follow Piwh toward Crossroads."
+                "logText":"The cook saw two men in black robes follow Piwh toward Crossroads Guardhouse."
+            },
+            {
+                "progress":115,
+                "logText":"Ailshara at the Crossroads Guardhouse may know something about Piwh, but because I sided with Feygard, she won't tell me unless I pay her 5000 gold."
             },
             {
                 "progress":120,
-                "logText":"Ailshara saw Piwh meet the two men, and overheard one word: Alynndir."
+                "logText":"Ailshara saw Piwh meet the two men, and overheard one word: Alynndir. She has heard of someone by that name who lives along the Duleian Road, east of the Foaming Flask Tavern."
             },
             {
                 "progress":130,
-                "logText":"Alynndir, who lives in the cabin east of Crossroads, saw the men chase someone east along the road."
+                "logText":"Alynndir, who lives in the cabin east of the Foaming Flask Tavern, saw the men chase someone east along the road."
             },
             {
                 "progress":140,
