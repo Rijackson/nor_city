@@ -230,7 +230,7 @@
             },
             {
                 "progress":115,
-                "logText":"Ailshara at the Crossroads Guardhouse may know something about Piwh, but because I sided with Feygard, she won't tell me unless I pay her 5000 gold."
+                "logText":"Ailshara at the Crossroads Guardhouse may know something about Piwh, but because I sided with Feygard, she won't tell me unless I pay her {5000} gold."
             },
             {
                 "progress":120,
@@ -238,7 +238,7 @@
             },
             {
                 "progress":130,
-                "logText":"Alynndir, who lives in the cabin east of the Foaming Flask Tavern, saw the men chase someone east along the road."
+                "logText":"Alynndir saw the men chase someone east along the Duleian Road."
             },
             {
                 "progress":140,

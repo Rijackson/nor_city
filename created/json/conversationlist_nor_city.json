@@ -3687,13 +3687,6 @@
     {
         "id":"ailshara_piwh_price",
         "message":"Piwh? Maybe I've heard something. But you ran Feygard's errands for them, so you can pay Feygard prices. {5000} gold.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"ravine_quest",
-                "value":115
-            }
-        ],
         "replies":[
             {
                 "text":"Fine. Here's {5000} gold.",
@@ -3709,6 +3702,13 @@
             {
                 "text":"That's robbery.",
                 "nextPhraseID":"ailshara_piwh_nopay"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":115
             }
         ]
     },
@@ -3797,6 +3797,71 @@
     {
         "id":"ailshara_piwh_recap",
         "message":"Two men in black robes, and one name: Alynndir. Someone by that name lives along the Duleian Road, east of the Foaming Flask Tavern."
+    },
+    {
+        "id":"alynndir_piwh_10",
+        "message":"Black robes? Yes. Two days ago, a man came running past my cabin as if wolves were after him. Two men in black robes were close behind.",
+        "replies":[
+            {
+                "text":"Which way did they go?",
+                "nextPhraseID":"alynndir_piwh_20"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_piwh_20",
+        "message":"East, along the road. I haven't seen any of them since, and I'm in no hurry to.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":130
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_robe_leader_spawn",
+                "mapName":"cabin_norcity_road1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_robe_spawn",
+                "mapName":"cabin_norcity_road1"
+            }
+        ],
+        "replies":[
+            {
+                "text":"Someone heard them say your name. Why?",
+                "nextPhraseID":"alynndir_piwh_30"
+            },
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"alynndir_piwh_40"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_piwh_30",
+        "message":"My name? I trade with everyone headed for Nor City. Anyone who knows that road knows to stop here for supplies first. That's all it means. I hope.",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"alynndir_piwh_40"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_piwh_40",
+        "message":"If you're going after them, be careful. People in that sort of hurry don't like being followed."
+    },
+    {
+        "id":"alynndir_piwh_recap",
+        "message":"A man running east along the road, and two men in black robes right behind him. That's all I saw.",
+        "replies":[
+            {
+                "text":"Someone heard them say your name. Why?",
+                "nextPhraseID":"alynndir_piwh_30"
+            }
+        ]
     },
     {
         "id":"graball_piwh_remind",

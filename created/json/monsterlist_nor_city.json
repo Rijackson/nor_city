@@ -235,19 +235,79 @@
     {
         "id":"ravine_messenger",
         "name":"Quill",
-        "phraseID":"ravine_messenger_selector",
-        "iconID":"monsters_newb_1:43"
+        "iconID":"monsters_newb_1:43",
+        "phraseID":"ravine_messenger_selector"
     },
     {
         "id":"ravine_thief_healer",
         "name":"Ysolmere",
-        "phraseID":"ysolmere_selector",
-        "iconID":"monsters_newb_1:40"
+        "iconID":"monsters_newb_1:40",
+        "phraseID":"ysolmere_selector"
     },
     {
         "id":"piwh",
         "name":"Piwh",
-        "phraseID":"piwh_selector",
-        "iconID":"monsters_tometik1:86"
+        "iconID":"monsters_tometik1:86",
+        "phraseID":"piwh_selector"
+    },
+    {
+        "id":"ravine_robe_leader",
+        "name":"Black-robed man",
+        "iconID":"monsters_ld1:138",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "maxHP":195,
+        "moveCost":5,
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":15,
+            "max":21
+        },
+        "attackCost":3,
+        "attackChance":240,
+        "criticalSkill":25,
+        "criticalMultiplier":2.0,
+        "blockChance":140,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"35"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ravine_robe",
+        "name":"Black-robed man",
+        "iconID":"monsters_ld1:139",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "maxHP":115,
+        "moveCost":5,
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":15
+        },
+        "attackCost":3,
+        "attackChance":205,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":105,
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]
