@@ -83,6 +83,10 @@
             {
                 "progress":320,
                 "logText":"320 = PC sided with Feygard in Feygard errands and paid Ailshara 5000 gold for news of Piwh (ravine_quest)."
+            },
+            {
+                "progress":330,
+                "logText":"330 = PC handed the bird note to Graball (ravine_quest). Lets graball_selector resume the decoding at graball_note_20 if the player quits before stage 160."
             }
         ]
     },

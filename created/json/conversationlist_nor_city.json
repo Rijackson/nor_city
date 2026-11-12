@@ -2855,6 +2855,103 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"graball_note_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_robe_note",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":160,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_note_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":330
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":160,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_note_bring",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":330,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_robe_note",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_note_bring",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":330,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_robe_note",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_hole_remind",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":160
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graball_default"
             }
         ]
@@ -3636,6 +3733,126 @@
     {
         "id":"graball_trail_remind",
         "message":"The Foaming Flask. Talk to the cook. Piwh always did."
+    },
+    {
+        "id":"graball_note_10",
+        "message":"You're back. Do you have names for me?",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"No names. They set hired thugs on me, but one of them carried this note.",
+                "nextPhraseID":"graball_note_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ravine_robe_note",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"graball_note_notyet"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_notyet",
+        "message":"Then why are you standing in my office?"
+    },
+    {
+        "id":"graball_note_bring",
+        "message":"Well? Did you find the men who hurt Piwh?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"graball_note_notyet"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_20",
+        "message":"Graball unfolds the note and reads it twice. Then he sets down his mug.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_note_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":330
+            }
+        ]
+    },
+    {
+        "id":"graball_note_30",
+        "message":"Birds. Nests, fledglings, crows. It's a code, and not a clever one. The birds are people.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"Then who's the fledgling?",
+                "nextPhraseID":"graball_note_40"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_40",
+        "message":"A young one that fell from its nest? That's you, dropping through my ceiling. Whoever wrote this saw you fall, and those two had it from him after they dealt with Piwh.",
+        "replies":[
+            {
+                "text":"And the old crow on his perch?",
+                "nextPhraseID":"graball_note_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_50",
+        "message":"Bramver. He sits on that hill all day with his eyes on the sky, and on my cabin. He saw you fall and sold it to whoever those two work for. Now they know about the hole.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_note_60"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_60",
+        "message":"Quill told me Bramver packed up his camp and rode off. I thought nothing of it. Now I do. Bramver is gone.",
+        "replies":[
+            {
+                "text":"What now?",
+                "nextPhraseID":"graball_note_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":160
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_observer_spawn",
+                "mapName":"sullengard_ravine_4_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_observer_horse_horse",
+                "mapName":"sullengard_ravine_4_2"
+            }
+        ]
+    },
+    {
+        "id":"graball_note_70",
+        "message":"Those two weren't working alone. Whoever sent them knows about the hole now, and they'll use it. Go and take a look at it. Quietly."
+    },
+    {
+        "id":"graball_hole_remind",
+        "message":"The hole. Go and look at it before someone else uses it."
     },
     {
         "id":"ff_cook_piwh_10",
