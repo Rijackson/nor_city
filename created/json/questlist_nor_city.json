@@ -162,6 +162,7 @@
     {
         "id":"ravine_quest",
         "name":"Bad Foundations",
+        "showInLog":1,
         "stages":[
             {
                 "progress":5,
@@ -246,7 +247,7 @@
             },
             {
                 "progress":145,
-                "logText":"I let the robed men go."
+                "logText":"I let the robed men go. As they left, the leader dropped a strange note about birds. Graball should see it."
             },
             {
                 "progress":150,

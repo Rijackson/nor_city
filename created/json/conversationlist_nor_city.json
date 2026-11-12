@@ -2297,11 +2297,6 @@
                 "rewardType":"mapchange",
                 "rewardID":"bed",
                 "mapName":"ravine_underground_10"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"ravine_quest",
-                "value":10
             }
         ]
     },
@@ -2312,6 +2307,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"ravine_thief_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":10
             }
         ]
     },
@@ -3896,6 +3898,14 @@
         ]
     },
     {
+        "id":"ravine_robe_hold_denied",
+        "message":"The black-robed men stand their ground. You can't get past them here."
+    },
+    {
+        "id":"ravine_exit_hold_denied",
+        "message":"Something blocks the way."
+    },
+    {
         "id":"ravine_robe_default",
         "message":"The man in the black robe looks straight through you.",
         "switchToNPC":"none"
@@ -4006,6 +4016,11 @@
         ],
         "rewards":[
             {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"ravine_robe_hold",
+                "mapName":"cabin_norcity_road1"
+            },
+            {
                 "rewardType":"alignmentSet",
                 "rewardID":"ravine_robes",
                 "value":-1
@@ -4045,9 +4060,14 @@
     },
     {
         "id":"ravine_robe_shadow_20",
-        "message":"The two men slip off the road and into the trees. As they go, a folded scrap of paper falls from the leader's sleeve. You pick it up.",
+        "message":"The two men slip off the road and into the trees. As they go, a folded scrap of paper falls from the leader's sleeve. You pick it up and unfold it. It's all about birds: a nest in the hills, a fledgling that fell from it, and an old crow who watches from his perch. None of it makes sense to you. Graball should see this.",
         "switchToNPC":"none",
         "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"ravine_robe_hold",
+                "mapName":"cabin_norcity_road1"
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
@@ -4071,51 +4091,33 @@
         ]
     },
     {
-        "id":"ravine_robe_note_check",
+        "id":"ravine_robe_note_selector",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ravine_robe_note_read",
+                "nextPhraseID":"ravine_robe_note_found",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"ravine_quest",
                         "value":140
                     },
                     {
-                        "requireType":"questProgress",
-                        "requireID":"ravine_quest",
-                        "value":150,
-                        "negate":true
-                    },
-                    {
                         "requireType":"inventoryKeep",
                         "requireID":"ravine_robe_note",
                         "value":1
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "id":"ravine_robe_note_found",
+        "message":"One of the black-robed men dropped a note.",
+        "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ravine_robe_note_read",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ravine_quest",
-                        "value":145
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ravine_quest",
-                        "value":150,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"ravine_robe_note",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"ravine_robe_note_read"
             }
         ]
     },
@@ -4311,7 +4313,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"graball_resume_10",
+                "nextPhraseID":"ravine_50_down_block_resume_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -4335,6 +4337,17 @@
             {
                 "text":"N",
                 "nextPhraseID":"ravine_50_down_block_thief"
+            }
+        ]
+    },
+    {
+        "id":"ravine_50_down_block_resume_10",
+        "message":"Before you reach the stairs, a voice barks from behind the table.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_resume_10"
             }
         ]
     },
@@ -6584,7 +6597,17 @@
     },
     {
         "id":"alduan_crate_find_10",
-        "message":"A man who gets home after dark keeps a spare where his hands can find it. You tip the apple crate back, and there, pressed into the dirt, is a small iron key.",
+        "message":"A man who gets home after dark keeps a spare where his hands can find it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alduan_crate_find_20"
+            }
+        ]
+    },
+    {
+        "id":"alduan_crate_find_20",
+        "message":"You tip the apple crate back, and there, pressed into the dirt, is a small iron key.",
         "rewards":[
             {
                 "rewardType":"giveItem",
