@@ -344,5 +344,66 @@
                 }
             ]
         }
+    },
+    {
+        "id":"ravine_raid_robe",
+        "name":"Robed Raider",
+        "iconID":"monsters_ld1:139",
+        "maxHP":125,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":10,
+            "max":14
+        },
+        "horizontalFlipChance":50,
+        "attackCost":3,
+        "attackChance":200,
+        "criticalSkill":15,
+        "criticalMultiplier":2.5,
+        "blockChance":100,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ravine_raid_robe_last",
+        "name":"Robed Leader",
+        "iconID":"monsters_ld1:138",
+        "maxHP":210,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":14,
+            "max":20
+        },
+        "attackCost":3,
+        "attackChance":245,
+        "criticalSkill":30,
+        "criticalMultiplier":2.0,
+        "blockChance":135,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"feebleness_minor",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
     }
 ]

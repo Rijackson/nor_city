@@ -2260,6 +2260,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ravine_hole_raid_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":160
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ravine_hole_key_first_time_10",
                 "requires":[
                     {
@@ -2338,6 +2355,72 @@
                 "rewardType":"mapchange",
                 "rewardID":"bed",
                 "mapName":"ravine_underground_10"
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_raid_10",
+        "message":"Someone has been here since you fell. A rope is tied to a post beside the hole and hangs down into the dark. The earth around the edge is trampled with boot prints, far more than two men would leave, and every set leads in. None lead out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_hole_raid_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_hole_raid_20",
+        "message":"From below comes a shout, then the ring of steel. The room under this hole is where Piwh is lying.",
+        "replies":[
+            {
+                "text":"Drop down.",
+                "nextPhraseID":"ravine_hole_key_sub_time_20"
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ysolmere_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ysolmere_hide_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_raid_robe_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_raid_robe_spawn",
+                "mapName":"ravine_underground_9"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_raid_robe_spawn",
+                "mapName":"ravine_underground_20"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_raid_robe_spawn",
+                "mapName":"ravine_underground_vault"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ravine_raid_robe_last_spawn",
+                "mapName":"ravine_underground_vault"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":170
             }
         ]
     },
@@ -3360,6 +3443,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ysolmere_raid_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":170
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":180,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ysolmere_10",
                 "requires":[
                     {
@@ -3652,6 +3752,20 @@
     {
         "id":"ysolmere_after_90",
         "message":"He's sleeping. Don't wake him. Graball will want to hear from you."
+    },
+    {
+        "id":"ysolmere_raid_10",
+        "message":"Keep your voice down! They came down a rope through the hole in the ceiling, six of them, all in black. One stayed in here. The rest went on toward the vault.",
+        "replies":[
+            {
+                "text":"Are you hurt? Is Piwh?",
+                "nextPhraseID":"ysolmere_raid_20"
+            }
+        ]
+    },
+    {
+        "id":"ysolmere_raid_20",
+        "message":"They didn't even look at him. They knew exactly where they were going. Go! I'm not leaving Piwh."
     },
     {
         "id":"piwh_sleeping",

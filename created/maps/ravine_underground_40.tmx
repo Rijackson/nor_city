@@ -213,7 +213,7 @@
  <objectgroup id="7" name="Mapevents">
   <object id="1" name="down" type="mapchange" x="32" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="ravinde_underground_vault"/>
+    <property name="map" value="ravine_underground_vault"/>
     <property name="place" value="up"/>
    </properties>
   </object>
