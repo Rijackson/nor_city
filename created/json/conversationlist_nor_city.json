@@ -2622,7 +2622,7 @@
     },
     {
         "id":"ravine_raid_last_shadow_20",
-        "message":"Then you understand more than your thieves ever will.",
+        "message":"Then you understand more than your thieves ever will. Here. You'll have more use for this than I will.",
         "switchToNPC":"ravine_raid_robe_last",
         "replies":[
             {
@@ -2633,9 +2633,14 @@
     },
     {
         "id":"ravine_raid_last_shadow_30",
-        "message":"He limps past you toward the rope, the painting clutched to his chest.",
+        "message":"He presses a slim black dirk into your hand, hilt first. Then he limps past you toward the rope, the painting clutched to his chest.",
         "switchToNPC":"none",
         "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ravine_robe_dirk",
+                "value":1
+            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"ravine_raid_robe_last_spawn",
@@ -3258,6 +3263,122 @@
                         "requireType":"questProgress",
                         "requireID":"ravine_quest",
                         "value":170,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":191
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":192
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_resume",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":350
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_painting_piwh",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":180
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":193,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_painting_get",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":180
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_painting",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":193,
                         "negate":true
                     }
                 ]
@@ -4349,6 +4470,468 @@
     {
         "id":"graball_hole_remind",
         "message":"The hole. Go and look at it before someone else uses it."
+    },
+    {
+        "id":"graball_painting_get",
+        "message":"The leader had it, and he's dead. So where's the painting? Go back and get it.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_painting_piwh",
+        "message":"You got it? Good. Ysolmere says Piwh is stirring. He was the one following those men. Show it to him before we decide anything.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_10",
+        "message":"Graball's eyes go to the painting before you've said a word.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_20"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_20",
+        "message":"So that's what they bled us for. An island.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"Piwh says it came in with a household your crew emptied.",
+                "nextPhraseID":"graball_end_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_30",
+        "message":"Then it's been sitting in my vault for months, and nobody looked at it twice. Piwh's right about one thing. Nobody kills for a picture of an island.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"So what happens to it now?",
+                "nextPhraseID":"graball_end_40"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_40",
+        "message":"Somebody wants it badly, and that means somebody will pay. I know a buyer who doesn't ask questions. But you're the one who bled for it, so I'll hear you out.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"Sell it. Let them pay for the trouble they caused.",
+                "nextPhraseID":"graball_end_sell_selector",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Burn it. Nobody else should die for this.",
+                "nextPhraseID":"graball_end_burn_selector",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Let me think about it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":350
+            }
+        ]
+    },
+    {
+        "id":"graball_end_resume",
+        "message":"Well? Have you decided what we do with that painting?",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"Sell it. Let them pay for the trouble they caused.",
+                "nextPhraseID":"graball_end_sell_selector",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Burn it. Nobody else should die for this.",
+                "nextPhraseID":"graball_end_burn_selector",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Let me think about it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_burn_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_member",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_stranger"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_sell_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_member",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_stranger"
+            }
+        ]
+    },
+    {
+        "id":"graball_end_burn_outcast",
+        "message":"Graball looks at you for a long moment. Then he holds a corner of the canvas to the lamp. The old paint catches fast, and the island curls and blackens until nothing is left of it.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_outcast_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":191
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":500
+            }
+        ]
+    },
+    {
+        "id":"graball_end_burn_outcast_20",
+        "message":"There goes a small fortune. Take your gold and go. I don't want to see you down here again.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_burn_member",
+        "message":"Graball looks at you for a long moment. Then he holds a corner of the canvas to the lamp. The old paint catches fast, and the island curls and blackens until nothing is left of it.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_member_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":191
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1440
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ravine_combat_ring",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"graball_end_burn_member_20",
+        "message":"There goes a small fortune. But you're right. Whoever wanted it will have to look somewhere else now. You've done good work for the Guild. Take this, and the ring. You've earned both.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_burn_stranger",
+        "message":"Graball looks at you for a long moment. Then he holds a corner of the canvas to the lamp. The old paint catches fast, and the island curls and blackens until nothing is left of it.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_burn_stranger_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":191
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
+    },
+    {
+        "id":"graball_end_burn_stranger_20",
+        "message":"There goes a small fortune. I hope you know what that cost me. Still, you came back when you didn't have to. Here. You've earned it.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_sell_outcast",
+        "message":"Graball wraps the painting in sackcloth and sets it beside his chair, as if it were any other piece of loot.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_outcast_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":192
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
+    },
+    {
+        "id":"graball_end_sell_outcast_20",
+        "message":"Here's your share. Now get out, and don't come back through my ceiling.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_sell_member",
+        "message":"Graball wraps the painting in sackcloth and sets it beside his chair, as if it were any other piece of loot.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_member_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":192
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1900
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ravine_combat_ring",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"graball_end_sell_member_20",
+        "message":"Whoever wants it can pay through the nose for it. Here's your share, and a ring. You've earned both.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_end_sell_stranger",
+        "message":"Graball wraps the painting in sackcloth and sets it beside his chair, as if it were any other piece of loot.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_sell_stranger_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":192
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1500
+            }
+        ]
+    },
+    {
+        "id":"graball_end_sell_stranger_20",
+        "message":"Somebody's going to pay a fortune for this, and you'll get your cut. Don't spend it all in one place.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"graball_after_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_member",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_stranger"
+            }
+        ]
+    },
+    {
+        "id":"graball_after_outcast",
+        "message":"You've been paid. What are you still doing down here?"
+    },
+    {
+        "id":"graball_after_member",
+        "message":"Back again? Piwh's eating like a horse now. That's your doing."
+    },
+    {
+        "id":"graball_after_stranger",
+        "message":"You again. You know where the door is."
     },
     {
         "id":"ff_cook_piwh_10",

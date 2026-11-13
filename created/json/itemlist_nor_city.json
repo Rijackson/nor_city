@@ -636,5 +636,55 @@
         "displaytype":"quest",
         "category":"other",
         "description":"An old painting in a worn wooden frame. It shows an island the way a bird would see it: green hills around a pale peak, a sandy shore to the south, and two small islets in a deep blue sea. Whoever painted it worked with a mapmaker's care."
+    },
+    {
+        "id":"ravine_combat_ring",
+        "iconID":"items_jewelry:2",
+        "name":"Graball's combat ring",
+        "displaytype":"extraordinary",
+        "hasManualPrice":0,
+        "baseMarketCost":3500,
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":6
+            },
+            "increaseMaxHP":5,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":3,
+            "increaseBlockChance":8
+        }
+    },
+    {
+        "id":"ravine_robe_dirk",
+        "iconID":"items_weapons:17",
+        "name":"Black-robed dirk",
+        "displaytype":"extraordinary",
+        "baseMarketCost":1800,
+        "category":"dagger",
+        "description":"A slim black dirk, given to you by the Robed Leader before he climbed the rope. The blade is coated with something that isn't oil.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":6
+            },
+            "increaseMoveCost":0,
+            "increaseAttackCost":4,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":12,
+            "setCriticalMultiplier":2.25,
+            "setNonWeaponDamageModifier":104
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]

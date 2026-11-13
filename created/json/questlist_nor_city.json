@@ -91,6 +91,10 @@
             {
                 "progress":340,
                 "logText":"340 = Bad Foundations: cabin stairs boarded (removed with removeQuestProgress when the lockdown ends)"
+            },
+            {
+                "progress":350,
+                "logText":"350 = Bad Foundations: Graball asked what to do with the painting"
             }
         ]
     },
