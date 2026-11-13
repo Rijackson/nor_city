@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -188,25 +188,30 @@
  </tileset>
  <layer id="1" name="Ground" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJx7wcvAIMFHHn4B1PsMiNWAbHUSsQZU/zcgNgOyzUnEFkj223AxMPhwkU7D7CdHrw1UPxsf+fb/gOon134OoF4xCuwHxaEa1H5cGJ8ZoDjEFXeg+LHmwpQ3QsIgNQB5HzJr
+   eJx7wcvAIMFHHn4B1PsMiNWAbHUSsQZU/zcgNgOyzUnEFkD8A2q/uxgDgwcQ23AxMPhwEU//gNpPih5kGqSfjY88vSCaA6hXjI98+0FxoEiB/apQ/T5cuDE+M0D6ccUdKH6suTDljZAwSA0ALJYx+w==
   </data>
  </layer>
- <layer id="2" name="Objects" width="16" height="10">
+ <layer id="2" name="Objects_Floorboards" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKA/MGOirnnuYgwMHkAcwUG+GaVAvWUU6B9KIIXC8C+hYvwBACTuAys=
+   eJxjYBj6YBoXBI+CoQcAKwoBQQ==
   </data>
  </layer>
- <layer id="3" name="Above" width="16" height="10">
+ <layer id="3" name="Objects" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/MGOijbkRHOTrLQXqLaNA/1ACKRSGfwkV4w8A4iACcA==
+  </data>
+ </layer>
+ <layer id="4" name="Above" width="16" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYKAcPBYb+vpDOQbW/oHU/4lC/ZQAACYpCDU=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="16" height="10" visible="0">
+ <layer id="5" name="Walkable" width="16" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcHGIYxhAZhMDkPWjm0WqfnLAcNGPL14IqQEAQztGYw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="down" type="mapchange" x="64" y="96" width="32" height="32">
    <properties>
     <property name="map" value="road_wild_cabin_basement"/>
@@ -220,6 +225,35 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys">
+  <object id="3" name="ravine_cabin_boarded_key" type="key" x="32" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="ravine_cabin_boarded"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="170"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Replace">
+  <object id="4" name="FloorboardsNailed" type="replace" x="32" y="96" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Objects_Floorboards"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="170"/>
+   </properties>
+  </object>
+  <object id="5" name="NoFloorboards" type="replace" x="32" y="96" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Ground"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="170"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

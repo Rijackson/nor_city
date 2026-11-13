@@ -198,5 +198,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"ravine_raider_leader_dl",
+        "items":[
+            {
+                "itemID":"ravine_painting",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

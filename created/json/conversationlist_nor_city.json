@@ -2425,6 +2425,221 @@
         ]
     },
     {
+        "id":"ravine_cabin_boarded",
+        "message":"The stairway down has been boarded over from below. The points of fresh nails poke up through the planks. When you knock, a voice answers from underneath: \"Nobody comes through until it's over! I don't care who you are.\" From further below comes the faint sound of fighting. The hole is the only way in now."
+    },
+    {
+        "id":"ravine_raid_last_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":170
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":180,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_resume"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_10",
+        "message":"The Robed Leader presses a hand to his side. Blood seeps between his fingers.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_15"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_15",
+        "message":"The fledgling. Of course it's you. You opened the door, so you may as well see what came through it.",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"What did you come here for?",
+                "nextPhraseID":"ravine_raid_last_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_20",
+        "message":"He holds up the painting.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_25"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_25",
+        "message":"This is all we came for. The rest of this cellar can rot.",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"What is it?",
+                "nextPhraseID":"ravine_raid_last_what"
+            },
+            {
+                "text":"That painting isn't leaving.",
+                "nextPhraseID":"ravine_raid_last_fight"
+            },
+            {
+                "text":"Take it and go. I won't stop you.",
+                "nextPhraseID":"ravine_raid_last_shadow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ysolmere_hide_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ysolmere_spawn",
+                "mapName":"ravine_underground_10"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":180
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_what",
+        "message":"A door, for those who know how to look at it. Your thieves hung it in the dark between the candlesticks and never once looked.",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"That painting isn't leaving.",
+                "nextPhraseID":"ravine_raid_last_fight"
+            },
+            {
+                "text":"Take it and go. I won't stop you.",
+                "nextPhraseID":"ravine_raid_last_shadow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_resume",
+        "message":"He tightens his grip on the painting.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_resume_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_resume_20",
+        "message":"Still here, fledgling?",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"What is it?",
+                "nextPhraseID":"ravine_raid_last_what"
+            },
+            {
+                "text":"That painting isn't leaving.",
+                "nextPhraseID":"ravine_raid_last_fight"
+            },
+            {
+                "text":"Take it and go. I won't stop you.",
+                "nextPhraseID":"ravine_raid_last_shadow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":145
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_fight",
+        "message":"Then you're a fool, fledgling. You're standing between me and the rope, and I didn't come this far to leave without it. I'll go through you.",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"You'll try!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_shadow",
+        "message":"He studies you for a long moment, then lowers the painting.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_shadow_20"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_shadow_20",
+        "message":"Then you understand more than your thieves ever will.",
+        "switchToNPC":"ravine_raid_robe_last",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_raid_last_shadow_30"
+            }
+        ]
+    },
+    {
+        "id":"ravine_raid_last_shadow_30",
+        "message":"He limps past you toward the rope, the painting clutched to his chest.",
+        "switchToNPC":"none",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ravine_raid_robe_last_spawn",
+                "mapName":"ravine_underground_vault"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":193
+            }
+        ]
+    },
+    {
         "id":"ravine_thief_selector",
         "replies":[
             {
@@ -3418,6 +3633,51 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"piwh_wake_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":180
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ravine_painting",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"piwh_wake_recap",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":191,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":192,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"piwh_sleeping",
                 "requires":[
                     {
@@ -3455,6 +3715,17 @@
                         "requireID":"ravine_quest",
                         "value":180,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ysolmere_after_185",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":185
                     }
                 ]
             },
@@ -3754,6 +4025,10 @@
         "message":"He's sleeping. Don't wake him. Graball will want to hear from you."
     },
     {
+        "id":"ysolmere_after_185",
+        "message":"He's awake, and already complaining about the food. He'll live. Now let him rest."
+    },
+    {
         "id":"ysolmere_raid_10",
         "message":"Keep your voice down! They came down a rope through the hole in the ceiling, six of them, all in black. One stayed in here. The rest went on toward the vault.",
         "replies":[
@@ -3771,6 +4046,99 @@
         "id":"piwh_sleeping",
         "message":"Piwh is asleep. His color has come back, and his breathing is slow and even.",
         "switchToNPC":"none"
+    },
+    {
+        "id":"piwh_wake_10",
+        "message":"Piwh stirs as you come near. His eyes open, find the painting in your hands, and go wide.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"piwh_wake_20"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_20",
+        "message":"That painting... They came for it, didn't they? The men in black.",
+        "switchToNPC":"piwh",
+        "replies":[
+            {
+                "text":"They did. What is it?",
+                "nextPhraseID":"piwh_wake_30"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_30",
+        "message":"At the Crossroads, they asked me about a painting. An island seen from above, with two little islets off the south shore. They described every rock of it, like they'd been told by someone who'd stood in front of it.",
+        "replies":[
+            {
+                "text":"And you had.",
+                "nextPhraseID":"piwh_wake_40"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_40",
+        "message":"I carried it down the stairs myself. It came in with a household Graball's crew emptied: furniture, candlesticks, pictures. Nobody here looked at it twice. Just another painting to sell.",
+        "replies":[
+            {
+                "text":"Then why did you run?",
+                "nextPhraseID":"piwh_wake_50"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_50",
+        "message":"Because they offered me more gold than everything in that vault is worth, if I brought it to Alynndir's place. Nobody pays that for a picture of an island. I said I'd never seen it, then left too fast. They caught me past Alynndir's cabin. Just a scratch on the arm, I thought.",
+        "replies":[
+            {
+                "text":"What is the island?",
+                "nextPhraseID":"piwh_wake_60"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_60",
+        "message":"I don't know. I don't think anyone down here does. But someone wants it badly enough to kill for it.",
+        "replies":[
+            {
+                "text":"What should I do with it?",
+                "nextPhraseID":"piwh_wake_70"
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_70",
+        "message":"Take it to Graball. It's his vault, and he'll want to know what it's worth. But if you ask me, that thing has brought nothing but blood since it came down those stairs. Some things are better off in a fire.",
+        "replies":[
+            {
+                "text":"Rest, Piwh.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":185
+            }
+        ]
+    },
+    {
+        "id":"piwh_wake_recap",
+        "message":"Take the painting to Graball. And remember what I said. Some things are better off in a fire.",
+        "replies":[
+            {
+                "text":"Tell me again what happened.",
+                "nextPhraseID":"piwh_wake_30"
+            },
+            {
+                "text":"Rest, Piwh.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"graball_ysolmere_remind",
@@ -4302,26 +4670,8 @@
                 "nextPhraseID":"ravine_robe_50"
             },
             {
-                "text":"I walk with the Shadow too. This is none of my business.",
-                "nextPhraseID":"ravine_robe_shadow_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"scores",
-                        "value":17
-                    }
-                ]
-            },
-            {
-                "text":"I walk with the Shadow too. This is none of my business.",
-                "nextPhraseID":"ravine_robe_shadow_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"scores",
-                        "value":18
-                    }
-                ]
+                "text":"This is none of my business. Go.",
+                "nextPhraseID":"ravine_robe_shadow_10"
             }
         ]
     },

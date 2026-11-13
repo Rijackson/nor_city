@@ -628,5 +628,13 @@
         "displaytype":"quest",
         "category":"other",
         "description":"The note dropped by the Black-robed man."
+    },
+    {
+        "id":"ravine_painting",
+        "iconID":"items_misc_2:195",
+        "name":"Painting of an island",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"An old painting in a worn wooden frame. It shows an island the way a bird would see it: green hills around a pale peak, a sandy shore to the south, and two small islets in a deep blue sea. Whoever painted it worked with a mapmaker's care."
     }
 ]
