@@ -2419,6 +2419,11 @@
             },
             {
                 "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":170
             }
@@ -2427,6 +2432,10 @@
     {
         "id":"ravine_cabin_boarded",
         "message":"The stairway down has been boarded over from below. The points of fresh nails poke up through the planks. When you knock, a voice answers from underneath: \"Nobody comes through until it's over! I don't care who you are.\" From further below comes the faint sound of fighting. The hole is the only way in now."
+    },
+    {
+        "id":"ravine_basement_boarded",
+        "message":"The stairs end at a ceiling of fresh planks, nailed fast from this side. A Guild man sits on the bottom step with a hammer across his knees. \"Nobody goes up until Graball says so.\""
     },
     {
         "id":"ravine_raid_last_selector",
@@ -2636,6 +2645,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":193
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
             }
         ]
     },
