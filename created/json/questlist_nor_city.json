@@ -95,6 +95,10 @@
             {
                 "progress":350,
                 "logText":"350 = Bad Foundations: Graball asked what to do with the painting"
+            },
+            {
+                "progress":360,
+                "logText":"Bad Foundations: the ravine hole has been filled in"
             }
         ]
     },
@@ -190,11 +194,13 @@
             },
             {
                 "progress":30,
-                "logText":"Graball, leader of this hidden Thieves' Guild base, demanded to know how I got in and who else knows about the hole. He wants me to find out whether Bramver, who watches the ravine every day, has seen anything."
+                "logText":"Graball, leader of this hidden Thieves' Guild base, demanded to know how I got in and who else knows about the hole. He wants me to find out whether Bramver, who watches the ravine every day, has seen anything.",
+                "rewardExperience":800
             },
             {
                 "progress":40,
-                "logText":"Bramver says he has seen nothing but birds. I should tell Graball, but the cabin door locked behind me, so the only way back in is the hole."
+                "logText":"Bramver says he has seen nothing but birds. I should tell Graball, but the cabin door locked behind me, so the only way back in is the hole.",
+                "rewardExperience":800
             },
             {
                 "progress":50,
@@ -214,12 +220,13 @@
             },
             {
                 "progress":70,
-                "logText":"Graball took the clock and gave me a key to the cabin."
+                "logText":"Graball took the clock and gave me a key to the cabin.",
+                "rewardExperience":1200
             },
             {
                 "progress":72,
                 "logText":"Graball took the clock and gave me a key to the cabin. He was impressed that I put Alduan's key back, because a robbery nobody can explain is one nobody investigates.",
-                "rewardExperience":2019
+                "rewardExperience":1615
             },
             {
                 "progress":75,
@@ -231,7 +238,8 @@
             },
             {
                 "progress":90,
-                "logText":"I gave Ysolmere everything she asked for. She was able to make a curement and indicated that Piwh will survive. She told me to go speak with Graball."
+                "logText":"I gave Ysolmere everything she asked for. She was able to make a curement and indicated that Piwh will survive. She told me to go speak with Graball.",
+                "rewardExperience":3200
             },
             {
                 "progress":100,
@@ -239,7 +247,8 @@
             },
             {
                 "progress":110,
-                "logText":"The cook saw two men in black robes follow Piwh toward Crossroads Guardhouse."
+                "logText":"The cook saw two men in black robes follow Piwh toward Crossroads Guardhouse.",
+                "rewardExperience":800
             },
             {
                 "progress":115,
@@ -247,53 +256,65 @@
             },
             {
                 "progress":120,
-                "logText":"Ailshara saw Piwh meet the two men, and overheard one word: Alynndir. She has heard of someone by that name who lives along the Duleian Road, east of the Foaming Flask Tavern."
+                "logText":"Ailshara saw Piwh meet the two men, and overheard one word: Alynndir. She has heard of someone by that name who lives along the Duleian Road, east of the Foaming Flask Tavern.",
+                "rewardExperience":1200
             },
             {
                 "progress":130,
-                "logText":"Alynndir saw the men chase someone east along the Duleian Road."
+                "logText":"Alynndir saw the men chase someone east along the Duleian Road.",
+                "rewardExperience":800
             },
             {
                 "progress":140,
-                "logText":"I caught the robed men east of Alynndir's cabin, and they sent hired thugs on me."
+                "logText":"I caught the robed men east of Alynndir's cabin, and they sent hired thugs on me.",
+                "rewardExperience":1600
             },
             {
                 "progress":145,
-                "logText":"I let the robed men go. As they left, the leader dropped a strange note about birds. Graball should see it."
+                "logText":"I let the robed men go. As they left, the leader dropped a strange note about birds. Graball should see it.",
+                "rewardExperience":2400
             },
             {
                 "progress":150,
-                "logText":"I recovered a strange note about birds from the robed men. Graball should see it."
+                "logText":"I recovered a strange note about birds from the robed men. Graball should see it.",
+                "rewardExperience":800
             },
             {
                 "progress":160,
-                "logText":"Graball decoded the note. The birds are people, and Bramver has been watching the cabin all along. He knows about the hole. Bramver is gone."
+                "logText":"Graball decoded the note. The birds are people, and Bramver has been watching the cabin all along. He knows about the hole. Bramver is gone.",
+                "rewardExperience":1600
             },
             {
                 "progress":170,
-                "logText":"The ground around the hole has been disturbed. The robed men are in the base."
+                "logText":"The ground around the hole has been disturbed. The robed men are in the base.",
+                "rewardExperience":800
             },
             {
                 "progress":180,
-                "logText":"I fought my way to the vault. The robed men came for one painting."
+                "logText":"I fought my way to the vault. The robed men came for one painting.",
+                "rewardExperience":4800
             },
             {
                 "progress":185,
-                "logText":"Piwh woke. The robed men had offered him a fortune for the painting of the island. It came in with a household Graball's crew had emptied, and nobody here knows what the island is."
+                "logText":"Piwh woke. The robed men had offered him a fortune for the painting of the island. It came in with a household Graball's crew had emptied, and nobody here knows what the island is.",
+                "rewardExperience":1600
             },
             {
                 "progress":191,
                 "logText":"I burned the painting.",
+                "rewardExperience":9500,
                 "finishesQuest":1
             },
             {
                 "progress":192,
                 "logText":"Graball sold the painting.",
+                "rewardExperience":7500,
                 "finishesQuest":1
             },
             {
                 "progress":193,
                 "logText":"I let the last robed man leave with the painting. Graball will not forgive this.",
+                "rewardExperience":9000,
                 "finishesQuest":1
             }
         ]

@@ -2650,11 +2650,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":193
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"nor_city_road_nondisplay",
-                "value":340
             }
         ]
     },
@@ -3269,6 +3264,39 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"graball_193_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":193
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":340
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"graball_after_193",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":193
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":340,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graball_after_selector",
                 "requires":[
                     {
@@ -3855,6 +3883,17 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"ysolmere_after_193",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":193
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ysolmere_after_185",
                 "requires":[
                     {
@@ -4162,6 +4201,10 @@
     {
         "id":"ysolmere_after_185",
         "message":"He's awake, and already complaining about the food. He'll live. Now let him rest."
+    },
+    {
+        "id":"ysolmere_after_193",
+        "message":"Don't. He stood at the foot of this bed with that painting and told me you let him go. Just go."
     },
     {
         "id":"ysolmere_raid_10",
@@ -4696,13 +4739,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":500
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_burn_outcast_20",
         "message":"There goes a small fortune. Take your gold and go. I don't want to see you down here again.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_end_burn_member",
@@ -4734,13 +4788,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"ravine_combat_ring",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_burn_member_20",
         "message":"There goes a small fortune. But you're right. Whoever wanted it will have to look somewhere else now. You've done good work for the Guild. Take this, and the ring. You've earned both.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_end_burn_stranger",
@@ -4767,13 +4832,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":1000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_burn_stranger_20",
         "message":"There goes a small fortune. I hope you know what that cost me. Still, you came back when you didn't have to. Here. You've earned it.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_end_sell_outcast",
@@ -4800,13 +4876,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":1000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_sell_outcast_20",
         "message":"Here's your share. Now get out, and don't come back through my ceiling.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_end_sell_member",
@@ -4838,13 +4925,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"ravine_combat_ring",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_sell_member_20",
         "message":"Whoever wants it can pay through the nose for it. Here's your share, and a ring. You've earned both.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_end_sell_stranger",
@@ -4871,13 +4969,24 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":1500
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
             }
         ]
     },
     {
         "id":"graball_end_sell_stranger_20",
         "message":"Somebody's going to pay a fortune for this, and you'll get your cut. Don't spend it all in one place.",
-        "switchToNPC":"graball"
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_end_hole"
+            }
+        ]
     },
     {
         "id":"graball_after_selector",
@@ -4932,6 +5041,89 @@
     {
         "id":"graball_after_stranger",
         "message":"You again. You know where the door is."
+    },
+    {
+        "id":"graball_193_10",
+        "message":"Graball doesn't look up when you come in. His mug sits untouched in front of him.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_193_20"
+            }
+        ]
+    },
+    {
+        "id":"graball_193_20",
+        "message":"Ysolmere sent word. A man in a black robe limped past Piwh's bed with my painting under his arm and climbed out through your hole. On his way up, he told her to thank the fledgling for letting him go.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"He was wounded. It was over.",
+                "nextPhraseID":"graball_193_30"
+            },
+            {
+                "text":"It wasn't worth anyone else dying for.",
+                "nextPhraseID":"graball_193_30"
+            }
+        ]
+    },
+    {
+        "id":"graball_193_30",
+        "message":"My vault. My painting. My catchpole half dead. And you held the door for the man who did it.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_193_40"
+            }
+        ]
+    },
+    {
+        "id":"graball_193_40",
+        "message":"Keep your key. By morning it won't open anything. I'm having the lock changed, and that hole in the dorm ceiling filled in.",
+        "switchToNPC":"graball",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"graball_193_50"
+            }
+        ]
+    },
+    {
+        "id":"graball_193_50",
+        "message":"The stairs are open. Use them. Nobody down here owes you anything now.",
+        "switchToNPC":"graball",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":340
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ravine_lock_changed",
+                "mapName":"road_wild_cabin"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":360
+            }
+        ]
+    },
+    {
+        "id":"graball_after_193",
+        "message":"Graball looks straight through you, as if you weren't there."
+    },
+    {
+        "id":"graball_end_hole",
+        "message":"One more thing. I'm having that hole in the dorm ceiling filled in. From now on, you come in through the door like everyone else.",
+        "switchToNPC":"graball"
+    },
+    {
+        "id":"ravine_lock_changed",
+        "message":"The key slides into the lock but won't turn. Someone has changed the lock."
     },
     {
         "id":"ff_cook_piwh_10",
