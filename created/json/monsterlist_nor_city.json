@@ -298,6 +298,7 @@
         },
         "faction":"ravine_robes",
         "phraseID":"ravine_robe_selector",
+        "droplistID":"ravine_robe_dl",
         "attackCost":3,
         "attackChance":205,
         "criticalSkill":20,
@@ -343,7 +344,8 @@
                     "chance":"20"
                 }
             ]
-        }
+        },
+        "droplistID":"ravine_thug_dl"
     },
     {
         "id":"ravine_raid_robe",
@@ -374,7 +376,8 @@
                     "chance":"30"
                 }
             ]
-        }
+        },
+        "droplistID":"ravine_raid_robe_dl"
     },
     {
         "id":"ravine_raid_robe_last",
