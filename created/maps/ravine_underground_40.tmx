@@ -192,12 +192,12 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFINDIRH0ztdDMdBVjYHATo749IBAmjFtOhAOCqQEY0eyBmY2M6QEOs6LyJdHCNRVPeCCDNCLVDTRwBoarCxC7ArEbELvTKZypBcTEgXEkTrq+UrT42QrMU9vx5FX09DncAXJ4aDKhisMAvvDCZh4I/MaiB2YOSM0fJogakJglmjgM/EZy2xQcboOBP3jcCHMLutn49GJzPz47AEdCHT8=
+   eJxjYBgFINDIRH0ztdDMdBVjYHATo749IBAmjFtOhAOCqQEY0eyBmY2M6QEOs6LyJdHCNRVPeCCDNCLVDTRwBoarCxC7ArEbELvTKZypBcTEgXEkTrq+UrT42QrMU9vx5FX09DncASg8HkHTviYTqjgMPCKhzIHp+40ljGHmgNT8YYKoAYlZMqGKw8BvJLdNweE2GPiDJ05hbkE3G59ebO7HZwcAbzkeeg==
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBg48FhsZNnLwgHBtADMHAjz0e2hpX+FkexxEUaVo6W9ynjCkZb2GgPtNYHabYbEprW9rmhh647EJ8XeeqC+BmHC6kgBn0dYPh4Fww8AANyUDIo=
+   eJxjYBg48FhsZNnLwgHBtADMHAjz0e2hpX+FkexxEUaVo6W9ynjCkZb2GgPtNYHabYbEprW9rmhh647EJ8XeeqC+BmHC6kgBn0dYPqY3IBS+25nwqyEkTyzAZg697KY1AAB81BZd
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="15">
@@ -213,7 +213,7 @@
  <objectgroup id="7" name="Mapevents">
   <object id="1" name="down" type="mapchange" x="32" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="ravine_underground_30"/>
+    <property name="map" value="ravine_underground_vault"/>
     <property name="place" value="up"/>
    </properties>
   </object>

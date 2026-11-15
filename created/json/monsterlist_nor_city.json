@@ -201,7 +201,7 @@
         "iconID":"monsters_ld1:132",
         "moveCost":4,
         "monsterClass":"humanoid",
-        "phraseID":"ravine_observer_10"
+        "phraseID":"ravine_observer_selector"
     },
     {
         "id":"ravine_observer_horse",
@@ -216,7 +216,8 @@
         "id":"graball",
         "name":"Graball",
         "iconID":"monsters_ld_edit:29",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"graball_selector"
     },
     {
         "id":"dd_ceckapus",
@@ -224,5 +225,190 @@
         "iconID":"monsters_ld1:26",
         "monsterClass":"humanoid",
         "phraseID":"ceckapus_0"
+    },
+    {
+        "id":"ravine_thief",
+        "name":"Ravine Thief",
+        "iconID":"monsters_ld_edit:19",
+        "phraseID":"ravine_thief_selector"
+    },
+    {
+        "id":"ravine_messenger",
+        "name":"Quill",
+        "iconID":"monsters_newb_1:43",
+        "phraseID":"ravine_messenger_selector"
+    },
+    {
+        "id":"ravine_thief_healer",
+        "name":"Ysolmere",
+        "iconID":"monsters_newb_1:40",
+        "phraseID":"ysolmere_selector"
+    },
+    {
+        "id":"piwh",
+        "name":"Piwh",
+        "iconID":"monsters_tometik1:86",
+        "phraseID":"piwh_selector"
+    },
+    {
+        "id":"ravine_robe_leader",
+        "name":"Black-robed man",
+        "iconID":"monsters_ld1:138",
+        "maxHP":195,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":15,
+            "max":21
+        },
+        "faction":"ravine_robes",
+        "phraseID":"ravine_robe_selector",
+        "droplistID":"ravine_robe_leader_dl",
+        "attackCost":3,
+        "attackChance":240,
+        "criticalSkill":25,
+        "criticalMultiplier":2.0,
+        "blockChance":140,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"35"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ravine_robe",
+        "name":"Black-robed man",
+        "iconID":"monsters_ld1:139",
+        "maxHP":115,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":9,
+            "max":15
+        },
+        "faction":"ravine_robes",
+        "phraseID":"ravine_robe_selector",
+        "droplistID":"ravine_robe_dl",
+        "attackCost":3,
+        "attackChance":205,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":105,
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ravine_thug",
+        "name":"Thug",
+        "iconID":"monsters_newb_1:69",
+        "maxHP":90,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":8,
+            "max":13
+        },
+        "attackCost":3,
+        "attackChance":190,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":75,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        },
+        "droplistID":"ravine_thug_dl"
+    },
+    {
+        "id":"ravine_raid_robe",
+        "name":"Robed Raider",
+        "iconID":"monsters_ld1:139",
+        "maxHP":125,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":10,
+            "max":14
+        },
+        "horizontalFlipChance":50,
+        "attackCost":3,
+        "attackChance":200,
+        "criticalSkill":15,
+        "criticalMultiplier":2.5,
+        "blockChance":100,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        },
+        "droplistID":"ravine_raid_robe_dl"
+    },
+    {
+        "id":"ravine_raid_robe_last",
+        "name":"Robed Leader",
+        "iconID":"monsters_ld1:138",
+        "maxHP":210,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":14,
+            "max":20
+        },
+        "phraseID":"ravine_raid_last_selector",
+        "droplistID":"ravine_raider_leader_dl",
+        "attackCost":3,
+        "attackChance":245,
+        "criticalSkill":30,
+        "criticalMultiplier":2.0,
+        "blockChance":135,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"feebleness_minor",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
     }
 ]

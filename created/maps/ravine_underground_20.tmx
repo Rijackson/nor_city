@@ -202,12 +202,12 @@
  </layer>
  <layer name="Objects" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPqJOD0PVy+NXVsjEwFPExMOyE0iA+IeAnB8F5QJwLxL5AnA/Et1kZGExx6N9JhLkwECeHimOBOB6IXwPNd0Uy5yELgn0SKD6ZH80coHygKANDsCiETQwQE0OwPxLQkweUTwSanSwKYRMDHrAi2IxQ9lOg3gaoflYk+TqgWCHQ7GJRCJsY8IEVU+wrUC8TFnFk8BxoxwtRIiwgIR6RAXK4corhVkcNkMhKfTvYkMxLAppfSIIdIL0cYvjVI4ePKzAe3IiMD5DZ3FC9XHjsYaNxmMPANiYGhu1MqGJbkfjIcujiF2UYGC5JQjBMHiS+Fc2830wIPSC5P2jyML3I4r+ZMO0Gyf/GoR8XgNmNrOegDEIO3Ux0swF5TTyI
+   eJxjYKAPqJOD0PVy+NXVsjEwFPExMOyE0iA+IeAnB8F5QJwLxL5AnA/Et1kZGExx6N9JhLkwECeHimOBOB6IXwPNd0Uy5yELgn0SKD6ZH80coHygKANDsCiETQwQE0OwPxLQkweUTwSanSwKYRMDHrAi2IxQ9lOg3gaoflYk+TqgWCHQ7GJRCJsY8IEVU+wrUC8TFnFk8BxoxwtRIiwgIR6RAXK4corhVkcNkMhKfTvYkMxLAppfSIIdIL0cYvjVI4ePKzAe3IiMD5DZ3FC9XHjsYaNxmMPANiYGhkdo7t7KhGCD5C7K4Ba/JAnBMPntTKjqQOA3E0LPZyD+gyYP04ss/hvNXTD530zY9eMCMLuR9RyUQcihm4luNgCgYT78
   </data>
  </layer>
  <layer name="Above" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9eCxKHTX49MrJ0dZ8aqgBAVmgO03R3Ept82VpaD7MDlqaT4reJlYI/YnG8UsJAJnPwkFb80VoaP4oGL4AAEx6ErI=
+   eJxjYKA9eCxKHTX49MrJ0dZ8aqgBAVmgO03R3Ept82VpaD7MDlqaT4reJlYI/YnG8UsJAJnPwkFb80VoaP5QB9uZGBg+44hjXHL49OCzZysTpjiu9EWOHdQGAASJHB4=
   </data>
  </layer>
  <layer name="Top" width="24" height="16">
@@ -229,12 +229,20 @@
   </object>
   <object name="east" type="mapchange" x="736" y="192" width="32" height="32">
    <properties>
-    <property name="map" value="ravine_underground_30"/>
+    <property name="map" value="ravine_underground_vault"/>
     <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="ravine_raid_robe_spawn" type="spawn" x="288" y="256" width="352" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ravine_raid_robe"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

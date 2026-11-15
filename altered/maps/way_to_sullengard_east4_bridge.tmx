@@ -186,7 +186,7 @@
  </tileset>
  <layer name="Base" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwmcYMKOyQW3oPpvMSHMv4VkHiGzKbGbWmaB9F3kRGBKw4SW4A2V3TVq3sgyzx3I96DADnTzwoH8CArMu8xJvt6RZh5ymXSRE5XGp5aWYLCWk4MVAACr3CFV
+   eJxjYBgFgwmcYMKOyQW3oPpvMSHMv4VkHiGzKbGbWmaB9F3kRGBKw4SW4A2V3TVq3uA2r5wDQruIU8c8dyDfA4hdxSGYUvPCgfwICsy7zEm6npFqHnKZdJETlcanlpZgsJaTgxUAAKhBI58=
   </data>
  </layer>
  <layer name="Ground" width="20" height="29">
@@ -199,19 +199,34 @@
    eJydlb1KA0EQx/c2KJeg4F0kuUQL26hgkyZE0U4hEewiopWVaKWtTQo/gqVg43Oob6KoL5AgWEiwMUZ33F12bm4vd/iHYeeyM7+dudzu9n32p2yZsZywXilqfV/ahJifRDFbyl8Vc2u+YdCR55lVLwXGHhMM8rseY5+ezOl6Jt/1w7yngllrnMzN+TJe1wTS/dgE8cBL0qj+qNLwPsS6Od8+R9cBnn4HuBca1+NRvxFImwnku1pwJG/RCeeWAxMLlqRZFWPjAauZggGqoJrhHQOvp3jwHzYSWFfc7j8rv67qWlbjK4qhOaBbbve1GoKzI6zpROdwTsWSa1MSj4rW+19eW3Foj5vkGfP2U/aEtUfeJ+adJPwXoCGXZlONx/c7z+V61yR3oM+VjPQHXng+jvcjOF8q9s2yb5dizgbMq3HDAuFvBOp4t/QJv1cF+1vvZ1IfsNpT0q+RfMxbF/4Gl3sV92zr93RMjtN5GbviR3kt4W+jZ6gBYjEPnnVtWne4xozpEY9Ytvqq+XBsqxjNhXXulT1ww9e8XSd+zYOimasmnPmH6vw7GrHfNE/LtiaOBd6FGC9jrCOsHqSzjuJlyTeL70eQvttBtnsO3zv6fqNxmHnmSjt3o3PHlvs8rW7caD4V5um6hyU56pp/AYm8gY4=
   </data>
  </layer>
+ <layer name="Object_Rope" width="20" height="29" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBiAsthAu2AUjIKRCwDQegA6
+  </data>
+ </layer>
  <layer name="Above" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJz7JcnA8BOIfyHRlABK9aMDZDf9AdJ/B5n7yAW4/AJzHzXiAgS4pCA0pxSCTQ3wWAw7G5u70cWQ1RMyjxOHm2F++SxGmnn4AMwsSs2DyT8eNW9ImveJRPOwqcdmh4owYfNw2U1sGkZWi88f5JhHqRp0tbjCAwQIxQGpduOzixzz0AG1ymsYILa8xmYvvxBu9YTqUJC9+PxCjj+R/UJuGMHcje5+binC9Q06gMn/waIPADJTcgo=
+   eJz7JcnA8BOIfyHRlABK9aMDZDf9AdJ/B5n7yAW4/AJzHzXiAgS4pCA0pxSCTQ3wWAw7G5u70cU+izFgAFzmceJwM8wvILMek2AePgAzi1LzYPKPR80bkuZ9IsE8XOqx2aEiTJx5+NQQA/C5ixLzKFWDrhZXeIAAoTgg1W58dpFjHjqgVnkNA8SW19js5RfCrZ5QHQqyF59fyPEnsl/IDSOYu9Hdzy1FuL5BBzD5P1j0AQBKhnAZ
+  </data>
+ </layer>
+ <layer name="Above_CoveredHole" width="20" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBjAZSEGhitC1DPvMdCsJ1Q0bxSMguEMAGWcA7c=
   </data>
  </layer>
  <layer name="Top" width="20" height="29">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
+   eJxjYBgFo2AUjIJRQA54LEZd8z5R2bxRMApGAfEAAFqdAgI=
   </data>
  </layer>
  <layer name="Walkable" width="20" height="29" visible="0">
   <data encoding="base64" compression="zlib">
    eJzVk8ENwDAIAzNF9l8pG/UXIYSNCekjSP1U+DDUXXPsWvOfp1NdvedYT8yfOveWvy4P7aLs6vsUf9EdrRbxUD7UHCm6Ko956/h7ta/yX7/Oy7Ks8ljmUf5Zfn0/41R4zJ99H+3CbsKK3TPSn946Y2d3zGayOREXzUSsaJdqneqQXtmz8/1v+a0yUKY+UV8ReQ==
+  </data>
+ </layer>
+ <layer name="Walkable_CoveredHole" width="20" height="29" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFjARbHBbd4oGAXDFQAACtYBzw==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -348,6 +363,46 @@
     <property name="requireId" value="ravine_quest"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+  <object name="post" type="replace" x="512" y="512" width="32" height="32">
+   <properties>
+    <property name="Above" value="Base"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="160"/>
+   </properties>
+  </object>
+  <object name="rope" type="replace" x="512" y="544" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Object_Rope"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="160"/>
+   </properties>
+  </object>
+  <object name="footprints" type="replace" x="576" y="512" width="64" height="96">
+   <properties>
+    <property name="Objects" value="Base"/>
+    <property name="requireId" value="ravine_quest"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="160"/>
+   </properties>
+  </object>
+  <object name="covered_hole" type="replace" x="512" y="544" width="64" height="64">
+   <properties>
+    <property name="Above" value="Above_CoveredHole"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="360"/>
+   </properties>
+  </object>
+  <object name="covered_hole_unwalkable" type="replace" x="544" y="544" width="32" height="64">
+   <properties>
+    <property name="Walkable" value="Walkable_CoveredHole"/>
+    <property name="requireId" value="nor_city_road_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="360"/>
    </properties>
   </object>
  </objectgroup>
