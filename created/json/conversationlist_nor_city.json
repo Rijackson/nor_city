@@ -8128,5 +8128,15 @@
     {
         "id":"alduan_crate_default",
         "message":"A crate of apples, slowly going soft in the sun."
+    },
+    {
+        "id":"dbg_teleport_prj_norcity_alynndir",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"house",
+                "mapName":"road5"
+            }
+        ]
     }
 ]

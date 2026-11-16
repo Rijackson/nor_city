@@ -24,6 +24,10 @@
                 "nextPhraseID":"dbg_teleport_prj_norcity_tavern"
             },
             {
+                "text":"Alynndir's house",
+                "nextPhraseID":"dbg_teleport_prj_norcity_alynndir"
+            },
+            {
                 "text":"Back",
                 "nextPhraseID":"dbg"
             }
