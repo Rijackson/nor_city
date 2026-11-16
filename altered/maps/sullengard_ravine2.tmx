@@ -215,7 +215,7 @@
  </layer>
  <layer id="7" name="Walkable_Below" width="15" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4g4tiCEyOXmSaFHuI1YtPD7KZ6Oagi+HzJ7n+p1QvOgAA7FUYXg==
+   eJxjYBgFo2DogotiCEyqOlL0ItOk2EOsXnx6kM1EN4cUPxHjV2LcSIkZIAAAnz4erw==
   </data>
  </layer>
  <objectgroup id="8" name="Mapevents">
