@@ -2782,6 +2782,17 @@
                 "text":"N",
                 "nextPhraseID":"ravine_escort_20"
             }
+        ]
+    },
+    {
+        "id":"ravine_escort_20",
+        "message":"The thief pushes you down onto a seat and yanks the sack off your head. You blink in the light. You are at a small round table in a stone-floored nook, in the middle of a long hall with a dirt floor. Across from you, a man sets down his mug and looks you over. He does not look pleased to be interrupted.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_report_10"
+            }
         ],
         "rewards":[
             {
@@ -2798,20 +2809,7 @@
                 "rewardType":"spawnAll",
                 "rewardID":"ravine_thief_spawn",
                 "mapName":"ravine_underground_50"
-            }
-        ]
-    },
-    {
-        "id":"ravine_escort_20",
-        "message":"The thief pushes you down onto a seat and yanks the sack off your head. You blink in the light. You are at a small round table in a stone-floored nook, in the middle of a long hall with a dirt floor. Across from you, a man sets down his mug and looks you over. He does not look pleased to be interrupted.",
-        "switchToNPC":"none",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ravine_thief_report_10"
-            }
-        ],
-        "rewards":[
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
