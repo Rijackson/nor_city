@@ -615,7 +615,7 @@
     },
     {
         "id":"alduan_stolen_clock",
-        "iconID":"items_armours:0",
+        "iconID":"items_misc_3:84",
         "name":"Alduan's stolen clock",
         "displaytype":"quest",
         "category":"other",
