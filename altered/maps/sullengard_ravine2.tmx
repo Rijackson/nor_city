@@ -185,17 +185,17 @@
  </tileset>
  <layer id="1" name="Ground" width="15" height="19">
   <data encoding="base64" compression="zlib">
-   eJztkkEKgCAQRQd3ll6yQ3qFbBl1DLtAVDRSwscsLKJViwfy/c8R1AkixwzMstNJIqmJZkU0MgWvS73lC/QcuH4PmdQxQ67cgNLpHO/58y79ztdzq5O3ftM1D/9MzZ5lmkwf59xxbdQNrseI9P0NdLAbZwF020zisz13XcxWo7Dv8w==
+   eJztkk0KgCAQRod2ld7/Jl6hWkarNp3ADtAvjZTwYVL2t2vxQD7nOQOOjog00zLzRhUTxZJoEkQ9k/A5lWs+Q50G19who9hnyJFrEdKf45w/71Cf/NeXNA96d2Ld0yHgDXVzZzL2cqYI9LHPFTd3aq1rUJF/fgU1WOtmFnTLQNy3DVddzBYzEvFj
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="19">
   <data encoding="base64" compression="zlib">
-   eJyNU8FKAlEUvb52qURKzNhCaFsk0Sqqn0jBvYQLd1q/0CLwE4T+QvqY2tQyXAtaUecw7zJ3nm/EC4fnnXPvuee+GUWK8eJE/lyeu2b++9cVa8lNg2c2KuCXh+X8zPdemBmXzc26in9GLfXDkz6/A/0V8nWC58BPsrnHyUFcW+MdPU91kQXOq4iXWKjGfipSBWppzp23RTrt4j2GnkOPZd6OvHfeUbij5hZ2f6tvd9T8DnkP+EoykBtH5tgd6Y+9A/QNga7XsLp2zirYm/wEfL+e7XRvau2c2DdE/s3PZtje8B4Zc3wrI/Cvrjj7AXg0vdvu386uGuj7Zv3c63OO+ljv8L61b9v/RXW1rsxfGHa+9n+0RJ6T3XCL/a6BG4PPVqbBU0Pzhve1dyxyitqzNOPog+c/aEdXIQ==
+   eJxjYEAF85gYGP4zIfhMwgj2XyZUtSC5bjQxZMAIlP8miFt+NlSvAZIdRsKY6hihYiCzYO4B0SB3/kYz/ycO+2D6FPmxm40NWOCRI9YMXTkGBj051HBEdzO6G3GZKwp1O7YwIgagm48MbvIwMNzmQRUrIGAPzH0veSBuuoXFDGSALW5+Iql/jUMvvjSkBQxbbSDWkUOIYfPnVmBayRRnYNiOll7/AO3k4cVuNr54xaV+K9R8kD0wd/wiIr5h+vD5FWYuTB2x7kO2H6b/oSQDQ4c4cdhGgoHBCoitkfAjSYgZIBoGYHwhqLuYpYDxA1SrLQGRA7kDRAMA0XM0IA==
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="19">
   <data encoding="base64" compression="zlib">
-   eJx7LMYAB4+R2J+Q2LjAYxx6lYTJ10sMEORHsAm5U4MItxACUnIMDNJylJuDDIgJI2qABDrZAwL08tMogICLkgj2L0FM+cuSmGLI4pckIWZcQjPnM5D/GIvZIPoxVA+y2Z8lMe2C8R8C6UdQ9iOoOgBe0x8N
+   eJx7LMYAB4+R2J+Q2LjAYxx6lYTJ10sMEORHsAm5U4MItxACUnIMDNJylJuDDIgJI2qABBLsoZeb0AEsfGWoHMbDHVyURLB/CWLKX5bEFEMWvyQJMeMSmjmfgfzHWMwG0Y+hepDN/iyJaReM/xBIP4KyH0HVAQC0ZB+4
   </data>
  </layer>
  <layer id="4" name="Top" width="15" height="19">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="15" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJEKGB1gE0OXx6YXmY/LDHx2E2MvIQBTQ4xaYswi1Y3EmEkpwOYmct1JbHzgSif40hEpdtNT71AH+PyML0yoUVYAAEm5RJU=
+   eJy7KMbAcJEKGB1gE0OXx6YXmY/LDHx2E2MvsYAUtfjMINWNxJhJbUCJOwmlBXzmEauXGLvpqXeoA0LxRGzeIwcDACACQeA=
   </data>
  </layer>
  <layer id="6" name="Walkable_Above" width="15" height="19" visible="0">
@@ -238,7 +238,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn" visible="0">
+ <objectgroup id="9" name="Spawn">
   <object id="4" name="yellow_tooth_spawn1" type="spawn" x="64" y="544" width="352" height="32">
    <properties>
     <property name="quantity" value="2"/>
@@ -246,8 +246,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="10" name="Keys" visible="0"/>
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="5" name="replace_below" type="replace" x="0" y="352" width="448" height="192">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
