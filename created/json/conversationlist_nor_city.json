@@ -6279,8 +6279,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"ceckapus_nondisplay",
-                        "value":10
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":295
                     }
                 ]
             },
@@ -6309,8 +6309,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"ceckapus_nondisplay",
-                "value":10
+                "rewardID":"nor_city_road_nondisplay",
+                "value":295
             }
         ]
     },

@@ -57,6 +57,10 @@
                 "logText":"Said you would help Celynn"
             },
             {
+                "progress":295,
+                "logText":"Met Ceckapus"
+            },
+            {
                 "progress":300,
                 "logText":"300 = PC is on the ravine ladder on platform 1."
             },
@@ -316,16 +320,6 @@
                 "logText":"I let the last robed man leave with the painting. Graball will not forgive this.",
                 "rewardExperience":9000,
                 "finishesQuest":1
-            }
-        ]
-    },
-    {
-        "id":"ceckapus_nondisplay",
-        "name":"ceckapus_nondisplay",
-        "stages":[
-            {
-                "progress":10,
-                "logText":"Met Ceckapus"
             }
         ]
     }
