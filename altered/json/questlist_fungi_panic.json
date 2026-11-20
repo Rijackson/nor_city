@@ -93,7 +93,16 @@
             },
             {
                 "progress":225,
-                "logText":"#reserved: sutdover_ext"
+                "logText":"He has a grave: I killed Unzel. Someone cared enough to bury him.",
+                "rewardExperience":300
+            },
+            {
+                "progress":230,
+                "logText":"#reserved: poisonland"
+            },
+            {
+                "progress":235,
+                "logText":"#reserved: poisonland"
             }
         ]
     }
