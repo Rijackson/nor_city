@@ -2829,7 +2829,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ravine_thief_report_10"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -3039,6 +3039,23 @@
                         "requireType":"questProgress",
                         "requireID":"ravine_quest",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ravine_thief_report_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
