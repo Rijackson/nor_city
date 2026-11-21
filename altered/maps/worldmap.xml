@@ -469,7 +469,6 @@
     <map area="mt_galmore" id="galmore_77" x="127" y="789"/>
     <map area="mt_galmore" id="galmore_85" x="65" y="820"/>
     <map area="mt_galmore" id="galmore_86" x="96" y="820"/>
-    <map id="nw_sullengard_1" x="236" y="650"/>
     <map id="brightportwild19" x="612" y="285"/>
     <map id="brightportwild18" x="612" y="305"/>
     <map area="brightport" id="brightport6" x="630" y="326"/>
@@ -525,6 +524,7 @@
     <map id="brightportwild20" x="687" y="359"/>
     <map id="brightportwild21" x="591" y="430"/>
     <map id="brightportwild22" x="615" y="397"/>
+    <map id="nw_sullengard_1" x="236" y="650"/>
     <map id="mountainlake14" x="671" y="31"/>
     <map id="mountainlake15" x="673" y="50"/>
     <map id="mountainlake16" x="673" y="68"/>
@@ -547,6 +547,27 @@
     <map id="mountainlake35" x="752" y="106"/>
     <map id="mountainlake36" x="752" y="117"/>
     <map id="mountainlake37" x="743" y="117"/>
+   <map id="vilegard_gy_1" x="329" y="484"/>
+    <map id="vilegard_gy_north_1" x="335" y="471"/>
+    <map id="vilegard_gy_north_2" x="335" y="464"/>
+    <map id="sut_lk_ext_1" x="314" y="474"/>
+    <map id="sut_lk_ext_2" x="293" y="463"/>
+    <map id="sut_lk_ext_4" x="259" y="447"/>
+    <map id="sut_lk_ext_3" x="282" y="463"/>
+    <map id="sut_lk_ext_5" x="308" y="484"/>
+    <map id="sut_lk_ext_6" x="293" y="484"/>
+    <map id="sut_lk_ext_7" x="329" y="505"/>
+    <map id="sut_lk_ext_8" x="308" y="505"/>
+    <map id="sut_lk_ext_9" x="282" y="505"/>
+    <map id="sut_lk_ne_1" x="223" y="480"/>
+    <map id="sut_lk_ne_2" x="223" y="511"/>
+    <map id="sut_lk_ne_3" x="238" y="471"/>
+    <map id="sut_lk_ne_4" x="254" y="480"/>
+    <map id="sut_lk_se_1" x="236" y="535"/>
+    <map id="sut_lk_se_2" x="254" y="521"/>
+    <map id="sut_lk_se_3" x="254" y="511"/>
+    <map id="sut_lk_ne_5" x="259" y="471"/>
+    <map id="sut_lk_ext_10" x="282" y="494"/>
     <map id="road_wild1" x="518" y="446"/>
     <map id="nor_city_road1" x="518" y="467"/>
     <map id="nor_city_road2" x="548" y="465"/>
