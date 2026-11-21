@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Walkable_Above" width="15" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2Dwg4timJgUvfj4pNiDSy8xanGZi81MYtxILqBELzUAAChCFpA=
+   eJxjYBgFo2Dwg4timJgUvfj4pNiDSy8xanGZi81MYtxILhgovTAAAGWIF3c=
   </data>
  </layer>
  <layer id="7" name="Walkable_Below" width="15" height="19" visible="0">
@@ -247,8 +247,8 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="Keys" visible="0"/>
- <objectgroup id="11" name="Replace" visible="0">
-  <object id="5" name="replace_below" type="replace" x="0" y="352" width="448" height="192">
+ <objectgroup id="11" name="Replace">
+  <object id="5" name="replace_below" type="replace" x="0" y="352" width="448" height="224">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>
@@ -256,7 +256,7 @@
     <property name="requireValue" value="303"/>
    </properties>
   </object>
-  <object id="6" name="replace_above" type="replace" x="0" y="352" width="448" height="192">
+  <object id="6" name="replace_above" type="replace" x="0" y="352" width="448" height="224">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="nor_city_road_nondisplay"/>

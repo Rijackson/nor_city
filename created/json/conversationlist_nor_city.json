@@ -2658,6 +2658,18 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ravine_thief_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ravine_quest",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ravine_thief_10",
                 "requires":[
                     {
@@ -2693,6 +2705,32 @@
             {
                 "text":"N",
                 "nextPhraseID":"ravine_thief_default"
+            }
+        ]
+    },
+    {
+        "id":"ravine_thief_5",
+        "message":"Wha- hey! HEY! You just came through my ceiling and landed on my bed! Where did you come from?",
+        "switchToNPC":"ravine_thief",
+        "replies":[
+            {
+                "text":"It wasn't on purpose.",
+                "nextPhraseID":"ravine_thief_20"
+            },
+            {
+                "text":"Nice place. A bit drafty now.",
+                "nextPhraseID":"ravine_thief_20"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"ravine_thief_15"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":10
             }
         ]
     },
