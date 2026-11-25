@@ -320,6 +320,10 @@
                 "logText":"I let the last robed man leave with the painting. Graball will not forgive this.",
                 "rewardExperience":9000,
                 "finishesQuest":1
+            },
+            {
+                "progress":194,
+                "logText":"Graball paid me, then told me never to set foot in his establishment again."
             }
         ]
     }

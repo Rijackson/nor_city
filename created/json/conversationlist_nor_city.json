@@ -4809,6 +4809,13 @@
                 "text":"N",
                 "nextPhraseID":"graball_end_hole"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":194
+            }
         ]
     },
     {
@@ -4945,6 +4952,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"graball_end_hole"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":194
             }
         ]
     },
@@ -5085,7 +5099,14 @@
     },
     {
         "id":"graball_after_outcast",
-        "message":"You've been paid. What are you still doing down here?"
+        "message":"You've been paid. What are you still doing down here?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ravine_quest",
+                "value":194
+            }
+        ]
     },
     {
         "id":"graball_after_member",
