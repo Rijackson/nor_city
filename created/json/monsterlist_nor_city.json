@@ -329,6 +329,7 @@
             "min":8,
             "max":13
         },
+        "droplistID":"ravine_thug_dl",
         "attackCost":3,
         "attackChance":190,
         "criticalSkill":5,
@@ -344,8 +345,7 @@
                     "chance":"20"
                 }
             ]
-        },
-        "droplistID":"ravine_thug_dl"
+        }
     },
     {
         "id":"ravine_raid_robe",
@@ -361,6 +361,7 @@
             "max":14
         },
         "horizontalFlipChance":50,
+        "droplistID":"ravine_raid_robe_dl",
         "attackCost":3,
         "attackChance":200,
         "criticalSkill":15,
@@ -376,8 +377,7 @@
                     "chance":"30"
                 }
             ]
-        },
-        "droplistID":"ravine_raid_robe_dl"
+        }
     },
     {
         "id":"ravine_raid_robe_last",
@@ -410,5 +410,23 @@
                 }
             ]
         }
+    },
+    {
+        "id":"nubble",
+        "name":"Nubble",
+        "iconID":"monsters_rogue1:0",
+        "monsterClass":"humanoid",
+        "horizontalFlipChance":100,
+        "phraseID":"nubble_selector",
+        "droplistID":"nubble_shop"
+    },
+    {
+        "id":"nubble_member",
+        "name":"Nubble",
+        "iconID":"monsters_rogue1:0",
+        "monsterClass":"humanoid",
+        "horizontalFlipChance":100,
+        "phraseID":"nubble_selector",
+        "droplistID":"nubble_member_shop"
     }
 ]

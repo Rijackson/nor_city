@@ -4830,6 +4830,11 @@
         ],
         "rewards":[
             {
+                "rewardType":"spawnAll",
+                "rewardID":"nubble_member_spawn",
+                "mapName":"ravine_underground_20"
+            },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":191
@@ -4878,6 +4883,11 @@
             }
         ],
         "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"nubble_spawn",
+                "mapName":"ravine_underground_20"
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
@@ -4974,6 +4984,11 @@
         ],
         "rewards":[
             {
+                "rewardType":"spawnAll",
+                "rewardID":"nubble_member_spawn",
+                "mapName":"ravine_underground_20"
+            },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
                 "value":192
@@ -5022,6 +5037,11 @@
             }
         ],
         "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"nubble_spawn",
+                "mapName":"ravine_underground_20"
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"ravine_quest",
@@ -8212,6 +8232,270 @@
                 "rewardType":"mapchange",
                 "rewardID":"house",
                 "mapName":"road5"
+            }
+        ]
+    },
+    {
+        "id":"nubble_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_outcast",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_member_swap",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_stranger_first",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":370,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_stranger_again"
+            }
+        ]
+    },
+    {
+        "id":"nubble_member_swap",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_member_first",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nor_city_road_nondisplay",
+                        "value":370,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"nubble_member_again"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"nubble_spawn",
+                "mapName":"ravine_underground_20"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"nubble_member_spawn",
+                "mapName":"ravine_underground_20"
+            }
+        ]
+    },
+    {
+        "id":"nubble_outcast",
+        "message":"Word travels, even down here. I don't trade with anyone who sold out the Guild. Walk away.",
+        "switchToNPC":"nubble"
+    },
+    {
+        "id":"nubble_stranger_first",
+        "message":"So you're the one who fell through the dorm ceiling. Graball says you're all right. Mostly. I'm Nubble. If you need something, I've probably got it, and you probably don't want to know where it came from.",
+        "switchToNPC":"nubble",
+        "replies":[
+            {
+                "text":"Let me see what you've got.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where were you when the robed men came?",
+                "nextPhraseID":"nubble_where_10"
+            },
+            {
+                "text":"Nothing for now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":370
+            }
+        ]
+    },
+    {
+        "id":"nubble_stranger_again",
+        "message":"Back again? Same rules as before. You pay, I don't ask, you don't ask.",
+        "switchToNPC":"nubble",
+        "replies":[
+            {
+                "text":"Let me see what you've got.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where were you when the robed men came?",
+                "nextPhraseID":"nubble_where_10"
+            },
+            {
+                "text":"Nothing for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nubble_member_first",
+        "message":"Word is you're one of us now. Good. I'm Nubble. That means you get to see what's in my other pocket.",
+        "switchToNPC":"nubble_member",
+        "replies":[
+            {
+                "text":"Let me see what you've got.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where were you when the robed men came?",
+                "nextPhraseID":"nubble_where_10"
+            },
+            {
+                "text":"Nothing for now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nor_city_road_nondisplay",
+                "value":370
+            }
+        ]
+    },
+    {
+        "id":"nubble_member_again",
+        "message":"Back again? My other pocket's still full.",
+        "switchToNPC":"nubble_member",
+        "replies":[
+            {
+                "text":"Let me see what you've got.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where were you when the robed men came?",
+                "nextPhraseID":"nubble_where_10"
+            },
+            {
+                "text":"Nothing for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nubble_more",
+        "message":"Anything else?",
+        "replies":[
+            {
+                "text":"Let me see what you've got.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where were you when the robed men came?",
+                "nextPhraseID":"nubble_where_10"
+            },
+            {
+                "text":"Nothing for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nubble_where_10",
+        "message":"Out restocking. These pockets don't fill themselves.",
+        "replies":[
+            {
+                "text":"Restocking where?",
+                "nextPhraseID":"nubble_where_20"
+            },
+            {
+                "text":"Awfully convenient timing.",
+                "nextPhraseID":"nubble_timing"
+            },
+            {
+                "text":"Or maybe you were helping them.",
+                "nextPhraseID":"nubble_accuse"
+            },
+            {
+                "text":"Fair enough.",
+                "nextPhraseID":"nubble_more"
+            }
+        ]
+    },
+    {
+        "id":"nubble_where_20",
+        "message":"A thief who tells you where he works doesn't stay in work for long.",
+        "replies":[
+            {
+                "text":"Awfully convenient timing.",
+                "nextPhraseID":"nubble_timing"
+            },
+            {
+                "text":"Or maybe you were helping them.",
+                "nextPhraseID":"nubble_accuse"
+            },
+            {
+                "text":"Fair enough.",
+                "nextPhraseID":"nubble_more"
+            }
+        ]
+    },
+    {
+        "id":"nubble_timing",
+        "message":"If you mean I'm glad I missed it, then sure, I am. I came back to blood on the floor and the whole place talking about men in black robes. I've no wish to meet them.",
+        "replies":[
+            {
+                "text":"Or maybe you were helping them.",
+                "nextPhraseID":"nubble_accuse"
+            },
+            {
+                "text":"Fair enough.",
+                "nextPhraseID":"nubble_more"
+            }
+        ]
+    },
+    {
+        "id":"nubble_accuse",
+        "message":"Helping them? If I were in with those robes, would I come back here? I'd be long gone with a share of whatever they took.",
+        "replies":[
+            {
+                "text":"Fair enough.",
+                "nextPhraseID":"nubble_more"
             }
         ]
     }

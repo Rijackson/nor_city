@@ -242,6 +242,18 @@
     <property name="spawngroup" value="ravine_raid_robe"/>
    </properties>
   </object>
+  <object name="nubble_member_spawn" type="spawn" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="nubble_member"/>
+   </properties>
+  </object>
+  <object name="nubble_spawn" type="spawn" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="nubble"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

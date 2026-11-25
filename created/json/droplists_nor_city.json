@@ -314,5 +314,31 @@
                 }
             }
         ]
+    },
+    {
+        "id":"nubble_shop",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"nubble_member_shop",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
